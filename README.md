@@ -1,49 +1,51 @@
-# HireAI - HR 相关 AI 产品收集项目
+# HireAI - HR AI Products Collection
 
-## 项目简介
+**Read this in other languages:** [中文](README-zh.md)
 
-本项目致力于收集和整理人力资源（HR）领域的 AI 产品和解决方案。我们将持续跟踪和分析各种 HR AI 工具，为人力资源从业者提供全面的产品信息和选择指南。
+## Project Overview
 
-## 项目结构
+This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. We continuously track and analyze various HR AI tools to provide comprehensive product information and selection guides for HR professionals.
 
-本项目将包含以下内容：
+## Project Structure
 
-- **产品介绍** - 详细介绍各类 HR AI 产品的功能、特点和使用场景
-- **研究报告** - 深入分析 HR AI 市场趋势、技术发展和行业应用
-- **产品对比** - 不同 HR AI 产品之间的功能对比和评估
-- **使用指南** - 如何选择和使用适合的 HR AI 工具
+This project will contain the following content:
 
-## 文档格式
+- **Product Introductions** - Detailed introductions to various HR AI products, their features, characteristics, and use cases
+- **Research Reports** - In-depth analysis of HR AI market trends, technology developments, and industry applications
+- **Product Comparisons** - Functional comparisons and evaluations between different HR AI products
+- **Usage Guides** - How to select and use appropriate HR AI tools
 
-所有的研究报告和产品介绍均采用 Markdown 格式编写，便于阅读和维护。
+## Document Format
 
-## 目录
+All research reports and product introductions are written in Markdown format for easy reading and maintenance.
 
-*目录将随着项目内容的增加而持续更新*
+## Table of Contents
 
-### 招聘相关 AI 产品
-- 待添加
+*The table of contents will be continuously updated as project content increases*
 
-### 人才管理 AI 产品
-- 待添加
+### Recruitment AI Products
+- To be added
 
-### 绩效评估 AI 产品
-- 待添加
+### Talent Management AI Products
+- To be added
 
-### 员工培训 AI 产品
-- 待添加
+### Performance Evaluation AI Products
+- To be added
 
-## 贡献指南
+### Employee Training AI Products
+- To be added
 
-欢迎提交新的 HR AI 产品信息或改进现有内容。请确保：
-1. 内容准确可靠
-2. 格式规范统一
-3. 信息及时更新
+## Contributing Guidelines
 
-## 联系方式
+We welcome submissions of new HR AI product information or improvements to existing content. Please ensure:
+1. Content is accurate and reliable
+2. Format is standardized and consistent
+3. Information is timely and up-to-date
 
-如有任何问题或建议，请通过 GitHub Issues 联系我们。
+## Contact
+
+If you have any questions or suggestions, please contact us through GitHub Issues.
 
 ---
 
-*本项目持续更新中，敬请关注*
+*This project is continuously updated, please stay tuned*
