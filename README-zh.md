@@ -71,6 +71,7 @@
 - [Phenom People](https://www.phenompeople.com/)
 - [SeekOut](https://seekout.com/)
 - [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub)
+- [OpenJobs AI](https://www.openjobs-ai.com)
 
 ## 贡献指南
 

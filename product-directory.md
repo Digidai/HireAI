@@ -133,6 +133,9 @@ AI-powered sourcing platform with diversity analytics and comprehensive candidat
 ### [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub)
 Integrated recruiting platform leveraging LinkedIn's professional network and talent insights.
 
+### [OpenJobs AI](https://www.openjobs-ai.com)
+AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows.
+
 ---
 
 *This directory is continuously updated as new products emerge and existing platforms evolve. Click on any product name to visit their official website for the most current information.*

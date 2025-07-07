@@ -245,6 +245,8 @@ The emergence of Agentic AI Platforms represents the most significant advancemen
 
 **LinkedIn Talent Hub** serves as an ecosystem anchor, providing a centralized platform that integrates with multiple recruiting tools while leveraging LinkedIn's vast professional network and data.
 
+**OpenJobs AI** represents the next generation of autonomous recruiting platforms, utilizing advanced AI agents to automate job matching, candidate sourcing, and intelligent hiring workflows with minimal human intervention.
+
 ### Core Capabilities of Agentic AI Platforms
 
 #### Semantic Search and Candidate Discovery
