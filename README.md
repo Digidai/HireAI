@@ -1,5 +1,15 @@
 # HireAI - HR AI Products Collection
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub Stars](https://img.shields.io/github/stars/Digidai/HireAI?style=social)](https://github.com/Digidai/HireAI/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Digidai/HireAI?style=social)](https://github.com/Digidai/HireAI/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/Digidai/HireAI)](https://github.com/Digidai/HireAI/issues)
+[![GitHub License](https://img.shields.io/github/license/Digidai/HireAI)](https://github.com/Digidai/HireAI/blob/master/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Digidai/HireAI)](https://github.com/Digidai/HireAI/commits/master)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Digidai/HireAI/pulls)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-blue.svg)](https://github.com/Digidai/HireAI)
+[![HR Tech](https://img.shields.io/badge/HR-Tech-orange.svg)](https://github.com/Digidai/HireAI)
+
 **Read this in other languages:** [中文](README-zh.md)
 
 ## Project Overview
