@@ -90,6 +90,10 @@ We welcome submissions of new HR AI product information or improvements to exist
 2. Format is standardized and consistent
 3. Information is timely and up-to-date
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contact
 
 If you have any questions or suggestions, please contact us through GitHub Issues.
