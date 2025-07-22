@@ -31,8 +31,8 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
             line-height: 1.6;
-            color: #4a4a4a;
-            background: linear-gradient(135deg, #d4c5b9 0%, #b8a99c 50%, #a69080 100%);
+            color: #8b7d7d;
+            background: linear-gradient(135deg, #e8ddd4 0%, #d4c5b9 50%, #c4b5a0 100%);
             min-height: 100vh;
         }
         
@@ -51,14 +51,14 @@
         .header h1 {
             font-size: 3.5rem;
             font-weight: 700;
-            color: #6b5b73;
+            color: #9c8a8a;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(107, 91, 115, 0.2);
+            text-shadow: 2px 2px 4px rgba(156, 138, 138, 0.15);
         }
         
         .header p {
             font-size: 1.2rem;
-            color: #7a6b7d;
+            color: #a69080;
             max-width: 600px;
             margin: 0 auto 30px;
         }
@@ -73,16 +73,17 @@
         
         .badges img {
             height: 20px;
+            opacity: 0.8;
         }
         
         .main-content {
-            background: #f5f3f0;
-            border-radius: 15px;
+            background: rgba(245, 240, 235, 0.85);
+            border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 20px 40px rgba(107, 91, 115, 0.08);
+            box-shadow: 0 20px 40px rgba(156, 138, 138, 0.08);
             margin-bottom: 40px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
         
         .section {
@@ -91,22 +92,22 @@
         
         .section h2 {
             font-size: 2rem;
-            color: #6b5b73;
+            color: #9c8a8a;
             margin-bottom: 20px;
-            border-bottom: 3px solid #a8956f;
+            border-bottom: 3px solid #c4a484;
             padding-bottom: 10px;
         }
         
         .section h3 {
             font-size: 1.5rem;
-            color: #7a6b7d;
+            color: #a69080;
             margin-bottom: 15px;
             margin-top: 25px;
         }
         
         .section p {
             margin-bottom: 15px;
-            color: #6b6b6b;
+            color: #8b7d7d;
         }
         
         .product-grid {
@@ -117,23 +118,26 @@
         }
         
         .product-category {
-            background: #ede8e3;
-            border-radius: 10px;
+            background: rgba(238, 232, 225, 0.9);
+            border-radius: 15px;
             padding: 25px;
-            border-left: 4px solid #a8956f;
+            border-left: 4px solid #c4a484;
             transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
         .product-category:hover {
-            background: #e8e2dc;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(107, 91, 115, 0.1);
+            background: rgba(232, 225, 217, 0.95);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(156, 138, 138, 0.12);
         }
         
         .product-category h4 {
-            color: #6b5b73;
+            color: #9c8a8a;
             margin-bottom: 15px;
             font-size: 1.2rem;
+            font-weight: 600;
         }
         
         .product-list {
@@ -145,15 +149,17 @@
         }
         
         .product-list a {
-            color: #8b7355;
+            color: #b5a394;
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
+            padding: 2px 0;
+            border-bottom: 1px solid transparent;
         }
         
         .product-list a:hover {
-            color: #6b5b73;
-            text-decoration: underline;
+            color: #9c8a8a;
+            border-bottom-color: #c4a484;
         }
         
         .cta-buttons {
@@ -167,37 +173,37 @@
         .btn {
             display: inline-block;
             padding: 15px 30px;
-            border-radius: 8px;
+            border-radius: 12px;
             text-decoration: none;
             font-weight: 600;
             font-size: 1.1rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 6px 20px rgba(156, 138, 138, 0.1);
         }
         
         .btn-primary {
-            background: linear-gradient(135deg, #a8956f 0%, #8b7355 100%);
-            color: #f5f3f0;
+            background: linear-gradient(135deg, #c4a484 0%, #b5a394 100%);
+            color: #f5f0eb;
         }
         
         .btn-secondary {
-            background: #f5f3f0;
-            color: #8b7355;
-            border: 2px solid #a8956f;
+            background: rgba(245, 240, 235, 0.9);
+            color: #9c8a8a;
+            border: 2px solid #c4a484;
+            backdrop-filter: blur(10px);
         }
         
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 30px rgba(156, 138, 138, 0.15);
         }
         
         .footer {
             text-align: center;
             padding: 40px 0;
-            color: #7a6b7d;
+            color: #a69080;
         }
         
-        /* 添加一些微妙的动画效果 */
         .header {
             animation: fadeInDown 1s ease-out;
         }
@@ -228,12 +234,6 @@
             }
         }
         
-        /* 优化按钮悬停效果 */
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(107, 91, 115, 0.2);
-        }
-        
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -243,23 +243,45 @@
         
         .stat-item {
             text-align: center;
-            background: rgba(245, 243, 240, 0.2);
-            padding: 20px;
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(245, 240, 235, 0.3);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        .stat-item:hover {
+            background: rgba(245, 240, 235, 0.4);
+            transform: translateY(-2px);
         }
         
         .stat-number {
             font-size: 2.5rem;
             font-weight: bold;
-            color: #6b5b73;
+            color: #9c8a8a;
             display: block;
         }
         
         .stat-label {
-            color: #7a6b7d;
+            color: #a69080;
             font-size: 0.9rem;
+        }
+        
+        /* 添加一些装饰性元素 */
+        .section::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom, #c4a484, transparent);
+            border-radius: 2px;
+        }
+        
+        .section {
+            position: relative;
         }
         
         @media (max-width: 768px) {
@@ -269,6 +291,7 @@
             
             .main-content {
                 padding: 20px;
+                border-radius: 15px;
             }
             
             .cta-buttons {
@@ -280,6 +303,25 @@
                 width: 100%;
                 max-width: 300px;
             }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* 添加微妙的纹理效果 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
         }
     </style>
 </head>
