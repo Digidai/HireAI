@@ -21,7 +21,30 @@
     
     <title>HireAI - HR AI Products Collection</title>
     
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
     <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --dark-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            --light-gradient: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f7fafc;
+            --bg-accent: rgba(255, 255, 255, 0.95);
+            --border-color: rgba(226, 232, 240, 0.8);
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
         * {
             margin: 0;
             padding: 0;
@@ -29,137 +52,201 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-            line-height: 1.6;
-            color: #8b7d7d;
-            background: linear-gradient(135deg, #e8ddd4 0%, #d4c5b9 50%, #c4b5a0 100%);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background-attachment: fixed;
             min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        /* Animated background particles */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .particle:nth-child(1) { width: 80px; height: 80px; left: 10%; animation-delay: 0s; }
+        .particle:nth-child(2) { width: 60px; height: 60px; left: 20%; animation-delay: 1s; }
+        .particle:nth-child(3) { width: 40px; height: 40px; left: 70%; animation-delay: 2s; }
+        .particle:nth-child(4) { width: 100px; height: 100px; left: 80%; animation-delay: 3s; }
+        .particle:nth-child(5) { width: 50px; height: 50px; left: 50%; animation-delay: 4s; }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.7; }
+            50% { transform: translateY(-100px) rotate(180deg); opacity: 0.3; }
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0 20px;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 50px;
-            padding: 60px 0;
+            padding: 80px 0 60px;
+            position: relative;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .logo-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding: 16px 32px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            animation: logoGlow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes logoGlow {
+            0% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); }
+            100% { box-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 60px rgba(102, 126, 234, 0.3); }
+        }
+        
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gradient);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
         
         .header h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: #9c8a8a;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(156, 138, 138, 0.15);
+            font-size: clamp(3rem, 8vw, 5rem);
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 50%, #e6f3ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 24px;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            letter-spacing: -0.02em;
         }
         
-        .header p {
-            font-size: 1.2rem;
-            color: #a69080;
-            max-width: 600px;
-            margin: 0 auto 30px;
+        .header .subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-weight: 400;
+            line-height: 1.6;
         }
         
         .badges {
             display: flex;
             justify-content: center;
-            gap: 8px;
+            gap: 12px;
             flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
-        
-        .badges img {
-            height: 20px;
-            opacity: 0.8;
-        }
-        
-        .main-content {
-            background: rgba(245, 240, 235, 0.85);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(156, 138, 138, 0.08);
-            margin-bottom: 40px;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
-        
-        .section {
             margin-bottom: 40px;
         }
         
-        .section h2 {
-            font-size: 2rem;
-            color: #9c8a8a;
-            margin-bottom: 20px;
-            border-bottom: 3px solid #c4a484;
-            padding-bottom: 10px;
-        }
-        
-        .section h3 {
-            font-size: 1.5rem;
-            color: #a69080;
-            margin-bottom: 15px;
-            margin-top: 25px;
-        }
-        
-        .section p {
-            margin-bottom: 15px;
-            color: #8b7d7d;
-        }
-        
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .product-category {
-            background: rgba(238, 232, 225, 0.9);
-            border-radius: 15px;
-            padding: 25px;
-            border-left: 4px solid #c4a484;
-            transition: all 0.3s ease;
+        .badge {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        
-        .product-category:hover {
-            background: rgba(232, 225, 217, 0.95);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(156, 138, 138, 0.12);
-        }
-        
-        .product-category h4 {
-            color: #9c8a8a;
-            margin-bottom: 15px;
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
-        
-        .product-list {
-            list-style: none;
-        }
-        
-        .product-list li {
-            margin-bottom: 8px;
-        }
-        
-        .product-list a {
-            color: #b5a394;
-            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            font-size: 0.85rem;
             font-weight: 500;
             transition: all 0.3s ease;
-            padding: 2px 0;
-            border-bottom: 1px solid transparent;
         }
         
-        .product-list a:hover {
-            color: #9c8a8a;
-            border-bottom-color: #c4a484;
+        .badge:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin: 50px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .stat-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 32px 24px;
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+        
+        .stat-item:hover::before {
+            left: 100%;
+        }
+        
+        .stat-item:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            display: block;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stat-label {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+            font-weight: 500;
         }
         
         .cta-buttons {
@@ -167,43 +254,277 @@
             gap: 20px;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 30px;
+            margin-top: 40px;
         }
         
         .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 32px;
+            border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1rem;
             transition: all 0.3s ease;
-            box-shadow: 0 6px 20px rgba(156, 138, 138, 0.1);
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s ease;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
         }
         
         .btn-primary {
-            background: linear-gradient(135deg, #c4a484 0%, #b5a394 100%);
-            color: #f5f0eb;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(20px);
         }
         
         .btn-secondary {
-            background: rgba(245, 240, 235, 0.9);
-            color: #9c8a8a;
-            border: 2px solid #c4a484;
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+            color: var(--text-primary);
+            border: 2px solid transparent;
         }
         
         .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(156, 138, 138, 0.15);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-primary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .main-content {
+            background: var(--bg-accent);
+            border-radius: 32px;
+            padding: 60px;
+            box-shadow: var(--shadow-xl);
+            margin: 40px 0;
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+        
+        .main-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--primary-gradient);
+            border-radius: 32px 32px 0 0;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .section h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--primary-gradient);
+            border-radius: 2px;
+        }
+        
+        .section h3 {
+            font-size: 1.8rem;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            margin-top: 32px;
+            font-weight: 600;
+        }
+        
+        .section p {
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin-top: 40px;
+        }
+        
+        .product-category {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
+            border-radius: 24px;
+            padding: 32px;
+            border: 1px solid var(--border-color);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-category::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--secondary-gradient);
+            border-radius: 24px 24px 0 0;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .product-category:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .product-category:hover {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .product-category h4 {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .era-icon {
+            font-size: 1.5rem;
+            padding: 8px;
+            border-radius: 12px;
+            background: var(--accent-gradient);
+            color: white;
+            min-width: 40px;
+            text-align: center;
+        }
+        
+        .product-list {
+            list-style: none;
+        }
+        
+        .product-list li {
+            margin-bottom: 12px;
+            transition: all 0.2s ease;
+        }
+        
+        .product-list li:hover {
+            transform: translateX(8px);
+        }
+        
+        .product-list a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            padding: 8px 16px;
+            border-radius: 12px;
+            display: block;
+            position: relative;
+        }
+        
+        .product-list a::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 4px;
+            height: 0;
+            background: var(--primary-gradient);
+            border-radius: 2px;
+            transition: height 0.3s ease;
+            transform: translateY(-50%);
+        }
+        
+        .product-list a:hover::before {
+            height: 20px;
+        }
+        
+        .product-list a:hover {
+            color: var(--text-primary);
+            background: rgba(102, 126, 234, 0.1);
+            padding-left: 24px;
+        }
+        
+        .research-highlight {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            position: relative;
+        }
+        
+        .research-highlight::before {
+            content: '🔬';
+            position: absolute;
+            top: -15px;
+            left: 30px;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-md);
         }
         
         .footer {
             text-align: center;
-            padding: 40px 0;
-            color: #a69080;
+            padding: 60px 0;
+            color: rgba(255, 255, 255, 0.8);
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            margin-top: 60px;
         }
         
+        .footer p {
+            margin-bottom: 8px;
+        }
+        
+        /* Animations */
         .header {
             animation: fadeInDown 1s ease-out;
         }
@@ -212,10 +533,20 @@
             animation: fadeInUp 1s ease-out 0.3s both;
         }
         
+        .product-category {
+            animation: fadeInUp 0.6s ease-out both;
+        }
+        
+        .product-category:nth-child(1) { animation-delay: 0.1s; }
+        .product-category:nth-child(2) { animation-delay: 0.2s; }
+        .product-category:nth-child(3) { animation-delay: 0.3s; }
+        .product-category:nth-child(4) { animation-delay: 0.4s; }
+        .product-category:nth-child(5) { animation-delay: 0.5s; }
+        
         @keyframes fadeInDown {
             from {
                 opacity: 0;
-                transform: translateY(-30px);
+                transform: translateY(-50px);
             }
             to {
                 opacity: 1;
@@ -226,7 +557,7 @@
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(30px);
+                transform: translateY(50px);
             }
             to {
                 opacity: 1;
@@ -234,64 +565,19 @@
             }
         }
         
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-        
-        .stat-item {
-            text-align: center;
-            background: rgba(245, 240, 235, 0.3);
-            padding: 25px;
-            border-radius: 15px;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            transition: all 0.3s ease;
-        }
-        
-        .stat-item:hover {
-            background: rgba(245, 240, 235, 0.4);
-            transform: translateY(-2px);
-        }
-        
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #9c8a8a;
-            display: block;
-        }
-        
-        .stat-label {
-            color: #a69080;
-            font-size: 0.9rem;
-        }
-        
-        /* 添加一些装饰性元素 */
-        .section::before {
-            content: '';
-            position: absolute;
-            left: -20px;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background: linear-gradient(to bottom, #c4a484, transparent);
-            border-radius: 2px;
-        }
-        
-        .section {
-            position: relative;
-        }
-        
+        /* Responsive Design */
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2.5rem;
+            .container {
+                padding: 0 16px;
+            }
+            
+            .header {
+                padding: 60px 0 40px;
             }
             
             .main-content {
-                padding: 20px;
-                border-radius: 15px;
+                padding: 32px 24px;
+                border-radius: 24px;
             }
             
             .cta-buttons {
@@ -302,42 +588,90 @@
             .btn {
                 width: 100%;
                 max-width: 300px;
+                justify-content: center;
             }
             
             .product-grid {
                 grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .product-category {
+                padding: 24px;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 16px;
+            }
+            
+            .stat-item {
+                padding: 24px 16px;
+            }
+            
+            .stat-number {
+                font-size: 2.5rem;
             }
         }
         
-        /* 添加微妙的纹理效果 */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: -1;
+        @media (max-width: 480px) {
+            .section h2 {
+                font-size: 2rem;
+            }
+            
+            .logo-container {
+                padding: 12px 24px;
+                gap: 12px;
+            }
+            
+            .logo-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+        
+        /* Scroll animations */
+        @media (prefers-reduced-motion: no-preference) {
+            .section {
+                opacity: 0;
+                transform: translateY(30px);
+                transition: all 0.6s ease;
+            }
+            
+            .section.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Animated background -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
     <div class="container">
         <header class="header">
-            <h1>HireAI</h1>
-            <p>Comprehensive Collection of HR AI Products and Solutions</p>
+            <div class="logo-container">
+                <div class="logo-icon">AI</div>
+                <span style="color: white; font-weight: 600; font-size: 1.2rem;">HireAI</span>
+            </div>
+            
+            <h1>HR AI Products Collection</h1>
+            <p class="subtitle">Comprehensive collection of 46+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms</p>
             
             <div class="badges">
-                <img src="https://awesome.re/badge.svg" alt="Awesome">
-                <img src="https://img.shields.io/github/stars/Digidai/HireAI?style=social" alt="GitHub Stars">
-                <img src="https://img.shields.io/github/forks/Digidai/HireAI?style=social" alt="GitHub Forks">
-                <img src="https://img.shields.io/github/license/Digidai/HireAI" alt="License">
-                <img src="https://img.shields.io/badge/AI-Powered-blue.svg" alt="AI Powered">
-                <img src="https://img.shields.io/badge/HR-Tech-orange.svg" alt="HR Tech">
+                <span class="badge">🚀 46+ Products</span>
+                <span class="badge">🤖 AI Powered</span>
+                <span class="badge">📊 Data Driven</span>
+                <span class="badge">🌍 Open Source</span>
+                <span class="badge">⭐ MIT License</span>
             </div>
             
             <div class="stats">
@@ -351,67 +685,91 @@
                 </div>
                 <div class="stat-item">
                     <span class="stat-number">30+</span>
-                    <span class="stat-label">Years of Evolution</span>
+                    <span class="stat-label">Years Evolution</span>
                 </div>
             </div>
             
             <div class="cta-buttons">
-                <a href="https://github.com/Digidai/HireAI" class="btn btn-primary">View on GitHub</a>
-                <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-secondary">Read Research</a>
+                <a href="https://github.com/Digidai/HireAI" class="btn btn-primary">
+                    <span>📚</span> View on GitHub
+                </a>
+                <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-secondary">
+                    <span>🔬</span> Read Research
+                </a>
             </div>
         </header>
         
         <main class="main-content">
             <section class="section">
-                <h2>Project Overview</h2>
+                <h2>🎯 Project Overview</h2>
                 <p>This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. We continuously track and analyze various HR AI tools to provide comprehensive product information and selection guides for HR professionals.</p>
                 <p>Our research covers the complete evolution of HR technology through Josh Bersin's five-stage framework, from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.</p>
             </section>
             
             <section class="section">
-                <h2>Featured Research</h2>
-                <h3>🔬 The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence</h3>
-                <p>A comprehensive analysis of 46 HR AI products and vendors through Josh Bersin's five-stage technological evolution framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.</p>
-                <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-primary">Read Full Analysis</a>
+                <div class="research-highlight">
+                    <h3>The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence</h3>
+                    <p>A comprehensive analysis of 46 HR AI products and vendors through Josh Bersin's five-stage technological evolution framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.</p>
+                    <div style="margin-top: 24px;">
+                        <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-primary">
+                            <span>📖</span> Read Full Analysis
+                        </a>
+                    </div>
+                </div>
             </section>
             
             <section class="section">
-                <h2>Product Categories</h2>
+                <h2>🚀 Product Categories</h2>
                 <div class="product-grid">
                     <div class="product-category">
-                        <h4>🗄️ 1990s - Applicant Tracking Systems (ATS)</h4>
+                        <h4>
+                            <span class="era-icon">🗄️</span>
+                            1990s - Applicant Tracking Systems
+                        </h4>
                         <ul class="product-list">
                             <li><a href="https://www.oracle.com/human-capital-management/taleo/">Oracle Taleo</a></li>
                             <li><a href="https://www.sap.com/products/human-resources-hcm.html">SAP SuccessFactors</a></li>
                             <li><a href="https://www.workday.com/en-us/products/human-capital-management/recruiting.html">Workday Recruiting</a></li>
                             <li><a href="https://www.cornerstoneondemand.com/">Cornerstone OnDemand</a></li>
+                            <li><a href="https://www.peoplefluent.com/">PeopleFluent</a></li>
                         </ul>
                     </div>
                     
                     <div class="product-category">
-                        <h4>📈 2000s - Candidate Marketing & Assessment</h4>
+                        <h4>
+                            <span class="era-icon">📈</span>
+                            2000s - Marketing & Assessment
+                        </h4>
                         <ul class="product-list">
                             <li><a href="https://www.glassdoor.com/">Glassdoor</a></li>
                             <li><a href="https://www.ziprecruiter.com/">ZipRecruiter</a></li>
                             <li><a href="https://textio.com/">Textio</a></li>
                             <li><a href="https://www.shl.com/">SHL</a></li>
                             <li><a href="https://www.talview.com/">Talview</a></li>
+                            <li><a href="https://www.ibm.com/products/kenexa-employee-assessments">IBM Kenexa</a></li>
                         </ul>
                     </div>
                     
                     <div class="product-category">
-                        <h4>⚡ 2010s - Onboarding/Workflow/Integrated Sourcing</h4>
+                        <h4>
+                            <span class="era-icon">⚡</span>
+                            2010s - Workflow Integration
+                        </h4>
                         <ul class="product-list">
                             <li><a href="https://www.greenhouse.io/">Greenhouse</a></li>
                             <li><a href="https://www.lever.co/">Lever</a></li>
                             <li><a href="https://www.smartrecruiters.com/">SmartRecruiters</a></li>
                             <li><a href="https://www.hirevue.com/">HireVue</a></li>
                             <li><a href="https://karat.com/">Karat</a></li>
+                            <li><a href="https://www.xor.ai/">XOR</a></li>
                         </ul>
                     </div>
                     
                     <div class="product-category">
-                        <h4>🎯 2020s - Intelligent Assessment, Diversity, Career</h4>
+                        <h4>
+                            <span class="era-icon">🎯</span>
+                            2020s - Intelligent Assessment
+                        </h4>
                         <ul class="product-list">
                             <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
                             <li><a href="https://www.yello.co/">Yello</a></li>
@@ -422,7 +780,10 @@
                     </div>
                     
                     <div class="product-category">
-                        <h4>🤖 2024+ - Agentic AI Platforms</h4>
+                        <h4>
+                            <span class="era-icon">🤖</span>
+                            2024+ - Agentic AI Platforms
+                        </h4>
                         <ul class="product-list">
                             <li><a href="https://beamery.com/">Beamery</a></li>
                             <li><a href="https://eightfold.ai/">Eightfold.ai</a></li>
@@ -436,40 +797,141 @@
             </section>
             
             <section class="section">
-                <h2>Quick Access</h2>
+                <h2>📚 Quick Access</h2>
                 <div class="cta-buttons">
-                    <a href="https://github.com/Digidai/HireAI/blob/master/product-directory.md" class="btn btn-secondary">Complete Product Directory</a>
-                    <a href="https://github.com/Digidai/HireAI/blob/master/README-zh.md" class="btn btn-secondary">中文版本</a>
+                    <a href="https://github.com/Digidai/HireAI/blob/master/product-directory.md" class="btn btn-secondary">
+                        <span>📋</span> Complete Directory
+                    </a>
+                    <a href="https://github.com/Digidai/HireAI/blob/master/README-zh.md" class="btn btn-secondary">
+                        <span>🇨🇳</span> 中文版本
+                    </a>
+                    <a href="https://github.com/Digidai/HireAI/issues" class="btn btn-secondary">
+                        <span>💬</span> Contribute
+                    </a>
                 </div>
             </section>
         </main>
         
         <footer class="footer">
             <p>&copy; 2024 HireAI Contributors. Licensed under MIT License.</p>
-            <p>🤖 Powered by AI • 📊 Data-Driven • 🌍 Open Source</p>
+            <p>🤖 Powered by AI • 📊 Data-Driven • 🌍 Open Source • ⭐ Community Driven</p>
         </footer>
     </div>
     
     <script>
-        // Add smooth scrolling for anchor links
+        // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             });
         });
         
-        // Add loading animation for external links
-        document.querySelectorAll('a[href^="http"]').forEach(link => {
-            link.addEventListener('click', function() {
-                this.style.opacity = '0.7';
+        // Enhanced button interactions
+        document.querySelectorAll('.btn, .product-list a').forEach(element => {
+            element.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-3px) scale(1.02)';
+            });
+            
+            element.addEventListener('mouseleave', function() {
+                this.style.transform = '';
+            });
+            
+            element.addEventListener('click', function() {
+                this.style.transform = 'translateY(-1px) scale(0.98)';
                 setTimeout(() => {
-                    this.style.opacity = '1';
-                }, 200);
+                    this.style.transform = '';
+                }, 150);
             });
         });
+        
+        // Scroll-triggered animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all sections for scroll animations
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+        
+        // Parallax effect for background particles
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const particles = document.querySelectorAll('.particle');
+            
+            particles.forEach((particle, index) => {
+                const speed = 0.5 + (index * 0.1);
+                particle.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+        
+        // Dynamic gradient animation
+        let gradientAngle = 135;
+        setInterval(() => {
+            gradientAngle += 0.5;
+            document.body.style.background = `linear-gradient(${gradientAngle}deg, #667eea 0%, #764ba2 50%, #f093fb 100%)`;
+        }, 100);
+        
+        // Add loading states for external links
+        document.querySelectorAll('a[href^="http"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const originalText = this.innerHTML;
+                this.innerHTML = originalText.replace(/^/, '⏳ ');
+                
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                }, 2000);
+            });
+        });
+        
+        // Enhanced stats counter animation
+        const animateStats = () => {
+            const stats = document.querySelectorAll('.stat-number');
+            stats.forEach(stat => {
+                const target = parseInt(stat.textContent.replace('+', ''));
+                let current = 0;
+                const increment = target / 50;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    stat.textContent = Math.floor(current) + (stat.textContent.includes('+') ? '+' : '');
+                }, 50);
+            });
+        };
+        
+        // Trigger stats animation when visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateStats();
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        });
+        
+        const statsContainer = document.querySelector('.stats');
+        if (statsContainer) {
+            statsObserver.observe(statsContainer);
+        }
     </script>
 </body>
 </html>
