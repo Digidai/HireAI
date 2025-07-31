@@ -1,168 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HireAI - Comprehensive collection of HR AI products and solutions. From 1990s ATS to 2024+ Agentic AI Platforms.">
-    <meta name="keywords" content="HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI">
+    <meta name="description" content="HireAI - 全面的HR AI产品收集。从1990年代ATS到2024+智能体AI平台。">
+    <meta name="keywords" content="HR AI, 招聘AI, 人才管理, AI产品, 人力资源, 智能体AI">
     <meta name="author" content="HireAI Contributors">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://digidai.github.io/HireAI/">
-    <meta property="og:title" content="HireAI - HR AI Products Collection">
-    <meta property="og:description" content="Comprehensive collection of 46+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms.">
+    <title>HireAI - HR AI产品收集</title>
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://digidai.github.io/HireAI/">
-    <meta property="twitter:title" content="HireAI - HR AI Products Collection">
-    <meta property="twitter:description" content="Comprehensive collection of 46+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms.">
-    
-    <title>HireAI - HR AI Products Collection</title>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        :root {
-            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            --dark-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-            --light-gradient: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            
-            --text-primary: #2d3748;
-            --text-secondary: #4a5568;
-            --text-muted: #718096;
-            --bg-primary: #ffffff;
-            --bg-secondary: #f7fafc;
-            --bg-accent: rgba(255, 255, 255, 0.95);
-            --border-color: rgba(226, 232, 240, 0.8);
-            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-        }
-        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #8b5cf6;
+            --accent: #06b6d4;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --text-light: #9ca3af;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-card: rgba(255, 255, 255, 0.8);
+            --border: rgba(229, 231, 235, 0.8);
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.7;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
             color: var(--text-primary);
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-            background-attachment: fixed;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            overflow-x: hidden;
-        }
-        
-        /* Animated background particles */
-        .bg-animation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
-        
-        .particle {
-            position: absolute;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            animation: float 6s ease-in-out infinite;
-        }
-        
-        .particle:nth-child(1) { width: 80px; height: 80px; left: 10%; animation-delay: 0s; }
-        .particle:nth-child(2) { width: 60px; height: 60px; left: 20%; animation-delay: 1s; }
-        .particle:nth-child(3) { width: 40px; height: 40px; left: 70%; animation-delay: 2s; }
-        .particle:nth-child(4) { width: 100px; height: 100px; left: 80%; animation-delay: 3s; }
-        .particle:nth-child(5) { width: 50px; height: 50px; left: 50%; animation-delay: 4s; }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.7; }
-            50% { transform: translateY(-100px) rotate(180deg); opacity: 0.3; }
         }
         
         .container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
         
+        /* Header Styles */
         .header {
             text-align: center;
             padding: 80px 0 60px;
-            position: relative;
+            color: white;
         }
         
-        .header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        
-        .logo-container {
+        .logo {
             display: inline-flex;
             align-items: center;
-            gap: 16px;
-            margin-bottom: 24px;
-            padding: 16px 32px;
-            background: rgba(255, 255, 255, 0.15);
+            gap: 12px;
+            margin-bottom: 32px;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 50px;
-            backdrop-filter: blur(20px);
+            backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            animation: logoGlow 3s ease-in-out infinite alternate;
-        }
-        
-        @keyframes logoGlow {
-            0% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); }
-            100% { box-shadow: 0 0 40px rgba(255, 255, 255, 0.5), 0 0 60px rgba(102, 126, 234, 0.3); }
         }
         
         .logo-icon {
-            width: 48px;
-            height: 48px;
-            background: var(--accent-gradient);
-            border-radius: 12px;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #06b6d4, #3b82f6);
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
             font-weight: bold;
             color: white;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 18px;
         }
         
         .header h1 {
-            font-size: clamp(3rem, 8vw, 5rem);
+            font-size: clamp(2.5rem, 6vw, 4rem);
             font-weight: 800;
-            background: linear-gradient(135deg, #ffffff 0%, #f0f8ff 50%, #e6f3ff 100%);
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff, #e0e7ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 24px;
-            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            letter-spacing: -0.02em;
         }
         
-        .header .subtitle {
-            font-size: clamp(1.1rem, 3vw, 1.4rem);
-            color: rgba(255, 255, 255, 0.9);
-            max-width: 700px;
+        .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            opacity: 0.9;
+            max-width: 600px;
             margin: 0 auto 40px;
-            font-weight: 400;
             line-height: 1.6;
         }
         
@@ -175,172 +107,115 @@
         }
         
         .badge {
-            padding: 8px 16px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 25px;
+            padding: 6px 16px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.875rem;
             font-weight: 500;
             transition: all 0.3s ease;
         }
         
         .badge:hover {
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.25);
             transform: translateY(-2px);
         }
         
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 24px;
-            margin: 50px 0;
-            max-width: 800px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
         }
         
         .stat-item {
             text-align: center;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 32px 24px;
-            border-radius: 20px;
-            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 24px 16px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.4s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .stat-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-            transition: left 0.6s ease;
-        }
-        
-        .stat-item:hover::before {
-            left: 100%;
+            transition: all 0.3s ease;
         }
         
         .stat-item:hover {
-            background: rgba(255, 255, 255, 0.25);
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: var(--shadow-xl);
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-4px);
         }
         
         .stat-number {
-            font-size: 3rem;
-            font-weight: 800;
-            color: white;
             display: block;
+            font-size: 2.5rem;
+            font-weight: 800;
             margin-bottom: 8px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
         
         .stat-label {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.95rem;
-            font-weight: 500;
+            font-size: 0.875rem;
+            opacity: 0.8;
         }
         
         .cta-buttons {
             display: flex;
-            gap: 20px;
+            gap: 16px;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 40px;
         }
         
         .btn {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 16px 32px;
+            padding: 12px 24px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1rem;
             transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: left 0.6s ease;
-        }
-        
-        .btn:hover::before {
-            left: 100%;
-        }
-        
-        .btn-primary {
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(20px);
-        }
-        
-        .btn-secondary {
-            background: rgba(255, 255, 255, 0.95);
-            color: var(--text-primary);
             border: 2px solid transparent;
         }
         
+        .btn-primary {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--text-primary);
+        }
+        
         .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
         
         .btn-primary:hover {
-            background: rgba(255, 255, 255, 0.3);
-            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.25);
         }
         
         .btn-secondary:hover {
-            background: white;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            background: #f8fafc;
         }
         
+        /* Main Content */
         .main-content {
-            background: var(--bg-accent);
-            border-radius: 32px;
-            padding: 60px;
-            box-shadow: var(--shadow-xl);
+            background: var(--bg-card);
+            border-radius: 24px;
+            padding: 48px;
             margin: 40px 0;
             backdrop-filter: blur(20px);
-            border: 1px solid var(--border-color);
-            position: relative;
-        }
-        
-        .main-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--primary-gradient);
-            border-radius: 32px 32px 0 0;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-lg);
         }
         
         .section {
-            margin-bottom: 60px;
-            position: relative;
+            margin-bottom: 48px;
         }
         
         .section:last-child {
@@ -348,10 +223,10 @@
         }
         
         .section h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
+            margin-bottom: 20px;
             color: var(--text-primary);
-            margin-bottom: 24px;
             position: relative;
             display: inline-block;
         }
@@ -359,42 +234,62 @@
         .section h2::after {
             content: '';
             position: absolute;
-            bottom: -8px;
+            bottom: -6px;
             left: 0;
-            width: 60px;
-            height: 4px;
-            background: var(--primary-gradient);
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             border-radius: 2px;
         }
         
-        .section h3 {
-            font-size: 1.8rem;
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            margin-top: 32px;
-            font-weight: 600;
-        }
-        
         .section p {
-            margin-bottom: 20px;
             color: var(--text-secondary);
+            margin-bottom: 16px;
             font-size: 1.1rem;
-            line-height: 1.8;
+            line-height: 1.7;
         }
         
+        .research-highlight {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+            border-radius: 16px;
+            padding: 32px;
+            margin: 32px 0;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            position: relative;
+        }
+        
+        .research-highlight::before {
+            content: '🔬';
+            position: absolute;
+            top: -12px;
+            left: 24px;
+            background: white;
+            padding: 6px 10px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow);
+        }
+        
+        .research-highlight h3 {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        /* Product Grid */
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 32px;
-            margin-top: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
         }
         
         .product-category {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
-            border-radius: 24px;
-            padding: 32px;
-            border: 1px solid var(--border-color);
-            transition: all 0.4s ease;
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
         }
@@ -405,9 +300,8 @@
             top: 0;
             left: 0;
             right: 0;
-            height: 4px;
-            background: var(--secondary-gradient);
-            border-radius: 24px 24px 0 0;
+            height: 3px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             transform: scaleX(0);
             transition: transform 0.3s ease;
         }
@@ -417,29 +311,30 @@
         }
         
         .product-category:hover {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
-            transform: translateY(-8px);
+            transform: translateY(-4px);
             box-shadow: var(--shadow-lg);
         }
         
         .product-category h4 {
-            color: var(--text-primary);
-            margin-bottom: 20px;
-            font-size: 1.3rem;
-            font-weight: 600;
             display: flex;
             align-items: center;
             gap: 12px;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
         }
         
         .era-icon {
             font-size: 1.5rem;
-            padding: 8px;
-            border-radius: 12px;
-            background: var(--accent-gradient);
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 10px;
             color: white;
-            min-width: 40px;
-            text-align: center;
         }
         
         .product-list {
@@ -447,23 +342,17 @@
         }
         
         .product-list li {
-            margin-bottom: 12px;
-            transition: all 0.2s ease;
-        }
-        
-        .product-list li:hover {
-            transform: translateX(8px);
+            margin-bottom: 8px;
         }
         
         .product-list a {
             color: var(--text-secondary);
             text-decoration: none;
             font-weight: 500;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            padding: 8px 16px;
-            border-radius: 12px;
+            padding: 8px 12px;
+            border-radius: 8px;
             display: block;
+            transition: all 0.3s ease;
             position: relative;
         }
         
@@ -472,97 +361,35 @@
             position: absolute;
             left: 0;
             top: 50%;
-            width: 4px;
+            width: 3px;
             height: 0;
-            background: var(--primary-gradient);
+            background: var(--primary);
             border-radius: 2px;
             transition: height 0.3s ease;
             transform: translateY(-50%);
         }
         
         .product-list a:hover::before {
-            height: 20px;
+            height: 16px;
         }
         
         .product-list a:hover {
             color: var(--text-primary);
-            background: rgba(102, 126, 234, 0.1);
-            padding-left: 24px;
+            background: rgba(99, 102, 241, 0.1);
+            padding-left: 20px;
         }
         
-        .research-highlight {
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-            border-radius: 20px;
-            padding: 40px;
-            margin: 40px 0;
-            border: 1px solid rgba(102, 126, 234, 0.2);
-            position: relative;
-        }
-        
-        .research-highlight::before {
-            content: '🔬';
-            position: absolute;
-            top: -15px;
-            left: 30px;
-            background: white;
-            padding: 8px 12px;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            box-shadow: var(--shadow-md);
-        }
-        
+        /* Footer */
         .footer {
             text-align: center;
-            padding: 60px 0;
+            padding: 48px 0;
             color: rgba(255, 255, 255, 0.8);
             background: rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(20px);
-            margin-top: 60px;
+            backdrop-filter: blur(10px);
         }
         
         .footer p {
             margin-bottom: 8px;
-        }
-        
-        /* Animations */
-        .header {
-            animation: fadeInDown 1s ease-out;
-        }
-        
-        .main-content {
-            animation: fadeInUp 1s ease-out 0.3s both;
-        }
-        
-        .product-category {
-            animation: fadeInUp 0.6s ease-out both;
-        }
-        
-        .product-category:nth-child(1) { animation-delay: 0.1s; }
-        .product-category:nth-child(2) { animation-delay: 0.2s; }
-        .product-category:nth-child(3) { animation-delay: 0.3s; }
-        .product-category:nth-child(4) { animation-delay: 0.4s; }
-        .product-category:nth-child(5) { animation-delay: 0.5s; }
-        
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
         
         /* Responsive Design */
@@ -576,8 +403,8 @@
             }
             
             .main-content {
-                padding: 32px 24px;
-                border-radius: 24px;
+                padding: 32px 20px;
+                border-radius: 20px;
             }
             
             .cta-buttons {
@@ -587,144 +414,147 @@
             
             .btn {
                 width: 100%;
-                max-width: 300px;
+                max-width: 280px;
                 justify-content: center;
             }
             
             .product-grid {
                 grid-template-columns: 1fr;
-                gap: 24px;
-            }
-            
-            .product-category {
-                padding: 24px;
+                gap: 20px;
             }
             
             .stats {
-                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
                 gap: 16px;
             }
             
-            .stat-item {
-                padding: 24px 16px;
-            }
-            
             .stat-number {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
         }
         
         @media (max-width: 480px) {
             .section h2 {
-                font-size: 2rem;
+                font-size: 1.75rem;
             }
             
-            .logo-container {
-                padding: 12px 24px;
-                gap: 12px;
+            .logo {
+                padding: 10px 20px;
+                gap: 10px;
             }
             
             .logo-icon {
-                width: 40px;
-                height: 40px;
-                font-size: 20px;
+                width: 36px;
+                height: 36px;
+                font-size: 16px;
+            }
+            
+            .product-category {
+                padding: 20px;
             }
         }
         
-        /* Scroll animations */
-        @media (prefers-reduced-motion: no-preference) {
-            .section {
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
                 opacity: 0;
                 transform: translateY(30px);
-                transition: all 0.6s ease;
             }
-            
-            .section.visible {
+            to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
+        
+        .header {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .main-content {
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+        
+        .product-category {
+            animation: fadeInUp 0.6s ease-out both;
+        }
+        
+        .product-category:nth-child(1) { animation-delay: 0.1s; }
+        .product-category:nth-child(2) { animation-delay: 0.2s; }
+        .product-category:nth-child(3) { animation-delay: 0.3s; }
+        .product-category:nth-child(4) { animation-delay: 0.4s; }
+        .product-category:nth-child(5) { animation-delay: 0.5s; }
     </style>
 </head>
 <body>
-    <!-- Animated background -->
-    <div class="bg-animation">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-    </div>
-
     <div class="container">
         <header class="header">
-            <div class="logo-container">
+            <div class="logo">
                 <div class="logo-icon">AI</div>
-                <span style="color: white; font-weight: 600; font-size: 1.2rem;">HireAI</span>
+                <span style="font-weight: 600; font-size: 1.1rem;">HireAI</span>
             </div>
             
-            <h1>HR AI Products Collection</h1>
-            <p class="subtitle">Comprehensive collection of 46+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms</p>
+            <h1>HR AI 产品收集</h1>
+            <p class="subtitle">全面收集46+个HR AI产品，按技术演进组织，从1990年代ATS到2024+智能体AI平台</p>
             
             <div class="badges">
-                <span class="badge">🚀 46+ Products</span>
-                <span class="badge">🤖 AI Powered</span>
-                <span class="badge">📊 Data Driven</span>
-                <span class="badge">🌍 Open Source</span>
-                <span class="badge">⭐ MIT License</span>
+                <span class="badge">🚀 46+ 产品</span>
+                <span class="badge">🤖 AI 驱动</span>
+                <span class="badge">📊 数据驱动</span>
+                <span class="badge">🌍 开源</span>
+                <span class="badge">⭐ MIT 许可</span>
             </div>
             
             <div class="stats">
                 <div class="stat-item">
                     <span class="stat-number">46+</span>
-                    <span class="stat-label">HR AI Products</span>
+                    <span class="stat-label">HR AI 产品</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number">5</span>
-                    <span class="stat-label">Technology Eras</span>
+                    <span class="stat-label">技术时代</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number">30+</span>
-                    <span class="stat-label">Years Evolution</span>
+                    <span class="stat-label">年演进历程</span>
                 </div>
             </div>
             
             <div class="cta-buttons">
                 <a href="https://github.com/Digidai/HireAI" class="btn btn-primary">
-                    <span>📚</span> View on GitHub
+                    <span>📚</span> 查看 GitHub
                 </a>
                 <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-secondary">
-                    <span>🔬</span> Read Research
+                    <span>🔬</span> 阅读研究报告
                 </a>
             </div>
         </header>
         
         <main class="main-content">
             <section class="section">
-                <h2>🎯 Project Overview</h2>
-                <p>This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. We continuously track and analyze various HR AI tools to provide comprehensive product information and selection guides for HR professionals.</p>
-                <p>Our research covers the complete evolution of HR technology through Josh Bersin's five-stage framework, from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.</p>
+                <h2>🎯 项目概述</h2>
+                <p>本项目致力于收集和整理人力资源（HR）领域的 AI 产品和解决方案。我们持续跟踪和分析各种 HR AI 工具，为人力资源从业者提供全面的产品信息和选择指南。</p>
+                <p>我们的研究涵盖了通过 Josh Bersin 五阶段框架的 HR 技术完整演进，从 1990 年代申请跟踪系统到 2024+ 智能体 AI 平台。</p>
             </section>
             
             <section class="section">
                 <div class="research-highlight">
-                    <h3>The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence</h3>
-                    <p>A comprehensive analysis of 46 HR AI products and vendors through Josh Bersin's five-stage technological evolution framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.</p>
-                    <div style="margin-top: 24px;">
+                    <h3>HR AI 演进：从申请跟踪到智能体 AI 的全面分析</h3>
+                    <p>通过 Josh Bersin 的五阶段技术演进框架，对 46 个 HR AI 产品和供应商进行全面分析，研究从 1990 年代 ATS 系统到 2024+ 智能体 AI 平台的发展历程。</p>
+                    <div style="margin-top: 20px;">
                         <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-primary">
-                            <span>📖</span> Read Full Analysis
+                            <span>📖</span> 阅读完整分析
                         </a>
                     </div>
                 </div>
             </section>
             
             <section class="section">
-                <h2>🚀 Product Categories</h2>
+                <h2>🚀 产品分类</h2>
                 <div class="product-grid">
                     <div class="product-category">
                         <h4>
                             <span class="era-icon">🗄️</span>
-                            1990s - Applicant Tracking Systems
+                            1990年代 - 申请跟踪系统
                         </h4>
                         <ul class="product-list">
                             <li><a href="https://www.oracle.com/human-capital-management/taleo/">Oracle Taleo</a></li>
@@ -738,7 +568,7 @@
                     <div class="product-category">
                         <h4>
                             <span class="era-icon">📈</span>
-                            2000s - Marketing & Assessment
+                            2000年代 - 候选人营销与评估
                         </h4>
                         <ul class="product-list">
                             <li><a href="https://www.glassdoor.com/">Glassdoor</a></li>
@@ -753,7 +583,7 @@
                     <div class="product-category">
                         <h4>
                             <span class="era-icon">⚡</span>
-                            2010s - Workflow Integration
+                            2010年代 - 入职/工作流/集成采购
                         </h4>
                         <ul class="product-list">
                             <li><a href="https://www.greenhouse.io/">Greenhouse</a></li>
@@ -768,7 +598,7 @@
                     <div class="product-category">
                         <h4>
                             <span class="era-icon">🎯</span>
-                            2020s - Intelligent Assessment
+                            2020年代 - 智能评估、多样性、职业发展
                         </h4>
                         <ul class="product-list">
                             <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
@@ -782,7 +612,7 @@
                     <div class="product-category">
                         <h4>
                             <span class="era-icon">🤖</span>
-                            2024+ - Agentic AI Platforms
+                            2024+ - 智能体 AI 平台
                         </h4>
                         <ul class="product-list">
                             <li><a href="https://beamery.com/">Beamery</a></li>
@@ -797,16 +627,16 @@
             </section>
             
             <section class="section">
-                <h2>📚 Quick Access</h2>
+                <h2>📚 快速访问</h2>
                 <div class="cta-buttons">
                     <a href="https://github.com/Digidai/HireAI/blob/master/product-directory.md" class="btn btn-secondary">
-                        <span>📋</span> Complete Directory
+                        <span>📋</span> 完整目录
                     </a>
-                    <a href="https://github.com/Digidai/HireAI/blob/master/README-zh.md" class="btn btn-secondary">
-                        <span>🇨🇳</span> 中文版本
+                    <a href="https://github.com/Digidai/HireAI/blob/master/README.md" class="btn btn-secondary">
+                        <span>🇺🇸</span> English Version
                     </a>
                     <a href="https://github.com/Digidai/HireAI/issues" class="btn btn-secondary">
-                        <span>💬</span> Contribute
+                        <span>💬</span> 参与贡献
                     </a>
                 </div>
             </section>
@@ -814,12 +644,12 @@
         
         <footer class="footer">
             <p>&copy; 2024 HireAI Contributors. Licensed under MIT License.</p>
-            <p>🤖 Powered by AI • 📊 Data-Driven • 🌍 Open Source • ⭐ Community Driven</p>
+            <p>🤖 AI 驱动 • 📊 数据驱动 • 🌍 开源 • ⭐ 社区驱动</p>
         </footer>
     </div>
     
     <script>
-        // Smooth scrolling for anchor links
+        // 平滑滚动
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -833,80 +663,24 @@
             });
         });
         
-        // Enhanced button interactions
+        // 按钮交互效果
         document.querySelectorAll('.btn, .product-list a').forEach(element => {
             element.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-3px) scale(1.02)';
+                this.style.transform = 'translateY(-2px) scale(1.02)';
             });
             
             element.addEventListener('mouseleave', function() {
                 this.style.transform = '';
             });
-            
-            element.addEventListener('click', function() {
-                this.style.transform = 'translateY(-1px) scale(0.98)';
-                setTimeout(() => {
-                    this.style.transform = '';
-                }, 150);
-            });
         });
         
-        // Scroll-triggered animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-        
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-        
-        // Observe all sections for scroll animations
-        document.querySelectorAll('.section').forEach(section => {
-            observer.observe(section);
-        });
-        
-        // Parallax effect for background particles
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const particles = document.querySelectorAll('.particle');
-            
-            particles.forEach((particle, index) => {
-                const speed = 0.5 + (index * 0.1);
-                particle.style.transform = `translateY(${scrolled * speed}px)`;
-            });
-        });
-        
-        // Dynamic gradient animation
-        let gradientAngle = 135;
-        setInterval(() => {
-            gradientAngle += 0.5;
-            document.body.style.background = `linear-gradient(${gradientAngle}deg, #667eea 0%, #764ba2 50%, #f093fb 100%)`;
-        }, 100);
-        
-        // Add loading states for external links
-        document.querySelectorAll('a[href^="http"]').forEach(link => {
-            link.addEventListener('click', function(e) {
-                const originalText = this.innerHTML;
-                this.innerHTML = originalText.replace(/^/, '⏳ ');
-                
-                setTimeout(() => {
-                    this.innerHTML = originalText;
-                }, 2000);
-            });
-        });
-        
-        // Enhanced stats counter animation
+        // 统计数字动画
         const animateStats = () => {
             const stats = document.querySelectorAll('.stat-number');
             stats.forEach(stat => {
                 const target = parseInt(stat.textContent.replace('+', ''));
                 let current = 0;
-                const increment = target / 50;
+                const increment = target / 30;
                 const timer = setInterval(() => {
                     current += increment;
                     if (current >= target) {
@@ -918,20 +692,22 @@
             });
         };
         
-        // Trigger stats animation when visible
-        const statsObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    animateStats();
-                    statsObserver.unobserve(entry.target);
-                }
-            });
+        // 页面加载完成后启动动画
+        window.addEventListener('load', () => {
+            setTimeout(animateStats, 500);
         });
         
-        const statsContainer = document.querySelector('.stats');
-        if (statsContainer) {
-            statsObserver.observe(statsContainer);
-        }
+        // 外部链接点击效果
+        document.querySelectorAll('a[href^="http"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const originalText = this.innerHTML;
+                this.innerHTML = originalText.replace(/^/, '⏳ ');
+                
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                }, 1500);
+            });
+        });
     </script>
 </body>
 </html>
