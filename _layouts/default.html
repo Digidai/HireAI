@@ -837,13 +837,11 @@
             }
         });
 
-            <script>
-        {% include_relative _js/smooth-scroll.js %}
-        {% include_relative _js/external-links.js %}
-        {% include_relative _js/table-interaction.js %}
-        {% include_relative _js/toc-generation.js %}
-        {% include_relative _js/theme-switcher.js %}
-    </script>
+            <script src="{{ site.baseurl }}/_js/smooth-scroll.js"></script>
+    <script src="{{ site.baseurl }}/_js/external-links.js"></script>
+    <script src="{{ site.baseurl }}/_js/table-interaction.js"></script>
+    <script src="{{ site.baseurl }}/_js/toc-generation.js"></script>
+    <script src="{{ site.baseurl }}/_js/theme-switcher.js"></script>
 
         const themeSwitcher = document.getElementById('theme-switcher');
         const body = document.body;
