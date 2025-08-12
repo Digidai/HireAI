@@ -29,7 +29,7 @@ Contributions are welcome! You can:
 - Translate content to other languages
 - Report issues or suggest improvements
 
-Please see our [Contributing Guidelines](README.md#contributing-guidelines) for more details.
+Please see our [Contributing Guidelines]({{ '/CONTRIBUTING.md' | relative_url }}) for more details.
 
 ### How do you ensure the accuracy of the information?
 We strive to maintain accurate and up-to-date information by:
@@ -64,7 +64,7 @@ This website is hosted on GitHub Pages. The source code is available on GitHub, 
 Currently, we don't provide an official API. However, since this is an open-source project, you can access the data directly from the GitHub repository in Markdown format.
 
 ### Is there a way to search for specific products?
-Currently, you can browse products by category in the [Product Directory](product-directory.md). We're working on implementing a search functionality in a future update.
+Currently, you can browse products by category in the [Product Directory]({{ '/product-directory/' | relative_url }}). We're working on implementing a search functionality in a future update.
 
 ## Contact and Support
 

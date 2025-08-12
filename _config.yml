@@ -1,0 +1,16 @@
+# Site settings
+title: HireAI - HR AI Products Collection
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Comprehensive collection of 46+ HR AI products organized by technological evolution
+  from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.
+baseurl: "/HireAI" # the subpath of your site, e.g. /blog
+url: "https://digidai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Digidai
+
+# Build settings
+markdown: kramdown
+theme: minima # This is the default theme for GitHub Pages, but it's good to specify
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap # Explicitly enable sitemap generation
