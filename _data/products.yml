@@ -32,6 +32,16 @@
       analysis: null
       description: "Automated candidate communication and engagement platform for recruiting workflows."
       tags: ["Candidate Engagement", "Automation"]
+    - name: "BrassRing"
+      url: "https://www.ibm.com/products/talent-acquisition-suite"
+      analysis: null
+      description: "Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities."
+      tags: ["ATS", "Enterprise", "Workflow"]
+    - name: "ADP Workforce Now"
+      url: "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx"
+      analysis: null
+      description: "Integrated HCM platform with recruiting, payroll, and workforce management capabilities."
+      tags: ["ATS", "HCM", "Enterprise"]
 
 - era: "2000s - Candidate Marketing & Assessment"
   icon: "📈"
@@ -71,6 +81,21 @@
       analysis: null
       description: "Video interviewing and AI-powered candidate assessment platform for remote hiring."
       tags: ["Video Interviewing", "Assessment", "AI"]
+    - name: "CareerBuilder"
+      url: "https://www.careerbuilder.com/"
+      analysis: null
+      description: "One of the largest job boards with AI-powered candidate matching and extensive resume database."
+      tags: ["Job Board", "Sourcing", "AI"]
+    - name: "Monster"
+      url: "https://www.monster.com/"
+      analysis: null
+      description: "Pioneer online job board with global reach and comprehensive candidate search capabilities."
+      tags: ["Job Board", "Sourcing"]
+    - name: "Jobvite"
+      url: "https://www.jobvite.com/"
+      analysis: null
+      description: "Talent acquisition suite combining recruiting marketing, applicant tracking, and social recruiting."
+      tags: ["ATS", "Social Recruiting", "Marketing"]
 
 - era: "2010s - Onboarding/Workflow/Integrated Sourcing"
   icon: "⚡"
@@ -135,6 +160,31 @@
       analysis: null
       description: "Skills-based hiring platform with technical assessment and coding evaluation capabilities."
       tags: ["Technical Assessment", "Skills-based Hiring"]
+    - name: "Codility"
+      url: "https://www.codility.com/"
+      analysis: null
+      description: "Technical hiring platform with coding tests and interview solutions for engineering recruitment."
+      tags: ["Technical Assessment", "Developer Community"]
+    - name: "CodeSignal"
+      url: "https://codesignal.com/"
+      analysis: null
+      description: "Skills-based technical assessment platform with coding challenges and interview preparation."
+      tags: ["Technical Assessment", "Skills-based Hiring"]
+    - name: "Pymetrics"
+      url: "https://www.pymetrics.ai/"
+      analysis: null
+      description: "Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles."
+      tags: ["Assessment", "AI", "Bias Reduction", "DEI"]
+    - name: "Triplebyte"
+      url: "https://triplebyte.com/"
+      analysis: null
+      description: "Technical recruiting platform with standardized assessments and direct connections to tech companies."
+      tags: ["Technical Assessment", "Sourcing"]
+    - name: "Mya Systems"
+      url: "https://www.mya.com/"
+      analysis: null
+      description: "Conversational AI recruiting assistant for candidate engagement and automated screening."
+      tags: ["Conversational AI", "Chatbot", "Automation"]
 
 - era: "2020s - Intelligent Assessment, Diversity, Career"
   icon: "🎯"
@@ -174,6 +224,26 @@
       analysis: null
       description: "Machine learning platform for candidate re-engagement and passive talent activation."
       tags: ["AI", "Sourcing", "Candidate Engagement"]
+    - name: "Ashby"
+      url: "https://www.ashbyhq.com/"
+      analysis: null
+      description: "Modern recruiting platform with advanced analytics and workflow automation for scaling teams."
+      tags: ["ATS", "Analytics", "Automation"]
+    - name: "Breezy HR"
+      url: "https://breezy.hr/"
+      analysis: null
+      description: "User-friendly recruiting software with end-to-end hiring workflow and team collaboration features."
+      tags: ["ATS", "Workflow", "Candidate Engagement"]
+    - name: "Recruiterflow"
+      url: "https://recruiterflow.com/"
+      analysis: null
+      description: "Applicant tracking and CRM platform designed specifically for recruiting agencies."
+      tags: ["ATS", "CRM", "Agency"]
+    - name: "Applied"
+      url: "https://www.beapplied.com/"
+      analysis: null
+      description: "Behavioral science-based platform for reducing bias through anonymized skill-based assessments."
+      tags: ["DEI", "Bias Reduction", "Skills-based Hiring", "Assessment"]
 
 - era: "2024+ - Agentic AI Platforms"
   icon: "🤖"
@@ -228,3 +298,58 @@
       analysis: null
       description: "AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows."
       tags: ["AI", "Automation", "Sourcing", "Agentic AI"]
+    - name: "Gem"
+      url: "https://www.gem.com/"
+      analysis: null
+      description: "All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI."
+      tags: ["CRM", "Sourcing", "AI", "Automation"]
+    - name: "Dover"
+      url: "https://www.dover.com/"
+      analysis: null
+      description: "AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement."
+      tags: ["AI", "Automation", "Sourcing", "Agentic AI"]
+    - name: "Fetcher"
+      url: "https://www.fetcher.ai/"
+      analysis: null
+      description: "AI-driven automated sourcing platform that finds and engages qualified candidates continuously."
+      tags: ["AI", "Sourcing", "Automation"]
+    - name: "Humanly"
+      url: "https://www.humanly.io/"
+      analysis: null
+      description: "Conversational AI recruiting assistant with interview scheduling and candidate screening automation."
+      tags: ["Conversational AI", "Chatbot", "Automation", "Interview"]
+    - name: "Findem"
+      url: "https://www.findem.ai/"
+      analysis: null
+      description: "AI-powered talent acquisition platform with advanced people search and talent intelligence."
+      tags: ["Talent Intelligence", "AI", "Sourcing"]
+    - name: "Entelo"
+      url: "https://www.entelo.com/"
+      analysis: null
+      description: "Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing."
+      tags: ["Talent Intelligence", "AI", "Sourcing", "DEI"]
+    - name: "Arya"
+      url: "https://arya.ai/"
+      analysis: null
+      description: "AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery."
+      tags: ["AI", "Sourcing", "Automation"]
+    - name: "Workable"
+      url: "https://www.workable.com/"
+      analysis: null
+      description: "Modern recruiting software with AI-powered candidate recommendations and hiring automation."
+      tags: ["ATS", "AI", "Automation"]
+    - name: "Tealhq"
+      url: "https://www.tealhq.com/"
+      analysis: null
+      description: "Career growth and internal mobility platform helping employees discover opportunities."
+      tags: ["Career Pathing", "Internal Mobility", "AI"]
+    - name: "Gloat"
+      url: "https://www.gloat.com/"
+      analysis: null
+      description: "AI-powered talent marketplace for internal mobility, skills development, and workforce agility."
+      tags: ["Internal Mobility", "Skills", "Talent Marketplace", "AI"]
+    - name: "BrightHire"
+      url: "https://www.brighthire.ai/"
+      analysis: null
+      description: "Interview intelligence platform with AI-powered recording, transcription, and hiring insights."
+      tags: ["Interview Intelligence", "AI", "Structured Interviewing"]
