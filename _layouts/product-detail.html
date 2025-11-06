@@ -1,0 +1,331 @@
+---
+layout: default
+---
+<div class="analysis-container">
+    <article class="analysis-content">
+        <div class="product-header">
+            <h1>{{ page.product_name }}</h1>
+            {% if page.product_tagline %}
+            <p class="product-tagline">{{ page.product_tagline }}</p>
+            {% endif %}
+        </div>
+
+        <div class="product-info-grid">
+            <div class="info-card">
+                <h3>🏢 Company</h3>
+                <p>{{ page.company }}</p>
+            </div>
+            <div class="info-card">
+                <h3>📅 Founded</h3>
+                <p>{{ page.founded }}</p>
+            </div>
+            <div class="info-card">
+                <h3>🌍 Location</h3>
+                <p>{{ page.location }}</p>
+            </div>
+            <div class="info-card">
+                <h3>💼 Category</h3>
+                <p>{{ page.category }}</p>
+            </div>
+        </div>
+
+        <div class="product-content">
+            {{ content }}
+        </div>
+
+        {% if page.key_features %}
+        <section class="features-section">
+            <h2>✨ Key Features</h2>
+            <div class="features-grid">
+                {% for feature in page.key_features %}
+                <div class="feature-card">
+                    <h4>{{ feature.title }}</h4>
+                    <p>{{ feature.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.pricing %}
+        <section class="pricing-section">
+            <h2>💰 Pricing</h2>
+            <p>{{ page.pricing }}</p>
+        </section>
+        {% endif %}
+
+        {% if page.ideal_for %}
+        <section class="ideal-for-section">
+            <h2>🎯 Ideal For</h2>
+            <ul class="ideal-for-list">
+                {% for item in page.ideal_for %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if page.pros_cons %}
+        <section class="pros-cons-section">
+            <div class="pros-cons-grid">
+                {% if page.pros_cons.pros %}
+                <div class="pros-card">
+                    <h3>✅ Pros</h3>
+                    <ul>
+                        {% for pro in page.pros_cons.pros %}
+                        <li>{{ pro }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                {% if page.pros_cons.cons %}
+                <div class="cons-card">
+                    <h3>⚠️ Cons</h3>
+                    <ul>
+                        {% for con in page.pros_cons.cons %}
+                        <li>{{ con }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.related_products %}
+        <div class="related-products">
+            <h2>Related Products</h2>
+            <div class="product-grid">
+                {% for related in page.related_products %}
+                <div class="product-card">
+                    <h3><a href="{{ related.url }}">{{ related.name }}</a></h3>
+                    <p>{{ related.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </article>
+
+    <aside class="sidebar">
+        <div class="product-card">
+            <h3>{{ page.product_name }}</h3>
+            <ul class="product-meta">
+                <li><strong>Category:</strong> {{ page.category }}</li>
+                {% if page.tags %}
+                <li><strong>Tags:</strong>
+                    <div class="tag-list">
+                        {% for tag in page.tags %}
+                        <span class="tag-badge">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </li>
+                {% endif %}
+                {% if page.website %}
+                <li><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">Visit Site</a></li>
+                {% endif %}
+            </ul>
+            {% if page.website %}
+            <a href="{{ page.website }}" class="btn btn-primary" target="_blank" style="width: 100%; margin-top: 16px;">Visit Website</a>
+            {% endif %}
+        </div>
+
+        {% if page.toc != false %}
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <nav id="toc"></nav>
+        </div>
+        {% endif %}
+    </aside>
+</div>
+
+<style>
+/* Product Detail Page Styles */
+.product-header {
+    margin-bottom: 32px;
+}
+
+.product-tagline {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-top: 8px;
+}
+
+.product-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.info-card {
+    background: var(--card-bg);
+    padding: 16px;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+}
+
+.info-card h3 {
+    font-size: 1rem;
+    margin: 0 0 8px 0;
+    color: var(--text-secondary);
+}
+
+.info-card p {
+    margin: 0;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.product-content {
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.features-section {
+    margin-bottom: 32px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.feature-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+    transition: all 0.12s ease;
+}
+
+.feature-card:hover {
+    box-shadow: var(--shadow-md);
+    background: var(--card-hover-bg);
+}
+
+.feature-card h4 {
+    margin: 0 0 8px 0;
+    color: var(--text-primary);
+    font-size: 1.125rem;
+}
+
+.feature-card p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+.pricing-section {
+    background: var(--accent-blue-bg);
+    padding: 24px;
+    border-radius: 3px;
+    margin-bottom: 32px;
+    border-left: 3px solid var(--accent-blue);
+}
+
+.ideal-for-section {
+    margin-bottom: 32px;
+}
+
+.ideal-for-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.ideal-for-list li {
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    background: var(--card-bg);
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+    position: relative;
+    padding-left: 40px;
+}
+
+.ideal-for-list li:before {
+    content: '✓';
+    position: absolute;
+    left: 16px;
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+.pros-cons-section {
+    margin-bottom: 32px;
+}
+
+.pros-cons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.pros-card,
+.cons-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+}
+
+.pros-card {
+    border-left: 3px solid #10b981;
+}
+
+.cons-card {
+    border-left: 3px solid #f59e0b;
+}
+
+.pros-card h3,
+.cons-card h3 {
+    margin: 0 0 16px 0;
+    font-size: 1.125rem;
+}
+
+.pros-card ul,
+.cons-card ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.pros-card li,
+.cons-card li {
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.tag-badge {
+    background: var(--accent-blue-bg);
+    color: var(--accent-blue);
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .product-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pros-cons-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

@@ -353,3 +353,104 @@
       analysis: null
       description: "Interview intelligence platform with AI-powered recording, transcription, and hiring insights."
       tags: ["Interview Intelligence", "AI", "Structured Interviewing"]
+    - name: "Metaview"
+      url: "https://www.metaview.ai/"
+      analysis: "metaview-analysis.md"
+      description: "AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights."
+      tags: ["Interview Intelligence", "AI", "Note-taking", "Automation"]
+    - name: "Juicebox (PeopleGPT)"
+      url: "https://juicebox.ai/"
+      analysis: null
+      description: "AI-powered people search engine with access to 800M+ profiles for advanced candidate sourcing and talent discovery."
+      tags: ["AI", "Sourcing", "Talent Intelligence", "Search"]
+    - name: "PreScreenAI"
+      url: "https://prescreenai.com/"
+      analysis: null
+      description: "Conversational AI platform for automated candidate screening with 24/7 availability and instant assessments."
+      tags: ["Conversational AI", "Screening", "Automation", "Assessment"]
+    - name: "Searchlight"
+      url: "https://www.searchlight.ai/"
+      analysis: null
+      description: "AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality."
+      tags: ["AI", "Screening", "Bias Reduction", "DEI"]
+    - name: "Vervoe"
+      url: "https://vervoe.com/"
+      analysis: null
+      description: "Skills assessment platform with AI that learns from your data to create tailored, transparent evaluations."
+      tags: ["Assessment", "Skills-based Hiring", "AI", "Evaluation"]
+    - name: "Crosschq"
+      url: "https://www.crosschq.com/"
+      analysis: null
+      description: "Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics."
+      tags: ["Reference Checking", "Talent Intelligence", "AI", "Analytics"]
+    - name: "Canditech"
+      url: "https://www.canditech.io/"
+      analysis: null
+      description: "Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities."
+      tags: ["Technical Assessment", "Skills-based Hiring", "Simulation"]
+    - name: "Manatal"
+      url: "https://www.manatal.com/"
+      analysis: null
+      description: "AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation."
+      tags: ["ATS", "AI", "Automation", "Social Recruiting"]
+    - name: "Hyreo"
+      url: "https://hyreo.com/"
+      analysis: null
+      description: "AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities."
+      tags: ["AI", "Automation", "Sourcing", "Screening"]
+    - name: "Hopward"
+      url: "https://www.visage.jobs/hopward"
+      analysis: null
+      description: "Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition."
+      tags: ["Generative AI", "AI Assistant", "Automation"]
+    - name: "Hireeazy"
+      url: "https://hireeazy.com/"
+      analysis: null
+      description: "AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities."
+      tags: ["Interview Intelligence", "AI", "Assessment", "Automation"]
+    - name: "Processica"
+      url: "https://processica.com/"
+      analysis: null
+      description: "AI-driven candidate qualification and screening platform for efficient talent pipeline management."
+      tags: ["AI", "Screening", "Automation", "Pipeline Management"]
+    - name: "ChattyHiring"
+      url: "https://chattyhiring.com/"
+      analysis: null
+      description: "ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content."
+      tags: ["Generative AI", "ChatGPT", "Content Generation", "AI Assistant"]
+    - name: "Leonar"
+      url: "https://www.leonar.app/"
+      analysis: null
+      description: "AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows."
+      tags: ["AI", "Automation", "Workflow", "Multi-tool"]
+    - name: "Workday Recruiter Agent"
+      url: "https://www.workday.com/"
+      analysis: "workday-recruiter-agent-analysis.md"
+      description: "Agentic AI system that proactively sources passive candidates, automates outreach, and recommends top talent."
+      tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation"]
+      featured: true
+    - name: "Microsoft Copilot for HR"
+      url: "https://www.microsoft.com/en-us/microsoft-365/copilot"
+      analysis: null
+      description: "Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows."
+      tags: ["Generative AI", "AI Assistant", "Content Generation", "Integration"]
+    - name: "Skillate"
+      url: "https://www.skillate.com/"
+      analysis: null
+      description: "AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization."
+      tags: ["AI", "Automation", "Matching", "Workflow"]
+    - name: "Talentprise"
+      url: "https://www.talentprise.com/"
+      analysis: null
+      description: "Blockchain-based AI recruiting platform with decentralized talent verification and matching."
+      tags: ["AI", "Blockchain", "Web3", "Sourcing"]
+    - name: "Brazen"
+      url: "https://www.brazenconnect.com/"
+      analysis: null
+      description: "Virtual recruiting events platform with AI-powered chat and candidate engagement tools."
+      tags: ["Virtual Events", "Chatbot", "Candidate Engagement", "AI"]
+    - name: "Spotted"
+      url: "https://www.spotted.careers/"
+      analysis: null
+      description: "AI recruiting platform that sources and engages candidates automatically through intelligent outreach."
+      tags: ["AI", "Sourcing", "Automation", "Outreach"]
