@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 68+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
+    <meta name="description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 90+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
     <meta name="keywords" content="HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS, Candidate Assessment, HR Technology">
     <meta name="author" content="HireAI Contributors">
     
@@ -11,21 +11,19 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://digidai.github.io/HireAI/">
     <meta property="og:title" content="HireAI - HR AI Products Collection - From ATS to Agentic AI">
-    <meta property="og:description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 68+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
+    <meta property="og:description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 90+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
     <meta property="og:image" content="https://opengraph.githubassets.com/1/Digidai/HireAI">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://digidai.github.io/HireAI/">
     <meta property="twitter:title" content="HireAI - HR AI Products Collection - From ATS to Agentic AI">
-    <meta property="twitter:description" content="Comprehensive collection of 68+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms.">
+    <meta property="twitter:description" content="Comprehensive collection of 90+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms.">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://digidai.github.io/HireAI/">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Notion-style uses system fonts for better performance and native feel -->
     
     <title>HireAI - HR AI Products Collection | From 1990s ATS to 2024+ Agentic AI Platforms</title>
     {{ page.head_scripts }}
@@ -35,7 +33,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "HireAI - HR AI Products Collection",
-      "description": "Comprehensive collection of 68+ HR AI products organized by technological evolution from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms using Josh Bersin's five-stage framework.",
+      "description": "Comprehensive collection of 90+ HR AI products organized by technological evolution from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms using Josh Bersin's five-stage framework.",
       "url": "https://digidai.github.io/HireAI/",
       "publisher": {
         "@type": "Organization",
@@ -45,530 +43,595 @@
     </script>
     
     <style>
+        /* Notion-inspired Color System */
         :root {
-            --bg-gradient-start: #e8ddd4;
-            --bg-gradient-mid: #d4c5b9;
-            --bg-gradient-end: #c4b5a0;
-            --text-color: #8b7d7d;
-            --text-color-light: #a69080;
-            --header-color: #9c8a8a;
-            --link-color: #b5a394;
-            --link-hover-color: #9c8a8a;
-            --main-bg: rgba(245, 240, 235, 0.85);
-            --category-bg: rgba(238, 232, 225, 0.9);
-            --category-hover-bg: rgba(232, 225, 217, 0.95);
-            --border-color: #c4a484;
-            --btn-primary-bg: linear-gradient(135deg, #c4a484 0%, #b5a394 100%);
-            --btn-primary-text: #f5f0eb;
-            --btn-secondary-bg: rgba(245, 240, 235, 0.9);
-            --btn-secondary-text: #9c8a8a;
-            --shadow-color: rgba(156, 138, 138, 0.1);
-            --shadow-color-hover: rgba(156, 138, 138, 0.15);
-            --table-bg: rgba(245, 240, 235, 0.85);
-            --table-header-bg: rgba(196, 164, 132, 0.2);
-            --table-row-hover-bg: rgba(232, 225, 217, 0.95);
-            --table-border-color: rgba(196, 164, 132, 0.2);
+            /* Light mode - Notion style */
+            --bg-primary: #ffffff;
+            --bg-secondary: #f7f6f3;
+            --bg-hover: rgba(0, 0, 0, 0.03);
+            --text-primary: #37352f;
+            --text-secondary: #787774;
+            --text-tertiary: #9b9a97;
+            --border-color: rgba(0, 0, 0, 0.09);
+            --divider-color: rgba(55, 53, 47, 0.09);
+
+            /* Accent colors */
+            --accent-blue: #2383e2;
+            --accent-blue-bg: rgba(35, 131, 226, 0.1);
+            --accent-gray: #787774;
+            --accent-brown: #9f6b53;
+            --accent-orange: #d9730d;
+
+            /* Shadows - subtle Notion style */
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.12);
+
+            /* Component specific */
+            --card-bg: #ffffff;
+            --card-hover-bg: #fafafa;
+            --btn-primary-bg: #2383e2;
+            --btn-primary-hover: #1a6dc4;
+            --btn-secondary-bg: rgba(0, 0, 0, 0.04);
+            --btn-secondary-hover: rgba(0, 0, 0, 0.08);
         }
 
         body.dark-mode {
-            --bg-gradient-start: #2c3e50;
-            --bg-gradient-mid: #34495e;
-            --bg-gradient-end: #2c3e50;
-            --text-color: #bdc3c7;
-            --text-color-light: #95a5a6;
-            --header-color: #ecf0f1;
-            --link-color: #95a5a6;
-            --link-hover-color: #ecf0f1;
-            --main-bg: rgba(44, 62, 80, 0.85);
-            --category-bg: rgba(52, 73, 94, 0.9);
-            --category-hover-bg: rgba(44, 62, 80, 0.95);
-            --border-color: #95a5a6;
-            --btn-primary-bg: linear-gradient(135deg, #566573 0%, #415262 100%);
-            --btn-primary-text: #ecf0f1;
-            --btn-secondary-bg: rgba(52, 73, 94, 0.9);
-            --btn-secondary-text: #ecf0f1;
-            --shadow-color: rgba(0, 0, 0, 0.1);
-            --shadow-color-hover: rgba(0, 0, 0, 0.15);
-            --table-bg: rgba(44, 62, 80, 0.85);
-            --table-header-bg: rgba(86, 101, 115, 0.2);
-            --table-row-hover-bg: rgba(52, 73, 94, 0.95);
-            --table-border-color: rgba(86, 101, 115, 0.5);
+            /* Dark mode - Notion style */
+            --bg-primary: #191919;
+            --bg-secondary: #2f2f2f;
+            --bg-hover: rgba(255, 255, 255, 0.03);
+            --text-primary: rgba(255, 255, 255, 0.9);
+            --text-secondary: rgba(255, 255, 255, 0.6);
+            --text-tertiary: rgba(255, 255, 255, 0.4);
+            --border-color: rgba(255, 255, 255, 0.09);
+            --divider-color: rgba(255, 255, 255, 0.09);
+
+            /* Accent colors for dark mode */
+            --accent-blue: #4d9dff;
+            --accent-blue-bg: rgba(77, 157, 255, 0.15);
+            --accent-gray: rgba(255, 255, 255, 0.6);
+            --accent-brown: #9f6b53;
+            --accent-orange: #e87d2c;
+
+            /* Shadows in dark mode */
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.5);
+            --shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.6);
+
+            /* Component specific */
+            --card-bg: #2f2f2f;
+            --card-hover-bg: #373737;
+            --btn-primary-bg: #4d9dff;
+            --btn-primary-hover: #3a8ee6;
+            --btn-secondary-bg: rgba(255, 255, 255, 0.08);
+            --btn-secondary-hover: rgba(255, 255, 255, 0.12);
         }
 
+        /* Base Styles - Notion Typography */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 50%, var(--bg-gradient-end) 100%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: var(--bg-secondary);
             min-height: 100vh;
-            transition: background 0.3s ease, color 0.3s ease;
+            transition: all 0.15s ease-in-out;
+            font-size: 16px;
         }
 
         h1, h2, h3, h4, h5, h6 {
-            font-family: 'Merriweather', serif;
+            font-weight: 600;
+            line-height: 1.3;
+            color: var(--text-primary);
         }
-        
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 1.875rem;
+            margin-top: 1.4em;
+            margin-bottom: 0.5em;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.2em;
+            margin-bottom: 0.4em;
+        }
+
         .container {
-            max-width: 1200px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0 96px;
         }
-        
+
         .header {
             text-align: center;
-            margin-bottom: 50px;
-            padding: 60px 0;
+            margin-bottom: 40px;
+            padding: 80px 0 40px;
         }
-        
+
         .header h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-weight: 700;
-            color: var(--header-color);
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px var(--shadow-color);
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.03em;
         }
-        
+
         .header p {
-            font-size: 1.2rem;
-            color: var(--text-color-light);
-            max-width: 600px;
-            margin: 0 auto 30px;
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            max-width: 680px;
+            margin: 0 auto 24px;
+            line-height: 1.6;
         }
         
+        /* Badges */
         .badges {
             display: flex;
             justify-content: center;
             gap: 8px;
             flex-wrap: wrap;
-            margin-bottom: 30px;
+            margin-bottom: 32px;
         }
-        
+
         .badges img {
             height: 20px;
-            opacity: 0.8;
+            opacity: 0.7;
+            transition: opacity 0.15s ease;
         }
-        
+
+        .badges img:hover {
+            opacity: 1;
+        }
+
+        /* Main Content - Notion page style */
         .main-content {
-            background: var(--main-bg);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 40px var(--shadow-color);
+            background: var(--bg-primary);
+            border-radius: 4px;
+            padding: 48px 56px;
+            box-shadow: var(--shadow-sm);
             margin-bottom: 40px;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            border: 1px solid var(--border-color);
         }
-        
+
+        /* Sections */
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 48px;
         }
-        
+
         .section h2 {
-            font-size: 2rem;
-            color: var(--header-color);
-            margin-bottom: 20px;
-            border-bottom: 3px solid var(--border-color);
-            padding-bottom: 10px;
-        }
-        
-        .section h3 {
-            font-size: 1.5rem;
-            color: var(--text-color-light);
-            margin-bottom: 15px;
-            margin-top: 25px;
-        }
-        
-        .section p {
-            margin-bottom: 15px;
-            color: var(--text-color);
-        }
-        
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .product-category {
-            background: var(--category-bg);
-            border-radius: 15px;
-            padding: 25px;
-            border-left: 4px solid var(--border-color);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        
-        .product-category:hover {
-            background: var(--category-hover-bg);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px var(--shadow-color-hover);
-        }
-        
-        .product-category h4 {
-            color: var(--header-color);
-            margin-bottom: 15px;
-            font-size: 1.2rem;
+            font-size: 1.875rem;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--divider-color);
             font-weight: 600;
         }
+
+        .section h3 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            margin-top: 24px;
+            font-weight: 600;
+        }
+
+        .section p {
+            margin-bottom: 12px;
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
         
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        /* Product Category Cards - Notion style */
+        .product-category {
+            background: var(--card-bg);
+            border-radius: 3px;
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            transition: all 0.12s ease-in-out;
+            cursor: pointer;
+        }
+
+        .product-category:hover {
+            background: var(--card-hover-bg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .product-category h4 {
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        /* Product List */
         .product-list {
             list-style: none;
         }
-        
+
         .product-list li {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
-        
+
         .product-list a {
-            color: var(--link-color);
+            color: var(--text-secondary);
             text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
+            font-weight: 400;
+            transition: all 0.12s ease;
             padding: 2px 0;
-            border-bottom: 1px solid transparent;
+            display: inline-block;
         }
-        
+
         .product-list a:hover {
-            color: var(--link-hover-color);
-            border-bottom-color: var(--border-color);
+            color: var(--accent-blue);
         }
-        
+
+        /* CTA Buttons */
         .cta-buttons {
             display: flex;
-            gap: 20px;
+            gap: 12px;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 30px;
+            margin-top: 24px;
         }
-        
+
+        /* Buttons - Notion style */
         .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 16px;
+            border-radius: 3px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 6px 20px var(--shadow-color);
+            font-weight: 500;
+            font-size: 0.875rem;
+            transition: all 0.12s ease-in-out;
+            cursor: pointer;
+            border: none;
         }
-        
+
         .btn-primary {
             background: var(--btn-primary-bg);
-            color: var(--btn-primary-text);
+            color: white;
         }
-        
+
+        .btn-primary:hover {
+            background: var(--btn-primary-hover);
+        }
+
         .btn-secondary {
             background: var(--btn-secondary-bg);
-            color: var(--btn-secondary-text);
-            border: 2px solid var(--border-color);
-            backdrop-filter: blur(10px);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--btn-secondary-hover);
         }
         
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px var(--shadow-color-hover);
-        }
-        
+        /* Footer */
         .footer {
             text-align: center;
-            padding: 40px 0;
-            color: var(--text-color-light);
+            padding: 48px 0;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
         }
-        
+
+        .footer p {
+            margin: 8px 0;
+        }
+
+        /* Subtle Animations - Notion style */
         .header {
-            animation: fadeInDown 1s ease-out;
+            animation: fadeIn 0.3s ease-out;
         }
-        
+
         .main-content {
-            animation: fadeInUp 1s ease-out 0.3s both;
+            animation: fadeIn 0.4s ease-out;
         }
-        
-        @keyframes fadeInDown {
+
+        @keyframes fadeIn {
             from {
                 opacity: 0;
-                transform: translateY(-30px);
+                transform: translateY(8px);
             }
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
+
+        /* Stats Section */
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin: 32px 0;
         }
-        
+
         .stat-item {
             text-align: center;
-            background: var(--category-bg);
-            padding: 25px;
-            border-radius: 15px;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            transition: all 0.3s ease;
+            background: var(--card-bg);
+            padding: 24px 16px;
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
+            transition: all 0.12s ease-in-out;
         }
-        
+
         .stat-item:hover {
-            background: var(--category-hover-bg);
-            transform: translateY(-2px);
+            background: var(--card-hover-bg);
+            box-shadow: var(--shadow-md);
         }
-        
+
         .stat-number {
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: var(--header-color);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: block;
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 4px;
             display: block;
         }
         
-        .stat-label {
-            color: var(--text-color-light);
-            font-size: 0.9rem;
-        }
-        
-        /* 添加一些装饰性元素 */
-        .section::before {
-            content: '';
-            position: absolute;
-            left: -20px;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--border-color), transparent);
-            border-radius: 2px;
-        }
-        
-        .section {
-            position: relative;
-        }
-        
+        /* Responsive Design */
         @media (max-width: 768px) {
+            .container {
+                padding: 0 24px;
+            }
+
+            .header {
+                padding: 48px 0 32px;
+            }
+
             .header h1 {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
-            
+
+            .header p {
+                font-size: 1rem;
+            }
+
             .main-content {
-                padding: 20px;
-                border-radius: 15px;
+                padding: 32px 24px;
             }
-            
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .btn {
-                width: 100%;
-                max-width: 300px;
-            }
-            
+
             .product-grid {
                 grid-template-columns: 1fr;
             }
-        }
-        
-        /* 添加微妙的纹理效果 */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: -1;
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
         }
 
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                padding: 0 48px;
+            }
+        }
+
+        /* Table - Notion style */
         .comparison-table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
-            background: var(--table-bg);
-            border-radius: 15px;
-            box-shadow: 0 10px 30px var(--shadow-color);
+            margin-top: 16px;
+            background: var(--card-bg);
+            border-radius: 3px;
+            box-shadow: var(--shadow-sm);
             overflow: hidden;
+            border: 1px solid var(--border-color);
         }
-        
-        .comparison-table th, .comparison-table td {
-            padding: 15px;
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 12px 16px;
             text-align: left;
-            border-bottom: 1px solid var(--table-border-color);
+            border-bottom: 1px solid var(--divider-color);
         }
-        
+
         .comparison-table th {
-            background-color: var(--table-header-bg);
+            background-color: var(--bg-secondary);
             font-weight: 600;
-            color: var(--header-color);
+            color: var(--text-primary);
+            font-size: 0.875rem;
+        }
+
+        .comparison-table tbody tr {
+            transition: background-color 0.12s ease;
         }
 
         .comparison-table tbody tr:hover {
-            background-color: var(--table-row-hover-bg);
+            background-color: var(--bg-hover);
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
         }
 
         .comparison-table a {
-            color: var(--link-color);
+            color: var(--accent-blue);
             text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
+            font-weight: 400;
+            transition: opacity 0.12s ease;
         }
 
         .comparison-table a:hover {
-            color: var(--link-hover-color);
+            opacity: 0.7;
         }
 
+        /* Table Controls */
         .table-controls {
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             display: flex;
-            gap: 10px;
+            gap: 8px;
             align-items: center;
             flex-wrap: wrap;
         }
 
         .table-controls input[type="text"] {
-            padding: 10px;
-            border-radius: 8px;
+            padding: 6px 10px;
+            border-radius: 3px;
             border: 1px solid var(--border-color);
-            background: var(--btn-secondary-bg);
-            color: var(--btn-secondary-text);
-            font-size: 1rem;
-            min-width: 250px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 0.875rem;
+            min-width: 200px;
+            transition: all 0.12s ease;
+        }
+
+        .table-controls input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 1px var(--accent-blue);
         }
 
         .table-controls button {
-            padding: 10px 15px;
-            border-radius: 8px;
+            padding: 6px 12px;
+            border-radius: 3px;
             border: none;
-            background: var(--btn-primary-bg);
-            color: var(--btn-primary-text);
-            font-weight: 600;
+            background: var(--btn-secondary-bg);
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 0.875rem;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.12s ease;
         }
 
         .table-controls button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px var(--shadow-color-hover);
+            background: var(--btn-secondary-hover);
         }
 
+        /* Theme Switcher - Notion style */
         .theme-switcher {
             position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 10px;
-            border-radius: 50%;
-            border: none;
-            background: var(--btn-secondary-bg);
-            color: var(--btn-secondary-text);
+            top: 16px;
+            right: 16px;
+            padding: 6px;
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-primary);
+            color: var(--text-primary);
             cursor: pointer;
             z-index: 1000;
-            font-size: 1.5rem;
-            width: 50px;
-            height: 50px;
+            font-size: 1.25rem;
+            width: 32px;
+            height: 32px;
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: all 0.3s ease;
+            transition: all 0.12s ease;
         }
 
         .theme-switcher:hover {
-            transform: scale(1.1);
+            background: var(--bg-hover);
         }
 
+        /* Navigation - Notion style */
         .main-nav {
-            background: var(--main-bg);
-            padding: 15px 20px;
+            background: var(--bg-primary);
+            padding: 12px 0;
             text-align: center;
-            box-shadow: 0 2px 10px var(--shadow-color);
+            box-shadow: var(--shadow-sm);
+            border-bottom: 1px solid var(--border-color);
             position: sticky;
             top: 0;
             z-index: 999;
         }
 
         .main-nav .nav-link {
-            color: var(--header-color);
+            color: var(--text-secondary);
             text-decoration: none;
-            font-weight: 600;
-            margin: 0 15px;
-            transition: color 0.3s ease;
+            font-weight: 500;
+            font-size: 0.875rem;
+            margin: 0 16px;
+            padding: 4px 8px;
+            border-radius: 3px;
+            transition: all 0.12s ease;
         }
 
         .main-nav .nav-link:hover {
-            color: var(--link-hover-color);
+            color: var(--text-primary);
+            background: var(--bg-hover);
         }
 
+        /* Tag Cloud - Notion style */
         .tag-cloud {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 20px;
+            gap: 8px;
+            margin-top: 16px;
         }
 
         .tag-link {
-            background: var(--category-bg);
-            padding: 8px 15px;
-            border-radius: 8px;
+            background: var(--card-bg);
+            padding: 4px 12px;
+            border-radius: 3px;
             text-decoration: none;
-            color: var(--link-color);
-            transition: all 0.3s ease;
+            color: var(--text-secondary);
+            transition: all 0.12s ease;
             border: 1px solid var(--border-color);
-            font-size: 0.9rem;
+            font-size: 0.875rem;
+            font-weight: 400;
         }
 
         .tag-link:hover {
-            background: var(--category-hover-bg);
-            color: var(--link-hover-color);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px var(--shadow-color-hover);
+            background: var(--bg-hover);
+            color: var(--text-primary);
         }
 
+        /* Analysis Container */
         .analysis-container {
             display: flex;
-            gap: 30px;
+            gap: 32px;
         }
 
+        /* Timeline - Notion style */
         .timeline {
             position: relative;
-            max-width: 1200px;
-            margin: 50px auto;
+            max-width: 100%;
+            margin: 32px 0;
         }
 
         .timeline::after {
             content: '';
             position: absolute;
-            width: 6px;
-            background-color: var(--border-color);
+            width: 2px;
+            background-color: var(--divider-color);
             top: 0;
             bottom: 0;
             left: 50%;
-            margin-left: -3px;
-            opacity: 0.3;
+            margin-left: -1px;
         }
 
         .timeline-item {
-            padding: 10px 40px;
+            padding: 16px 40px;
             position: relative;
             background-color: inherit;
             width: 50%;
@@ -576,84 +639,100 @@
 
         .timeline-item:nth-child(odd) {
             left: 0;
-            padding-right: 70px;
+            padding-right: 48px;
         }
 
         .timeline-item:nth-child(even) {
             left: 50%;
-            padding-left: 70px;
+            padding-left: 48px;
         }
 
         .timeline-item::after {
             content: attr(data-icon);
             position: absolute;
-            width: 50px;
-            height: 50px;
-            right: -25px;
-            background-color: var(--category-hover-bg);
-            border: 4px solid var(--border-color);
-            top: 15px;
+            width: 40px;
+            height: 40px;
+            right: -20px;
+            background-color: var(--bg-primary);
+            border: 2px solid var(--border-color);
+            top: 16px;
             border-radius: 50%;
             z-index: 1;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
 
         .timeline-item:nth-child(even)::after {
-            left: -25px;
+            left: -20px;
         }
 
         .timeline-content {
-            padding: 20px 30px;
-            background-color: var(--category-bg);
+            padding: 20px;
+            background-color: var(--card-bg);
             position: relative;
-            border-radius: 15px;
-            border-left: 4px solid var(--border-color);
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
+            transition: all 0.12s ease;
         }
 
-                .timeline-item:nth-child(even) .timeline-content {
-            border-right: none;
-            border-left: 4px solid var(--border-color);
+        .timeline-content:hover {
+            box-shadow: var(--shadow-md);
+            background-color: var(--card-hover-bg);
         }
 
+        .timeline-item:nth-child(even) .timeline-content {
+            border-right: 1px solid var(--border-color);
+            border-left: 1px solid var(--border-color);
+        }
+
+        /* Featured Section */
         .featured-section {
             text-align: center;
         }
 
         .featured-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
             text-align: left;
         }
 
         .featured-card {
-            background: var(--category-bg);
-            padding: 25px;
-            border-radius: 15px;
-            border-left: 4px solid var(--border-color);
-            transition: all 0.3s ease;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
+            transition: all 0.12s ease;
         }
 
         .featured-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 30px var(--shadow-color-hover);
+            box-shadow: var(--shadow-md);
+            background: var(--card-hover-bg);
         }
 
         .featured-card h3 {
             margin-top: 0;
+            font-size: 1.125rem;
+            margin-bottom: 8px;
         }
 
+        .featured-card p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        /* Table of Contents - Notion style */
         .toc {
             position: sticky;
-            top: 20px;
-            padding: 20px;
-            background: var(--category-bg);
-            border-radius: 15px;
-            margin-bottom: 20px;
+            top: 80px;
+            padding: 16px;
+            background: var(--card-bg);
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 16px;
         }
 
         .toc ul {
@@ -662,37 +741,41 @@
         }
 
         .toc ul ul {
-            padding-left: 20px;
+            padding-left: 16px;
         }
 
         .toc a {
             text-decoration: none;
-            color: var(--link-color);
+            color: var(--text-secondary);
             display: block;
-            padding: 5px 0;
-            border-bottom: 1px solid transparent;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.875rem;
+            transition: all 0.12s ease;
         }
 
         .toc a:hover {
-            color: var(--link-hover-color);
-            border-bottom: 1px solid var(--border-color);
+            color: var(--text-primary);
+            background: var(--bg-hover);
         }
 
+        /* Related Products */
         .related-products {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-color);
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--divider-color);
         }
 
+        /* Timeline Responsive */
         @media (max-width: 768px) {
             .timeline::after {
-                left: 31px;
+                left: 24px;
             }
 
             .timeline-item {
                 width: 100%;
-                padding-left: 70px;
-                padding-right: 25px;
+                padding-left: 56px;
+                padding-right: 16px;
             }
 
             .timeline-item:nth-child(even) {
@@ -700,20 +783,27 @@
             }
 
             .timeline-item::after {
-                left: 15px;
+                left: 4px;
+                width: 32px;
+                height: 32px;
+                font-size: 1rem;
             }
+
             .timeline-item:nth-child(even)::after {
-                left: 15px;
+                left: 4px;
             }
+
             .timeline-item:nth-child(odd) {
-                padding-right: 25px;
+                padding-right: 16px;
             }
+
             .timeline-item:nth-child(even) .timeline-content {
-                border-right: none;
-                border-left: 4px solid var(--border-color);
+                border-right: 1px solid var(--border-color);
+                border-left: 1px solid var(--border-color);
             }
         }
 
+        /* Analysis Layout */
         .analysis-content {
             flex: 3;
         }
@@ -722,35 +812,43 @@
             flex: 1;
         }
 
+        /* Product Card */
         .product-card {
-            background: var(--category-bg);
-            padding: 20px;
-            border-radius: 15px;
-            border-left: 4px solid var(--border-color);
+            background: var(--card-bg);
+            padding: 16px;
+            border-radius: 3px;
+            border: 1px solid var(--border-color);
         }
 
         .product-card h3 {
             margin-top: 0;
+            font-size: 1.125rem;
         }
 
         .product-meta {
             list-style: none;
             padding: 0;
-            margin-top: 20px;
+            margin-top: 16px;
         }
 
         .product-meta li {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
         }
 
         .last-updated {
-            color: var(--text-color-light);
-            font-size: 0.9rem;
+            color: var(--text-tertiary);
+            font-size: 0.8125rem;
         }
 
         @media (max-width: 992px) {
             .analysis-container {
                 flex-direction: column-reverse;
+            }
+
+            .toc {
+                position: static;
             }
         }
     </style>
