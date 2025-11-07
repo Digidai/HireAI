@@ -255,7 +255,7 @@
       tags: ["Talent Lifecycle", "AI", "CRM", "Sourcing"]
     - name: "Eightfold.ai"
       url: "https://eightfold.ai/"
-      analysis: "eightfold-ai-analysis.md"
+      analysis: "eightfold-ai-detailed-analysis.md"
       description: "Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics."
       tags: ["Talent Intelligence", "AI", "Skills", "Career Pathing"]
     - name: "HiredScore"
@@ -275,9 +275,10 @@
       tags: ["Conversational AI", "Chatbot", "Automation"]
     - name: "Paradox"
       url: "https://www.paradox.ai/"
-      analysis: null
+      analysis: "paradox-olivia-analysis.md"
       description: "Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant."
       tags: ["Conversational AI", "Chatbot", "AI"]
+      featured: true
     - name: "Phenom People"
       url: "https://www.phenompeople.com/"
       analysis: null
