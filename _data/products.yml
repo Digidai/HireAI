@@ -454,3 +454,134 @@
       analysis: null
       description: "AI recruiting platform that sources and engages candidates automatically through intelligent outreach."
       tags: ["AI", "Sourcing", "Automation", "Outreach"]
+    - name: "Moonhub"
+      url: "https://www.moonhub.ai/"
+      analysis: "moonhub-analysis.md"
+      description: "Agentic AI platform deploying autonomous agents to hire talent 5x faster, with 24/7 candidate identification, scoring, and engagement."
+      tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation"]
+      featured: true
+    - name: "hireEZ"
+      url: "https://hireez.com/"
+      analysis: "hireez-analysis.md"
+      description: "All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI."
+      tags: ["Agentic AI", "Sourcing", "AI", "Automation", "ATS"]
+    - name: "TurboHire"
+      url: "https://turbohire.co/"
+      analysis: null
+      description: "End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation."
+      tags: ["Agentic AI", "ATS", "AI", "Automation", "Generative AI"]
+    - name: "Qureos"
+      url: "https://www.qureos.com/"
+      analysis: null
+      description: "Revolutionary AI recruiting platform with 24-second candidate sourcing, shortlisting, and automated outreach capabilities."
+      tags: ["AI", "Sourcing", "Automation", "Speed"]
+    - name: "iMocha"
+      url: "https://www.imocha.io/"
+      analysis: null
+      description: "AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments."
+      tags: ["Skills-based Hiring", "Assessment", "AI", "Interview Intelligence"]
+    - name: "TheySaid"
+      url: "https://www.theysaid.io/"
+      analysis: null
+      description: "AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics."
+      tags: ["Interview Intelligence", "AI", "Assessment", "Analytics"]
+    - name: "Honeit"
+      url: "https://honeit.com/"
+      analysis: null
+      description: "Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights."
+      tags: ["Interview Intelligence", "AI", "Note-taking", "Analytics"]
+    - name: "Screenloop"
+      url: "https://www.screenloop.com/"
+      analysis: null
+      description: "Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics."
+      tags: ["ATS", "AI", "Interview Intelligence", "Analytics", "Automation"]
+    - name: "JobTwine"
+      url: "https://www.jobtwine.com/"
+      analysis: null
+      description: "Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams."
+      tags: ["Interview Intelligence", "AI", "Integration", "Enterprise"]
+    - name: "CVViZ"
+      url: "https://cvviz.com/"
+      analysis: null
+      description: "AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently."
+      tags: ["AI", "Resume Screening", "NLP", "Matching"]
+    - name: "Arc HireAI"
+      url: "https://arc.dev/"
+      analysis: null
+      description: "AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers."
+      tags: ["AI", "Technical Assessment", "Sourcing", "Developer Community"]
+    - name: "Ideal"
+      url: "https://www.ideal.com/"
+      analysis: null
+      description: "AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening."
+      tags: ["AI", "Automation", "Screening", "Predictive Analytics"]
+    - name: "Modern Hire"
+      url: "https://modernhire.com/"
+      analysis: null
+      description: "Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions."
+      tags: ["Interview Intelligence", "Assessment", "AI", "Predictive Analytics"]
+    - name: "Criteria Corp"
+      url: "https://www.criteriacorp.com/"
+      analysis: null
+      description: "Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias."
+      tags: ["Assessment", "AI", "Predictive Analytics", "Bias Reduction"]
+    - name: "Wepow"
+      url: "https://www.wepow.com/"
+      analysis: null
+      description: "Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making."
+      tags: ["Video Interviewing", "AI", "Candidate Experience"]
+    - name: "Wade & Wendy"
+      url: "https://www.wadeandwendy.ai/"
+      analysis: null
+      description: "Conversational AI platform offering personalized candidate engagement and employee career guidance through AI avatars."
+      tags: ["Conversational AI", "Chatbot", "Candidate Engagement", "Career Pathing"]
+    - name: "Catalyte"
+      url: "https://catalyte.io/"
+      analysis: null
+      description: "AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials."
+      tags: ["AI", "Skills-based Hiring", "Bias Reduction", "Talent Discovery"]
+    - name: "Pomato"
+      url: "https://pomato.ai/"
+      analysis: null
+      description: "AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions."
+      tags: ["Video Interviewing", "AI", "Assessment", "Automation"]
+    - name: "Xref"
+      url: "https://www.xref.com/"
+      analysis: null
+      description: "AI-enhanced reference checking and background verification platform automating candidate validation and compliance."
+      tags: ["Reference Checking", "AI", "Automation", "Compliance"]
+    - name: "Talentpair"
+      url: "https://talentpair.com/"
+      analysis: null
+      description: "AI recruiting assistant that autonomously sources candidates, schedules interviews, and manages recruiting workflows."
+      tags: ["AI", "Automation", "Sourcing", "Scheduling"]
+    - name: "Brainner"
+      url: "https://brainner.ai/"
+      analysis: null
+      description: "AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking."
+      tags: ["AI", "Resume Screening", "Automation", "Ranking"]
+    - name: "Hireguide"
+      url: "https://hireguide.com/"
+      analysis: null
+      description: "Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools."
+      tags: ["Interview Intelligence", "AI", "Structured Interviewing", "Collaboration"]
+    - name: "Interviewer.AI"
+      url: "https://interviewer.ai/"
+      analysis: null
+      description: "AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring."
+      tags: ["Video Interviewing", "AI", "Screening", "High-Volume"]
+    - name: "Willo"
+      url: "https://www.willoapp.com/"
+      analysis: null
+      description: "One-way video interview platform with AI insights and collaboration features for remote-first hiring teams."
+      tags: ["Video Interviewing", "AI", "Remote", "Collaboration"]
+    - name: "Tengai"
+      url: "https://tengai.io/"
+      analysis: null
+      description: "Unbiased AI interview assistant conducting structured, conversational interviews to eliminate human bias in screening."
+      tags: ["Conversational AI", "Interview Intelligence", "Bias Reduction", "DEI"]
+    - name: "Visage"
+      url: "https://www.visage.jobs/"
+      analysis: null
+      description: "AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities."
+      tags: ["Talent Intelligence", "AI", "Sourcing", "Automation"]
