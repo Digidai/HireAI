@@ -585,3 +585,190 @@
       analysis: null
       description: "AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities."
       tags: ["Talent Intelligence", "AI", "Sourcing", "Automation"]
+    - name: "Topaz Labs Recruitment AI"
+      url: "https://www.topazlabs.ai/"
+      analysis: "topaz-labs-analysis.md"
+      description: "Next-generation agentic AI recruiting platform that autonomously manages entire talent pipelines with predictive hiring analytics."
+      tags: ["Agentic AI", "AI Agent", "Predictive Analytics", "Automation"]
+      featured: true
+    - name: "RecruiterCloud"
+      url: "https://www.recruitercloud.com/"
+      analysis: "recruitercloud-analysis.md"
+      description: "AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring."
+      tags: ["AI", "Marketplace", "Sourcing", "Agentic AI"]
+    - name: "Iris by Qureos"
+      url: "https://www.qureos.com/iris"
+      analysis: "iris-analysis.md"
+      description: "Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making."
+      tags: ["Agentic AI", "AI Agent", "Conversational AI", "Automation"]
+      featured: true
+    - name: "Leena AI"
+      url: "https://leena.ai/"
+      analysis: null
+      description: "Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants."
+      tags: ["Conversational AI", "AI Assistant", "Automation", "Enterprise"]
+    - name: "AllyO"
+      url: "https://www.allyo.com/"
+      analysis: null
+      description: "AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale."
+      tags: ["Conversational AI", "Automation", "High-Volume", "Screening"]
+    - name: "Effy AI"
+      url: "https://effy.ai/"
+      analysis: null
+      description: "AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions."
+      tags: ["AI", "Performance Management", "Analytics", "Assessment"]
+    - name: "Talently.ai"
+      url: "https://talently.ai/"
+      analysis: "talently-analysis.md"
+      description: "AI interviewer conducting real-time technical interviews with live coding challenges and immediate candidate evaluation."
+      tags: ["Interview Intelligence", "AI", "Technical Assessment", "Real-time", "Agentic AI"]
+    - name: "Turing"
+      url: "https://www.turing.com/"
+      analysis: null
+      description: "AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms."
+      tags: ["AI", "Technical Assessment", "Sourcing", "Remote", "Developer Community"]
+    - name: "Kula.ai"
+      url: "https://kula.ai/"
+      analysis: null
+      description: "AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns."
+      tags: ["AI", "Sourcing", "Automation", "Outreach", "Candidate Engagement"]
+    - name: "RecruitGPT"
+      url: "https://recruitgpt.ai/"
+      analysis: null
+      description: "ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly."
+      tags: ["Generative AI", "ChatGPT", "Content Generation", "AI Assistant"]
+    - name: "Hired"
+      url: "https://hired.com/"
+      analysis: null
+      description: "AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities."
+      tags: ["AI", "Marketplace", "Sourcing", "Matching"]
+    - name: "Upwork Enterprise"
+      url: "https://www.upwork.com/enterprise"
+      analysis: null
+      description: "Enterprise freelance talent platform with AI-powered talent matching and workforce management for flexible hiring."
+      tags: ["AI", "Marketplace", "Freelance", "Matching"]
+    - name: "Shortlist"
+      url: "https://shortlist.so/"
+      analysis: null
+      description: "AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups."
+      tags: ["ATS", "AI", "Automation", "Screening", "Startup"]
+    - name: "Ribbon"
+      url: "https://www.ribbon.careers/"
+      analysis: null
+      description: "AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities."
+      tags: ["AI", "Career Assistant", "Job Seeker Tools", "Matching"]
+    - name: "LazyApply"
+      url: "https://lazyapply.com/"
+      analysis: null
+      description: "AI-powered job application automation tool helping candidates apply to thousands of jobs with one click."
+      tags: ["AI", "Automation", "Job Seeker Tools", "Application"]
+    - name: "Sonara"
+      url: "https://www.sonara.ai/"
+      analysis: null
+      description: "AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7."
+      tags: ["AI", "Automation", "Job Seeker Tools", "Matching"]
+    - name: "Instahyre"
+      url: "https://www.instahyre.com/"
+      analysis: null
+      description: "AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening."
+      tags: ["AI", "Marketplace", "Sourcing", "Matching", "Startup"]
+    - name: "Wellfound (AngelList Talent)"
+      url: "https://wellfound.com/"
+      analysis: null
+      description: "Startup-focused recruiting platform with AI-powered candidate matching and direct connections to founders."
+      tags: ["AI", "Marketplace", "Sourcing", "Startup"]
+    - name: "Pallet"
+      url: "https://www.pallet.com/"
+      analysis: null
+      description: "AI-powered recruiting platform automating candidate outreach and engagement with personalized communication at scale."
+      tags: ["AI", "Sourcing", "Automation", "Outreach"]
+    - name: "Recooty"
+      url: "https://recooty.com/"
+      analysis: null
+      description: "AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses."
+      tags: ["ATS", "AI", "Job Board", "SMB"]
+    - name: "ClickUp HR"
+      url: "https://clickup.com/hr"
+      analysis: null
+      description: "All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management."
+      tags: ["ATS", "AI", "Workflow", "Productivity"]
+    - name: "Factorial HR"
+      url: "https://factorialhr.com/"
+      analysis: null
+      description: "All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups."
+      tags: ["ATS", "AI", "HCM", "SMB"]
+    - name: "JOIN"
+      url: "https://join.com/"
+      analysis: null
+      description: "AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies."
+      tags: ["ATS", "AI", "Job Board", "Employer Branding"]
+    - name: "Teamtailor"
+      url: "https://www.teamtailor.com/"
+      analysis: null
+      description: "Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder."
+      tags: ["ATS", "AI", "Employer Branding", "Candidate Experience"]
+    - name: "Recruitee"
+      url: "https://recruitee.com/"
+      analysis: null
+      description: "Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows."
+      tags: ["ATS", "AI", "Collaboration", "Sourcing"]
+    - name: "Loxo"
+      url: "https://www.loxo.co/"
+      analysis: null
+      description: "AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics."
+      tags: ["Talent Intelligence", "AI", "ATS", "CRM", "Sourcing"]
+    - name: "Teal"
+      url: "https://www.tealhq.com/"
+      analysis: null
+      description: "AI-powered career development platform helping professionals track applications, optimize resumes, and discover opportunities."
+      tags: ["AI", "Career Assistant", "Job Seeker Tools", "Resume"]
+    - name: "Simplify"
+      url: "https://simplify.jobs/"
+      analysis: null
+      description: "AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting."
+      tags: ["AI", "Automation", "Job Seeker Tools", "Application"]
+    - name: "Massive"
+      url: "https://www.massive.co/"
+      analysis: null
+      description: "AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring."
+      tags: ["AI", "Marketplace", "Sourcing", "Recruiter Network"]
+    - name: "Hundred5"
+      url: "https://hundred5.com/"
+      analysis: null
+      description: "On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals."
+      tags: ["Marketplace", "AI", "Sourcing", "Project-based"]
+    - name: "Peoplebox.ai"
+      url: "https://www.peoplebox.ai/"
+      analysis: null
+      description: "OKR and performance management platform with AI-powered talent analytics and strategic workforce planning."
+      tags: ["AI", "Performance Management", "Analytics", "Talent Planning"]
+    - name: "Darwinbox"
+      url: "https://darwinbox.com/"
+      analysis: null
+      description: "Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets."
+      tags: ["HCM", "AI", "ATS", "Enterprise", "Analytics"]
+    - name: "Ceipal"
+      url: "https://www.ceipal.com/"
+      analysis: null
+      description: "AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises."
+      tags: ["ATS", "AI", "Staffing", "Workforce Management"]
+    - name: "Trakstar Hire"
+      url: "https://www.trakstar.com/hire/"
+      analysis: null
+      description: "Modern applicant tracking system with AI-enhanced candidate evaluation and collaborative hiring workflows."
+      tags: ["ATS", "AI", "Collaboration", "Evaluation"]
+    - name: "Zoho Recruit"
+      url: "https://www.zoho.com/recruit/"
+      analysis: null
+      description: "Cloud-based applicant tracking system with AI-powered resume parsing and candidate matching capabilities."
+      tags: ["ATS", "AI", "Cloud", "Resume Parsing"]
+    - name: "BambooHR"
+      url: "https://www.bamboohr.com/"
+      analysis: null
+      description: "Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses."
+      tags: ["ATS", "HCM", "AI", "SMB"]
+    - name: "Freshteam"
+      url: "https://www.freshworks.com/hrms/"
+      analysis: null
+      description: "Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features."
+      tags: ["ATS", "AI", "Sourcing", "Collaboration", "SMB"]
