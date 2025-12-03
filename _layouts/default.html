@@ -83,7 +83,7 @@
         <div class="sidebar-section">
             <div class="section-title">Categories</div>
             {% for category in site.data.products %}
-            <a href="#{{ category.era | slugify }}" class="nav-item nav-item-small">
+            <a href="{{ site.baseurl }}/#{{ category.era | slugify }}" class="nav-item nav-item-small">
                 <span class="nav-emoji">{{ category.icon }}</span>
                 <span>{{ category.era | split: ' - ' | last }}</span>
             </a>
