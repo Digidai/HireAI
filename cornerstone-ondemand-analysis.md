@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Cornerstone Ondemand Analysis"
+permalink: /cornerstone-ondemand-analysis/
+---
+<div class="page-header">
+    <h1 class="page-title">Cornerstone Ondemand</h1>
+    <p class="page-description">In-depth analysis of Cornerstone Ondemand HR AI product.</p>
+</div>
+
+<article class="markdown-content">
+
 # Cornerstone OnDemand - Deep Analysis
 
 ## Overview
@@ -110,3 +122,8 @@ Cornerstone OnDemand is positioned to continue evolving as organizations increas
 Cornerstone OnDemand represents a unique approach to talent management that emphasizes learning and development as core to organizational success. Its comprehensive content library and extended enterprise capabilities make it particularly attractive to organizations with extensive training requirements.
 
 While the platform offers extensive functionality, its complexity and cost may make it more suitable for mid to large enterprises with significant training needs. For organizations prioritizing employee development and requiring robust extended enterprise capabilities, Cornerstone OnDemand provides a comprehensive foundation for talent management.
+</article>
+
+<div class="page-footer">
+    <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

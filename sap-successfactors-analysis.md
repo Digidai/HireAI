@@ -1,6 +1,7 @@
 ---
 layout: analysis
 title: "SAP SuccessFactors"
+permalink: /sap-successfactors-analysis/
 description: "Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions."
 product_url: "https://www.sap.com/products/human-resources-hcm.html"
 era: "1990s - Applicant Tracking Systems (ATS)"

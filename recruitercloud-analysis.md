@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "RecruiterCloud - AI-Powered Recruitment Marketplace Analysis"
+permalink: /recruitercloud-analysis/
 product_name: "RecruiterCloud"
 product_tagline: "Flexible Recruiting Solutions - Human Experts + AI Agents on Demand"
 company: "RecruiterCloud Inc."

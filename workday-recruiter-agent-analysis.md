@@ -1,5 +1,6 @@
 ---
 layout: product-detail
+permalink: /workday-recruiter-agent-analysis/
 product_name: "Workday Recruiter Agent"
 product_tagline: "Agentic AI that transforms passive recruiting into proactive talent acquisition"
 company: "Workday"

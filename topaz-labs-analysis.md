@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Topaz Labs Recruitment AI - Next-Generation Agentic AI Platform Analysis"
+permalink: /topaz-labs-analysis/
 product_name: "Topaz Labs Recruitment AI"
 product_tagline: "Autonomous Talent Pipeline Management with Predictive Analytics"
 company: "Topaz Labs"

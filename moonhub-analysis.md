@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Moonhub - Agentic AI Recruiting Platform Analysis"
+permalink: /moonhub-analysis/
 product_name: "Moonhub"
 product_tagline: "AI Agents for the Workforce - Hire Top Talent 5x Faster"
 company: "Moonhub AI"

@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Talently.ai - AI-Powered Real-Time Technical Interviewer Analysis"
+permalink: /talently-analysis/
 product_name: "Talently.ai"
 product_tagline: "AI That Interviews Developers in Real-Time with Live Coding"
 company: "Talently.ai"

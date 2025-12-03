@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Greenhouse Analysis"
+permalink: /greenhouse-analysis/
+---
+<div class="page-header">
+    <h1 class="page-title">Greenhouse</h1>
+    <p class="page-description">In-depth analysis of Greenhouse HR AI product.</p>
+</div>
+
+<article class="markdown-content">
+
 # Greenhouse - Deep Analysis
 
 ## Overview
@@ -110,3 +122,8 @@ Greenhouse is positioned to continue leading in the structured hiring platform m
 Greenhouse represents a new generation of recruiting platforms that focus on specific aspects of the hiring process with exceptional depth. Its emphasis on structured interviewing and bias reduction addresses critical challenges in modern talent acquisition.
 
 While not a complete HR suite, Greenhouse provides exceptional value for organizations that prioritize hiring quality and fairness. Its educational approach and focus on best practices make it particularly appealing to companies seeking to professionalize their hiring processes. As organizations continue to focus on diversity and inclusion, and as remote hiring becomes increasingly common, Greenhouse's specialized capabilities position it well for continued growth and success.
+</article>
+
+<div class="page-footer">
+    <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

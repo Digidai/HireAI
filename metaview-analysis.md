@@ -1,5 +1,6 @@
 ---
 layout: product-detail
+permalink: /metaview-analysis/
 product_name: "Metaview"
 product_tagline: "AI-generated interview notes that give you back a working day every week"
 company: "Metaview"

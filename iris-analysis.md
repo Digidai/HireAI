@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Iris by Qureos - Revolutionary AI Recruiter Agent Analysis"
+permalink: /iris-analysis/
 product_name: "Iris by Qureos"
 product_tagline: "Your 24/7 AI Recruiter - Source, Screen, and Engage Autonomously"
 company: "Qureos"

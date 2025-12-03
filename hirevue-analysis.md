@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Hirevue Analysis"
+permalink: /hirevue-analysis/
+---
+<div class="page-header">
+    <h1 class="page-title">Hirevue</h1>
+    <p class="page-description">In-depth analysis of Hirevue HR AI product.</p>
+</div>
+
+<article class="markdown-content">
+
 # HireVue - Deep Analysis
 
 ## Overview
@@ -112,3 +124,8 @@ HireVue represents both the promise and challenges of AI-powered hiring technolo
 For organizations that can navigate the ethical and regulatory considerations, HireVue offers powerful capabilities for scaling hiring processes and gaining insights into candidate suitability. However, companies must carefully weigh the benefits of AI-powered assessment against potential risks related to bias, candidate perception, and regulatory compliance.
 
 As the conversation around ethical AI in HR continues to evolve, HireVue's approach and market position will likely continue to develop in response to both technological possibilities and societal expectations.
+</article>
+
+<div class="page-footer">
+    <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

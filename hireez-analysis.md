@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "hireEZ - Agentic AI Recruiting Platform Analysis"
+permalink: /hireez-analysis/
 product_name: "hireEZ"
 product_tagline: "Hire Talent Up to 80% Faster with Agentic AI"
 company: "hireEZ (formerly Hiretual)"

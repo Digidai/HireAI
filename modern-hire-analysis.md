@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Modern Hire - Hiring Science Platform Analysis"
+permalink: /modern-hire-analysis/
 product_name: "Modern Hire"
 product_tagline: "Science-Backed Virtual Interviews, Assessments & Predictive Analytics"
 company: "Modern Hire (formerly Montage)"
