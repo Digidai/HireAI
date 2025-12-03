@@ -3,969 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 90+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
-    <meta name="keywords" content="HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS, Candidate Assessment, HR Technology">
+    <meta name="description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 46+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms.">
+    <meta name="keywords" content="HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS">
     <meta name="author" content="HireAI Contributors">
-    
-    <!-- Open Graph / Facebook -->
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://digidai.github.io/HireAI/">
-    <meta property="og:title" content="HireAI - HR AI Products Collection - From ATS to Agentic AI">
-    <meta property="og:description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 90+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms. Your guide to the future of HR.">
+    <meta property="og:title" content="HireAI - HR AI Products Collection">
+    <meta property="og:description" content="Comprehensive collection of 46+ HR AI products organized by technological evolution.">
     <meta property="og:image" content="https://opengraph.githubassets.com/1/Digidai/HireAI">
-    
-    <!-- Twitter -->
+
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://digidai.github.io/HireAI/">
-    <meta property="twitter:title" content="HireAI - HR AI Products Collection - From ATS to Agentic AI">
-    <meta property="twitter:description" content="Comprehensive collection of 90+ HR AI products organized by technological evolution from 1990s ATS to 2024+ Agentic AI Platforms.">
-    
-    <!-- Canonical URL -->
+    <meta property="twitter:title" content="HireAI - HR AI Products Collection">
+
     <link rel="canonical" href="https://digidai.github.io/HireAI/">
 
-    <!-- Notion-style uses system fonts for better performance and native feel -->
-    
-    <title>HireAI - HR AI Products Collection | From 1990s ATS to 2024+ Agentic AI Platforms</title>
-    {{ page.head_scripts }}
-    
+    <title>{% if page.title %}{{ page.title }} - {% endif %}HireAI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "HireAI - HR AI Products Collection",
-      "description": "Comprehensive collection of 90+ HR AI products organized by technological evolution from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms using Josh Bersin's five-stage framework.",
-      "url": "https://digidai.github.io/HireAI/",
-      "publisher": {
-        "@type": "Organization",
-        "name": "HireAI Contributors"
-      }
+      "description": "Comprehensive collection of 46+ HR AI products.",
+      "url": "https://digidai.github.io/HireAI/"
     }
     </script>
-    
-    <style>
-        /* Notion-inspired Color System */
-        :root {
-            /* Light mode - Notion style */
-            --bg-primary: #ffffff;
-            --bg-secondary: #f7f6f3;
-            --bg-hover: rgba(0, 0, 0, 0.03);
-            --text-primary: #37352f;
-            --text-secondary: #787774;
-            --text-tertiary: #9b9a97;
-            --border-color: rgba(0, 0, 0, 0.09);
-            --divider-color: rgba(55, 53, 47, 0.09);
 
-            /* Accent colors */
-            --accent-blue: #2383e2;
-            --accent-blue-bg: rgba(35, 131, 226, 0.1);
-            --accent-gray: #787774;
-            --accent-brown: #9f6b53;
-            --accent-orange: #d9730d;
-
-            /* Shadows - subtle Notion style */
-            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-            --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.08);
-            --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.1);
-            --shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.12);
-
-            /* Component specific */
-            --card-bg: #ffffff;
-            --card-hover-bg: #fafafa;
-            --btn-primary-bg: #2383e2;
-            --btn-primary-hover: #1a6dc4;
-            --btn-secondary-bg: rgba(0, 0, 0, 0.04);
-            --btn-secondary-hover: rgba(0, 0, 0, 0.08);
-        }
-
-        body.dark-mode {
-            /* Dark mode - Notion style */
-            --bg-primary: #191919;
-            --bg-secondary: #2f2f2f;
-            --bg-hover: rgba(255, 255, 255, 0.03);
-            --text-primary: rgba(255, 255, 255, 0.9);
-            --text-secondary: rgba(255, 255, 255, 0.6);
-            --text-tertiary: rgba(255, 255, 255, 0.4);
-            --border-color: rgba(255, 255, 255, 0.09);
-            --divider-color: rgba(255, 255, 255, 0.09);
-
-            /* Accent colors for dark mode */
-            --accent-blue: #4d9dff;
-            --accent-blue-bg: rgba(77, 157, 255, 0.15);
-            --accent-gray: rgba(255, 255, 255, 0.6);
-            --accent-brown: #9f6b53;
-            --accent-orange: #e87d2c;
-
-            /* Shadows in dark mode */
-            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-            --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.4);
-            --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.5);
-            --shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.6);
-
-            /* Component specific */
-            --card-bg: #2f2f2f;
-            --card-hover-bg: #373737;
-            --btn-primary-bg: #4d9dff;
-            --btn-primary-hover: #3a8ee6;
-            --btn-secondary-bg: rgba(255, 255, 255, 0.08);
-            --btn-secondary-hover: rgba(255, 255, 255, 0.12);
-        }
-
-        /* Base Styles - Notion Typography */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-            line-height: 1.7;
-            color: var(--text-primary);
-            background: var(--bg-secondary);
-            min-height: 100vh;
-            transition: all 0.15s ease-in-out;
-            font-size: 16px;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 600;
-            line-height: 1.3;
-            color: var(--text-primary);
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
-
-        h2 {
-            font-size: 1.875rem;
-            margin-top: 1.4em;
-            margin-bottom: 0.5em;
-        }
-
-        h3 {
-            font-size: 1.5rem;
-            margin-top: 1.2em;
-            margin-bottom: 0.4em;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 96px;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 80px 0 40px;
-        }
-
-        .header h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            letter-spacing: -0.03em;
-        }
-
-        .header p {
-            font-size: 1.125rem;
-            color: var(--text-secondary);
-            max-width: 680px;
-            margin: 0 auto 24px;
-            line-height: 1.6;
-        }
-        
-        /* Badges */
-        .badges {
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-bottom: 32px;
-        }
-
-        .badges img {
-            height: 20px;
-            opacity: 0.7;
-            transition: opacity 0.15s ease;
-        }
-
-        .badges img:hover {
-            opacity: 1;
-        }
-
-        /* Main Content - Notion page style */
-        .main-content {
-            background: var(--bg-primary);
-            border-radius: 4px;
-            padding: 48px 56px;
-            box-shadow: var(--shadow-sm);
-            margin-bottom: 40px;
-            border: 1px solid var(--border-color);
-        }
-
-        /* Sections */
-        .section {
-            margin-bottom: 48px;
-        }
-
-        .section h2 {
-            font-size: 1.875rem;
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--divider-color);
-            font-weight: 600;
-        }
-
-        .section h3 {
-            font-size: 1.5rem;
-            color: var(--text-primary);
-            margin-bottom: 12px;
-            margin-top: 24px;
-            font-weight: 600;
-        }
-
-        .section p {
-            margin-bottom: 12px;
-            color: var(--text-primary);
-            line-height: 1.7;
-        }
-        
-        /* Product Grid */
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 16px;
-            margin-top: 16px;
-        }
-
-        /* Product Category Cards - Notion style */
-        .product-category {
-            background: var(--card-bg);
-            border-radius: 3px;
-            padding: 20px;
-            border: 1px solid var(--border-color);
-            transition: all 0.12s ease-in-out;
-            cursor: pointer;
-        }
-
-        .product-category:hover {
-            background: var(--card-hover-bg);
-            box-shadow: var(--shadow-md);
-        }
-
-        .product-category h4 {
-            color: var(--text-primary);
-            margin-bottom: 12px;
-            font-size: 1.125rem;
-            font-weight: 600;
-        }
-
-        /* Product List */
-        .product-list {
-            list-style: none;
-        }
-
-        .product-list li {
-            margin-bottom: 6px;
-        }
-
-        .product-list a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-weight: 400;
-            transition: all 0.12s ease;
-            padding: 2px 0;
-            display: inline-block;
-        }
-
-        .product-list a:hover {
-            color: var(--accent-blue);
-        }
-
-        /* CTA Buttons */
-        .cta-buttons {
-            display: flex;
-            gap: 12px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 24px;
-        }
-
-        /* Buttons - Notion style */
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 8px 16px;
-            border-radius: 3px;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.875rem;
-            transition: all 0.12s ease-in-out;
-            cursor: pointer;
-            border: none;
-        }
-
-        .btn-primary {
-            background: var(--btn-primary-bg);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: var(--btn-primary-hover);
-        }
-
-        .btn-secondary {
-            background: var(--btn-secondary-bg);
-            color: var(--text-primary);
-            border: 1px solid var(--border-color);
-        }
-
-        .btn-secondary:hover {
-            background: var(--btn-secondary-hover);
-        }
-        
-        /* Footer */
-        .footer {
-            text-align: center;
-            padding: 48px 0;
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-        }
-
-        .footer p {
-            margin: 8px 0;
-        }
-
-        /* Subtle Animations - Notion style */
-        .header {
-            animation: fadeIn 0.3s ease-out;
-        }
-
-        .main-content {
-            animation: fadeIn 0.4s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(8px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Stats Section */
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 12px;
-            margin: 32px 0;
-        }
-
-        .stat-item {
-            text-align: center;
-            background: var(--card-bg);
-            padding: 24px 16px;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            transition: all 0.12s ease-in-out;
-        }
-
-        .stat-item:hover {
-            background: var(--card-hover-bg);
-            box-shadow: var(--shadow-md);
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            display: block;
-            line-height: 1.2;
-        }
-
-        .stat-label {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-            margin-top: 4px;
-            display: block;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 24px;
-            }
-
-            .header {
-                padding: 48px 0 32px;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .header p {
-                font-size: 1rem;
-            }
-
-            .main-content {
-                padding: 32px 24px;
-            }
-
-            .product-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .stats {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (min-width: 769px) and (max-width: 1024px) {
-            .container {
-                padding: 0 48px;
-            }
-        }
-
-        /* Table - Notion style */
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 16px;
-            background: var(--card-bg);
-            border-radius: 3px;
-            box-shadow: var(--shadow-sm);
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-        }
-
-        .comparison-table th,
-        .comparison-table td {
-            padding: 12px 16px;
-            text-align: left;
-            border-bottom: 1px solid var(--divider-color);
-        }
-
-        .comparison-table th {
-            background-color: var(--bg-secondary);
-            font-weight: 600;
-            color: var(--text-primary);
-            font-size: 0.875rem;
-        }
-
-        .comparison-table tbody tr {
-            transition: background-color 0.12s ease;
-        }
-
-        .comparison-table tbody tr:hover {
-            background-color: var(--bg-hover);
-        }
-
-        .comparison-table tbody tr:last-child td {
-            border-bottom: none;
-        }
-
-        .comparison-table a {
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-weight: 400;
-            transition: opacity 0.12s ease;
-        }
-
-        .comparison-table a:hover {
-            opacity: 0.7;
-        }
-
-        /* Table Controls */
-        .table-controls {
-            margin-bottom: 16px;
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .table-controls input[type="text"] {
-            padding: 6px 10px;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            font-size: 0.875rem;
-            min-width: 200px;
-            transition: all 0.12s ease;
-        }
-
-        .table-controls input[type="text"]:focus {
-            outline: none;
-            border-color: var(--accent-blue);
-            box-shadow: 0 0 0 1px var(--accent-blue);
-        }
-
-        .table-controls button {
-            padding: 6px 12px;
-            border-radius: 3px;
-            border: none;
-            background: var(--btn-secondary-bg);
-            color: var(--text-primary);
-            font-weight: 500;
-            font-size: 0.875rem;
-            cursor: pointer;
-            transition: all 0.12s ease;
-        }
-
-        .table-controls button:hover {
-            background: var(--btn-secondary-hover);
-        }
-
-        /* Theme Switcher - Notion style */
-        .theme-switcher {
-            position: fixed;
-            top: 16px;
-            right: 16px;
-            padding: 6px;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            cursor: pointer;
-            z-index: 1000;
-            font-size: 1.25rem;
-            width: 32px;
-            height: 32px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: all 0.12s ease;
-        }
-
-        .theme-switcher:hover {
-            background: var(--bg-hover);
-        }
-
-        /* Navigation - Notion style */
-        .main-nav {
-            background: var(--bg-primary);
-            padding: 12px 0;
-            text-align: center;
-            box-shadow: var(--shadow-sm);
-            border-bottom: 1px solid var(--border-color);
-            position: sticky;
-            top: 0;
-            z-index: 999;
-        }
-
-        .main-nav .nav-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.875rem;
-            margin: 0 16px;
-            padding: 4px 8px;
-            border-radius: 3px;
-            transition: all 0.12s ease;
-        }
-
-        .main-nav .nav-link:hover {
-            color: var(--text-primary);
-            background: var(--bg-hover);
-        }
-
-        /* Tag Cloud - Notion style */
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 16px;
-        }
-
-        .tag-link {
-            background: var(--card-bg);
-            padding: 4px 12px;
-            border-radius: 3px;
-            text-decoration: none;
-            color: var(--text-secondary);
-            transition: all 0.12s ease;
-            border: 1px solid var(--border-color);
-            font-size: 0.875rem;
-            font-weight: 400;
-        }
-
-        .tag-link:hover {
-            background: var(--bg-hover);
-            color: var(--text-primary);
-        }
-
-        /* Analysis Container */
-        .analysis-container {
-            display: flex;
-            gap: 32px;
-        }
-
-        /* Timeline - Notion style */
-        .timeline {
-            position: relative;
-            max-width: 100%;
-            margin: 32px 0;
-        }
-
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 2px;
-            background-color: var(--divider-color);
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -1px;
-        }
-
-        .timeline-item {
-            padding: 16px 40px;
-            position: relative;
-            background-color: inherit;
-            width: 50%;
-        }
-
-        .timeline-item:nth-child(odd) {
-            left: 0;
-            padding-right: 48px;
-        }
-
-        .timeline-item:nth-child(even) {
-            left: 50%;
-            padding-left: 48px;
-        }
-
-        .timeline-item::after {
-            content: attr(data-icon);
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            right: -20px;
-            background-color: var(--bg-primary);
-            border: 2px solid var(--border-color);
-            top: 16px;
-            border-radius: 50%;
-            z-index: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.25rem;
-        }
-
-        .timeline-item:nth-child(even)::after {
-            left: -20px;
-        }
-
-        .timeline-content {
-            padding: 20px;
-            background-color: var(--card-bg);
-            position: relative;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            transition: all 0.12s ease;
-        }
-
-        .timeline-content:hover {
-            box-shadow: var(--shadow-md);
-            background-color: var(--card-hover-bg);
-        }
-
-        .timeline-item:nth-child(even) .timeline-content {
-            border-right: 1px solid var(--border-color);
-            border-left: 1px solid var(--border-color);
-        }
-
-        /* Featured Section */
-        .featured-section {
-            text-align: center;
-        }
-
-        .featured-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 16px;
-            margin-top: 16px;
-            text-align: left;
-        }
-
-        .featured-card {
-            background: var(--card-bg);
-            padding: 20px;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            transition: all 0.12s ease;
-        }
-
-        .featured-card:hover {
-            box-shadow: var(--shadow-md);
-            background: var(--card-hover-bg);
-        }
-
-        .featured-card h3 {
-            margin-top: 0;
-            font-size: 1.125rem;
-            margin-bottom: 8px;
-        }
-
-        .featured-card p {
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        /* Table of Contents - Notion style */
-        .toc {
-            position: sticky;
-            top: 80px;
-            padding: 16px;
-            background: var(--card-bg);
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 16px;
-        }
-
-        .toc ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .toc ul ul {
-            padding-left: 16px;
-        }
-
-        .toc a {
-            text-decoration: none;
-            color: var(--text-secondary);
-            display: block;
-            padding: 4px 8px;
-            border-radius: 3px;
-            font-size: 0.875rem;
-            transition: all 0.12s ease;
-        }
-
-        .toc a:hover {
-            color: var(--text-primary);
-            background: var(--bg-hover);
-        }
-
-        /* Related Products */
-        .related-products {
-            margin-top: 32px;
-            padding-top: 16px;
-            border-top: 1px solid var(--divider-color);
-        }
-
-        /* Timeline Responsive */
-        @media (max-width: 768px) {
-            .timeline::after {
-                left: 24px;
-            }
-
-            .timeline-item {
-                width: 100%;
-                padding-left: 56px;
-                padding-right: 16px;
-            }
-
-            .timeline-item:nth-child(even) {
-                left: 0%;
-            }
-
-            .timeline-item::after {
-                left: 4px;
-                width: 32px;
-                height: 32px;
-                font-size: 1rem;
-            }
-
-            .timeline-item:nth-child(even)::after {
-                left: 4px;
-            }
-
-            .timeline-item:nth-child(odd) {
-                padding-right: 16px;
-            }
-
-            .timeline-item:nth-child(even) .timeline-content {
-                border-right: 1px solid var(--border-color);
-                border-left: 1px solid var(--border-color);
-            }
-        }
-
-        /* Analysis Layout */
-        .analysis-content {
-            flex: 3;
-        }
-
-        .sidebar {
-            flex: 1;
-        }
-
-        /* Product Card */
-        .product-card {
-            background: var(--card-bg);
-            padding: 16px;
-            border-radius: 3px;
-            border: 1px solid var(--border-color);
-        }
-
-        .product-card h3 {
-            margin-top: 0;
-            font-size: 1.125rem;
-        }
-
-        .product-meta {
-            list-style: none;
-            padding: 0;
-            margin-top: 16px;
-        }
-
-        .product-meta li {
-            margin-bottom: 8px;
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-        }
-
-        .last-updated {
-            color: var(--text-tertiary);
-            font-size: 0.8125rem;
-        }
-
-        @media (max-width: 992px) {
-            .analysis-container {
-                flex-direction: column-reverse;
-            }
-
-            .toc {
-                position: static;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
-    <nav class="main-nav">
-        <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
-        <a href="{{ site.baseurl }}/product-directory/" class="nav-link">Products</a>
-        <a href="{{ site.baseurl }}/tags/" class="nav-link">Tags</a>
-        <a href="{{ site.baseurl }}/FAQ.html" class="nav-link">FAQ</a>
-    </nav>
-    <button id="theme-switcher" class="theme-switcher">🌙</button>
-    <div class="container">
-        {{ content }}
-    </div>
-    
-    <footer class="footer">
-        <p>&copy; 2024 HireAI Contributors. Licensed under MIT License.</p>
-        <p>🤖 Powered by AI • 📊 Data-Driven • 🌍 Open Source</p>
-    </footer>
-    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">H</span>
+                <span class="logo-text">HireAI</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="{{ site.baseurl }}/" class="nav-item {% if page.url == '/' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span>Home</span>
+            </a>
+            <a href="{{ site.baseurl }}/product-directory/" class="nav-item {% if page.url contains 'product-directory' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+                <span>Products</span>
+            </a>
+            <a href="{{ site.baseurl }}/tags/" class="nav-item {% if page.url contains '/tags' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                </svg>
+                <span>Tags</span>
+            </a>
+            <a href="{{ site.baseurl }}/FAQ/" class="nav-item {% if page.url contains 'FAQ' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+                <span>FAQ</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-section">
+            <div class="section-title">Categories</div>
+            {% for category in site.data.products %}
+            <a href="#{{ category.era | slugify }}" class="nav-item nav-item-small">
+                <span class="nav-emoji">{{ category.icon }}</span>
+                <span>{{ category.era | split: ' - ' | last }}</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="sidebar-footer">
+            <a href="https://github.com/Digidai/HireAI" class="nav-item" target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <span>GitHub</span>
+            </a>
+            <button id="theme-toggle" class="theme-toggle">
+                <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </aside>
+
+    <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </button>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+    </main>
+
     <script>
-        // Add smooth scrolling for anchor links
+        // Theme toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        // Mobile menu
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const sidebar = document.querySelector('.sidebar');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!sidebar.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                sidebar.classList.remove('open');
+            }
+        });
+
+        // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             });
-        });
-        
-        // Add loading animation for external links
-        document.querySelectorAll('a[href^="http"]').forEach(link => {
-            link.addEventListener('click', function() {
-                this.style.opacity = '0.7';
-                setTimeout(() => {
-                    this.style.opacity = '1';
-                }, 200);
-            });
-        });
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.getElementById('table-search');
-            const table = document.getElementById('comparison-table');
-            const tableBody = table ? table.querySelector('tbody') : null;
-
-            if (!tableBody) return;
-
-            const rows = Array.from(tableBody.querySelectorAll('tr'));
-
-            if (searchInput) {
-                searchInput.addEventListener('keyup', (e) => {
-                    const query = e.target.value.toLowerCase();
-                    rows.forEach(row => {
-                        const productName = row.querySelector('td:first-child').textContent.toLowerCase();
-                        if (productName.includes(query)) {
-                            row.style.display = '';
-                        } else {
-                            row.style.display = 'none';
-                        }
-                    });
-                });
-            }
-
-            const sortTable = (colIndex, ascending = true) => {
-                const sortedRows = rows.sort((a, b) => {
-                    const aVal = a.querySelector(`td:nth-child(${colIndex})`).textContent.trim();
-                    const bVal = b.querySelector(`td:nth-child(${colIndex})`).textContent.trim();
-                    return aVal.localeCompare(bVal, undefined, {numeric: false}) * (ascending ? 1 : -1);
-                });
-
-                sortedRows.forEach(row => tableBody.appendChild(row));
-            };
-
-            const sortNameAsc = document.getElementById('sort-name-asc');
-            if(sortNameAsc) {
-                sortNameAsc.addEventListener('click', () => sortTable(1, true));
-            }
-
-            const sortNameDesc = document.getElementById('sort-name-desc');
-            if(sortNameDesc) {
-                sortNameDesc.addEventListener('click', () => sortTable(1, false));
-            }
-        });
-
-            <script src="{{ site.baseurl }}/_js/smooth-scroll.js"></script>
-    <script src="{{ site.baseurl }}/_js/external-links.js"></script>
-    <script src="{{ site.baseurl }}/_js/table-interaction.js"></script>
-    <script src="{{ site.baseurl }}/_js/toc-generation.js"></script>
-    <script src="{{ site.baseurl }}/_js/theme-switcher.js"></script>
-
-        const themeSwitcher = document.getElementById('theme-switcher');
-        const body = document.body;
-
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            body.classList.add(savedTheme);
-            if (savedTheme === 'dark-mode') {
-                themeSwitcher.textContent = '☀️';
-            }
-        } else {
-            body.classList.add('dark-mode');
-            localStorage.setItem('theme', 'dark-mode');
-            themeSwitcher.textContent = '☀️';
-        }
-
-        themeSwitcher.addEventListener('click', () => {
-            if (body.classList.contains('dark-mode')) {
-                body.classList.remove('dark-mode');
-                localStorage.setItem('theme', 'light-mode');
-                themeSwitcher.textContent = '🌙';
-            } else {
-                body.classList.add('dark-mode');
-                localStorage.setItem('theme', 'dark-mode');
-                themeSwitcher.textContent = '☀️';
-            }
         });
     </script>
 </body>

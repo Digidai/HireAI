@@ -1,82 +1,72 @@
 ---
 layout: default
 ---
-{%- capture head_scripts -%}
-<meta name="description" content="{{ page.description }}">
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:description" content="{{ page.description }}" />
-<meta property="og:image" content="https://via.placeholder.com/1200x630.png?text={{ page.title | url_encode }}" />
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.description }}">
-<meta name="twitter:image" content="https://via.placeholder.com/1200x630.png?text={{ page.title | url_encode }}">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "{{ page.title }}",
-  "description": "{{ page.description }}",
-  "url": "{{ page.product_url }}",
-  "brand": {
-    "@type": "Brand",
-    "name": "{{ page.title }}"
-  }
-}
-</script>
-{%- endcapture -%}
-<div class="analysis-container">
-    <main class="analysis-content">
-        <h1>{{ page.title }}</h1>
-        {% if page.last_updated %}
-            <p class="last-updated">Last Updated: {{ page.last_updated | date: "%B %d, %Y" }}</p>
+<div class="page-header">
+    <div class="page-icon">@</div>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="page-description">{{ page.description }}</p>
+    {% endif %}
+    {% if page.last_updated %}
+    <p style="font-size: 13px; color: var(--text-tertiary); margin-top: 8px;">Last Updated: {{ page.last_updated | date: "%B %d, %Y" }}</p>
+    {% endif %}
+</div>
+
+<div class="callout">
+    <span class="callout-icon">i</span>
+    <div class="callout-content">
+        {% if page.product_url %}
+        <p><strong>Official Website:</strong> <a href="{{ page.product_url }}" target="_blank" rel="noopener">{{ page.product_url }}</a></p>
         {% endif %}
-        <hr>
-        {{ content }}
+        {% if page.tags %}
+        <p><strong>Tags:</strong> {{ page.tags | join: ", " }}</p>
+        {% endif %}
+    </div>
+</div>
 
-        <section class="related-products">
-            <h2>Related Products</h2>
-            <div class="product-grid">
-                {% assign related_products = "" | split: "," %}
-                {% for tag in page.tags %}
-                    {% for category in site.data.products %}
-                        {% for product in category.products %}
-                            {% if product.name != page.title and product.tags contains tag %}
-                                {% assign related_products = related_products | push: product %}
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-                {% endfor %}
+<div class="divider"></div>
 
-                {% assign unique_related_products = related_products | uniq %}
-                {% for product in unique_related_products limit: 3 %}
-                    <div class="product-category">
-                        <h4><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></h4>
-                        <p>{{ product.description }}</p>
-                        {% if product.analysis %}
-                        <p><a href="{{ product.analysis | relative_url }}">Read Analysis</a></p>
-                        {% endif %}
-                    </div>
+<article class="markdown-content">
+    {{ content }}
+</article>
+
+<div class="divider"></div>
+
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">~</span>
+        <h2 class="section-title">Related Products</h2>
+    </div>
+    <div class="cards-grid">
+        {% assign related_products = "" | split: "," %}
+        {% for tag in page.tags %}
+            {% for category in site.data.products %}
+                {% for product in category.products %}
+                    {% if product.name != page.title and product.tags contains tag %}
+                        {% assign related_products = related_products | push: product %}
+                    {% endif %}
                 {% endfor %}
+            {% endfor %}
+        {% endfor %}
+
+        {% assign unique_related_products = related_products | uniq %}
+        {% for product in unique_related_products limit: 3 %}
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">*</span>
+                <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a></h3>
             </div>
-        </section>
-    </main>
-    <aside class="sidebar">
-        <nav class="toc"></nav>
-        <div class="product-card">
-            <h3>{{ page.title }}</h3>
-            {% if page.product_url %}
-                <a href="{{ page.product_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website</a>
-            {% endif %}
-            <ul class="product-meta">
-                {% if page.era %}
-                    <li><strong>Era:</strong> {{ page.era }}</li>
+            <p class="card-description">{{ product.description }}</p>
+            <div class="card-footer">
+                {% if product.analysis %}
+                <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
                 {% endif %}
-                {% if page.tags %}
-                    <li><strong>Tags:</strong> {{ page.tags | join: ", " }}</li>
-                {% endif %}
-            </ul>
+            </div>
         </div>
-    </aside>
+        {% endfor %}
+    </div>
+</section>
+
+<div class="page-footer">
+    <a href="{{ site.baseurl }}/" class="btn btn-secondary">Back to Home</a>
 </div>

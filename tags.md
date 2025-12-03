@@ -3,16 +3,29 @@ layout: default
 title: All Tags
 permalink: /tags/
 ---
-<main class="main-content">
-    <section class="section">
-        <h2>All Tags</h2>
-        <div class="tag-cloud">
-            {% assign tags = site.data.products | map: 'products' | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
-            {% for tag in tags %}
-                {% if tag != "" %}
-                    <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">{{ tag }}</a>
-                {% endif %}
+<div class="page-header">
+    <div class="page-icon">#</div>
+    <h1 class="page-title">Tags</h1>
+    <p class="page-description">Browse HR AI products by technology category and feature tags.</p>
+</div>
+
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">&</span>
+        <h2 class="section-title">All Tags</h2>
+    </div>
+    <div class="tag-cloud">
+        {% assign all_tags = "" | split: "" %}
+        {% for category in site.data.products %}
+            {% for product in category.products %}
+                {% for tag in product.tags %}
+                    {% assign all_tags = all_tags | push: tag %}
+                {% endfor %}
             {% endfor %}
-        </div>
-    </section>
-</main>
+        {% endfor %}
+        {% assign unique_tags = all_tags | uniq | sort %}
+        {% for tag in unique_tags %}
+            <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
+        {% endfor %}
+    </div>
+</section>

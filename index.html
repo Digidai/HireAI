@@ -1,92 +1,121 @@
 ---
 layout: default
+title: Home
 ---
-<header class="header">
-    <h1>HireAI - HR AI Products Collection</h1>
-    <p>Comprehensive Collection of HR AI Products and Solutions From 1990s ATS to 2024+ Agentic AI Platforms</p>
-    
-    <div class="badges">
-        <img src="https://awesome.re/badge.svg" alt="Awesome">
-        <img src="https://img.shields.io/github/stars/Digidai/HireAI?style=social" alt="GitHub Stars">
-        <img src="https://img.shields.io/github/forks/Digidai/HireAI?style=social" alt="GitHub Forks">
-        <img src="https://img.shields.io/github/license/Digidai/HireAI" alt="License">
-        <img src="https://img.shields.io/badge/AI-Powered-blue.svg" alt="AI Powered">
-        <img src="https://img.shields.io/badge/HR-Tech-orange.svg" alt="HR Tech">
-    </div>
-    
-    <div class="stats">
-        <div class="stat-item">
-            <span class="stat-number">113</span>
-            <span class="stat-label">HR AI Products</span>
-        </div>
-        <div class="stat-item">
-            <span class="stat-number">5</span>
-            <span class="stat-label">Technology Eras</span>
-        </div>
-        <div class="stat-item">
-            <span class="stat-number">30+</span>
-            <span class="stat-label">Years of Evolution</span>
-        </div>
-    </div>
-    
-    <div class="cta-buttons">
-        <a href="https://github.com/Digidai/HireAI" class="btn btn-primary">View on GitHub</a>
-        <a href="https://github.com/Digidai/HireAI/blob/master/hr-ai-evolution-comprehensive-analysis.md" class="btn btn-secondary">Read Research</a>
-    </div>
-</header>
+<div class="page-header">
+    <div class="page-icon">H</div>
+    <h1 class="page-title">HireAI</h1>
+    <p class="page-description">Comprehensive Collection of HR AI Products and Solutions. From 1990s ATS to 2024+ Agentic AI Platforms.</p>
+</div>
 
-<main class="main-content">
-    <section class="section featured-section">
-        <h2>Featured Research</h2>
-        <div class="featured-grid">
-            {% for category in site.data.products %}
-                {% for product in category.products %}
-                    {% if product.featured %}
-                        <div class="featured-card">
-                            <h3><a href="{{ product.analysis | relative_url }}">{{ product.name }} - Deep Dive</a></h3>
-                            <p>{{ product.description }}</p>
-                            <a href="{{ product.analysis | relative_url }}" class="btn btn-secondary">Read Full Analysis</a>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
-        </div>
-    </section>
+<div class="stats-row">
+    <div class="stat-item">
+        <span class="stat-value">46+</span>
+        <span class="stat-label">HR AI Products</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-value">5</span>
+        <span class="stat-label">Technology Eras</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-value">30+</span>
+        <span class="stat-label">Years of Evolution</span>
+    </div>
+</div>
 
-    <section class="section">
-        <h2>HR AI Product Categories</h2>
-        <div class="timeline">
-            {% for category in site.data.products %}
-            <div class="timeline-item" data-icon="{{ category.icon }}">
-                <div class="timeline-content">
-                    <h3>{{ category.era }}</h3>
-                    <ul class="product-list">
-                        {% for product in category.products %}
-                        <li>
-                            <a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a>
-                            {% if product.analysis %}
-                            - <a href="{{ product.analysis | relative_url }}">Analysis</a>
-                            {% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
+<div class="btn-group">
+    <a href="https://github.com/Digidai/HireAI" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        View on GitHub
+    </a>
+    <a href="{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/" class="btn btn-secondary">Read Research</a>
+</div>
+
+<div class="divider"></div>
+
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">*</span>
+        <h2 class="section-title">Featured Research</h2>
+    </div>
+    <div class="featured-grid">
+        {% for category in site.data.products %}
+            {% for product in category.products %}
+                {% if product.featured %}
+                <div class="featured-card">
+                    <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">{{ product.name }}</a></h3>
+                    <p>{{ product.description }}</p>
+                    <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
                 </div>
-            </div>
+                {% endif %}
             {% endfor %}
-        </div>
-    </section>
+        {% endfor %}
+    </div>
+</section>
 
-    <section class="section">
-        <h2>Product Comparison</h2>
-        <div class="table-controls">
-            <input type="text" id="table-search" placeholder="Search for products..." aria-label="Search products">
-            <button id="sort-name-asc" class="btn btn-secondary">Sort A-Z</button>
-            <button id="sort-name-desc" class="btn btn-secondary">Sort Z-A</button>
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">#</span>
+        <h2 class="section-title">Product Categories</h2>
+    </div>
+
+    {% for category in site.data.products %}
+    <div class="category-section" id="{{ category.era | slugify }}">
+        <div class="category-header">
+            <span class="category-icon">{{ category.icon }}</span>
+            <h3 class="category-title">{{ category.era | split: ' - ' | last }}</h3>
+            <span class="category-era">{{ category.era | split: ' - ' | first }}</span>
         </div>
-        <table class="comparison-table" id="comparison-table">
+        <ul class="product-list">
+            {% for product in category.products %}
+            <li class="product-item">
+                <span class="product-bullet"></span>
+                <div class="product-content">
+                    <div class="product-name">
+                        <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a>
+                    </div>
+                    <p class="product-desc">{{ product.description }}</p>
+                    <div class="product-actions">
+                        <a href="{{ product.url }}" class="product-link" target="_blank" rel="noopener">
+                            Visit Website
+                        </a>
+                        {% if product.analysis %}
+                        <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="product-link">
+                            Read Analysis
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">@</span>
+        <h2 class="section-title">All Products</h2>
+    </div>
+    <div class="database">
+        <div class="database-header">
+            <span class="database-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+                Product Database
+            </span>
+            <div class="database-controls">
+                <input type="text" class="search-input" id="product-search" placeholder="Search products...">
+            </div>
+        </div>
+        <table class="database-table" id="product-table">
             <thead>
                 <tr>
-                    <th>Product Name</th>
+                    <th>Name</th>
                     <th>Era</th>
                     <th>Analysis</th>
                 </tr>
@@ -95,13 +124,13 @@ layout: default
                 {% for category in site.data.products %}
                     {% for product in category.products %}
                     <tr>
-                        <td><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></td>
-                        <td>{{ category.era }}</td>
+                        <td><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a></td>
+                        <td>{{ category.era | split: ' - ' | first }}</td>
                         <td>
                             {% if product.analysis %}
-                                <a href="{{ product.analysis | relative_url }}">Read Analysis</a>
+                            <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">View</a>
                             {% else %}
-                                Not available
+                            <span style="color: var(--text-tertiary);">-</span>
                             {% endif %}
                         </td>
                     </tr>
@@ -109,26 +138,54 @@ layout: default
                 {% endfor %}
             </tbody>
         </table>
-    </section>
+    </div>
+</section>
 
-    <section class="section">
-        <h2>Browse by Tag</h2>
-        <div class="tag-cloud">
-            {% assign tags = site.data.products | map: 'products' | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
-            {% for tag in tags %}
-                {% if tag != "" %}
-                    <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag-link">{{ tag }}</a>
-                {% endif %}
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">&</span>
+        <h2 class="section-title">Browse by Tag</h2>
+    </div>
+    <div class="tag-cloud">
+        {% assign all_tags = "" | split: "" %}
+        {% for category in site.data.products %}
+            {% for product in category.products %}
+                {% for tag in product.tags %}
+                    {% assign all_tags = all_tags | push: tag %}
+                {% endfor %}
             {% endfor %}
-        </div>
-    </section>
-    
-    <section class="section">
-        <h2>Quick Access</h2>
-        <div class="cta-buttons">
-            <a href="https://github.com/Digidai/HireAI/blob/master/product-directory.md" class="btn btn-secondary">Complete Product Directory</a>
-            <a href="https://github.com/Digidai/HireAI/blob/master/FAQ.md" class="btn btn-secondary">Frequently Asked Questions</a>
-            <a href="https://github.com/Digidai/HireAI/blob/master/README-zh.md" class="btn btn-secondary">中文版本</a>
-        </div>
-    </section>
-</main>
+        {% endfor %}
+        {% assign unique_tags = all_tags | uniq | sort %}
+        {% for tag in unique_tags %}
+            <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">></span>
+        <h2 class="section-title">Quick Access</h2>
+    </div>
+    <div class="quick-links">
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">Complete Product Directory</a>
+        <a href="{{ site.baseurl }}/FAQ/" class="btn btn-secondary">Frequently Asked Questions</a>
+    </div>
+</section>
+
+<div class="page-footer">
+    <p>2024 HireAI Contributors. Licensed under MIT License.</p>
+    <p>Powered by AI | Data-Driven | Open Source</p>
+</div>
+
+<script>
+document.getElementById('product-search').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const rows = document.querySelectorAll('#product-table tbody tr');
+
+    rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(searchTerm) ? '' : 'none';
+    });
+});
+</script>

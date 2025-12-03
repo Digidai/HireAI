@@ -1,4 +1,15 @@
-# Frequently Asked Questions (FAQ)
+---
+layout: default
+title: FAQ
+permalink: /FAQ/
+---
+<div class="page-header">
+    <div class="page-icon">?</div>
+    <h1 class="page-title">Frequently Asked Questions</h1>
+    <p class="page-description">Common questions about HireAI and HR AI products.</p>
+</div>
+
+<div class="markdown-content">
 
 ## About the Project
 
@@ -29,7 +40,7 @@ Contributions are welcome! You can:
 - Translate content to other languages
 - Report issues or suggest improvements
 
-Please see our [Contributing Guidelines]({{ '/CONTRIBUTING.md' | relative_url }}) for more details.
+Please see our [Contributing Guidelines](https://github.com/Digidai/HireAI/blob/master/CONTRIBUTING.md) for more details.
 
 ### How do you ensure the accuracy of the information?
 We strive to maintain accurate and up-to-date information by:
@@ -50,7 +61,7 @@ This collection can help you:
 - Understand the evolution of HR technology
 
 ### Can I use this information commercially?
-Yes, the information in this collection can be used commercially. The project is licensed under the MIT License, which allows for commercial use, modification, distribution, and patent use. See the [LICENSE](LICENSE) file for details.
+Yes, the information in this collection can be used commercially. The project is licensed under the MIT License, which allows for commercial use, modification, distribution, and patent use.
 
 ### Do you provide product recommendations?
 We aim to provide objective information about HR AI products rather than specific recommendations. However, our analysis may highlight strengths and weaknesses of different products to help you make informed decisions.
@@ -64,7 +75,7 @@ This website is hosted on GitHub Pages. The source code is available on GitHub, 
 Currently, we don't provide an official API. However, since this is an open-source project, you can access the data directly from the GitHub repository in Markdown format.
 
 ### Is there a way to search for specific products?
-Currently, you can browse products by category in the [Product Directory]({{ '/product-directory/' | relative_url }}). We're working on implementing a search functionality in a future update.
+You can browse products by category on the home page, use the search function in the product table, or browse by tags.
 
 ## Contact and Support
 
@@ -80,3 +91,9 @@ You can support this project by:
 - Sharing the project with others
 - Starring the repository on GitHub
 - Providing feedback and suggestions
+
+</div>
+
+<div class="page-footer">
+    <a href="{{ site.baseurl }}/" class="btn btn-secondary">Back to Home</a>
+</div>
