@@ -1,14 +1,10 @@
 ---
-layout: default
-title: "Eightfold Ai Analysis"
+layout: article
+title: "Eightfold.ai Analysis"
 permalink: /eightfold-ai-analysis/
+page_title: Eightfold.ai
+page_description: "In-depth analysis of Eightfold.ai HR AI product."
 ---
-<div class="page-header">
-    <h1 class="page-title">Eightfold Ai</h1>
-    <p class="page-description">In-depth analysis of Eightfold Ai HR AI product.</p>
-</div>
-
-<article class="markdown-content">
 
 # Eightfold.ai - Deep Analysis
 
@@ -125,8 +121,3 @@ Eightfold.ai represents the current pinnacle of HR technology evolution, embodyi
 While the platform requires significant investment and organizational transformation, it offers unparalleled capabilities for organizations ready to embrace the future of talent management. As one of the leading examples of Agentic AI in HR, Eightfold.ai provides a glimpse into the future of human resources technology, where intelligent systems work autonomously to optimize talent outcomes.
 
 For organizations seeking to be at the forefront of HR innovation and willing to invest in transformation, Eightfold.ai offers a compelling vision of what modern talent management can become.
-</article>
-
-<div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
-</div>

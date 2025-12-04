@@ -1,14 +1,10 @@
 ---
-layout: default
-title: "Shl Analysis"
+layout: article
+title: "SHL Analysis"
 permalink: /shl-analysis/
+page_title: SHL
+page_description: "In-depth analysis of SHL HR AI product."
 ---
-<div class="page-header">
-    <h1 class="page-title">Shl</h1>
-    <p class="page-description">In-depth analysis of Shl HR AI product.</p>
-</div>
-
-<article class="markdown-content">
 
 # SHL - Deep Analysis
 
@@ -123,8 +119,3 @@ SHL represents the gold standard in scientifically validated talent assessment s
 While the company's solutions may be more expensive and complex than some alternatives, they offer unparalleled scientific rigor and global scalability. Organizations that prioritize data-driven talent decisions and require legally defensible assessment processes will find significant value in SHL's comprehensive assessment solutions.
 
 As the talent assessment market continues to evolve with new technologies and changing candidate expectations, SHL's commitment to scientific validity while embracing innovation positions it well for continued leadership in the space.
-</article>
-
-<div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
-</div>

@@ -19,6 +19,11 @@
 
     --accent-color: #2383e2;
     --accent-light: #e8f4fd;
+    --accent-blue: #2383e2;
+    --accent-blue-bg: #e8f4fd;
+
+    --card-bg: #fbfbfa;
+    --card-hover-bg: #efefef;
 
     --tag-bg: #f1f1ef;
     --tag-text: #5c5c5c;
@@ -53,6 +58,11 @@
 
     --accent-color: #529cca;
     --accent-light: #1a3a4d;
+    --accent-blue: #529cca;
+    --accent-blue-bg: #1a3a4d;
+
+    --card-bg: #202020;
+    --card-hover-bg: #333333;
 
     --tag-bg: #373737;
     --tag-text: #b4b4b4;

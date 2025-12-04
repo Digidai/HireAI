@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="page-header">
+    {% if page.page_title %}
+    <h1 class="page-title">{{ page.page_title }}</h1>
+    {% endif %}
+    {% if page.page_description %}
+    <p class="page-description">{{ page.page_description }}</p>
+    {% endif %}
+</div>
+
+<article class="markdown-content">
+{{ content }}
+</article>
+
+<div class="page-footer">
+    <a href="/" class="btn btn-secondary">Back to Home</a>
+</div>

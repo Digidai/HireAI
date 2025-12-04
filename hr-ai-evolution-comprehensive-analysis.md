@@ -1,14 +1,10 @@
 ---
-layout: default
+layout: article
 title: HR AI Evolution - Comprehensive Analysis
 permalink: /hr-ai-evolution-comprehensive-analysis/
+page_title: HR AI Evolution
+page_description: "Comprehensive Analysis: From Applicant Tracking to Agentic Intelligence"
 ---
-<div class="page-header">
-    <h1 class="page-title">HR AI Evolution</h1>
-    <p class="page-description">Comprehensive Analysis: From Applicant Tracking to Agentic Intelligence</p>
-</div>
-
-<article class="markdown-content">
 
 # The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence - A Comprehensive Analysis
 
@@ -407,8 +403,3 @@ The time for experimentation has passed. The leaders in agentic AI for HR are es
 ---
 
 *This comprehensive analysis represents a snapshot of the rapidly evolving HR AI landscape. As these technologies continue to advance, organizations must remain agile and adaptive, continuously evaluating new capabilities and adjusting their strategies accordingly. The future of HR belongs to those who can successfully harness the power of artificial intelligence while maintaining the human touch that makes great organizations truly exceptional.*
-</article>
-
-<div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
-</div>

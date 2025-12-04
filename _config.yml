@@ -2,7 +2,7 @@
 title: HireAI - HR AI Products Collection
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Comprehensive collection of 68+ HR AI products organized by technological evolution
+  Comprehensive collection of 150+ HR AI products organized by technological evolution
   from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.
 baseurl: "" # no subpath for custom domain
 url: "https://hireai.genedai.me" # custom domain
@@ -14,3 +14,13 @@ theme: minima # This is the default theme for GitHub Pages, but it's good to spe
 plugins:
   - jekyll-feed
   - jekyll-sitemap # Explicitly enable sitemap generation
+
+# Exclude files from Jekyll processing
+exclude:
+  - README.md
+  - README-zh.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

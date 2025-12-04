@@ -1,0 +1,30 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "permissions": {
+    "allow": [
+      "Edit(*)",
+      "Read(*)",
+      "Bash(*)",
+      "WebFetch(*)",
+      "Write(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(reboot)",
+      "Bash(shutdown *)",
+      "Edit(.env*)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(~/.ssh/*)",
+      "Read(~/.aws/*)",
+      "Bash(git push --force)",
+      "Bash(git push -f)"
+    ]
+  }
+}

@@ -1,14 +1,10 @@
 ---
-layout: default
-title: "Hackerrank Analysis"
+layout: article
+title: "HackerRank Analysis"
 permalink: /hackerrank-analysis/
+page_title: HackerRank
+page_description: "In-depth analysis of HackerRank HR AI product."
 ---
-<div class="page-header">
-    <h1 class="page-title">Hackerrank</h1>
-    <p class="page-description">In-depth analysis of Hackerrank HR AI product.</p>
-</div>
-
-<article class="markdown-content">
 
 # HackerRank - Deep Analysis
 
@@ -124,8 +120,3 @@ HackerRank represents the evolution of technical hiring from credential-based ev
 While primarily relevant for technical roles, HackerRank provides exceptional value for organizations with significant software engineering hiring needs. Its combination of technical expertise, comprehensive assessment library, and developer-friendly approach makes it a standout solution in the technical recruiting space.
 
 As the demand for technical talent continues to outpace supply, and as organizations increasingly focus on skills-based hiring, HackerRank is well-positioned to maintain its leadership role in technical assessment and evaluation.
-</article>
-
-<div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
-</div>

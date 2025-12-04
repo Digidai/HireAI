@@ -1,14 +1,10 @@
 ---
-layout: default
+layout: article
 title: "Oracle Taleo Analysis"
 permalink: /oracle-taleo-analysis/
+page_title: Oracle Taleo
+page_description: "In-depth analysis of Oracle Taleo HR AI product."
 ---
-<div class="page-header">
-    <h1 class="page-title">Oracle Taleo</h1>
-    <p class="page-description">In-depth analysis of Oracle Taleo HR AI product.</p>
-</div>
-
-<article class="markdown-content">
 
 # Oracle Taleo - Deep Analysis
 
@@ -108,8 +104,3 @@ Organizations currently using Taleo can expect continued investment in integrati
 Oracle Taleo represents a foundational technology in the evolution of HR AI, having established many of the core principles and practices that continue to influence modern talent management platforms. While newer solutions may offer more modern interfaces and innovative features, Taleo's strength lies in its proven enterprise capabilities, deep integration with Oracle's ecosystem, and comprehensive coverage of talent management functions.
 
 For organizations deeply embedded in the Oracle technology stack, Taleo remains a solid choice for comprehensive talent management, though smaller organizations may find more agile and cost-effective alternatives better suited to their needs.
-</article>
-
-<div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
-</div>
