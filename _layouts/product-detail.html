@@ -1,290 +1,307 @@
 ---
 layout: default
 ---
-<div class="analysis-container">
-    <article class="analysis-content">
-        <div class="product-header">
-            <h1>{{ page.product_name }}</h1>
-            {% if page.product_tagline %}
-            <p class="product-tagline">{{ page.product_tagline }}</p>
+<article class="product-detail-page">
+    <div class="product-header">
+        <h1>{{ page.product_name }}</h1>
+        {% if page.product_tagline %}
+        <p class="product-tagline">{{ page.product_tagline }}</p>
+        {% endif %}
+    </div>
+
+    <div class="product-meta-bar">
+        <div class="meta-items">
+            {% if page.company %}
+            <span class="meta-item"><strong>Company:</strong> {{ page.company }}</span>
+            {% endif %}
+            {% if page.founded %}
+            <span class="meta-item"><strong>Founded:</strong> {{ page.founded }}</span>
+            {% endif %}
+            {% if page.location %}
+            <span class="meta-item"><strong>Location:</strong> {{ page.location }}</span>
+            {% endif %}
+            {% if page.category %}
+            <span class="meta-item"><strong>Category:</strong> {{ page.category }}</span>
             {% endif %}
         </div>
+        {% if page.website %}
+        <a href="{{ page.website }}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website →</a>
+        {% endif %}
+    </div>
 
-        <div class="product-info-grid">
-            <div class="info-card">
-                <h3>🏢 Company</h3>
-                <p>{{ page.company }}</p>
+    {% if page.tags %}
+    <div class="product-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="product-content markdown-content">
+        {{ content }}
+    </div>
+
+    {% if page.key_features %}
+    <section class="product-section">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            {% for feature in page.key_features %}
+            <div class="feature-card">
+                <h4>{{ feature.title }}</h4>
+                <p>{{ feature.description }}</p>
             </div>
-            <div class="info-card">
-                <h3>📅 Founded</h3>
-                <p>{{ page.founded }}</p>
-            </div>
-            <div class="info-card">
-                <h3>🌍 Location</h3>
-                <p>{{ page.location }}</p>
-            </div>
-            <div class="info-card">
-                <h3>💼 Category</h3>
-                <p>{{ page.category }}</p>
-            </div>
+            {% endfor %}
         </div>
+    </section>
+    {% endif %}
 
-        <div class="product-content markdown-content">
-            {{ content }}
-        </div>
+    {% if page.pricing %}
+    <section class="product-section pricing-section">
+        <h2>Pricing</h2>
+        <p>{{ page.pricing }}</p>
+    </section>
+    {% endif %}
 
-        {% if page.key_features %}
-        <section class="features-section">
-            <h2>✨ Key Features</h2>
-            <div class="features-grid">
-                {% for feature in page.key_features %}
-                <div class="feature-card">
-                    <h4>{{ feature.title }}</h4>
-                    <p>{{ feature.description }}</p>
-                </div>
-                {% endfor %}
+    {% if page.ideal_for %}
+    <section class="product-section">
+        <h2>Ideal For</h2>
+        <ul class="ideal-for-list">
+            {% for item in page.ideal_for %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+    {% if page.pros_cons %}
+    <section class="product-section">
+        <h2>Pros & Cons</h2>
+        <div class="pros-cons-grid">
+            {% if page.pros_cons.pros %}
+            <div class="pros-card">
+                <h3>✓ Pros</h3>
+                <ul>
+                    {% for pro in page.pros_cons.pros %}
+                    <li>{{ pro }}</li>
+                    {% endfor %}
+                </ul>
             </div>
-        </section>
-        {% endif %}
-
-        {% if page.pricing %}
-        <section class="pricing-section">
-            <h2>💰 Pricing</h2>
-            <p>{{ page.pricing }}</p>
-        </section>
-        {% endif %}
-
-        {% if page.ideal_for %}
-        <section class="ideal-for-section">
-            <h2>🎯 Ideal For</h2>
-            <ul class="ideal-for-list">
-                {% for item in page.ideal_for %}
-                <li>{{ item }}</li>
-                {% endfor %}
-            </ul>
-        </section>
-        {% endif %}
-
-        {% if page.pros_cons %}
-        <section class="pros-cons-section">
-            <div class="pros-cons-grid">
-                {% if page.pros_cons.pros %}
-                <div class="pros-card">
-                    <h3>✅ Pros</h3>
-                    <ul>
-                        {% for pro in page.pros_cons.pros %}
-                        <li>{{ pro }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
-                {% if page.pros_cons.cons %}
-                <div class="cons-card">
-                    <h3>⚠️ Cons</h3>
-                    <ul>
-                        {% for con in page.pros_cons.cons %}
-                        <li>{{ con }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
+            {% endif %}
+            {% if page.pros_cons.cons %}
+            <div class="cons-card">
+                <h3>✗ Cons</h3>
+                <ul>
+                    {% for con in page.pros_cons.cons %}
+                    <li>{{ con }}</li>
+                    {% endfor %}
+                </ul>
             </div>
-        </section>
-        {% endif %}
-
-        {% if page.related_products %}
-        <div class="related-products">
-            <h2>Related Products</h2>
-            <div class="product-grid">
-                {% for related in page.related_products %}
-                <div class="product-card">
-                    <h3><a href="{{ related.url }}">{{ related.name }}</a></h3>
-                    <p>{{ related.description }}</p>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-    </article>
-
-    <aside class="sidebar">
-        <div class="product-card">
-            <h3>{{ page.product_name }}</h3>
-            <ul class="product-meta">
-                <li><strong>Category:</strong> {{ page.category }}</li>
-                {% if page.tags %}
-                <li><strong>Tags:</strong>
-                    <div class="tag-list">
-                        {% for tag in page.tags %}
-                        <span class="tag-badge">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                </li>
-                {% endif %}
-                {% if page.website %}
-                <li><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">Visit Site</a></li>
-                {% endif %}
-            </ul>
-            {% if page.website %}
-            <a href="{{ page.website }}" class="btn btn-primary" target="_blank" style="width: 100%; margin-top: 16px;">Visit Website</a>
             {% endif %}
         </div>
+    </section>
+    {% endif %}
 
-        {% if page.toc != false %}
-        <div class="toc">
-            <h3>Table of Contents</h3>
-            <nav id="toc"></nav>
+    {% if page.related_products %}
+    <section class="product-section">
+        <h2>Related Products</h2>
+        <div class="related-grid">
+            {% for related in page.related_products %}
+            <div class="related-card">
+                <h4><a href="{{ related.url }}">{{ related.name }}</a></h4>
+                <p>{{ related.description }}</p>
+            </div>
+            {% endfor %}
         </div>
-        {% endif %}
-    </aside>
-</div>
+    </section>
+    {% endif %}
+
+    <div class="page-footer">
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">← Back to Products</a>
+    </div>
+</article>
 
 <style>
-/* Product Detail Page Styles */
+/* Product Detail Page - Single Column Layout */
+.product-detail-page {
+    max-width: 100%;
+}
+
 .product-header {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
+}
+
+.product-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: var(--text-primary);
 }
 
 .product-tagline {
-    font-size: 1.25rem;
+    font-size: 18px;
     color: var(--text-secondary);
-    margin-top: 8px;
-}
-
-.product-info-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
-    margin-bottom: 32px;
-}
-
-.info-card {
-    background: var(--card-bg);
-    padding: 16px;
-    border-radius: 3px;
-    border: 1px solid var(--border-color);
-}
-
-.info-card h3 {
-    font-size: 1rem;
-    margin: 0 0 8px 0;
-    color: var(--text-secondary);
-}
-
-.info-card p {
     margin: 0;
+    line-height: 1.5;
+}
+
+.product-meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    margin-bottom: 16px;
+}
+
+.meta-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.meta-item {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.meta-item strong {
     color: var(--text-primary);
-    font-weight: 500;
+}
+
+.product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 32px;
 }
 
 .product-content {
-    line-height: 1.7;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
-.features-section {
-    margin-bottom: 32px;
+.product-section {
+    margin-bottom: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--divider-color);
+}
+
+.product-section h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    color: var(--text-primary);
 }
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 16px;
-    margin-top: 16px;
 }
 
 .feature-card {
-    background: var(--card-bg);
+    background: var(--bg-secondary);
     padding: 20px;
-    border-radius: 3px;
+    border-radius: var(--radius-md);
     border: 1px solid var(--border-color);
-    transition: all 0.12s ease;
-}
-
-.feature-card:hover {
-    box-shadow: var(--shadow-md);
-    background: var(--card-hover-bg);
 }
 
 .feature-card h4 {
+    font-size: 16px;
+    font-weight: 600;
     margin: 0 0 8px 0;
     color: var(--text-primary);
-    font-size: 1.125rem;
 }
 
 .feature-card p {
-    margin: 0;
+    font-size: 14px;
     color: var(--text-secondary);
-    font-size: 0.9375rem;
+    margin: 0;
+    line-height: 1.6;
 }
 
 .pricing-section {
-    background: var(--accent-blue-bg);
+    background: var(--accent-light);
     padding: 24px;
-    border-radius: 3px;
-    margin-bottom: 32px;
-    border-left: 3px solid var(--accent-blue);
+    border-radius: var(--radius-md);
+    border: none;
+    border-left: 4px solid var(--accent-color);
 }
 
-.ideal-for-section {
-    margin-bottom: 32px;
+.pricing-section h2 {
+    margin-bottom: 12px;
+}
+
+.pricing-section p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
 }
 
 .ideal-for-list {
     list-style: none;
     padding: 0;
-    margin-top: 16px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
 }
 
 .ideal-for-list li {
-    padding: 12px 16px;
-    margin-bottom: 8px;
-    background: var(--card-bg);
-    border-radius: 3px;
+    padding: 12px 16px 12px 40px;
+    background: var(--bg-secondary);
     border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 14px;
     position: relative;
-    padding-left: 40px;
 }
 
 .ideal-for-list li:before {
     content: '✓';
     position: absolute;
     left: 16px;
-    color: var(--accent-blue);
+    color: var(--accent-color);
     font-weight: bold;
-}
-
-.pros-cons-section {
-    margin-bottom: 32px;
 }
 
 .pros-cons-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
-    margin-top: 16px;
+    gap: 20px;
 }
 
 .pros-card,
 .cons-card {
-    background: var(--card-bg);
-    padding: 20px;
-    border-radius: 3px;
+    background: var(--bg-secondary);
+    padding: 24px;
+    border-radius: var(--radius-md);
     border: 1px solid var(--border-color);
 }
 
 .pros-card {
-    border-left: 3px solid #10b981;
+    border-left: 4px solid #10b981;
 }
 
 .cons-card {
-    border-left: 3px solid #f59e0b;
+    border-left: 4px solid #f59e0b;
 }
 
 .pros-card h3,
 .cons-card h3 {
+    font-size: 16px;
+    font-weight: 600;
     margin: 0 0 16px 0;
-    font-size: 1.125rem;
+}
+
+.pros-card h3 {
+    color: #10b981;
+}
+
+.cons-card h3 {
+    color: #f59e0b;
 }
 
 .pros-card ul,
@@ -295,36 +312,71 @@ layout: default
 
 .pros-card li,
 .cons-card li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.related-card {
+    background: var(--bg-secondary);
+    padding: 20px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    transition: all 0.15s ease;
+}
+
+.related-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow-md);
+}
+
+.related-card h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.related-card h4 a {
     color: var(--text-primary);
+    text-decoration: none;
 }
 
-.tag-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 8px;
+.related-card h4 a:hover {
+    color: var(--accent-color);
 }
 
-.tag-badge {
-    background: var(--accent-blue-bg);
-    color: var(--accent-blue);
-    padding: 2px 8px;
-    border-radius: 3px;
-    font-size: 0.8125rem;
-    font-weight: 500;
+.related-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
-    .product-info-grid {
-        grid-template-columns: 1fr;
+    .product-header h1 {
+        font-size: 26px;
     }
 
-    .features-grid {
-        grid-template-columns: 1fr;
+    .product-meta-bar {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .pros-cons-grid {
+    .meta-items {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .features-grid,
+    .ideal-for-list,
+    .pros-cons-grid,
+    .related-grid {
         grid-template-columns: 1fr;
     }
 }
