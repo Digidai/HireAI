@@ -1,5 +1,7 @@
 ---
 layout: product-detail
+title: "Workday Recruiter Agent - Enterprise Agentic AI Analysis"
+description: "Workday Recruiter Agent is agentic AI for proactive talent sourcing. Achieves 50-70% reduction in manual sourcing time for enterprises."
 permalink: /workday-recruiter-agent-analysis/
 product_name: "Workday Recruiter Agent"
 product_tagline: "Agentic AI that transforms passive recruiting into proactive talent acquisition"
@@ -9,6 +11,7 @@ location: "Pleasanton, California, USA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.workday.com/"
 tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation", "HCM"]
+last_modified_at: 2024-12-04
 key_features:
   - title: "Proactive Candidate Sourcing"
     description: "Automatically identifies and sources passive candidates based on role requirements and company needs"

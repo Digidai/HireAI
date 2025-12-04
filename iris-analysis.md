@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Iris by Qureos - Revolutionary AI Recruiter Agent Analysis"
+description: "Iris by Qureos is a 24/7 AI recruiter that sources, screens, and engages candidates autonomously in 24 seconds from 500M+ profiles."
 permalink: /iris-analysis/
 product_name: "Iris by Qureos"
 product_tagline: "Your 24/7 AI Recruiter - Source, Screen, and Engage Autonomously"
@@ -10,6 +11,7 @@ location: "Dubai, UAE / San Francisco, CA"
 category: "Agentic AI Recruiting Assistant"
 website: "https://www.qureos.com/iris"
 tags: ["Agentic AI", "AI Agent", "Conversational AI", "Automation", "Sourcing"]
+last_modified_at: 2024-12-04
 key_features:
   - title: "24/7 Autonomous Operation"
     description: "Iris works around the clock sourcing candidates, conducting screening conversations, and managing recruiting workflows without human intervention"

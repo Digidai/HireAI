@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "Eightfold.ai Analysis"
+description: "Eightfold.ai is a leading agentic AI platform for talent intelligence with $250M+ funding and Fortune 500 customers."
 permalink: /eightfold-ai-analysis/
 page_title: Eightfold.ai
 page_description: "In-depth analysis of Eightfold.ai HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # Eightfold.ai - Deep Analysis

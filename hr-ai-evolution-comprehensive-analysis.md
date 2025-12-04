@@ -1,9 +1,11 @@
 ---
 layout: article
 title: HR AI Evolution - Comprehensive Analysis
+description: "Comprehensive analysis of 46 HR AI products through Josh Bersin's framework. From 1990s ATS to modern agentic AI platforms."
 permalink: /hr-ai-evolution-comprehensive-analysis/
 page_title: HR AI Evolution
 page_description: "Comprehensive Analysis: From Applicant Tracking to Agentic Intelligence"
+last_modified_at: 2024-12-04
 ---
 
 # The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence - A Comprehensive Analysis

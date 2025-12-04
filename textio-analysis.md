@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "Textio Analysis"
+description: "Textio is an augmented writing platform using predictive analytics to optimize job descriptions for engagement and diversity."
 permalink: /textio-analysis/
 page_title: Textio
 page_description: "In-depth analysis of Textio HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # Textio - Deep Analysis

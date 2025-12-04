@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Modern Hire - Hiring Science Platform Analysis"
+description: "Modern Hire combines science-backed virtual interviewing with AI assessments. Reduces hiring bias by 70% and improves time-to-fill by 3 weeks."
 permalink: /modern-hire-analysis/
 product_name: "Modern Hire"
 product_tagline: "Science-Backed Virtual Interviews, Assessments & Predictive Analytics"
@@ -10,6 +11,7 @@ location: "Chicago, IL"
 category: "Virtual Interview & Assessment Platform"
 website: "https://modernhire.com/"
 tags: ["Interview Intelligence", "Assessment", "AI", "Predictive Analytics", "Video Interviewing"]
+last_modified_at: 2024-12-04
 key_features:
   - title: "Virtual Interviewing Platform"
     description: "Live and on-demand video interviews with automated scheduling, structured templates, and collaborative evaluation"

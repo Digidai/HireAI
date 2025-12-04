@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "SHL Analysis"
+description: "SHL is a global leader in psychometric testing administering 50M+ assessments annually across 100+ countries since 1984."
 permalink: /shl-analysis/
 page_title: SHL
 page_description: "In-depth analysis of SHL HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # SHL - Deep Analysis

@@ -5,7 +5,7 @@ permalink: /workday-recruiting-analysis/
 description: "Cloud-native recruiting solution integrated with comprehensive human capital management capabilities."
 product_url: "https://www.workday.com/en-us/products/human-capital-management/recruiting.html"
 era: "1990s - Applicant Tracking Systems (ATS)"
-last_updated: "2024-01-01"
+last_modified_at: 2024-12-04
 tags: ["ATS", "HCM", "Cloud"]
 ---
 

@@ -1,6 +1,22 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://digidai.github.io/HireAI/sitemap.xml
+# Sitemap
+Sitemap: https://hireai.genedai.me/sitemap.xml
 
-Disallow: /test.html
+# Disallow admin/private paths
+Disallow: /_templates/
+Disallow: /.claude/
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

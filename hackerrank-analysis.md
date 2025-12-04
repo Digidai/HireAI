@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "HackerRank Analysis"
+description: "HackerRank is a leading technical hiring platform with coding assessments in 50+ programming languages for 2,000+ companies."
 permalink: /hackerrank-analysis/
 page_title: HackerRank
 page_description: "In-depth analysis of HackerRank HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # HackerRank - Deep Analysis

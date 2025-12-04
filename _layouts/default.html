@@ -3,38 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the evolution of HR technology with HireAI. Get in-depth analysis of 150+ HR AI products, from classic ATS to cutting-edge Agentic AI platforms.">
-    <meta name="keywords" content="HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS">
-    <meta name="author" content="HireAI Contributors">
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://digidai.github.io/HireAI/">
-    <meta property="og:title" content="HireAI - HR AI Products Collection">
-    <meta property="og:description" content="Comprehensive collection of 150+ HR AI products organized by technological evolution.">
-    <meta property="og:image" content="https://opengraph.githubassets.com/1/Digidai/HireAI">
+    <!-- Primary Meta Tags -->
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.product_tagline %}{{ page.product_tagline }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS">
+    <meta name="author" content="HireAI">
+    <meta name="robots" content="index, follow">
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://digidai.github.io/HireAI/">
-    <meta property="twitter:title" content="HireAI - HR AI Products Collection">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
 
-    <link rel="canonical" href="https://digidai.github.io/HireAI/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{% if page.layout == 'product-detail' or page.layout == 'analysis' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.product_tagline %}{{ page.product_tagline }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}HireAI</title>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.product_tagline %}{{ page.product_tagline }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.png">
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+
+    <!-- Structured Data - Website -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "HireAI - HR AI Products Collection",
-      "description": "Comprehensive collection of 150+ HR AI products.",
-      "url": "https://digidai.github.io/HireAI/"
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ site.url }}/product-directory/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
 
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HireAI",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/assets/images/logo.png",
+      "sameAs": [
+        "https://github.com/Digidai/HireAI"
+      ]
+    }
+    </script>
+
+    {% if page.layout == 'product-detail' %}
+    <!-- Structured Data - Product/SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "{{ page.product_name }}",
+      "description": "{% if page.product_tagline %}{{ page.product_tagline }}{% else %}{{ page.description }}{% endif %}",
+      "url": "{{ page.website }}",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      {% if page.company %}"author": {
+        "@type": "Organization",
+        "name": "{{ page.company }}"
+      },{% endif %}
+      "review": {
+        "@type": "Review",
+        "reviewBody": "In-depth analysis of {{ page.product_name }} HR AI product.",
+        "author": {
+          "@type": "Organization",
+          "name": "HireAI"
+        }
+      }
+    }
+    </script>
+    {% endif %}
+
+    {% if page.layout == 'analysis' or page.layout == 'article' %}
+    <!-- Structured Data - Article -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ page.title }}",
+      "description": "{% if page.description %}{{ page.description }}{% elsif page.page_description %}{{ page.page_description }}{% endif %}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.last_updated %}{{ page.last_updated }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+      "author": {
+        "@type": "Organization",
+        "name": "HireAI"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "HireAI",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/images/logo.png"
+        }
+      }
+    }
+    </script>
+    {% endif %}
+
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
@@ -46,7 +135,7 @@
             </div>
         </div>
 
-        <nav class="sidebar-nav">
+        <nav class="sidebar-nav" aria-label="Main navigation">
             <a href="{{ site.baseurl }}/" class="nav-item {% if page.url == '/' %}active{% endif %}" aria-label="Home">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -124,7 +213,7 @@
         </svg>
     </button>
 
-    <main class="main-content">
+    <main class="main-content" role="main">
         <div class="content-wrapper">
             {{ content }}
         </div>

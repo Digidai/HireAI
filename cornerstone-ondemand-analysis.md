@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "Cornerstone OnDemand Analysis"
+description: "Cornerstone OnDemand is a comprehensive talent management platform for recruiting, learning, performance, and succession management."
 permalink: /cornerstone-ondemand-analysis/
 page_title: Cornerstone OnDemand
 page_description: "In-depth analysis of Cornerstone OnDemand HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # Cornerstone OnDemand - Deep Analysis

@@ -5,7 +5,7 @@ permalink: /sap-successfactors-analysis/
 description: "Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions."
 product_url: "https://www.sap.com/products/human-resources-hcm.html"
 era: "1990s - Applicant Tracking Systems (ATS)"
-last_updated: "2024-01-01"
+last_modified_at: 2024-12-04
 tags: ["ATS", "HCM", "Enterprise", "Performance Management"]
 ---
 

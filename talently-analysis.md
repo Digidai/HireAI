@@ -1,6 +1,7 @@
 ---
 layout: product-detail
 title: "Talently.ai - AI-Powered Real-Time Technical Interviewer Analysis"
+description: "Talently.ai is an AI technical interviewer conducting real-time live coding interviews in 20+ programming languages."
 permalink: /talently-analysis/
 product_name: "Talently.ai"
 product_tagline: "AI That Interviews Developers in Real-Time with Live Coding"
@@ -10,6 +11,7 @@ location: "Tel Aviv, Israel / San Francisco, CA"
 category: "AI Technical Interview Platform"
 website: "https://talently.ai/"
 tags: ["Interview Intelligence", "AI", "Technical Assessment", "Real-time", "Agentic AI"]
+last_modified_at: 2024-12-04
 key_features:
   - title: "Real-Time AI Interviewer"
     description: "AI conducts live technical interviews with candidates, asking questions, evaluating responses, and probing deeper in real-time"

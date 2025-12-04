@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "HireVue Analysis"
+description: "HireVue is a video interviewing and AI assessment platform with 700+ enterprise customers and advanced bias mitigation features."
 permalink: /hirevue-analysis/
 page_title: HireVue
 page_description: "In-depth analysis of HireVue HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # HireVue - Deep Analysis

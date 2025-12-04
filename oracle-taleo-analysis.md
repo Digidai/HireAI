@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "Oracle Taleo Analysis"
+description: "Oracle Taleo is a cloud-based talent management platform acquired by Oracle for $1.9B offering end-to-end recruiting and HR solutions."
 permalink: /oracle-taleo-analysis/
 page_title: Oracle Taleo
 page_description: "In-depth analysis of Oracle Taleo HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # Oracle Taleo - Deep Analysis

@@ -1,9 +1,11 @@
 ---
 layout: article
 title: "Greenhouse Analysis"
+description: "Greenhouse is a structured interviewing and collaborative hiring platform that reduces bias and improves hiring quality."
 permalink: /greenhouse-analysis/
 page_title: Greenhouse
 page_description: "In-depth analysis of Greenhouse HR AI product."
+last_modified_at: 2024-12-04
 ---
 
 # Greenhouse - Deep Analysis
