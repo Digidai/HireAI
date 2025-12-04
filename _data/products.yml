@@ -517,7 +517,7 @@
       tags: ["AI", "Automation", "Screening", "Predictive Analytics"]
     - name: "Modern Hire"
       url: "https://modernhire.com/"
-      analysis: null
+      analysis: "modern-hire-analysis.md"
       description: "Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions."
       tags: ["Interview Intelligence", "Assessment", "AI", "Predictive Analytics"]
     - name: "Criteria Corp"
