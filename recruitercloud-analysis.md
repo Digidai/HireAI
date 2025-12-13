@@ -49,13 +49,13 @@ pros_cons:
 related_products:
   - name: "Moonhub"
     description: "AI agents with expert talent teams built into the platform"
-    url: "moonhub-analysis.md"
+    url: "/moonhub-analysis/"
   - name: "Topaz Labs Recruitment AI"
     description: "Full-featured agentic AI platform for in-house recruiting"
-    url: "topaz-labs-analysis.md"
+    url: "/topaz-labs-analysis/"
   - name: "Hundred5"
     description: "On-demand recruiting platform with project-based engagement"
-    url: "#"
+    url: "https://hundred5.com/"
 ---
 
 # RecruiterCloud - Deep Analysis
@@ -546,13 +546,19 @@ While RecruiterCloud may not be ideal for every organization (particularly those
 
 ---
 
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
+
 ## Related Products
 
 Explore related recruitment solutions:
 
-- [Topaz Labs Recruitment AI](topaz-labs-analysis.md) - Autonomous AI platform for in-house recruiting teams
-- [Moonhub](moonhub-analysis.md) - AI agents with built-in expert talent teams
-- [Hundred5](# ) - On-demand recruiting project marketplace
-- [Massive](# ) - Independent recruiter marketplace platform
+- [Topaz Labs Recruitment AI]({{ site.baseurl }}/topaz-labs-analysis/) - Autonomous AI platform for in-house recruiting teams
+- [Moonhub]({{ site.baseurl }}/moonhub-analysis/) - AI agents with built-in expert talent teams
+- [Hundred5](https://hundred5.com/) - On-demand recruiting project marketplace
+- [Massive](https://www.massive.co/) - Independent recruiter marketplace platform
 
-[← Back to Product Directory](index.html)
+[← Back to Product Directory]({{ site.baseurl }}/product-directory/)

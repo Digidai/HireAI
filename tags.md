@@ -14,6 +14,9 @@ permalink: /tags/
         <span class="section-icon">&</span>
         <h2 class="section-title">All Tags</h2>
     </div>
+    <div style="margin: 16px 0;">
+        <input type="text" class="search-input" id="tag-search" placeholder="Search tags...">
+    </div>
     <div class="tag-cloud">
         {% assign all_tags = "" | split: "" %}
         {% for category in site.data.products %}
@@ -29,3 +32,12 @@ permalink: /tags/
         {% endfor %}
     </div>
 </section>
+
+<script>
+document.getElementById('tag-search').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    document.querySelectorAll('.tag-cloud a.tag').forEach(tag => {
+        tag.style.display = tag.textContent.toLowerCase().includes(searchTerm) ? '' : 'none';
+    });
+});
+</script>

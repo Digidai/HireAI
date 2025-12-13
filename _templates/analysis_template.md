@@ -1,50 +1,45 @@
 ---
-layout: default
-title: "Product Name - Analysis"
-description: "A brief description of the product."
+layout: article
+title: "Product Name Analysis"
+description: "One-sentence description for SEO/social previews."
+permalink: /product-name-analysis/
+page_title: Product Name
+page_description: "In-depth analysis of Product Name HR AI product."
+last_modified_at: 2025-01-01
 ---
 
-<main class="main-content">
-    <section class="section">
-        <h2>Product Name - Analysis</h2>
+# Product Name - Deep Analysis
 
-        <h3>1. 产品概述 (Product Overview)</h3>
-        <p>
-            <!-- Detailed overview of the product -->
-        </p>
+## Overview
 
-        <h3>2. 核心功能 (Core Features)</h3>
-        <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-        </ul>
+Describe what the product does, who it’s for, and why it matters in HR AI.
 
-        <h3>3. 技术架构 (Technical Architecture)</h3>
-        <p>
-            <!-- Information about the technical stack, e.g., programming languages, frameworks, cloud provider. -->
-        </p>
+## Key Features
 
-        <h3>4. 优缺点分析 (SWOT Analysis)</h3>
-        <h4>优点 (Strengths)</h4>
-        <ul>
-            <li>Strength 1</li>
-            <li>Strength 2</li>
-        </ul>
-        <h4>缺点 (Weaknesses)</h4>
-        <ul>
-            <li>Weakness 1</li>
-            <li>Weakness 2</li>
-        </ul>
+- Feature 1
+- Feature 2
+- Feature 3
 
-        <h3>5. 市场定位 (Market Positioning)</h3>
-        <p>
-            <!-- Target audience, pricing model, key competitors. -->
-        </p>
+## Technical Architecture
 
-        <h3>6. 总结 (Conclusion)</h3>
-        <p>
-            <!-- Overall summary and recommendation. -->
-        </p>
-    </section>
-</main>
+Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+
+## Market Position
+
+Cover target users, pricing/packaging (if known), and key competitors.
+
+## Pros & Cons
+
+### Pros
+
+- Pro 1
+- Pro 2
+
+### Cons
+
+- Con 1
+- Con 2
+
+## Conclusion
+
+Give a concise takeaway and when you’d recommend it.

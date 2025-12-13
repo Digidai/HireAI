@@ -490,3 +490,11 @@ For organizations serious about improving hiring quality, reducing bias, and mak
 6. **Evidence-Based Value**: Strong choice for organizations prioritizing valid, defensible, fair hiring processes over pure speed
 
 For recruiting leaders who want technology that's not just fast and flashy, but also valid, fair, and predictive of actual job success, Modern Hire represents hiring science at its practical best.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

@@ -411,3 +411,11 @@ As the agentic AI recruiting market grows from tens of millions to hundreds of m
 6. **Innovation Focus**: Cutting-edge implementation of AI agents working autonomously 24/7 to advance recruiting goals
 
 For organizations ready to embrace the future of recruiting and willing to invest in premium solutions, Moonhub offers a glimpse of how AI agents will transform talent acquisition from a labor-intensive process to an automated, intelligent system that delivers better results faster.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

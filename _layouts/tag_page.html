@@ -20,7 +20,7 @@ layout: default
                     <p class="card-description">{{ product.description }}</p>
                     <div class="card-footer">
                         {% for tag in product.tags %}
-                        <span class="tag">{{ tag }}</span>
+                        <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
                         {% endfor %}
                     </div>
                     {% if product.analysis %}

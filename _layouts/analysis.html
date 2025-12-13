@@ -9,24 +9,26 @@ layout: default
         {% endif %}
     </div>
 
-    {% if page.product_url or page.tags or page.era %}
-    <div class="article-meta-bar">
-        {% if page.product_url %}
-        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.product_url }}" target="_blank" rel="noopener">{{ page.product_url }}</a></span>
-        {% endif %}
-        {% if page.era %}
-        <span class="meta-item"><strong>Era:</strong> {{ page.era }}</span>
-        {% endif %}
-        {% if page.last_updated %}
-        <span class="meta-item"><strong>Updated:</strong> {{ page.last_updated | date: "%B %d, %Y" }}</span>
-        {% endif %}
-    </div>
-    {% endif %}
+	    {% assign website = page.website | default: page.product_url %}
+	    {% assign updated_at = page.last_modified_at | default: page.last_updated %}
+	    {% if website or page.tags or page.era %}
+	    <div class="article-meta-bar">
+	        {% if website %}
+	        <span class="meta-item"><strong>Website:</strong> <a href="{{ website }}" target="_blank" rel="noopener">{{ website }}</a></span>
+	        {% endif %}
+	        {% if page.era %}
+	        <span class="meta-item"><strong>Era:</strong> {{ page.era }}</span>
+	        {% endif %}
+	        {% if updated_at %}
+	        <span class="meta-item"><strong>Updated:</strong> {{ updated_at | date: "%B %d, %Y" }}</span>
+	        {% endif %}
+	    </div>
+	    {% endif %}
 
     {% if page.tags %}
     <div class="article-tags">
         {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>
+        <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
         {% endfor %}
     </div>
     {% endif %}
@@ -39,52 +41,3 @@ layout: default
         <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">← Back to Products</a>
     </div>
 </article>
-
-<style>
-.article-page {
-    max-width: 100%;
-}
-
-.article-meta-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 16px 20px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    margin-bottom: 16px;
-}
-
-.article-meta-bar .meta-item {
-    font-size: 14px;
-    color: var(--text-secondary);
-}
-
-.article-meta-bar .meta-item strong {
-    color: var(--text-primary);
-}
-
-.article-meta-bar .meta-item a {
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
-.article-meta-bar .meta-item a:hover {
-    text-decoration: underline;
-}
-
-.article-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 32px;
-}
-
-@media (max-width: 768px) {
-    .article-meta-bar {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-</style>

@@ -3,6 +3,8 @@ layout: article
 title: "Greenhouse Analysis"
 description: "Greenhouse is a structured interviewing and collaborative hiring platform that reduces bias and improves hiring quality."
 permalink: /greenhouse-analysis/
+website: "https://www.greenhouse.io/"
+tags: ["ATS", "Structured Interviewing", "DEI"]
 page_title: Greenhouse
 page_description: "In-depth analysis of Greenhouse HR AI product."
 last_modified_at: 2024-12-04
@@ -120,3 +122,11 @@ Greenhouse is positioned to continue leading in the structured hiring platform m
 Greenhouse represents a new generation of recruiting platforms that focus on specific aspects of the hiring process with exceptional depth. Its emphasis on structured interviewing and bias reduction addresses critical challenges in modern talent acquisition.
 
 While not a complete HR suite, Greenhouse provides exceptional value for organizations that prioritize hiring quality and fairness. Its educational approach and focus on best practices make it particularly appealing to companies seeking to professionalize their hiring processes. As organizations continue to focus on diversity and inclusion, and as remote hiring becomes increasingly common, Greenhouse's specialized capabilities position it well for continued growth and success.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

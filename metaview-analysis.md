@@ -45,13 +45,13 @@ pros_cons:
     - "Dependent on audio quality for accurate transcription"
 related_products:
   - name: "BrightHire"
-    url: "#"
+    url: "https://www.brighthire.ai/"
     description: "Interview intelligence with structured interview guides"
   - name: "HireVue"
-    url: "/hirevue-analysis"
+    url: "/hirevue-analysis/"
     description: "Video interviewing with AI-powered assessments"
   - name: "Greenhouse"
-    url: "/greenhouse-analysis"
+    url: "/greenhouse-analysis/"
     description: "ATS with structured interviewing capabilities"
 ---
 
@@ -261,6 +261,9 @@ As interview intelligence becomes table stakes in modern recruiting, tools like 
 
 ---
 
-**Last Updated**: January 2025
-**Analysis Version**: 1.0
-**Data Sources**: Metaview.ai, customer case studies, G2 reviews, industry analyst reports
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+- Additional references: customer case studies, G2 reviews, industry analyst reports
+
+_Last updated: January 2025. Version: 1.0._

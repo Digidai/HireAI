@@ -32,7 +32,7 @@ layout: default
     {% if page.tags %}
     <div class="product-tags">
         {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>
+        <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
         {% endfor %}
     </div>
     {% endif %}
@@ -103,16 +103,20 @@ layout: default
 
     {% if page.related_products %}
     <section class="product-section">
-        <h2>Related Products</h2>
-        <div class="related-grid">
-            {% for related in page.related_products %}
-            <div class="related-card">
-                <h4><a href="{{ related.url }}">{{ related.name }}</a></h4>
-                <p>{{ related.description }}</p>
-            </div>
-            {% endfor %}
-        </div>
-    </section>
+	        <h2>Related Products</h2>
+	        <div class="related-grid">
+	            {% for related in page.related_products %}
+	            <div class="related-card">
+	                {% assign related_href = related.url %}
+	                {% unless related_href contains '://' %}
+	                {% assign related_href = site.baseurl | append: related_href %}
+	                {% endunless %}
+	                <h4><a href="{{ related_href }}">{{ related.name }}</a></h4>
+	                <p>{{ related.description }}</p>
+	            </div>
+	            {% endfor %}
+	        </div>
+	    </section>
     {% endif %}
 
     <div class="page-footer">

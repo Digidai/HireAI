@@ -3,6 +3,8 @@ layout: article
 title: "Cornerstone OnDemand Analysis"
 description: "Cornerstone OnDemand is a comprehensive talent management platform for recruiting, learning, performance, and succession management."
 permalink: /cornerstone-ondemand-analysis/
+website: "https://www.cornerstoneondemand.com/"
+tags: ["Talent Management", "Performance Management"]
 page_title: Cornerstone OnDemand
 page_description: "In-depth analysis of Cornerstone OnDemand HR AI product."
 last_modified_at: 2024-12-04
@@ -120,3 +122,11 @@ Cornerstone OnDemand is positioned to continue evolving as organizations increas
 Cornerstone OnDemand represents a unique approach to talent management that emphasizes learning and development as core to organizational success. Its comprehensive content library and extended enterprise capabilities make it particularly attractive to organizations with extensive training requirements.
 
 While the platform offers extensive functionality, its complexity and cost may make it more suitable for mid to large enterprises with significant training needs. For organizations prioritizing employee development and requiring robust extended enterprise capabilities, Cornerstone OnDemand provides a comprehensive foundation for talent management.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

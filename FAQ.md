@@ -138,5 +138,5 @@ permalink: /FAQ/
 </section>
 
 <div class="page-footer">
-    <a href="/" class="btn btn-secondary">Back to Home</a>
+    <a href="{{ site.baseurl }}/" class="btn btn-secondary">Back to Home</a>
 </div>

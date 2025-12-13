@@ -10,7 +10,7 @@ founded: "2023"
 location: "Tel Aviv, Israel / San Francisco, CA"
 category: "AI Technical Interview Platform"
 website: "https://talently.ai/"
-tags: ["Interview Intelligence", "AI", "Technical Assessment", "Real-time", "Agentic AI"]
+tags: ["Interview Intelligence", "AI", "Technical Assessment", "Agentic AI"]
 last_modified_at: 2024-12-04
 key_features:
   - title: "Real-Time AI Interviewer"
@@ -50,13 +50,13 @@ pros_cons:
 related_products:
   - name: "HackerRank"
     description: "Established technical assessment platform with coding challenges"
-    url: "hackerrank-analysis.md"
+    url: "/hackerrank-analysis/"
   - name: "Karat"
     description: "Technical interviewing platform with human expert interviewers"
-    url: "#"
+    url: "https://karat.com/"
   - name: "Codility"
     description: "Technical hiring platform with coding tests and assessments"
-    url: "#"
+    url: "https://www.codility.com/"
 ---
 
 # Talently.ai - Deep Analysis
@@ -627,13 +627,19 @@ For organizations meeting the ideal use case profile, Talently can dramatically 
 
 ---
 
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
+
 ## Related Products
 
 Explore related technical assessment platforms:
 
-- [HackerRank](hackerrank-analysis.md) - Established technical assessment with comprehensive coding challenges
-- [Karat](#) - Technical interviewing with expert human interviewers on demand
-- [Codility](#) - Technical hiring platform with coding tests and interview solutions
-- [CodeSignal](#) - Skills-based technical assessment with coding challenges
+- [HackerRank]({{ site.baseurl }}/hackerrank-analysis/) - Established technical assessment with comprehensive coding challenges
+- [Karat](https://karat.com/) - Technical interviewing with expert human interviewers on demand
+- [Codility](https://www.codility.com/) - Technical hiring platform with coding tests and interview solutions
+- [CodeSignal](https://codesignal.com/) - Skills-based technical assessment with coding challenges
 
-[← Back to Product Directory](index.html)
+[← Back to Product Directory]({{ site.baseurl }}/product-directory/)

@@ -49,13 +49,13 @@ pros_cons:
 related_products:
   - name: "Moonhub"
     description: "Agentic AI platform with expert talent teams for 5x faster hiring"
-    url: "moonhub-analysis.md"
+    url: "/moonhub-analysis/"
   - name: "Eightfold.ai"
     description: "Talent intelligence platform using deep learning for matching and career pathing"
-    url: "eightfold-ai-analysis.md"
+    url: "/eightfold-ai-analysis/"
   - name: "hireEZ"
     description: "All-in-one agentic AI recruiting with advanced sourcing capabilities"
-    url: "hireez-analysis.md"
+    url: "/hireez-analysis/"
 ---
 
 # Topaz Labs Recruitment AI - Deep Analysis
@@ -447,13 +447,19 @@ While the premium pricing and initial training period present barriers to entry,
 
 ---
 
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
+
 ## Related Products
 
 Explore similar agentic AI recruiting platforms:
 
-- [Moonhub](moonhub-analysis.md) - AI agents with expert talent teams for 5x faster hiring
-- [hireEZ](hireez-analysis.md) - All-in-one agentic AI recruiting with ResumeSense fraud detection
-- [Eightfold.ai](eightfold-ai-analysis.md) - Talent intelligence platform with deep learning
-- [Workday Recruiter Agent](workday-recruiter-agent-analysis.md) - Enterprise agentic AI integrated with Workday HCM
+- [Moonhub]({{ site.baseurl }}/moonhub-analysis/) - AI agents with expert talent teams for 5x faster hiring
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) - All-in-one agentic AI recruiting with ResumeSense fraud detection
+- [Eightfold.ai]({{ site.baseurl }}/eightfold-ai-analysis/) - Talent intelligence platform with deep learning
+- [Workday Recruiter Agent]({{ site.baseurl }}/workday-recruiter-agent-analysis/) - Enterprise agentic AI integrated with Workday HCM
 
-[← Back to Product Directory](index.html)
+[← Back to Product Directory]({{ site.baseurl }}/product-directory/)

@@ -3,7 +3,7 @@ layout: analysis
 title: "Workday Recruiting"
 permalink: /workday-recruiting-analysis/
 description: "Cloud-native recruiting solution integrated with comprehensive human capital management capabilities."
-product_url: "https://www.workday.com/en-us/products/human-capital-management/recruiting.html"
+website: "https://www.workday.com/en-us/products/human-capital-management/recruiting.html"
 era: "1990s - Applicant Tracking Systems (ATS)"
 last_modified_at: 2024-12-04
 tags: ["ATS", "HCM", "Cloud"]
@@ -116,3 +116,9 @@ Workday Recruiting is positioned to continue leading in the modern recruiting te
 Workday Recruiting represents the evolution of recruiting technology from administrative systems to strategic talent platforms. Its cloud-native architecture, unified data model, and focus on user experience make it a compelling choice for organizations seeking modern recruiting capabilities.
 
 While the solution requires a significant investment and may be overkill for smaller organizations, it provides exceptional value for mid to large enterprises that prioritize user experience, real-time insights, and integrated HR processes. As part of the broader Workday ecosystem, it offers a future-proof foundation for talent acquisition in the digital age.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})

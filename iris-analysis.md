@@ -50,13 +50,13 @@ pros_cons:
 related_products:
   - name: "Paradox (Olivia)"
     description: "Established conversational AI recruiting assistant with enterprise focus"
-    url: "#"
+    url: "https://www.paradox.ai/"
   - name: "Moonhub"
     description: "Agentic AI with human expert teams for comprehensive recruiting"
-    url: "moonhub-analysis.md"
+    url: "/moonhub-analysis/"
   - name: "XOR"
     description: "Conversational AI for automated candidate screening and engagement"
-    url: "#"
+    url: "https://www.xor.ai/"
 ---
 
 # Iris by Qureos - Deep Analysis
@@ -587,13 +587,19 @@ For organizations hiring 50+ people per year, the ROI is compelling and risk is 
 
 ---
 
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
+
 ## Related Products
 
 Explore similar conversational AI recruiting solutions:
 
-- [Paradox (Olivia)](#) - Established conversational AI with strong enterprise market presence
-- [XOR](#) - Conversational AI for automated candidate screening and engagement
-- [Mya Systems](#) - Conversational recruiting assistant for high-volume hiring
-- [Moonhub](moonhub-analysis.md) - Agentic AI platform with human expert teams for comprehensive recruiting
+- [Paradox (Olivia)](https://www.paradox.ai/) - Established conversational AI with strong enterprise market presence
+- [XOR](https://www.xor.ai/) - Conversational AI for automated candidate screening and engagement
+- [Mya Systems](https://www.mya.com/) - Conversational recruiting assistant for high-volume hiring
+- [Moonhub]({{ site.baseurl }}/moonhub-analysis/) - Agentic AI platform with human expert teams for comprehensive recruiting
 
-[← Back to Product Directory](index.html)
+[← Back to Product Directory]({{ site.baseurl }}/product-directory/)

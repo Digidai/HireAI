@@ -41,10 +41,10 @@ pros_cons:
     - "May require change management for traditional recruiting teams"
 related_products:
   - name: "Eightfold.ai"
-    url: "/eightfold-ai-analysis"
+    url: "/eightfold-ai-analysis/"
     description: "Talent intelligence platform with deep learning capabilities"
   - name: "Paradox"
-    url: "#"
+    url: "https://www.paradox.ai/"
     description: "Conversational recruiting with AI assistant Olivia"
 ---
 
@@ -142,5 +142,9 @@ However, success with agentic AI requires a cultural shift. Organizations must b
 
 ---
 
-**Last Updated**: January 2025
-**Version**: Analysis based on Workday's 2024 product announcements and early adopter feedback
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+- References: Workday product announcements (2024), early adopter feedback (public)
+
+_Last updated: January 2025._

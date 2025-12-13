@@ -1080,6 +1080,47 @@ body {
     margin: 4px 0;
 }
 
+/* Article Meta */
+.article-page {
+    max-width: 100%;
+}
+
+.article-meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px 20px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    margin-bottom: 16px;
+}
+
+.article-meta-bar .meta-item {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.article-meta-bar .meta-item strong {
+    color: var(--text-primary);
+}
+
+.article-meta-bar .meta-item a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.article-meta-bar .meta-item a:hover {
+    text-decoration: underline;
+}
+
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
 /* Analysis Layout */
 .analysis-layout {
     display: grid;
@@ -1468,6 +1509,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .article-meta-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .sidebar {
         transform: translateX(-100%);
     }

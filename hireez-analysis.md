@@ -536,3 +536,11 @@ For organizations committed to AI-powered recruiting and willing to invest in a 
 6. **Enterprise-Grade**: Comprehensive features, integrations, and security for large-scale recruiting operations
 
 For recruiting teams serious about leveraging AI throughout the talent acquisition lifecycle and willing to invest in a comprehensive platform, hireEZ offers one of the most complete solutions in the market. Its combination of breadth (all-in-one platform), depth (advanced AI features), scale (800M+ profiles), and innovation (fraud detection) positions it as a leader in the agentic AI recruiting category.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

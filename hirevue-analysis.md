@@ -3,6 +3,8 @@ layout: article
 title: "HireVue Analysis"
 description: "HireVue is a video interviewing and AI assessment platform with 700+ enterprise customers and advanced bias mitigation features."
 permalink: /hirevue-analysis/
+website: "https://www.hirevue.com/"
+tags: ["Video Interviewing", "AI", "Assessment"]
 page_title: HireVue
 page_description: "In-depth analysis of HireVue HR AI product."
 last_modified_at: 2024-12-04
@@ -122,3 +124,11 @@ HireVue represents both the promise and challenges of AI-powered hiring technolo
 For organizations that can navigate the ethical and regulatory considerations, HireVue offers powerful capabilities for scaling hiring processes and gaining insights into candidate suitability. However, companies must carefully weigh the benefits of AI-powered assessment against potential risks related to bias, candidate perception, and regulatory compliance.
 
 As the conversation around ethical AI in HR continues to evolve, HireVue's approach and market position will likely continue to develop in response to both technological possibilities and societal expectations.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

@@ -3,6 +3,8 @@ layout: article
 title: "Textio Analysis"
 description: "Textio is an augmented writing platform using predictive analytics to optimize job descriptions for engagement and diversity."
 permalink: /textio-analysis/
+website: "https://textio.com/"
+tags: ["AI", "DEI", "NLP"]
 page_title: Textio
 page_description: "In-depth analysis of Textio HR AI product."
 last_modified_at: 2024-12-04
@@ -120,3 +122,11 @@ Textio is positioned to continue expanding as organizations increasingly recogni
 Textio represents a unique and valuable approach to improving recruiting effectiveness through language optimization. Its specialized focus on the linguistic aspects of talent acquisition provides tangible benefits for organizations seeking to improve their employer branding and attract more diverse candidates.
 
 While not a complete recruiting solution, Textio serves as an excellent complement to existing ATS and sourcing tools. Organizations that prioritize candidate experience and diversity in their hiring practices will find significant value in Textio's data-driven approach to content optimization. As AI and natural language processing continue to advance, Textio is well-positioned to maintain its leadership in the recruiting content optimization space.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

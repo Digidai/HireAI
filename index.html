@@ -8,12 +8,16 @@ title: Home
 </div>
 
 <div class="stats-row">
+    {% assign product_count = 0 %}
+    {% for category in site.data.products %}
+        {% assign product_count = product_count | plus: category.products.size %}
+    {% endfor %}
     <div class="stat-item">
-        <span class="stat-value">150+</span>
+        <span class="stat-value">{{ product_count }}</span>
         <span class="stat-label">HR AI Products</span>
     </div>
     <div class="stat-item">
-        <span class="stat-value">5</span>
+        <span class="stat-value">{{ site.data.products.size }}</span>
         <span class="stat-label">Technology Eras</span>
     </div>
     <div class="stat-item">

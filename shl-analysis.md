@@ -3,6 +3,8 @@ layout: article
 title: "SHL Analysis"
 description: "SHL is a global leader in psychometric testing administering 50M+ assessments annually across 100+ countries since 1984."
 permalink: /shl-analysis/
+website: "https://www.shl.com/"
+tags: ["Assessment", "Psychometric"]
 page_title: SHL
 page_description: "In-depth analysis of SHL HR AI product."
 last_modified_at: 2024-12-04
@@ -121,3 +123,11 @@ SHL represents the gold standard in scientifically validated talent assessment s
 While the company's solutions may be more expensive and complex than some alternatives, they offer unparalleled scientific rigor and global scalability. Organizations that prioritize data-driven talent decisions and require legally defensible assessment processes will find significant value in SHL's comprehensive assessment solutions.
 
 As the talent assessment market continues to evolve with new technologies and changing candidate expectations, SHL's commitment to scientific validity while embracing innovation positions it well for continued leadership in the space.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.

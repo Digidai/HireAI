@@ -3,6 +3,8 @@ layout: article
 title: "HackerRank Analysis"
 description: "HackerRank is a leading technical hiring platform with coding assessments in 50+ programming languages for 2,000+ companies."
 permalink: /hackerrank-analysis/
+website: "https://www.hackerrank.com/"
+tags: ["Technical Assessment", "Developer Community"]
 page_title: HackerRank
 page_description: "In-depth analysis of HackerRank HR AI product."
 last_modified_at: 2024-12-04
@@ -122,3 +124,11 @@ HackerRank represents the evolution of technical hiring from credential-based ev
 While primarily relevant for technical roles, HackerRank provides exceptional value for organizations with significant software engineering hiring needs. Its combination of technical expertise, comprehensive assessment library, and developer-friendly approach makes it a standout solution in the technical recruiting space.
 
 As the demand for technical talent continues to outpace supply, and as organizations increasingly focus on skills-based hiring, HackerRank is well-positioned to maintain its leadership role in technical assessment and evaluation.
+
+---
+
+## Sources
+
+- Official website: [{{ page.website }}]({{ page.website }})
+
+> Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
