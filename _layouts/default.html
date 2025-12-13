@@ -35,7 +35,7 @@
         {% assign meta_keywords = page.tag | append: ', ' | append: meta_keywords %}
     {% endif %}
     {% assign site_root = site.url | append: site.baseurl %}
-    {% assign canonical_url = site_root | append: (page.url | replace: 'index.html', '') %}
+    {% assign canonical_url = site_root | append: page.url | replace: 'index.html', '' %}
 
     <!-- Primary Meta Tags -->
     <title>{{ meta_title | escape }}</title>
@@ -84,7 +84,7 @@
       "url": {{ site_root | jsonify }},
       "potentialAction": {
         "@type": "SearchAction",
-        "target": {{ (site.url | append: site.baseurl | append: '/product-directory/?q={search_term_string}') | jsonify }},
+        "target": {{ site.url | append: site.baseurl | append: '/product-directory/?q={search_term_string}' | jsonify }},
         "query-input": {{ 'required name=search_term_string' | jsonify }}
       }
     }
@@ -97,7 +97,7 @@
       "@type": "Organization",
       "name": {{ 'HireAI' | jsonify }},
       "url": {{ site_root | jsonify }},
-      "logo": {{ (site_root | append: '/assets/images/logo.png') | jsonify }},
+      "logo": {{ site_root | append: '/assets/images/logo.png' | jsonify }},
       "sameAs": [
         "https://github.com/Digidai/HireAI"
       ]
@@ -123,7 +123,7 @@
       },{% endif %}
       "review": {
         "@type": "Review",
-        "reviewBody": {{ ('In-depth analysis of ' | append: page.product_name | append: ' HR AI product.') | jsonify }},
+        "reviewBody": {{ 'In-depth analysis of ' | append: page.product_name | append: ' HR AI product.' | jsonify }},
         "author": {
           "@type": "Organization",
           "name": "HireAI"
@@ -145,7 +145,7 @@
       "@type": "Article",
       "headline": {{ page.title | jsonify }},
       "description": {{ article_description | jsonify }},
-      "url": {{ (site.url | append: site.baseurl | append: page.url) | jsonify }},
+      "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
       "datePublished": {{ published_at | date_to_xmlschema | jsonify }},
       "dateModified": {{ modified_at | date_to_xmlschema | jsonify }},
       "author": {
@@ -157,7 +157,7 @@
         "name": "HireAI",
         "logo": {
           "@type": "ImageObject",
-          "url": {{ (site.url | append: site.baseurl | append: '/assets/images/logo.png') | jsonify }}
+          "url": {{ site.url | append: site.baseurl | append: '/assets/images/logo.png' | jsonify }}
         }
       }
     }
