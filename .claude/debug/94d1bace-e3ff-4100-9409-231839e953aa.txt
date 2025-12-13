@@ -1,0 +1,24 @@
+2025-11-20T08:58:15.795Z [DEBUG] Watching for changes in setting files /Users/dai/Documents/CursorProjects/digidai.github.io/.claude/settings.json, /Users/dai/Documents/CursorProjects/digidai.github.io/.claude/settings.json, /Users/dai/Documents/CursorProjects/digidai.github.io/.claude/settings.local.json...
+2025-11-20T08:58:15.833Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '.claude/.claude.json'
+2025-11-20T08:58:15.833Z [DEBUG] Writing to temp file: .claude/.claude.json.tmp.44263.1763629095833
+2025-11-20T08:58:15.833Z [DEBUG] Setting permissions for new file: 600
+2025-11-20T08:58:15.834Z [DEBUG] Temp file written successfully, size: 103 bytes
+2025-11-20T08:58:15.834Z [DEBUG] Renaming .claude/.claude.json.tmp.44263.1763629095833 to .claude/.claude.json
+2025-11-20T08:58:15.834Z [DEBUG] File .claude/.claude.json written atomically
+2025-11-20T08:58:15.834Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-20T08:58:15.834Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-20T08:58:15.834Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-20T08:58:15.834Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-20T08:58:15.834Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-20T08:58:15.835Z [DEBUG] Writing to temp file: .claude/.claude.json.tmp.44263.1763629095835
+2025-11-20T08:58:15.836Z [DEBUG] Preserving file permissions: 100600
+2025-11-20T08:58:15.836Z [DEBUG] Temp file written successfully, size: 183 bytes
+2025-11-20T08:58:15.836Z [DEBUG] Applied original permissions to temp file
+2025-11-20T08:58:15.836Z [DEBUG] Renaming .claude/.claude.json.tmp.44263.1763629095835 to .claude/.claude.json
+2025-11-20T08:58:15.836Z [DEBUG] File .claude/.claude.json written atomically
+2025-11-20T08:58:15.839Z [DEBUG] Writing to temp file: .claude/.claude.json.tmp.44263.1763629095839
+2025-11-20T08:58:15.839Z [DEBUG] Preserving file permissions: 100600
+2025-11-20T08:58:15.839Z [DEBUG] Temp file written successfully, size: 220 bytes
+2025-11-20T08:58:15.839Z [DEBUG] Applied original permissions to temp file
+2025-11-20T08:58:15.839Z [DEBUG] Renaming .claude/.claude.json.tmp.44263.1763629095839 to .claude/.claude.json
+2025-11-20T08:58:15.839Z [DEBUG] File .claude/.claude.json written atomically

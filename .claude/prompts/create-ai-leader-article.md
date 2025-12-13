@@ -1021,7 +1021,8 @@ git log -1 --stat
 
 ### 10.1 Stage and Commit SEO Files
 
-**CRITICAL:** The pre-commit hook generates SEO files but does NOT automatically add them to the commit. You must commit them separately.
+**CRITICAL:** The pre-commit hook generates SEO files but does NOT automatically add them to the commit. You must commit
+them separately.
 
 ```bash
 # Stage the generated SEO files
@@ -1043,7 +1044,9 @@ git commit \
 
 **Why This Step is Necessary:**
 
-The pre-commit hook runs AFTER you create the initial commit, so the generated SEO files are not included. You must commit them separately to ensure:
+The pre-commit hook runs AFTER you create the initial commit, so the generated SEO files are not included. You must
+commit them separately to ensure:
+
 - Sitemap includes the new article URL
 - Search engines can discover the new content
 - llms.txt has the latest article metadata
@@ -1651,5 +1654,5 @@ git push
 
 **Last Updated:** 2025-11-28 **Template Version:** 1.1 **Next Review Date:** 2025-12-17 (or after next 5 articles)
 
-**Last Article Created:** 2025-11-28 - Daniel Gross and AI Pioneer Fund: From Jerusalem Teenager to the Architect of Meta's Superintelligence Future
-
+**Last Article Created:** 2025-11-28 - Daniel Gross and AI Pioneer Fund: From Jerusalem Teenager to the Architect of
+Meta's Superintelligence Future
