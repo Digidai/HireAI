@@ -16,6 +16,19 @@
 
 本项目致力于收集和整理人力资源（HR）领域的 AI 产品和解决方案。它驱动 HireAI 网站与产品目录：产品数据维护在 `_data/products.yml`，分析文章以 Markdown 形式保存在仓库根目录。
 
+## 本地开发
+
+前置条件：Ruby + Bundler。
+
+- 安装依赖：`bundle install`
+- 运行数据校验：`ruby _scripts/check_site_data.rb`
+- 本地预览：`bundle exec jekyll serve`
+- 构建：`JEKYLL_ENV=production bundle exec jekyll build`
+
+## 部署（GitHub Pages）
+
+本仓库包含 GitHub Actions 工作流 `.github/workflows/jekyll-gh-pages.yml`，用于构建并部署到 GitHub Pages。请在 GitHub Pages 设置中将 **Build and deployment** → **Source** 设为 **GitHub Actions**。
+
 ## 项目结构
 
 本项目将包含以下内容：

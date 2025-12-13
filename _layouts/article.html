@@ -4,17 +4,17 @@ layout: default
 <article class="article-page">
     <div class="page-header">
         {% if page.page_title %}
-        <h1 class="page-title">{{ page.page_title }}</h1>
+        <h1 class="page-title">{{ page.page_title | escape }}</h1>
         {% endif %}
         {% if page.page_description %}
-        <p class="page-description">{{ page.page_description }}</p>
+        <p class="page-description">{{ page.page_description | escape }}</p>
         {% endif %}
     </div>
 
     {% if page.website or page.tags or page.last_modified_at %}
     <div class="article-meta-bar">
         {% if page.website %}
-        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ page.website }}</a></span>
+        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.website | escape }}" target="_blank" rel="noopener noreferrer">{{ page.website | escape }}</a></span>
         {% endif %}
         {% if page.last_modified_at %}
         <span class="meta-item"><strong>Updated:</strong> {{ page.last_modified_at | date: "%B %d, %Y" }}</span>
@@ -25,7 +25,7 @@ layout: default
     {% if page.tags %}
     <div class="article-tags">
         {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
         {% endfor %}
     </div>
     {% endif %}

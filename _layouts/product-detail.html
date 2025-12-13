@@ -3,36 +3,36 @@ layout: default
 ---
 <article class="product-detail-page">
     <div class="product-header">
-        <h1>{{ page.product_name }}</h1>
+        <h1>{{ page.product_name | escape }}</h1>
         {% if page.product_tagline %}
-        <p class="product-tagline">{{ page.product_tagline }}</p>
+        <p class="product-tagline">{{ page.product_tagline | escape }}</p>
         {% endif %}
     </div>
 
     <div class="product-meta-bar">
         <div class="meta-items">
             {% if page.company %}
-            <span class="meta-item"><strong>Company:</strong> {{ page.company }}</span>
+            <span class="meta-item"><strong>Company:</strong> {{ page.company | escape }}</span>
             {% endif %}
             {% if page.founded %}
-            <span class="meta-item"><strong>Founded:</strong> {{ page.founded }}</span>
+            <span class="meta-item"><strong>Founded:</strong> {{ page.founded | escape }}</span>
             {% endif %}
             {% if page.location %}
-            <span class="meta-item"><strong>Location:</strong> {{ page.location }}</span>
+            <span class="meta-item"><strong>Location:</strong> {{ page.location | escape }}</span>
             {% endif %}
             {% if page.category %}
-            <span class="meta-item"><strong>Category:</strong> {{ page.category }}</span>
+            <span class="meta-item"><strong>Category:</strong> {{ page.category | escape }}</span>
             {% endif %}
         </div>
         {% if page.website %}
-        <a href="{{ page.website }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website →</a>
+        <a href="{{ page.website | escape }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website →</a>
         {% endif %}
     </div>
 
     {% if page.tags %}
     <div class="product-tags">
         {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
         {% endfor %}
     </div>
     {% endif %}
@@ -47,8 +47,8 @@ layout: default
         <div class="features-grid">
             {% for feature in page.key_features %}
             <div class="feature-card">
-                <h4>{{ feature.title }}</h4>
-                <p>{{ feature.description }}</p>
+                <h4>{{ feature.title | escape }}</h4>
+                <p>{{ feature.description | escape }}</p>
             </div>
             {% endfor %}
         </div>
@@ -58,7 +58,7 @@ layout: default
     {% if page.pricing %}
     <section class="product-section pricing-section">
         <h2>Pricing</h2>
-        <p>{{ page.pricing }}</p>
+        <p>{{ page.pricing | escape }}</p>
     </section>
     {% endif %}
 
@@ -67,7 +67,7 @@ layout: default
         <h2>Ideal For</h2>
         <ul class="ideal-for-list">
             {% for item in page.ideal_for %}
-            <li>{{ item }}</li>
+            <li>{{ item | escape }}</li>
             {% endfor %}
         </ul>
     </section>
@@ -82,7 +82,7 @@ layout: default
                 <h3>✓ Pros</h3>
                 <ul>
                     {% for pro in page.pros_cons.pros %}
-                    <li>{{ pro }}</li>
+                    <li>{{ pro | escape }}</li>
                     {% endfor %}
                 </ul>
             </div>
@@ -92,7 +92,7 @@ layout: default
                 <h3>✗ Cons</h3>
                 <ul>
                     {% for con in page.pros_cons.cons %}
-                    <li>{{ con }}</li>
+                    <li>{{ con | escape }}</li>
                     {% endfor %}
                 </ul>
             </div>
@@ -111,8 +111,8 @@ layout: default
 	                {% unless related_href contains '://' %}
 	                {% assign related_href = site.baseurl | append: related_href %}
 	                {% endunless %}
-	                <h4><a href="{{ related_href }}">{{ related.name }}</a></h4>
-	                <p>{{ related.description }}</p>
+	                <h4><a href="{{ related_href | escape }}">{{ related.name | escape }}</a></h4>
+	                <p>{{ related.description | escape }}</p>
 	            </div>
 	            {% endfor %}
 	        </div>

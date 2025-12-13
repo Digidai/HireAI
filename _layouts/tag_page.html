@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="page-header">
     <div class="page-icon">#</div>
-    <h1 class="page-title">{{ page.tag }}</h1>
-    <p class="page-description">Products tagged with "{{ page.tag }}"</p>
+    <h1 class="page-title">{{ page.tag | escape }}</h1>
+    <p class="page-description">Products tagged with "{{ page.tag | escape }}"</p>
 </div>
 
 {% assign checklist = site.data.tag_checklists[page.tag | slugify] %}
@@ -15,10 +15,10 @@ layout: default
         <h2 class="section-title">Evaluation Checklist</h2>
     </div>
     <div class="markdown-content">
-        <p>Use this checklist to validate capabilities for products with the <strong>{{ page.tag }}</strong> tag.</p>
+        <p>Use this checklist to validate capabilities for products with the <strong>{{ page.tag | escape }}</strong> tag.</p>
         <ul>
             {% for item in checklist %}
-            <li>{{ item }}</li>
+            <li>{{ item | escape }}</li>
             {% endfor %}
         </ul>
     </div>
@@ -33,12 +33,12 @@ layout: default
                 <div class="card">
                     <div class="card-header">
                         <span class="card-icon">{{ category.icon }}</span>
-                        <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></h3>
+                        <h3 class="card-title"><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a></h3>
                     </div>
-                    <p class="card-description">{{ product.description }}</p>
+                    <p class="card-description">{{ product.description | escape }}</p>
                     <div class="card-footer">
                         {% for tag in product.tags %}
-                        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+                        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
                         {% endfor %}
                     </div>
                     {% if product.analysis %}

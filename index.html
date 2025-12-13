@@ -47,8 +47,8 @@ title: Home
             {% for product in category.products %}
                 {% if product.featured %}
                 <div class="featured-card">
-                    <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">{{ product.name }}</a></h3>
-                    <p>{{ product.description }}</p>
+                    <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">{{ product.name | escape }}</a></h3>
+                    <p>{{ product.description | escape }}</p>
                     <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
                 </div>
                 {% endif %}
@@ -76,11 +76,11 @@ title: Home
                 <span class="product-bullet"></span>
                 <div class="product-content">
                     <div class="product-name">
-                        <a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a>
+                        <a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a>
                     </div>
-                    <p class="product-desc">{{ product.description }}</p>
+                    <p class="product-desc">{{ product.description | escape }}</p>
                     <div class="product-actions">
-                        <a href="{{ product.url }}" class="product-link" target="_blank" rel="noopener noreferrer">
+                        <a href="{{ product.url | escape }}" class="product-link" target="_blank" rel="noopener noreferrer">
                             Visit Website
                         </a>
                         {% if product.analysis %}
@@ -128,7 +128,7 @@ title: Home
                 {% for category in site.data.products %}
                     {% for product in category.products %}
                     <tr>
-                        <td><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></td>
+                        <td><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a></td>
                         <td>{{ category.era | split: ' - ' | first }}</td>
                         <td>
                             {% if product.analysis %}
@@ -161,7 +161,7 @@ title: Home
         {% endfor %}
         {% assign unique_tags = all_tags | uniq | sort %}
         {% for tag in unique_tags %}
-            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
         {% endfor %}
     </div>
 </section>

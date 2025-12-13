@@ -16,6 +16,19 @@
 
 This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. It powers the HireAI website and directory, with product data stored in `_data/products.yml` and analysis pages in the repo root.
 
+## Local Development
+
+Prerequisites: Ruby + Bundler.
+
+- Install deps: `bundle install`
+- Run data checks: `ruby _scripts/check_site_data.rb`
+- Preview locally: `bundle exec jekyll serve`
+- Build: `JEKYLL_ENV=production bundle exec jekyll build`
+
+## Deployment (GitHub Pages)
+
+This repo includes a GitHub Actions workflow at `.github/workflows/jekyll-gh-pages.yml` that builds the site and deploys it to GitHub Pages. In GitHub Pages settings, set **Build and deployment** → **Source** to **GitHub Actions**.
+
 ## Project Structure
 
 This project will contain the following content:
