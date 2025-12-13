@@ -32,12 +32,3 @@ permalink: /tags/
         {% endfor %}
     </div>
 </section>
-
-<script>
-document.getElementById('tag-search').addEventListener('input', function(e) {
-    const searchTerm = e.target.value.toLowerCase();
-    document.querySelectorAll('.tag-cloud a.tag').forEach(tag => {
-        tag.style.display = tag.textContent.toLowerCase().includes(searchTerm) ? '' : 'none';
-    });
-});
-</script>

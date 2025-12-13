@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Career Assistant, Job Seeker Tools) · [Website](https://www.ribbon.careers/)
-- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Job Seeker Tools) · [Website](https://lazyapply.com/)
-- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Job Seeker Tools) · [Website](https://simplify.jobs/)
-- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Job Seeker Tools) · [Website](https://www.sonara.ai/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Website](https://arya.ai/)
+- [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Career Assistant, Job Seeker Tools) · [Visit Website](https://www.ribbon.careers/)
+- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Job Seeker Tools) · [Visit Website](https://lazyapply.com/)
+- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Job Seeker Tools) · [Visit Website](https://simplify.jobs/)
+- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Job Seeker Tools) · [Visit Website](https://www.sonara.ai/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Visit Website](https://arya.ai/)
 
 ## How To Improve This Article
 

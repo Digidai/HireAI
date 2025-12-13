@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Website](https://www.hirevue.com/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Video Interviewing, AI) · [Website](https://interviewer.ai/)
-- [Phenom People]({{ site.baseurl }}/phenom-people-analysis/) — Talent experience management platform with AI-powered personalization and candidate engagement. (Shared: Candidate Experience, AI) · [Website](https://www.phenompeople.com/)
-- [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Website](https://pomato.ai/)
-- [Talview]({{ site.baseurl }}/talview-analysis/) — Video interviewing and AI-powered candidate assessment platform for remote hiring. (Shared: Video Interviewing, AI) · [Website](https://www.talview.com/)
-- [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Website](https://www.teamtailor.com/)
+- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Visit Website](https://www.hirevue.com/)
+- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Video Interviewing, AI) · [Visit Website](https://interviewer.ai/)
+- [Phenom People]({{ site.baseurl }}/phenom-people-analysis/) — Talent experience management platform with AI-powered personalization and candidate engagement. (Shared: Candidate Experience, AI) · [Visit Website](https://www.phenompeople.com/)
+- [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Visit Website](https://pomato.ai/)
+- [Talview]({{ site.baseurl }}/talview-analysis/) — Video interviewing and AI-powered candidate assessment platform for remote hiring. (Shared: Video Interviewing, AI) · [Visit Website](https://www.talview.com/)
+- [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Visit Website](https://www.teamtailor.com/)
 
 ## How To Improve This Article
 

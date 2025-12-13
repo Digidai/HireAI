@@ -1,0 +1,6 @@
+Contact: https://github.com/Digidai/HireAI/issues
+Expires: 2026-12-31T00:00:00.000Z
+Preferred-Languages: en, zh
+Canonical: https://hireai.genedai.me/.well-known/security.txt
+Policy: https://github.com/Digidai/HireAI
+

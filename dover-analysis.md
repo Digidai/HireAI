@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Agentic AI, Sourcing, AI, Automation) · [Website](https://hireez.com/)
-- [OpenJobs AI]({{ site.baseurl }}/openjobs-ai-analysis/) — AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows. (Shared: AI, Automation, Sourcing, Agentic AI) · [Website](https://www.openjobs-ai.com)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing, Automation) · [Website](https://arya.ai/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Website](https://www.gem.com/)
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Sourcing) · [Website](https://hyreo.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Agentic AI, Sourcing, AI, Automation) · [Visit Website](https://hireez.com/)
+- [OpenJobs AI]({{ site.baseurl }}/openjobs-ai-analysis/) — AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows. (Shared: AI, Automation, Sourcing, Agentic AI) · [Visit Website](https://www.openjobs-ai.com)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing, Automation) · [Visit Website](https://arya.ai/)
+- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Visit Website](https://www.fetcher.ai/)
+- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.gem.com/)
+- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Sourcing) · [Visit Website](https://hyreo.com/)
 
 ## How To Improve This Article
 

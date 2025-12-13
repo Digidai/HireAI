@@ -83,12 +83,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, ChatGPT, Content Generation, AI Assistant) · [Website](https://chattyhiring.com/)
-- [Microsoft Copilot for HR]({{ site.baseurl }}/microsoft-copilot-for-hr-analysis/) — Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows. (Shared: Generative AI, AI Assistant, Content Generation) · [Website](https://www.microsoft.com/en-us/microsoft-365/copilot)
-- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: Generative AI, AI Assistant) · [Website](https://www.visage.jobs/hopward)
-- [iCIMS]({{ site.baseurl }}/icims-analysis/) — Comprehensive talent cloud platform with generative AI capabilities and integrated recruiting solutions. (Shared: Generative AI) · [Website](https://www.icims.com/)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant) · [Website](https://leena.ai/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: Generative AI) · [Website](https://turbohire.co/)
+- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, ChatGPT, Content Generation, AI Assistant) · [Visit Website](https://chattyhiring.com/)
+- [Microsoft Copilot for HR]({{ site.baseurl }}/microsoft-copilot-for-hr-analysis/) — Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows. (Shared: Generative AI, AI Assistant, Content Generation) · [Visit Website](https://www.microsoft.com/en-us/microsoft-365/copilot)
+- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: Generative AI, AI Assistant) · [Visit Website](https://www.visage.jobs/hopward)
+- [iCIMS]({{ site.baseurl }}/icims-analysis/) — Comprehensive talent cloud platform with generative AI capabilities and integrated recruiting solutions. (Shared: Generative AI) · [Visit Website](https://www.icims.com/)
+- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant) · [Visit Website](https://leena.ai/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: Generative AI) · [Visit Website](https://turbohire.co/)
 
 ## How To Improve This Article
 

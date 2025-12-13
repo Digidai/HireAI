@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Website](https://www.criteriacorp.com/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Website](https://effy.ai/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Website](https://hireeazy.com/)
-- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: AI, Assessment) · [Website](https://www.hirevue.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Website](https://www.ibm.com/products/kenexa-employee-assessments)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI) · [Website](https://www.imocha.io/)
+- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
+- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: AI, Assessment) · [Visit Website](https://www.hirevue.com/)
+- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
+- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI) · [Visit Website](https://www.imocha.io/)
 
 ## How To Improve This Article
 

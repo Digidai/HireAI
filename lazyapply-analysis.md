@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Automation, Job Seeker Tools, Application) · [Website](https://simplify.jobs/)
-- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Automation, Job Seeker Tools) · [Website](https://www.sonara.ai/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Website](https://brainner.ai/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Website](https://www.fetcher.ai/)
+- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Automation, Job Seeker Tools, Application) · [Visit Website](https://simplify.jobs/)
+- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Automation, Job Seeker Tools) · [Visit Website](https://www.sonara.ai/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
+- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Visit Website](https://www.dover.com/)
+- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Visit Website](https://www.fetcher.ai/)
 
 ## How To Improve This Article
 

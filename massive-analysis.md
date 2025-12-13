@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Sourcing) · [Website](https://hired.com/)
-- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI, Sourcing) · [Website](https://hundred5.com/)
-- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Sourcing) · [Website](https://www.instahyre.com/)
-- [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Website](https://www.recruitercloud.com/)
-- [Wellfound (AngelList Talent)]({{ site.baseurl }}/wellfound-angellist-talent-analysis/) — Startup-focused recruiting platform with AI-powered candidate matching and direct connections to founders. (Shared: AI, Marketplace, Sourcing) · [Website](https://wellfound.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Website](https://arc.dev/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://hired.com/)
+- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI, Sourcing) · [Visit Website](https://hundred5.com/)
+- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.instahyre.com/)
+- [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.recruitercloud.com/)
+- [Wellfound (AngelList Talent)]({{ site.baseurl }}/wellfound-angellist-talent-analysis/) — Startup-focused recruiting platform with AI-powered candidate matching and direct connections to founders. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://wellfound.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
 
 ## How To Improve This Article
 

@@ -91,12 +91,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Website](https://hireez.com/)
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Screening) · [Website](https://hyreo.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Automation, Screening) · [Website](https://www.ideal.com/)
-- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Website](https://www.manatal.com/)
-- [Processica]({{ site.baseurl }}/processica-analysis/) — AI-driven candidate qualification and screening platform for efficient talent pipeline management. (Shared: AI, Screening, Automation) · [Website](https://processica.com/)
-- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Website](https://www.screenloop.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Visit Website](https://hireez.com/)
+- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Screening) · [Visit Website](https://hyreo.com/)
+- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Automation, Screening) · [Visit Website](https://www.ideal.com/)
+- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Visit Website](https://www.manatal.com/)
+- [Processica]({{ site.baseurl }}/processica-analysis/) — AI-driven candidate qualification and screening platform for efficient talent pipeline management. (Shared: AI, Screening, Automation) · [Visit Website](https://processica.com/)
+- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Visit Website](https://www.screenloop.com/)
 
 ## How To Improve This Article
 

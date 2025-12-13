@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Eightfold.ai]({{ site.baseurl }}/eightfold-ai-analysis/) — Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics. (Shared: AI, Skills) · [Website](https://eightfold.ai/)
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace) · [Website](https://hired.com/)
-- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI) · [Website](https://hundred5.com/)
-- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace) · [Website](https://www.instahyre.com/)
-- [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace) · [Website](https://www.massive.co/)
-- [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace) · [Website](https://www.recruitercloud.com/)
+- [Eightfold.ai]({{ site.baseurl }}/eightfold-ai-analysis/) — Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics. (Shared: AI, Skills) · [Visit Website](https://eightfold.ai/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace) · [Visit Website](https://hired.com/)
+- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI) · [Visit Website](https://hundred5.com/)
+- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace) · [Visit Website](https://www.instahyre.com/)
+- [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace) · [Visit Website](https://www.massive.co/)
+- [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace) · [Visit Website](https://www.recruitercloud.com/)
 
 ## How To Improve This Article
 

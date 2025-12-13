@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.entelo.com/)
-- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.findem.ai/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.loxo.co/)
-- [Visage]({{ site.baseurl }}/visage-analysis/) — AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.visage.jobs/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Website](https://arya.ai/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.entelo.com/)
+- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.loxo.co/)
+- [Visage]({{ site.baseurl }}/visage-analysis/) — AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.visage.jobs/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
 
 ## How To Improve This Article
 

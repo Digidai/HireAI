@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Website](https://www.avature.net/)
-- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Website](https://www.lever.co/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Website](https://www.talentsonar.com/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Website](https://beamery.com/)
-- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Website](https://www.brazenconnect.com/)
-- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Website](https://breezy.hr/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.lever.co/)
+- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Visit Website](https://beamery.com/)
+- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Visit Website](https://www.brazenconnect.com/)
+- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Visit Website](https://breezy.hr/)
 
 ## How To Improve This Article
 

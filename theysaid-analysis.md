@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Analytics, Assessment) · [Website](https://effy.ai/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Assessment) · [Website](https://hireeazy.com/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI, Analytics) · [Website](https://honeit.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, Analytics, AI) · [Website](https://www.ibm.com/products/kenexa-employee-assessments)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI, Interview Intelligence) · [Website](https://www.imocha.io/)
-- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Interview Intelligence, Assessment, AI) · [Website](https://modernhire.com/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Analytics, Assessment) · [Visit Website](https://effy.ai/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Assessment) · [Visit Website](https://hireeazy.com/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI, Analytics) · [Visit Website](https://honeit.com/)
+- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, Analytics, AI) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
+- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI, Interview Intelligence) · [Visit Website](https://www.imocha.io/)
+- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Interview Intelligence, Assessment, AI) · [Visit Website](https://modernhire.com/)
 
 ## How To Improve This Article
 

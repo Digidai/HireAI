@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Resume Screening) · [Website](https://cvviz.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: AI, Automation) · [Website](https://www.gem.com/)
-- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: AI, Automation) · [Website](https://www.hiredscore.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Resume Screening) · [Visit Website](https://cvviz.com/)
+- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Visit Website](https://www.dover.com/)
+- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Visit Website](https://www.fetcher.ai/)
+- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: AI, Automation) · [Visit Website](https://www.gem.com/)
+- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: AI, Automation) · [Visit Website](https://www.hiredscore.com/)
 
 ## How To Improve This Article
 

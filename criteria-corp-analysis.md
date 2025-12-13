@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Assessment, AI, Predictive Analytics) · [Website](https://modernhire.com/)
-- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Assessment, AI, Bias Reduction) · [Website](https://www.pymetrics.ai/)
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Bias Reduction, Assessment) · [Website](https://www.beapplied.com/)
-- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Website](https://catalyte.io/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Website](https://effy.ai/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Website](https://hireeazy.com/)
+- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Assessment, AI, Predictive Analytics) · [Visit Website](https://modernhire.com/)
+- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Assessment, AI, Bias Reduction) · [Visit Website](https://www.pymetrics.ai/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Bias Reduction, Assessment) · [Visit Website](https://www.beapplied.com/)
+- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Visit Website](https://catalyte.io/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
 
 ## How To Improve This Article
 

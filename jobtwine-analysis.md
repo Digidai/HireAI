@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Website](https://www.brighthire.ai/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise) · [Website](https://darwinbox.com/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Website](https://hireeazy.com/)
-- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI) · [Website](https://hireguide.com/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Website](https://honeit.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: AI, Enterprise) · [Website](https://www.ibm.com/products/kenexa-employee-assessments)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.ai/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise) · [Visit Website](https://darwinbox.com/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
+- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireguide.com/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)
+- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
 
 ## How To Improve This Article
 

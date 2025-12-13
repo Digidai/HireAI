@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Website](https://hireez.com/)
-- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Website](https://www.screenloop.com/)
-- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, AI, Automation) · [Website](https://shortlist.so/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, AI, Automation) · [Website](https://turbohire.co/)
-- [Workable]({{ site.baseurl }}/workable-analysis/) — Modern recruiting software with AI-powered candidate recommendations and hiring automation. (Shared: ATS, AI, Automation) · [Website](https://www.workable.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Visit Website](https://hireez.com/)
+- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Visit Website](https://www.screenloop.com/)
+- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, AI, Automation) · [Visit Website](https://shortlist.so/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, AI, Automation) · [Visit Website](https://turbohire.co/)
+- [Workable]({{ site.baseurl }}/workable-analysis/) — Modern recruiting software with AI-powered candidate recommendations and hiring automation. (Shared: ATS, AI, Automation) · [Visit Website](https://www.workable.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
 
 ## How To Improve This Article
 

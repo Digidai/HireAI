@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Analytics) · [Website](https://www.ashbyhq.com/)
-- [Cornerstone OnDemand]({{ site.baseurl }}/cornerstone-ondemand-analysis/) — Unified talent management suite combining recruiting, learning, performance, and succession planning. (Shared: Talent Management) · [Website](https://www.cornerstoneondemand.com/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: Analytics) · [Website](https://www.crosschq.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: Analytics) · [Website](https://darwinbox.com/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: Analytics) · [Website](https://effy.ai/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Analytics) · [Website](https://honeit.com/)
+- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Analytics) · [Visit Website](https://www.ashbyhq.com/)
+- [Cornerstone OnDemand]({{ site.baseurl }}/cornerstone-ondemand-analysis/) — Unified talent management suite combining recruiting, learning, performance, and succession planning. (Shared: Talent Management) · [Visit Website](https://www.cornerstoneondemand.com/)
+- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: Analytics) · [Visit Website](https://www.crosschq.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: Analytics) · [Visit Website](https://darwinbox.com/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: Analytics) · [Visit Website](https://effy.ai/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Analytics) · [Visit Website](https://honeit.com/)
 
 ## How To Improve This Article
 

@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, Analytics, Automation) · [Website](https://www.screenloop.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: ATS, Analytics) · [Website](https://darwinbox.com/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Automation, ATS) · [Website](https://hireez.com/)
-- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, Automation) · [Website](https://www.manatal.com/)
-- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, Automation) · [Website](https://shortlist.so/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, Automation) · [Website](https://turbohire.co/)
+- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, Analytics, Automation) · [Visit Website](https://www.screenloop.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: ATS, Analytics) · [Visit Website](https://darwinbox.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Automation, ATS) · [Visit Website](https://hireez.com/)
+- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, Automation) · [Visit Website](https://www.manatal.com/)
+- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, Automation) · [Visit Website](https://shortlist.so/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, Automation) · [Visit Website](https://turbohire.co/)
 
 ## How To Improve This Article
 

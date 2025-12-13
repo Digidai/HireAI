@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Website](https://www.avature.net/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM, Sourcing) · [Website](https://beamery.com/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: CRM, Sourcing) · [Website](https://www.gem.com/)
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Sourcing, Candidate Engagement) · [Website](https://kula.ai/)
-- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Website](https://www.lever.co/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: CRM, Sourcing) · [Website](https://www.loxo.co/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM, Sourcing) · [Visit Website](https://beamery.com/)
+- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: CRM, Sourcing) · [Visit Website](https://www.gem.com/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Sourcing, Candidate Engagement) · [Visit Website](https://kula.ai/)
+- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.lever.co/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: CRM, Sourcing) · [Visit Website](https://www.loxo.co/)
 
 ## How To Improve This Article
 

@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot, Automation) · [Website](https://www.humanly.io/)
-- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot, Automation) · [Website](https://www.makipeople.com/)
-- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot, Automation) · [Website](https://www.mya.com/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation) · [Website](https://www.allyo.com/)
-- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Website](https://www.qureos.com/iris)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: Conversational AI, Automation) · [Website](https://leena.ai/)
+- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.humanly.io/)
+- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.makipeople.com/)
+- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.mya.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation) · [Visit Website](https://www.allyo.com/)
+- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
+- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: Conversational AI, Automation) · [Visit Website](https://leena.ai/)
 
 ## How To Improve This Article
 

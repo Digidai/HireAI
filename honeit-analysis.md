@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Metaview]({{ site.baseurl }}/metaview-analysis/) — AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights. (Shared: Interview Intelligence, AI, Note-taking) · [Website](https://www.metaview.ai/)
-- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: AI, Interview Intelligence, Analytics) · [Website](https://www.screenloop.com/)
-- [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Analytics) · [Website](https://www.theysaid.io/)
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Website](https://www.brighthire.ai/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: AI, Analytics) · [Website](https://www.crosschq.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Analytics) · [Website](https://darwinbox.com/)
+- [Metaview]({{ site.baseurl }}/metaview-analysis/) — AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights. (Shared: Interview Intelligence, AI, Note-taking) · [Visit Website](https://www.metaview.ai/)
+- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: AI, Interview Intelligence, Analytics) · [Visit Website](https://www.screenloop.com/)
+- [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Analytics) · [Visit Website](https://www.theysaid.io/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.ai/)
+- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Analytics) · [Visit Website](https://darwinbox.com/)
 
 ## How To Improve This Article
 

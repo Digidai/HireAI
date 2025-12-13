@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Candidate Engagement) · [Website](https://kula.ai/)
-- [Paradox]({{ site.baseurl }}/paradox-analysis/) — Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant. (Shared: Chatbot, AI) · [Website](https://www.paradox.ai/)
-- [Restless Bandit]({{ site.baseurl }}/restless-bandit-analysis/) — Machine learning platform for candidate re-engagement and passive talent activation. (Shared: AI, Candidate Engagement) · [Website](https://www.restlessbandit.com/)
-- [Wade & Wendy]({{ site.baseurl }}/wade-wendy-analysis/) — Conversational AI platform offering personalized candidate engagement and employee career guidance through AI avatars. (Shared: Chatbot, Candidate Engagement) · [Website](https://www.wadeandwendy.ai/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Website](https://arya.ai/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Candidate Engagement) · [Visit Website](https://kula.ai/)
+- [Paradox]({{ site.baseurl }}/paradox-analysis/) — Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant. (Shared: Chatbot, AI) · [Visit Website](https://www.paradox.ai/)
+- [Restless Bandit]({{ site.baseurl }}/restless-bandit-analysis/) — Machine learning platform for candidate re-engagement and passive talent activation. (Shared: AI, Candidate Engagement) · [Visit Website](https://www.restlessbandit.com/)
+- [Wade & Wendy]({{ site.baseurl }}/wade-wendy-analysis/) — Conversational AI platform offering personalized candidate engagement and employee career guidance through AI avatars. (Shared: Chatbot, Candidate Engagement) · [Visit Website](https://www.wadeandwendy.ai/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Visit Website](https://arya.ai/)
 
 ## How To Improve This Article
 

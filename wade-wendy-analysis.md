@@ -83,12 +83,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Chatbot, Candidate Engagement) · [Website](https://www.brazenconnect.com/)
-- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot) · [Website](https://www.humanly.io/)
-- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot) · [Website](https://www.makipeople.com/)
-- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot) · [Website](https://www.mya.com/)
-- [Paradox]({{ site.baseurl }}/paradox-analysis/) — Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant. (Shared: Conversational AI, Chatbot) · [Website](https://www.paradox.ai/)
-- [XOR]({{ site.baseurl }}/xor-analysis/) — Conversational AI recruiting assistant for automated candidate screening and engagement. (Shared: Conversational AI, Chatbot) · [Website](https://www.xor.ai/)
+- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Chatbot, Candidate Engagement) · [Visit Website](https://www.brazenconnect.com/)
+- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.humanly.io/)
+- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.makipeople.com/)
+- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.mya.com/)
+- [Paradox]({{ site.baseurl }}/paradox-analysis/) — Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.paradox.ai/)
+- [XOR]({{ site.baseurl }}/xor-analysis/) — Conversational AI recruiting assistant for automated candidate screening and engagement. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.xor.ai/)
 
 ## How To Improve This Article
 

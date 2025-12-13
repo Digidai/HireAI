@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Screening) · [Website](https://hyreo.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Automation, Screening) · [Website](https://www.ideal.com/)
-- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: AI, Automation, Screening) · [Website](https://shortlist.so/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation, Screening) · [Website](https://www.allyo.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Website](https://brainner.ai/)
+- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Screening) · [Visit Website](https://hyreo.com/)
+- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Automation, Screening) · [Visit Website](https://www.ideal.com/)
+- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: AI, Automation, Screening) · [Visit Website](https://shortlist.so/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation, Screening) · [Visit Website](https://www.allyo.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
 
 ## How To Improve This Article
 

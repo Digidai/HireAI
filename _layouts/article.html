@@ -14,7 +14,7 @@ layout: default
     {% if page.website or page.tags or page.last_modified_at %}
     <div class="article-meta-bar">
         {% if page.website %}
-        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener">{{ page.website }}</a></span>
+        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ page.website }}</a></span>
         {% endif %}
         {% if page.last_modified_at %}
         <span class="meta-item"><strong>Updated:</strong> {{ page.last_modified_at | date: "%B %d, %Y" }}</span>

@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, Enterprise) · [Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Workflow) · [Website](https://breezy.hr/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, Workflow) · [Website](https://clickup.com/hr)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: ATS, Enterprise) · [Website](https://darwinbox.com/)
-- [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, Enterprise) · [Website](https://www.oracle.com/human-capital-management/taleo/)
-- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, Enterprise) · [Website](https://www.sap.com/products/human-resources-hcm.html)
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, Enterprise) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
+- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Workflow) · [Visit Website](https://breezy.hr/)
+- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, Workflow) · [Visit Website](https://clickup.com/hr)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: ATS, Enterprise) · [Visit Website](https://darwinbox.com/)
+- [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, Enterprise) · [Visit Website](https://www.oracle.com/human-capital-management/taleo/)
+- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, Enterprise) · [Visit Website](https://www.sap.com/products/human-resources-hcm.html)
 
 ## How To Improve This Article
 

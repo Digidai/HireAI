@@ -6,6 +6,9 @@ on:
   push:
     branches: ["master"]
 
+  pull_request:
+    branches: ["master"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -28,23 +31,37 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true # Caches gems
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+
+      - name: Validate data consistency
+        run: ruby _scripts/check_site_data.rb
+
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        run: JEKYLL_ENV=production bundle exec jekyll build -d ./_site
+
+      - name: Verify deployment files
+        run: |
+          test -f ./_site/_headers
+          test -f ./_site/.well-known/security.txt
+
+      - name: Setup Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

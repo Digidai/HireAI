@@ -7,6 +7,24 @@ layout: default
     <p class="page-description">Products tagged with "{{ page.tag }}"</p>
 </div>
 
+{% assign checklist = site.data.tag_checklists[page.tag | slugify] %}
+{% if checklist %}
+<section class="section">
+    <div class="section-header">
+        <span class="section-icon">✓</span>
+        <h2 class="section-title">Evaluation Checklist</h2>
+    </div>
+    <div class="markdown-content">
+        <p>Use this checklist to validate capabilities for products with the <strong>{{ page.tag }}</strong> tag.</p>
+        <ul>
+            {% for item in checklist %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endif %}
+
 <section class="section">
     <div class="cards-grid">
         {% for category in site.data.products %}
@@ -15,7 +33,7 @@ layout: default
                 <div class="card">
                     <div class="card-header">
                         <span class="card-icon">{{ category.icon }}</span>
-                        <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a></h3>
+                        <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></h3>
                     </div>
                     <p class="card-description">{{ product.description }}</p>
                     <div class="card-footer">

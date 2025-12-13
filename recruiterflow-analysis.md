@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: ATS, CRM) · [Website](https://www.lever.co/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, CRM) · [Website](https://www.loxo.co/)
-- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Website](https://www.ashbyhq.com/)
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM) · [Website](https://www.avature.net/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Website](https://www.bamboohr.com/)
+- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: ATS, CRM) · [Visit Website](https://www.lever.co/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, CRM) · [Visit Website](https://www.loxo.co/)
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
+- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM) · [Visit Website](https://www.avature.net/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Visit Website](https://www.bamboohr.com/)
 
 ## How To Improve This Article
 

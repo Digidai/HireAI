@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Website](https://www.teamtailor.com/)
-- [Wepow]({{ site.baseurl }}/wepow-analysis/) — Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making. (Shared: AI, Candidate Experience) · [Website](https://www.wepow.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Website](https://arya.ai/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: AI) · [Website](https://www.bamboohr.com/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI) · [Website](https://beamery.com/)
+- [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Visit Website](https://www.teamtailor.com/)
+- [Wepow]({{ site.baseurl }}/wepow-analysis/) — Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making. (Shared: AI, Candidate Experience) · [Visit Website](https://www.wepow.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Visit Website](https://arya.ai/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: AI) · [Visit Website](https://www.bamboohr.com/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI) · [Visit Website](https://beamery.com/)
 
 ## How To Improve This Article
 

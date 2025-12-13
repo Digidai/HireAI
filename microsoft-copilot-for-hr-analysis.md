@@ -83,12 +83,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, Content Generation, AI Assistant) · [Website](https://chattyhiring.com/)
-- [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, Content Generation, AI Assistant) · [Website](https://recruitgpt.ai/)
-- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: Generative AI, AI Assistant) · [Website](https://www.visage.jobs/hopward)
-- [iCIMS]({{ site.baseurl }}/icims-analysis/) — Comprehensive talent cloud platform with generative AI capabilities and integrated recruiting solutions. (Shared: Generative AI) · [Website](https://www.icims.com/)
-- [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Integration) · [Website](https://www.jobtwine.com/)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant) · [Website](https://leena.ai/)
+- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, Content Generation, AI Assistant) · [Visit Website](https://chattyhiring.com/)
+- [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, Content Generation, AI Assistant) · [Visit Website](https://recruitgpt.ai/)
+- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: Generative AI, AI Assistant) · [Visit Website](https://www.visage.jobs/hopward)
+- [iCIMS]({{ site.baseurl }}/icims-analysis/) — Comprehensive talent cloud platform with generative AI capabilities and integrated recruiting solutions. (Shared: Generative AI) · [Visit Website](https://www.icims.com/)
+- [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Integration) · [Visit Website](https://www.jobtwine.com/)
+- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant) · [Visit Website](https://leena.ai/)
 
 ## How To Improve This Article
 

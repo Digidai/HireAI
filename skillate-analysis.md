@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: AI, Automation, Workflow) · [Website](https://www.hiredscore.com/)
-- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: AI, Automation, Workflow) · [Website](https://www.leonar.app/)
-- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Automation, Matching) · [Website](https://www.sonara.ai/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Website](https://brainner.ai/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: AI, Workflow) · [Website](https://clickup.com/hr)
+- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.hiredscore.com/)
+- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.leonar.app/)
+- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Automation, Matching) · [Visit Website](https://www.sonara.ai/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
+- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: AI, Workflow) · [Visit Website](https://clickup.com/hr)
 
 ## How To Improve This Article
 

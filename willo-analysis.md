@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: AI, Collaboration) · [Website](https://www.freshworks.com/hrms/)
-- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: AI, Collaboration) · [Website](https://hireguide.com/)
-- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Website](https://www.hirevue.com/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Video Interviewing, AI) · [Website](https://interviewer.ai/)
-- [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Website](https://pomato.ai/)
-- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: AI, Collaboration) · [Website](https://recruitee.com/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: AI, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: AI, Collaboration) · [Visit Website](https://hireguide.com/)
+- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Visit Website](https://www.hirevue.com/)
+- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Video Interviewing, AI) · [Visit Website](https://interviewer.ai/)
+- [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Visit Website](https://pomato.ai/)
+- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: AI, Collaboration) · [Visit Website](https://recruitee.com/)
 
 ## How To Improve This Article
 

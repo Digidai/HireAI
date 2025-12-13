@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Bias Reduction, Skills-based Hiring) · [Website](https://www.beapplied.com/)
-- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: AI, Bias Reduction) · [Website](https://www.criteriacorp.com/)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, AI) · [Website](https://www.imocha.io/)
-- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: AI, Bias Reduction) · [Website](https://www.pymetrics.ai/)
-- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: AI, Bias Reduction) · [Website](https://www.searchlight.ai/)
-- [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: AI, Bias Reduction) · [Website](https://www.unitive.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Bias Reduction, Skills-based Hiring) · [Visit Website](https://www.beapplied.com/)
+- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: AI, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
+- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, AI) · [Visit Website](https://www.imocha.io/)
+- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: AI, Bias Reduction) · [Visit Website](https://www.pymetrics.ai/)
+- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: AI, Bias Reduction) · [Visit Website](https://www.searchlight.ai/)
+- [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: AI, Bias Reduction) · [Visit Website](https://www.unitive.com/)
 
 ## How To Improve This Article
 

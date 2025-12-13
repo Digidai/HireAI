@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.findem.ai/)
-- [Juicebox (PeopleGPT)]({{ site.baseurl }}/juicebox-peoplegpt-analysis/) — AI-powered people search engine with access to 800M+ profiles for advanced candidate sourcing and talent discovery. (Shared: AI, Sourcing, Talent Intelligence) · [Website](https://juicebox.ai/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.loxo.co/)
-- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, AI, DEI) · [Website](https://seekout.com/)
-- [Visage]({{ site.baseurl }}/visage-analysis/) — AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities. (Shared: Talent Intelligence, AI, Sourcing) · [Website](https://www.visage.jobs/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Website](https://arc.dev/)
+- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
+- [Juicebox (PeopleGPT)]({{ site.baseurl }}/juicebox-peoplegpt-analysis/) — AI-powered people search engine with access to 800M+ profiles for advanced candidate sourcing and talent discovery. (Shared: AI, Sourcing, Talent Intelligence) · [Visit Website](https://juicebox.ai/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.loxo.co/)
+- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, AI, DEI) · [Visit Website](https://seekout.com/)
+- [Visage]({{ site.baseurl }}/visage-analysis/) — AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.visage.jobs/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
 
 ## How To Improve This Article
 

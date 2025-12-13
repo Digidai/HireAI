@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Automation, Job Seeker Tools) · [Website](https://lazyapply.com/)
-- [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Job Seeker Tools, Matching) · [Website](https://www.ribbon.careers/)
-- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Automation, Job Seeker Tools) · [Website](https://simplify.jobs/)
-- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Matching) · [Website](https://www.skillate.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Website](https://brainner.ai/)
+- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Automation, Job Seeker Tools) · [Visit Website](https://lazyapply.com/)
+- [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Job Seeker Tools, Matching) · [Visit Website](https://www.ribbon.careers/)
+- [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Automation, Job Seeker Tools) · [Visit Website](https://simplify.jobs/)
+- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Matching) · [Visit Website](https://www.skillate.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
 
 ## How To Improve This Article
 

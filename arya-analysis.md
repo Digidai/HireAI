@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Sourcing) · [Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Website](https://www.gem.com/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, Automation) · [Website](https://hireez.com/)
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Sourcing) · [Website](https://hyreo.com/)
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Sourcing, Automation) · [Website](https://kula.ai/)
+- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Sourcing) · [Visit Website](https://www.dover.com/)
+- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Visit Website](https://www.fetcher.ai/)
+- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.gem.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://hireez.com/)
+- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Sourcing) · [Visit Website](https://hyreo.com/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Sourcing, Automation) · [Visit Website](https://kula.ai/)
 
 ## How To Improve This Article
 

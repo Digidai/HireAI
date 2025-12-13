@@ -91,12 +91,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, AI, Collaboration, Sourcing) · [Website](https://recruitee.com/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI, SMB) · [Website](https://www.bamboohr.com/)
-- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, SMB) · [Website](https://factorialhr.com/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, ATS) · [Website](https://hireez.com/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: AI, ATS, Sourcing) · [Website](https://www.loxo.co/)
-- [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Website](https://recooty.com/)
+- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, AI, Collaboration, Sourcing) · [Visit Website](https://recruitee.com/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://www.bamboohr.com/)
+- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, SMB) · [Visit Website](https://factorialhr.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, ATS) · [Visit Website](https://hireez.com/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: AI, ATS, Sourcing) · [Visit Website](https://www.loxo.co/)
+- [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://recooty.com/)
 
 ## How To Improve This Article
 

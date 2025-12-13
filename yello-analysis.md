@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Sourcing, Candidate Engagement) · [Website](https://kula.ai/)
-- [Restless Bandit]({{ site.baseurl }}/restless-bandit-analysis/) — Machine learning platform for candidate re-engagement and passive talent activation. (Shared: Sourcing, Candidate Engagement) · [Website](https://www.restlessbandit.com/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: Sourcing, Candidate Engagement) · [Website](https://www.talentsonar.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Website](https://arya.ai/)
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Website](https://www.avature.net/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Sourcing, Candidate Engagement) · [Visit Website](https://kula.ai/)
+- [Restless Bandit]({{ site.baseurl }}/restless-bandit-analysis/) — Machine learning platform for candidate re-engagement and passive talent activation. (Shared: Sourcing, Candidate Engagement) · [Visit Website](https://www.restlessbandit.com/)
+- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: Sourcing, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Visit Website](https://www.avature.net/)
 
 ## How To Improve This Article
 

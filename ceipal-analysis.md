@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Website](https://www.bamboohr.com/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, AI) · [Website](https://clickup.com/hr)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS) · [Website](https://darwinbox.com/)
-- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI) · [Website](https://factorialhr.com/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI) · [Website](https://www.freshworks.com/hrms/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, ATS) · [Website](https://hireez.com/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
+- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, AI) · [Visit Website](https://clickup.com/hr)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS) · [Visit Website](https://darwinbox.com/)
+- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI) · [Visit Website](https://factorialhr.com/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI) · [Visit Website](https://www.freshworks.com/hrms/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, ATS) · [Visit Website](https://hireez.com/)
 
 ## How To Improve This Article
 

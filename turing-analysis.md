@@ -91,12 +91,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Technical Assessment, Sourcing, Developer Community) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Website](https://arya.ai/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Website](https://beamery.com/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Website](https://www.careerbuilder.com/)
-- [Codility]({{ site.baseurl }}/codility-analysis/) — Technical hiring platform with coding tests and interview solutions for engineering recruitment. (Shared: Technical Assessment, Developer Community) · [Website](https://www.codility.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Sourcing) · [Website](https://www.dover.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Technical Assessment, Sourcing, Developer Community) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Visit Website](https://beamery.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Visit Website](https://www.careerbuilder.com/)
+- [Codility]({{ site.baseurl }}/codility-analysis/) — Technical hiring platform with coding tests and interview solutions for engineering recruitment. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://www.codility.com/)
+- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Sourcing) · [Visit Website](https://www.dover.com/)
 
 ## How To Improve This Article
 

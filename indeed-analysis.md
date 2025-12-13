@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Website](https://www.careerbuilder.com/)
-- [Monster]({{ site.baseurl }}/monster-analysis/) — Pioneer online job board with global reach and comprehensive candidate search capabilities. (Shared: Job Board, Sourcing) · [Website](https://www.monster.com/)
-- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, Analytics) · [Website](https://seekout.com/)
-- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Website](https://www.ziprecruiter.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Website](https://arya.ai/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Visit Website](https://www.careerbuilder.com/)
+- [Monster]({{ site.baseurl }}/monster-analysis/) — Pioneer online job board with global reach and comprehensive candidate search capabilities. (Shared: Job Board, Sourcing) · [Visit Website](https://www.monster.com/)
+- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, Analytics) · [Visit Website](https://seekout.com/)
+- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Visit Website](https://www.ziprecruiter.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
 
 ## How To Improve This Article
 

@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Website](https://www.careerbuilder.com/)
-- [Indeed]({{ site.baseurl }}/indeed-analysis/) — Comprehensive talent platform with job distribution, candidate matching, and recruiting analytics. (Shared: Job Board, Sourcing) · [Website](https://www.indeed.com/)
-- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Website](https://www.ziprecruiter.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Website](https://arya.ai/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: Sourcing) · [Website](https://beamery.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Visit Website](https://www.careerbuilder.com/)
+- [Indeed]({{ site.baseurl }}/indeed-analysis/) — Comprehensive talent platform with job distribution, candidate matching, and recruiting analytics. (Shared: Job Board, Sourcing) · [Visit Website](https://www.indeed.com/)
+- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Visit Website](https://www.ziprecruiter.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: Sourcing) · [Visit Website](https://beamery.com/)
 
 ## How To Improve This Article
 

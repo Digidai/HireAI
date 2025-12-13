@@ -15,6 +15,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap # Explicitly enable sitemap generation
 
+# Include special files used by some hosts/CDNs.
+include:
+  - _headers
+  - .well-known
+
 # Exclude files from Jekyll processing
 exclude:
   - .claude

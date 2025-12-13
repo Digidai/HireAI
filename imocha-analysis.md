@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Assessment) · [Website](https://hireeazy.com/)
-- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Interview Intelligence, Assessment, AI) · [Website](https://modernhire.com/)
-- [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Assessment) · [Website](https://www.theysaid.io/)
-- [Vervoe]({{ site.baseurl }}/vervoe-analysis/) — Skills assessment platform with AI that learns from your data to create tailored, transparent evaluations. (Shared: Assessment, Skills-based Hiring, AI) · [Website](https://vervoe.com/)
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Skills-based Hiring, Assessment) · [Website](https://www.beapplied.com/)
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Website](https://www.brighthire.ai/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Assessment) · [Visit Website](https://hireeazy.com/)
+- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Interview Intelligence, Assessment, AI) · [Visit Website](https://modernhire.com/)
+- [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Assessment) · [Visit Website](https://www.theysaid.io/)
+- [Vervoe]({{ site.baseurl }}/vervoe-analysis/) — Skills assessment platform with AI that learns from your data to create tailored, transparent evaluations. (Shared: Assessment, Skills-based Hiring, AI) · [Visit Website](https://vervoe.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Skills-based Hiring, Assessment) · [Visit Website](https://www.beapplied.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.ai/)
 
 ## How To Improve This Article
 

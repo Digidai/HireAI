@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Website](https://www.lever.co/)
-- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Website](https://www.pillar.hr/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Website](https://www.talentsonar.com/)
-- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: Enterprise) · [Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Website](https://beamery.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: Enterprise) · [Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.lever.co/)
+- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Visit Website](https://www.pillar.hr/)
+- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: Enterprise) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Visit Website](https://beamery.com/)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: Enterprise) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
 
 ## How To Improve This Article
 

@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Sourcing, Candidate Engagement) · [Website](https://kula.ai/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Website](https://arya.ai/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Website](https://beamery.com/)
-- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement, AI) · [Website](https://www.brazenconnect.com/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Website](https://www.careerbuilder.com/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Sourcing, Candidate Engagement) · [Visit Website](https://kula.ai/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Visit Website](https://beamery.com/)
+- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement, AI) · [Visit Website](https://www.brazenconnect.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Visit Website](https://www.careerbuilder.com/)
 
 ## How To Improve This Article
 

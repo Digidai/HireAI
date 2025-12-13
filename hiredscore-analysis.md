@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: AI, Automation, Workflow) · [Website](https://www.leonar.app/)
-- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Workflow) · [Website](https://www.skillate.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Website](https://brainner.ai/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: AI, Workflow) · [Website](https://clickup.com/hr)
-- [Clovers]({{ site.baseurl }}/clovers-analysis/) — Recruiting workflow automation platform with collaborative hiring capabilities. (Shared: Automation, Workflow) · [Website](https://www.clovers.com/)
+- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.leonar.app/)
+- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.skillate.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
+- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: AI, Workflow) · [Visit Website](https://clickup.com/hr)
+- [Clovers]({{ site.baseurl }}/clovers-analysis/) — Recruiting workflow automation platform with collaborative hiring capabilities. (Shared: Automation, Workflow) · [Visit Website](https://www.clovers.com/)
 
 ## How To Improve This Article
 

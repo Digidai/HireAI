@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, AI Assistant) · [Website](https://chattyhiring.com/)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant, Automation) · [Website](https://leena.ai/)
-- [Microsoft Copilot for HR]({{ site.baseurl }}/microsoft-copilot-for-hr-analysis/) — Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows. (Shared: Generative AI, AI Assistant) · [Website](https://www.microsoft.com/en-us/microsoft-365/copilot)
-- [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, AI Assistant) · [Website](https://recruitgpt.ai/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: Automation, Generative AI) · [Website](https://turbohire.co/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Website](https://www.allyo.com/)
+- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, AI Assistant) · [Visit Website](https://chattyhiring.com/)
+- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant, Automation) · [Visit Website](https://leena.ai/)
+- [Microsoft Copilot for HR]({{ site.baseurl }}/microsoft-copilot-for-hr-analysis/) — Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows. (Shared: Generative AI, AI Assistant) · [Visit Website](https://www.microsoft.com/en-us/microsoft-365/copilot)
+- [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, AI Assistant) · [Visit Website](https://recruitgpt.ai/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: Automation, Generative AI) · [Visit Website](https://turbohire.co/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Visit Website](https://www.allyo.com/)
 
 ## How To Improve This Article
 

@@ -91,12 +91,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS, Analytics, Automation) · [Website](https://www.ashbyhq.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS, Analytics) · [Website](https://darwinbox.com/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Automation) · [Website](https://hireeazy.com/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Website](https://hireez.com/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI, Analytics) · [Website](https://honeit.com/)
-- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Website](https://www.manatal.com/)
+- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS, Analytics, Automation) · [Visit Website](https://www.ashbyhq.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS, Analytics) · [Visit Website](https://darwinbox.com/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI, Automation) · [Visit Website](https://hireeazy.com/)
+- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: AI, Automation, ATS) · [Visit Website](https://hireez.com/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI, Analytics) · [Visit Website](https://honeit.com/)
+- [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Visit Website](https://www.manatal.com/)
 
 ## How To Improve This Article
 

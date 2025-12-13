@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM, AI, SMB) · [Website](https://www.bamboohr.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: HCM, AI, ATS) · [Website](https://darwinbox.com/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, SMB) · [Website](https://www.freshworks.com/hrms/)
-- [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Website](https://recooty.com/)
-- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, HCM) · [Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Website](https://www.ceipal.com/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM, AI, SMB) · [Visit Website](https://www.bamboohr.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: HCM, AI, ATS) · [Visit Website](https://darwinbox.com/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, SMB) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://recooty.com/)
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, HCM) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
+- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
 
 ## How To Improve This Article
 

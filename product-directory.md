@@ -26,7 +26,7 @@ permalink: /product-directory/
         {% for product in category.products %}
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a></h3>
+                <h3 class="card-title"><a href="{{ product.url }}" target="_blank" rel="noopener noreferrer">{{ product.name }}</a></h3>
             </div>
             <p class="card-description">{{ product.description }}</p>
             <div class="card-footer">
@@ -48,58 +48,3 @@ permalink: /product-directory/
 <div class="page-footer">
     <a href="{{ site.baseurl }}/" class="btn btn-secondary">Back to Home</a>
 </div>
-
-<script>
-function filterProductDirectoryCards(query) {
-    const q = (query || '').trim().toLowerCase();
-    const sections = document.querySelectorAll('section.category-section');
-
-    let totalCards = 0;
-    let visibleCards = 0;
-
-    sections.forEach(section => {
-        const cards = section.querySelectorAll('.cards-grid .card');
-        let sectionVisible = 0;
-
-        cards.forEach(card => {
-            totalCards += 1;
-            const text = (card.textContent || '').toLowerCase();
-            const show = q === '' || text.includes(q);
-            card.style.display = show ? '' : 'none';
-            if (show) {
-                visibleCards += 1;
-                sectionVisible += 1;
-            }
-        });
-
-        section.style.display = sectionVisible > 0 ? '' : 'none';
-    });
-
-    const resultsEl = document.getElementById('product-directory-results');
-    if (resultsEl) {
-        resultsEl.textContent = q === '' ? `${totalCards} products` : `${visibleCards} / ${totalCards} products`;
-    }
-}
-
-const searchInput = document.getElementById('product-directory-search');
-if (searchInput) {
-    const params = new URLSearchParams(window.location.search);
-    const initialQuery = params.get('q') || '';
-    if (initialQuery) {
-        searchInput.value = initialQuery;
-    }
-
-    filterProductDirectoryCards(searchInput.value);
-
-    searchInput.addEventListener('input', (e) => {
-        filterProductDirectoryCards(e.target.value);
-    });
-
-    searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            searchInput.value = '';
-            filterProductDirectoryCards('');
-        }
-    });
-}
-</script>

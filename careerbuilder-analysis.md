@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing, AI) · [Website](https://www.ziprecruiter.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Website](https://arya.ai/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Website](https://beamery.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Sourcing) · [Website](https://www.dover.com/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: AI, Sourcing) · [Website](https://www.entelo.com/)
+- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing, AI) · [Visit Website](https://www.ziprecruiter.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Visit Website](https://beamery.com/)
+- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Sourcing) · [Visit Website](https://www.dover.com/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: AI, Sourcing) · [Visit Website](https://www.entelo.com/)
 
 ## How To Improve This Article
 

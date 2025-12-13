@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: Automation, Workflow) · [Website](https://www.hiredscore.com/)
-- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: Automation, Workflow) · [Website](https://www.leonar.app/)
-- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: Automation, Workflow) · [Website](https://www.skillate.com/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Website](https://www.allyo.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Automation) · [Website](https://arya.ai/)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Automation) · [Website](https://www.ashbyhq.com/)
+- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: Automation, Workflow) · [Visit Website](https://www.hiredscore.com/)
+- [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: Automation, Workflow) · [Visit Website](https://www.leonar.app/)
+- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: Automation, Workflow) · [Visit Website](https://www.skillate.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Visit Website](https://www.allyo.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Automation) · [Visit Website](https://arya.ai/)
+- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Automation) · [Visit Website](https://www.ashbyhq.com/)
 
 ## How To Improve This Article
 

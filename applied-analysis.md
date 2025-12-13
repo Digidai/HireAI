@@ -83,12 +83,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Assessment, Bias Reduction, DEI) · [Website](https://www.pymetrics.ai/)
-- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: Skills-based Hiring, Bias Reduction) · [Website](https://catalyte.io/)
-- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, Bias Reduction) · [Website](https://www.criteriacorp.com/)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, Assessment) · [Website](https://www.imocha.io/)
-- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: Bias Reduction, DEI) · [Website](https://www.searchlight.ai/)
-- [Tengai]({{ site.baseurl }}/tengai-analysis/) — Unbiased AI interview assistant conducting structured, conversational interviews to eliminate human bias in screening. (Shared: Bias Reduction, DEI) · [Website](https://tengai.io/)
+- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Assessment, Bias Reduction, DEI) · [Visit Website](https://www.pymetrics.ai/)
+- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: Skills-based Hiring, Bias Reduction) · [Visit Website](https://catalyte.io/)
+- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
+- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, Assessment) · [Visit Website](https://www.imocha.io/)
+- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: Bias Reduction, DEI) · [Visit Website](https://www.searchlight.ai/)
+- [Tengai]({{ site.baseurl }}/tengai-analysis/) — Unbiased AI interview assistant conducting structured, conversational interviews to eliminate human bias in screening. (Shared: Bias Reduction, DEI) · [Visit Website](https://tengai.io/)
 
 ## How To Improve This Article
 

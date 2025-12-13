@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment, Sourcing) · [Website](https://arc.dev/)
-- [Turing]({{ site.baseurl }}/turing-analysis/) — AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms. (Shared: Technical Assessment, Sourcing) · [Website](https://www.turing.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Website](https://arya.ai/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: Sourcing) · [Website](https://beamery.com/)
-- [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Website](https://www.canditech.io/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing) · [Website](https://www.careerbuilder.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment, Sourcing) · [Visit Website](https://arc.dev/)
+- [Turing]({{ site.baseurl }}/turing-analysis/) — AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms. (Shared: Technical Assessment, Sourcing) · [Visit Website](https://www.turing.com/)
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
+- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: Sourcing) · [Visit Website](https://beamery.com/)
+- [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.canditech.io/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing) · [Visit Website](https://www.careerbuilder.com/)
 
 ## How To Improve This Article
 

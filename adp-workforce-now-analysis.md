@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: HCM, ATS, Enterprise) · [Website](https://darwinbox.com/)
-- [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, HCM, Enterprise) · [Website](https://www.oracle.com/human-capital-management/taleo/)
-- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, HCM, Enterprise) · [Website](https://www.sap.com/products/human-resources-hcm.html)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM) · [Website](https://www.bamboohr.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Enterprise) · [Website](https://www.ibm.com/products/talent-acquisition-suite)
-- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, HCM) · [Website](https://factorialhr.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: HCM, ATS, Enterprise) · [Visit Website](https://darwinbox.com/)
+- [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.oracle.com/human-capital-management/taleo/)
+- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.sap.com/products/human-resources-hcm.html)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM) · [Visit Website](https://www.bamboohr.com/)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Enterprise) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, HCM) · [Visit Website](https://factorialhr.com/)
 
 ## How To Improve This Article
 

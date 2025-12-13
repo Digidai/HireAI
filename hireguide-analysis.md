@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Website](https://www.brighthire.ai/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: AI, Collaboration) · [Website](https://www.freshworks.com/hrms/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Website](https://hireeazy.com/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Website](https://honeit.com/)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: AI, Interview Intelligence) · [Website](https://www.imocha.io/)
-- [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Interview Intelligence, AI) · [Website](https://www.jobtwine.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://www.brighthire.ai/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: AI, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)
+- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.imocha.io/)
+- [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.jobtwine.com/)
 
 ## How To Improve This Article
 

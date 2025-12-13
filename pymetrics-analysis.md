@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: DEI, Bias Reduction, Assessment) · [Website](https://www.beapplied.com/)
-- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI, Bias Reduction) · [Website](https://www.criteriacorp.com/)
-- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: AI, Bias Reduction, DEI) · [Website](https://www.searchlight.ai/)
-- [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: DEI, AI, Bias Reduction) · [Website](https://www.unitive.com/)
-- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Website](https://catalyte.io/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Website](https://effy.ai/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: DEI, Bias Reduction, Assessment) · [Visit Website](https://www.beapplied.com/)
+- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
+- [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: AI, Bias Reduction, DEI) · [Visit Website](https://www.searchlight.ai/)
+- [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: DEI, AI, Bias Reduction) · [Visit Website](https://www.unitive.com/)
+- [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Visit Website](https://catalyte.io/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
 
 ## How To Improve This Article
 

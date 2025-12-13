@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: High-Volume) · [Website](https://www.allyo.com/)
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Website](https://www.avature.net/)
-- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Website](https://www.brazenconnect.com/)
-- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Website](https://breezy.hr/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: High-Volume) · [Website](https://interviewer.ai/)
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Candidate Engagement) · [Website](https://kula.ai/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: High-Volume) · [Visit Website](https://www.allyo.com/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Visit Website](https://www.brazenconnect.com/)
+- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Visit Website](https://breezy.hr/)
+- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: High-Volume) · [Visit Website](https://interviewer.ai/)
+- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Candidate Engagement) · [Visit Website](https://kula.ai/)
 
 ## How To Improve This Article
 

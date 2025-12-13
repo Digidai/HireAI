@@ -131,13 +131,13 @@ analysis_pages.each do |path|
   related_md = if related.empty?
     "_No related products found yet._"
   else
-    related.first(6).map do |r|
-      p = r[:product]
-      analysis_link = "{{ site.baseurl }}#{p["analysis_permalink"]}"
-      website_link = p["website"]
-      shared_txt = r[:shared].join(", ")
-      desc = p["description"].to_s.strip
-      "- [#{p["name"]}](#{analysis_link}) — #{desc} (Shared: #{shared_txt}) · [Website](#{website_link})"
+      related.first(6).map do |r|
+        p = r[:product]
+        analysis_link = "{{ site.baseurl }}#{p["analysis_permalink"]}"
+        website_link = p["website"]
+        shared_txt = r[:shared].join(", ")
+        desc = p["description"].to_s.strip
+      "- [#{p["name"]}](#{analysis_link}) — #{desc} (Shared: #{shared_txt}) · [Visit Website](#{website_link})"
     end.join("\n")
   end
 

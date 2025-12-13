@@ -76,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Website](https://www.avature.net/)
-- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Candidate Engagement) · [Website](https://breezy.hr/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, CRM) · [Website](https://www.loxo.co/)
-- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Website](https://www.pillar.hr/)
-- [Recruiterflow]({{ site.baseurl }}/recruiterflow-analysis/) — Applicant tracking and CRM platform designed specifically for recruiting agencies. (Shared: ATS, CRM) · [Website](https://recruiterflow.com/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Website](https://www.talentsonar.com/)
+- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Candidate Engagement) · [Visit Website](https://breezy.hr/)
+- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, CRM) · [Visit Website](https://www.loxo.co/)
+- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Visit Website](https://www.pillar.hr/)
+- [Recruiterflow]({{ site.baseurl }}/recruiterflow-analysis/) — Applicant tracking and CRM platform designed specifically for recruiting agencies. (Shared: ATS, CRM) · [Visit Website](https://recruiterflow.com/)
+- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
 
 ## How To Improve This Article
 

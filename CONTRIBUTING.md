@@ -9,12 +9,14 @@ We welcome contributions to this project! If you have an HR AI product you'd lik
 3.  **Use the template:** Copy the content of `_templates/analysis_template.md` into your new file. This will give you the correct structure for the analysis.
 4.  **Fill out the analysis:** Complete the analysis to the best of your ability. Be objective and provide concrete examples where possible.
 5.  **Update the data file:** Open the `_data/products.yml` file and add an entry for your new product. Make sure to include the `name`, `url`, `analysis` (linking to your new file), `description`, and `tags`.
-6.  **Create a pull request:** Once you're happy with your analysis, create a pull request to merge your changes into the main repository.
+6.  **Bake enrichment (recommended for `layout: analysis`):** Run `ruby _scripts/bake_analysis_enrichment.rb` to generate the Evaluation Guide, tag checklists, and related products block directly into Markdown.
+7.  **Create a pull request:** Once you're happy with your analysis, create a pull request to merge your changes into the main repository.
 
 ## Contribution Guidelines
 
 *   **Be objective:** Provide a fair and balanced analysis of the product.
 *   **Be thorough:** The more detailed your analysis, the more valuable it will be to others.
 *   **Cite your sources:** If you're quoting statistics or making specific claims, please include a link to the source.
+*   **Tags must have pages:** If you add a new tag, create the matching page under `tags/` (slug: lowercase, spaces → `-`).
 
 Thank you for contributing!

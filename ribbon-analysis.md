@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Job Seeker Tools, Matching) · [Website](https://www.sonara.ai/)
-- [Teal]({{ site.baseurl }}/teal-analysis/) — AI-powered career development platform helping professionals track applications, optimize resumes, and discover opportunities. (Shared: AI, Career Assistant, Job Seeker Tools) · [Website](https://www.tealhq.com/)
-- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Website](https://cvviz.com/)
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Matching) · [Website](https://hired.com/)
-- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Matching) · [Website](https://www.instahyre.com/)
-- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Job Seeker Tools) · [Website](https://lazyapply.com/)
+- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Job Seeker Tools, Matching) · [Visit Website](https://www.sonara.ai/)
+- [Teal]({{ site.baseurl }}/teal-analysis/) — AI-powered career development platform helping professionals track applications, optimize resumes, and discover opportunities. (Shared: AI, Career Assistant, Job Seeker Tools) · [Visit Website](https://www.tealhq.com/)
+- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Visit Website](https://cvviz.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Matching) · [Visit Website](https://hired.com/)
+- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Matching) · [Visit Website](https://www.instahyre.com/)
+- [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Job Seeker Tools) · [Visit Website](https://lazyapply.com/)
 
 ## How To Improve This Article
 

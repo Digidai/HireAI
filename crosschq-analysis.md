@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Analytics) · [Website](https://darwinbox.com/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Analytics) · [Website](https://effy.ai/)
-- [Eightfold.ai]({{ site.baseurl }}/eightfold-ai-analysis/) — Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics. (Shared: Talent Intelligence, AI) · [Website](https://eightfold.ai/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI) · [Website](https://www.entelo.com/)
-- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI) · [Website](https://www.findem.ai/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: AI, Analytics) · [Website](https://honeit.com/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Analytics) · [Visit Website](https://darwinbox.com/)
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Analytics) · [Visit Website](https://effy.ai/)
+- [Eightfold.ai]({{ site.baseurl }}/eightfold-ai-analysis/) — Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics. (Shared: Talent Intelligence, AI) · [Visit Website](https://eightfold.ai/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI) · [Visit Website](https://www.entelo.com/)
+- [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI) · [Visit Website](https://www.findem.ai/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: AI, Analytics) · [Visit Website](https://honeit.com/)
 
 ## How To Improve This Article
 

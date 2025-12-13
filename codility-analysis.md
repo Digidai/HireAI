@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment, Developer Community) · [Website](https://arc.dev/)
-- [HackerRank]({{ site.baseurl }}/hackerrank-analysis/) — Technical recruiting platform with comprehensive coding assessments and developer community engagement. (Shared: Technical Assessment, Developer Community) · [Website](https://www.hackerrank.com/)
-- [Turing]({{ site.baseurl }}/turing-analysis/) — AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms. (Shared: Technical Assessment, Developer Community) · [Website](https://www.turing.com/)
-- [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Website](https://www.canditech.io/)
-- [CodeSignal]({{ site.baseurl }}/codesignal-analysis/) — Skills-based technical assessment platform with coding challenges and interview preparation. (Shared: Technical Assessment) · [Website](https://codesignal.com/)
-- [Filtered]({{ site.baseurl }}/filtered-analysis/) — Skills-based hiring platform with technical assessment and coding evaluation capabilities. (Shared: Technical Assessment) · [Website](https://www.filtered.com/)
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://arc.dev/)
+- [HackerRank]({{ site.baseurl }}/hackerrank-analysis/) — Technical recruiting platform with comprehensive coding assessments and developer community engagement. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://www.hackerrank.com/)
+- [Turing]({{ site.baseurl }}/turing-analysis/) — AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://www.turing.com/)
+- [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.canditech.io/)
+- [CodeSignal]({{ site.baseurl }}/codesignal-analysis/) — Skills-based technical assessment platform with coding challenges and interview preparation. (Shared: Technical Assessment) · [Visit Website](https://codesignal.com/)
+- [Filtered]({{ site.baseurl }}/filtered-analysis/) — Skills-based hiring platform with technical assessment and coding evaluation capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.filtered.com/)
 
 ## How To Improve This Article
 

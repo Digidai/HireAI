@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Matching) · [Website](https://hired.com/)
-- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Matching) · [Website](https://www.instahyre.com/)
-- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Website](https://cvviz.com/)
-- [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace, AI) · [Website](https://www.gloat.com/)
-- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI) · [Website](https://hundred5.com/)
-- [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace) · [Website](https://www.massive.co/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Matching) · [Visit Website](https://hired.com/)
+- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Matching) · [Visit Website](https://www.instahyre.com/)
+- [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Visit Website](https://cvviz.com/)
+- [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace, AI) · [Visit Website](https://www.gloat.com/)
+- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI) · [Visit Website](https://hundred5.com/)
+- [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace) · [Visit Website](https://www.massive.co/)
 
 ## How To Improve This Article
 

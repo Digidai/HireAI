@@ -69,12 +69,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace) · [Website](https://www.gloat.com/)
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: Marketplace) · [Website](https://hired.com/)
-- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace) · [Website](https://hundred5.com/)
-- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: Marketplace) · [Website](https://www.instahyre.com/)
-- [Jobvite]({{ site.baseurl }}/jobvite-analysis/) — Talent acquisition suite combining recruiting marketing, applicant tracking, and social recruiting. (Shared: Employer Branding) · [Website](https://www.jobvite.com/)
-- [JOIN]({{ site.baseurl }}/join-analysis/) — AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies. (Shared: Employer Branding) · [Website](https://join.com/)
+- [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace) · [Visit Website](https://www.gloat.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: Marketplace) · [Visit Website](https://hired.com/)
+- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace) · [Visit Website](https://hundred5.com/)
+- [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: Marketplace) · [Visit Website](https://www.instahyre.com/)
+- [Jobvite]({{ site.baseurl }}/jobvite-analysis/) — Talent acquisition suite combining recruiting marketing, applicant tracking, and social recruiting. (Shared: Employer Branding) · [Visit Website](https://www.jobvite.com/)
+- [JOIN]({{ site.baseurl }}/join-analysis/) — AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies. (Shared: Employer Branding) · [Visit Website](https://join.com/)
 
 ## How To Improve This Article
 

@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Collaboration) · [Website](https://www.freshworks.com/hrms/)
-- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, AI, Collaboration) · [Website](https://recruitee.com/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Website](https://www.bamboohr.com/)
-- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Website](https://www.ceipal.com/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, AI) · [Website](https://clickup.com/hr)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS) · [Website](https://darwinbox.com/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, AI, Collaboration) · [Visit Website](https://recruitee.com/)
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
+- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
+- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, AI) · [Visit Website](https://clickup.com/hr)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS) · [Visit Website](https://darwinbox.com/)
 
 ## How To Improve This Article
 

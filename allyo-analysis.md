@@ -83,12 +83,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [PreScreenAI]({{ site.baseurl }}/prescreenai-analysis/) — Conversational AI platform for automated candidate screening with 24/7 availability and instant assessments. (Shared: Conversational AI, Screening, Automation) · [Website](https://prescreenai.com/)
-- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Automation) · [Website](https://www.humanly.io/)
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: Automation, Screening) · [Website](https://hyreo.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: Automation, Screening) · [Website](https://www.ideal.com/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Screening, High-Volume) · [Website](https://interviewer.ai/)
-- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Website](https://www.qureos.com/iris)
+- [PreScreenAI]({{ site.baseurl }}/prescreenai-analysis/) — Conversational AI platform for automated candidate screening with 24/7 availability and instant assessments. (Shared: Conversational AI, Screening, Automation) · [Visit Website](https://prescreenai.com/)
+- [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Automation) · [Visit Website](https://www.humanly.io/)
+- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: Automation, Screening) · [Visit Website](https://hyreo.com/)
+- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: Automation, Screening) · [Visit Website](https://www.ideal.com/)
+- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Screening, High-Volume) · [Visit Website](https://interviewer.ai/)
+- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
 
 ## How To Improve This Article
 
