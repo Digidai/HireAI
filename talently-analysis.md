@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "Talently.ai - AI-Powered Real-Time Technical Interviewer Analysis"
-description: "Talently.ai is an AI technical interviewer conducting real-time live coding interviews in 20+ programming languages."
+description: "AI interviewer conducting real-time technical interviews with live coding challenges and immediate candidate evaluation."
 permalink: /talently-analysis/
 product_name: "Talently.ai"
 product_tagline: "AI That Interviews Developers in Real-Time with Live Coding"

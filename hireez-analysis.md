@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "hireEZ - Agentic AI Recruiting Platform Analysis"
-description: "hireEZ is an agentic AI recruiting platform with 800M+ candidate profiles, ResumeSense fraud detection, and 75% faster sourcing."
+description: "All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI."
 permalink: /hireez-analysis/
 product_name: "hireEZ"
 product_tagline: "Hire Talent Up to 80% Faster with Agentic AI"

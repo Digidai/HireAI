@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "SHL Analysis"
-description: "SHL is a global leader in psychometric testing administering 50M+ assessments annually across 100+ countries since 1984."
+description: "Global leader in psychometric testing and talent assessment solutions with scientifically validated evaluations."
 permalink: /shl-analysis/
 website: "https://www.shl.com/"
 tags: ["Assessment", "Psychometric"]

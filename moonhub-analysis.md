@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "Moonhub - Agentic AI Recruiting Platform Analysis"
-description: "Moonhub combines agentic AI with expert recruiting to hire 5x faster. Features Qualify, Engage, and Monitor agents achieving 80% interview rates."
+description: "Agentic AI platform deploying autonomous agents to hire talent 5x faster, with 24/7 candidate identification, scoring, and engagement."
 permalink: /moonhub-analysis/
 product_name: "Moonhub"
 product_tagline: "AI Agents for the Workforce - Hire Top Talent 5x Faster"
@@ -10,7 +10,7 @@ founded: "2021"
 location: "San Francisco, CA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.moonhub.ai/"
-tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation", "Talent Intelligence"]
+tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation"]
 last_modified_at: 2024-12-04
 key_features:
   - title: "Qualify AI Agent"

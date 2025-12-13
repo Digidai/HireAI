@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "Topaz Labs Recruitment AI - Next-Generation Agentic AI Platform Analysis"
-description: "Topaz Labs is an agentic AI recruiting platform with autonomous talent pipeline management and 85% predictive accuracy."
+description: "Next-generation agentic AI recruiting platform that autonomously manages entire talent pipelines with predictive hiring analytics."
 permalink: /topaz-labs-analysis/
 product_name: "Topaz Labs Recruitment AI"
 product_tagline: "Autonomous Talent Pipeline Management with Predictive Analytics"
@@ -10,7 +10,7 @@ founded: "2023"
 location: "San Francisco, CA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.topazlabs.ai/"
-tags: ["Agentic AI", "AI Agent", "Predictive Analytics", "Automation", "Talent Intelligence"]
+tags: ["Agentic AI", "AI Agent", "Predictive Analytics", "Automation"]
 last_modified_at: 2024-12-04
 key_features:
   - title: "Autonomous Pipeline Agent"

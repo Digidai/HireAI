@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Greenhouse Analysis"
-description: "Greenhouse is a structured interviewing and collaborative hiring platform that reduces bias and improves hiring quality."
+description: "Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality."
 permalink: /greenhouse-analysis/
 website: "https://www.greenhouse.io/"
 tags: ["ATS", "Structured Interviewing", "DEI"]

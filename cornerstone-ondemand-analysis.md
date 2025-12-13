@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Cornerstone OnDemand Analysis"
-description: "Cornerstone OnDemand is a comprehensive talent management platform for recruiting, learning, performance, and succession management."
+description: "Unified talent management suite combining recruiting, learning, performance, and succession planning."
 permalink: /cornerstone-ondemand-analysis/
 website: "https://www.cornerstoneondemand.com/"
 tags: ["Talent Management", "Performance Management"]

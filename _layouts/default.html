@@ -14,12 +14,25 @@
     {% assign meta_title = site.title %}
     {% if page.title %}
         {% assign meta_title = page.title | append: ' | ' | append: site.title %}
+    {% elsif page.tag %}
+        {% assign meta_title = page.tag | append: ' | ' | append: site.title %}
     {% endif %}
-    {% assign meta_description = page.description | default: page.product_tagline | default: site.description %}
-    {% assign meta_description = meta_description | strip_html | strip_newlines | strip %}
+
+    {% assign meta_description = page.description | default: page.page_description | default: page.product_tagline %}
+    {% if meta_description %}
+        {% assign meta_description = meta_description | strip_html | strip_newlines | strip %}
+    {% elsif page.tag %}
+        {% assign meta_description = 'Browse HR AI products tagged with ' | append: page.tag | append: '. Includes an evaluation checklist and related products.' %}
+    {% else %}
+        {% assign meta_description = site.description | strip_html | strip_newlines | strip %}
+    {% endif %}
+
     {% assign meta_keywords = 'HR AI, Recruiting AI, Talent Management, AI Products, Human Resources, Agentic AI, ATS' %}
     {% if page.tags %}
         {% assign meta_keywords = page.tags | join: ', ' | append: ', ' | append: meta_keywords %}
+    {% endif %}
+    {% if page.tag %}
+        {% assign meta_keywords = page.tag | append: ', ' | append: meta_keywords %}
     {% endif %}
     {% assign site_root = site.url | append: site.baseurl %}
     {% assign canonical_url = site_root | append: (page.url | replace: 'index.html', '') %}

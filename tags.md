@@ -1,6 +1,7 @@
 ---
 layout: default
 title: All Tags
+description: "Browse HR AI products by tag, with evaluation checklists and related analysis pages."
 permalink: /tags/
 ---
 <div class="page-header">

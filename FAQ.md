@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FAQ
+description: "Answers to common questions about HireAI, the HR AI product directory, and how the content is organized."
 permalink: /FAQ/
 ---
 <div class="page-header">

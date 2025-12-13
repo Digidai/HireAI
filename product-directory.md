@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Product Directory
+description: "Browse all HR AI products by technology era, with tags, direct links, and analysis pages."
 permalink: /product-directory/
 ---
 <div class="page-header">

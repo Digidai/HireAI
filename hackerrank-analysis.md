@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "HackerRank Analysis"
-description: "HackerRank is a leading technical hiring platform with coding assessments in 50+ programming languages for 2,000+ companies."
+description: "Technical recruiting platform with comprehensive coding assessments and developer community engagement."
 permalink: /hackerrank-analysis/
 website: "https://www.hackerrank.com/"
 tags: ["Technical Assessment", "Developer Community"]

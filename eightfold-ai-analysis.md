@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Eightfold.ai Analysis"
-description: "Eightfold.ai is a leading agentic AI platform for talent intelligence with $250M+ funding and Fortune 500 customers."
+description: "Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics."
 permalink: /eightfold-ai-analysis/
 website: "https://eightfold.ai/"
 tags: ["Talent Intelligence", "AI", "Skills", "Career Pathing"]

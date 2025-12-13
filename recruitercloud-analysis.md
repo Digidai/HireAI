@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "RecruiterCloud - AI-Powered Recruitment Marketplace Analysis"
-description: "RecruiterCloud is an AI-hybrid recruitment marketplace offering flexible on-demand recruiting with human experts and AI agents."
+description: "AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring."
 permalink: /recruitercloud-analysis/
 product_name: "RecruiterCloud"
 product_tagline: "Flexible Recruiting Solutions - Human Experts + AI Agents on Demand"
@@ -10,7 +10,7 @@ founded: "2022"
 location: "Austin, TX"
 category: "AI Recruitment Marketplace"
 website: "https://www.recruitercloud.com/"
-tags: ["AI", "Marketplace", "Sourcing", "Agentic AI", "Flexible Workforce"]
+tags: ["AI", "Marketplace", "Sourcing", "Agentic AI"]
 last_modified_at: 2024-12-04
 key_features:
   - title: "Hybrid Talent Marketplace"

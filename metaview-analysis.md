@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "Metaview - AI Interview Notes Platform Analysis"
-description: "Metaview generates AI-powered interview notes saving recruiters one working day per week. Works with Zoom, Teams, and Google Meet."
+description: "AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights."
 permalink: /metaview-analysis/
 product_name: "Metaview"
 product_tagline: "AI-generated interview notes that give you back a working day every week"
@@ -10,7 +10,7 @@ founded: "2021"
 location: "London, UK & San Francisco, USA"
 category: "Interview Intelligence Platform"
 website: "https://www.metaview.ai/"
-tags: ["Interview Intelligence", "AI", "Note-taking", "Automation", "Structured Interviewing"]
+tags: ["Interview Intelligence", "AI", "Note-taking", "Automation"]
 last_modified_at: 2024-12-04
 key_features:
   - title: "Superhuman-Quality Notes"

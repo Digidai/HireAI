@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "HireVue Analysis"
-description: "HireVue is a video interviewing and AI assessment platform with 700+ enterprise customers and advanced bias mitigation features."
+description: "Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities."
 permalink: /hirevue-analysis/
 website: "https://www.hirevue.com/"
 tags: ["Video Interviewing", "AI", "Assessment"]
