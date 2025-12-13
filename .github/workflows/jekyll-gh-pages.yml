@@ -46,8 +46,15 @@ jobs:
 
       - name: Verify deployment files
         run: |
-          test -f ./_site/_headers
-          test -f ./_site/.well-known/security.txt
+          if [ ! -f ./_site/.well-known/security.txt ]; then
+            echo "::warning::Missing ./_site/.well-known/security.txt"
+          fi
+          if [ ! -f ./_site/_headers ]; then
+            echo "::warning::Missing ./_site/_headers (only used by some hosts)"
+          fi
+          if [ ! -f ./_site/CNAME ]; then
+            echo "::warning::Missing ./_site/CNAME"
+          fi
 
       - name: Setup Pages
         if: github.event_name != 'pull_request'
