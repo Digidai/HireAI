@@ -29,3 +29,73 @@ Interview intelligence platform integrating with 40+ HRIS and ATS systems for en
 - Official website: https://www.jobtwine.com/
 
 > Note: This is a starter article generated from the product directory entry. Please expand with verified details.
+
+<!-- HireAI: baked-enrichment:start -->
+
+---
+
+## Evaluation Guide
+
+This section is a structured checklist based on the directory tags and era. It does not assume features—use it to verify capabilities with demos, docs, and a pilot.
+
+### Baseline Checklist
+
+- Define primary use cases and who will use the product day-to-day.
+- Validate end-to-end workflow fit (data in → decisions/actions → reporting).
+- Confirm integrations (ATS/HRIS, calendar, email, SSO) and data sync details.
+- Review permissions, audit logs, and governance for hiring-sensitive actions.
+- Measure impact with a pilot and agreed success metrics (speed, quality, experience).
+
+### Era Context
+
+- Expect agentic priorities: safe autonomy, human-in-the-loop controls, and strong auditability.
+- Use the tag checklists below to validate product-specific requirements for your stack.
+
+### Tag Checklists
+
+#### Interview Intelligence
+
+- Check capture methods (Zoom/Meet/Teams) and consent/recording policies.
+- Validate summary quality, action items, and linkage to scorecards/competencies.
+- Confirm data access controls for interview recordings and transcripts.
+- Review coaching and calibration workflows to improve interviewer consistency.
+
+#### AI
+
+- Separate AI-assisted suggestions from deterministic rules and document both paths.
+- Ask what data is used to produce outputs and whether your data is used for training.
+- Validate output quality on your own historical datasets with agreed success metrics.
+- Review bias, explainability, and compliance controls appropriate for hiring decisions.
+- Confirm admin controls for prompts, templates, and model behavior updates.
+
+#### Integration
+
+- Confirm supported integration methods (API, webhooks, native apps, iPaaS).
+- Review data mapping, error handling, retries, and observability.
+- Validate SSO, SCIM, and secure credential storage for connectors.
+- Ensure integrations cover your must-have systems (ATS, HRIS, email, calendar).
+
+#### Enterprise
+
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
+
+## Alternatives & Related Products
+
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Website](https://www.brighthire.ai/)
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise) · [Website](https://darwinbox.com/)
+- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Website](https://hireeazy.com/)
+- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI) · [Website](https://hireguide.com/)
+- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Website](https://honeit.com/)
+- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: AI, Enterprise) · [Website](https://www.ibm.com/products/kenexa-employee-assessments)
+
+## How To Improve This Article
+
+- Add verified feature details with links to official docs, pricing, or release notes.
+- Document integrations you tested (screenshots or steps) and any limitations.
+- Include security/compliance evidence (SOC report availability, DPA, retention) when publicly documented.
+- Summarize pilot outcomes (time saved, conversion changes) with clear assumptions.
+
+<!-- HireAI: baked-enrichment:end -->

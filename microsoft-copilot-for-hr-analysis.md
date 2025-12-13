@@ -29,3 +29,72 @@ Generative AI assistant integrated into Microsoft 365 for recruiting content cre
 - Official website: https://www.microsoft.com/en-us/microsoft-365/copilot
 
 > Note: This is a starter article generated from the product directory entry. Please expand with verified details.
+
+<!-- HireAI: baked-enrichment:start -->
+
+---
+
+## Evaluation Guide
+
+This section is a structured checklist based on the directory tags and era. It does not assume features—use it to verify capabilities with demos, docs, and a pilot.
+
+### Baseline Checklist
+
+- Define primary use cases and who will use the product day-to-day.
+- Validate end-to-end workflow fit (data in → decisions/actions → reporting).
+- Confirm integrations (ATS/HRIS, calendar, email, SSO) and data sync details.
+- Review permissions, audit logs, and governance for hiring-sensitive actions.
+- Measure impact with a pilot and agreed success metrics (speed, quality, experience).
+
+### Era Context
+
+- Expect agentic priorities: safe autonomy, human-in-the-loop controls, and strong auditability.
+- Use the tag checklists below to validate product-specific requirements for your stack.
+
+### Tag Checklists
+
+#### Generative AI
+
+- Define where generation is used (drafting, summarization) and where it is not.
+- Verify model/provider options, data usage terms, and tenant isolation.
+- Implement review/approval steps for candidate-facing content.
+- Monitor quality drift and establish a process for prompt/template updates.
+
+#### AI Assistant
+
+- Clarify whether it drafts content, provides recommendations, or executes workflow steps.
+- Check how context is gathered (ATS records, emails, notes) and how it is filtered.
+- Verify redaction controls for sensitive data and safe-sharing to external channels.
+- Measure time saved with a small pilot and define guardrails before broad rollout.
+
+#### Content Generation
+
+- Confirm template controls for tone, compliance statements, and brand voice.
+- Check plagiarism/attribution policies and how outputs are reviewed before sending.
+- Verify safe handling of confidential role details and internal compensation data.
+- Measure impact via controlled experiments (open rate, conversion, time saved).
+
+#### Integration
+
+- Confirm supported integration methods (API, webhooks, native apps, iPaaS).
+- Review data mapping, error handling, retries, and observability.
+- Validate SSO, SCIM, and secure credential storage for connectors.
+- Ensure integrations cover your must-have systems (ATS, HRIS, email, calendar).
+
+## Alternatives & Related Products
+
+- [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, Content Generation, AI Assistant) · [Website](https://chattyhiring.com/)
+- [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, Content Generation, AI Assistant) · [Website](https://recruitgpt.ai/)
+- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: Generative AI, AI Assistant) · [Website](https://www.visage.jobs/hopward)
+- [iCIMS]({{ site.baseurl }}/icims-analysis/) — Comprehensive talent cloud platform with generative AI capabilities and integrated recruiting solutions. (Shared: Generative AI) · [Website](https://www.icims.com/)
+- [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Integration) · [Website](https://www.jobtwine.com/)
+- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant) · [Website](https://leena.ai/)
+
+## How To Improve This Article
+
+- Add verified feature details with links to official docs, pricing, or release notes.
+- Document integrations you tested (screenshots or steps) and any limitations.
+- Include security/compliance evidence (SOC report availability, DPA, retention) when publicly documented.
+- Summarize pilot outcomes (time saved, conversion changes) with clear assumptions.
+
+<!-- HireAI: baked-enrichment:end -->
