@@ -14,7 +14,7 @@
 
 ## Project Overview
 
-This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. We continuously track and analyze various HR AI tools to provide comprehensive product information and selection guides for HR professionals.
+This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. It powers the HireAI website and directory, with product data stored in `_data/products.yml` and analysis pages in the repo root.
 
 ## Project Structure
 
@@ -37,7 +37,7 @@ A comprehensive analysis of 46 HR AI products and vendors through Josh Bersin's 
 ## Product Directory
 
 ### [Complete HR AI Product Directory](product-directory.md)
-Comprehensive catalog of HR AI products organized by technological era, with direct links to official websites.
+Comprehensive catalog of HR AI products organized by technological era, with direct links to official websites and an analysis page for every product (some are starter articles that need expansion).
 
 ### By Category
 
@@ -89,6 +89,7 @@ We welcome submissions of new HR AI product information or improvements to exist
 1. Content is accurate and reliable
 2. Format is standardized and consistent
 3. Information is timely and up-to-date
+4. If you add new tags, add the matching tag page under `tags/` (slug: lowercase, spaces → `-`)
 
 ## License
 

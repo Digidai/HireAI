@@ -2,7 +2,7 @@
 title: HireAI - HR AI Products Collection
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Comprehensive collection of 150+ HR AI products organized by technological evolution
+  Comprehensive collection of HR AI products organized by technological evolution
   from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.
 baseurl: "" # no subpath for custom domain
 url: "https://hireai.genedai.me" # custom domain
@@ -17,6 +17,7 @@ plugins:
 
 # Exclude files from Jekyll processing
 exclude:
+  - .claude
   - README.md
   - README-zh.md
   - CONTRIBUTING.md

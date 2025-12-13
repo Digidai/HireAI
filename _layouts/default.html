@@ -13,23 +13,23 @@
     <meta name="robots" content="index, follow">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="{% if page.layout == 'product-detail' or page.layout == 'analysis' %}article{% else %}website{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta property="og:type" content="{% if page.layout == 'product-detail' or page.layout == 'analysis' or page.layout == 'article' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.product_tagline %}{{ page.product_tagline }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.product_tagline %}{{ page.product_tagline }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.png">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,10 +46,10 @@
       "@type": "WebSite",
       "name": "{{ site.title }}",
       "description": "{{ site.description }}",
-      "url": "{{ site.url }}",
+      "url": "{{ site.url }}{{ site.baseurl }}",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "{{ site.url }}/product-directory/?q={search_term_string}",
+        "target": "{{ site.url }}{{ site.baseurl }}/product-directory/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -61,8 +61,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "HireAI",
-      "url": "{{ site.url }}",
-      "logo": "{{ site.url }}/assets/images/logo.png",
+      "url": "{{ site.url }}{{ site.baseurl }}",
+      "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
       "sameAs": [
         "https://github.com/Digidai/HireAI"
       ]
@@ -104,7 +104,7 @@
       "@type": "Article",
       "headline": "{{ page.title }}",
       "description": "{% if page.description %}{{ page.description }}{% elsif page.page_description %}{{ page.page_description }}{% endif %}",
-      "url": "{{ site.url }}{{ page.url }}",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
       "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
       "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.last_updated %}{{ page.last_updated | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
       "author": {
@@ -116,7 +116,7 @@
         "name": "HireAI",
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ site.url }}/assets/images/logo.png"
+          "url": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
         }
       }
     }

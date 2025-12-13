@@ -28,7 +28,7 @@ permalink: /tags/
         {% endfor %}
         {% assign unique_tags = all_tags | uniq | sort %}
         {% for tag in unique_tags %}
-            <a href="{{ site.baseurl }}/tags/{{ tag | downcase | replace: ' ', '-' }}/" class="tag">{{ tag }}</a>
+            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
         {% endfor %}
     </div>
 </section>
