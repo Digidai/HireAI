@@ -1,0 +1,349 @@
+agentic-ai:
+  - Define which actions the system can take autonomously and which require approval.
+  - Verify tool access boundaries and least-privilege permissions for connected systems.
+  - Require audit logs for every action, prompt, and external call, with easy export.
+  - Test failure modes, escalation paths, and safe rollback when automations misfire.
+  - Confirm data retention, model updates, and how behavior changes are communicated.
+
+ai-agent:
+  - List agent tools (APIs) it can call and the exact operations permitted for each.
+  - Confirm human-in-the-loop checkpoints for high-impact steps (reject, offer, outreach).
+  - Review monitoring, alerting, and rate limiting to prevent runaway actions.
+  - Validate reproducibility with run logs (inputs, decisions, outputs) for audits.
+
+ai-assistant:
+  - Clarify whether it drafts content, provides recommendations, or executes workflow steps.
+  - Check how context is gathered (ATS records, emails, notes) and how it is filtered.
+  - Verify redaction controls for sensitive data and safe-sharing to external channels.
+  - Measure time saved with a small pilot and define guardrails before broad rollout.
+
+ai:
+  - Separate AI-assisted suggestions from deterministic rules and document both paths.
+  - Ask what data is used to produce outputs and whether your data is used for training.
+  - Validate output quality on your own historical datasets with agreed success metrics.
+  - Review bias, explainability, and compliance controls appropriate for hiring decisions.
+  - Confirm admin controls for prompts, templates, and model behavior updates.
+
+analytics:
+  - Confirm available dashboards, custom reports, and export formats for raw data.
+  - Verify metric definitions (time-to-fill, pass rate) match your internal standards.
+  - Check filtering by job, location, stage, and recruiter, plus historical backfill.
+  - Review data freshness, latency, and how corrections are handled.
+
+application:
+  - Confirm application flow length, required fields, and support for mobile applicants.
+  - Verify accessibility (WCAG) and localization for target geographies.
+  - Check fraud prevention (duplicate detection) and consent/candidate notifications.
+  - Ensure seamless handoff into ATS/CRM with correct source attribution.
+
+assessment:
+  - Verify assessment validity, reliability, and job relevance for your roles.
+  - Check proctoring options, anti-cheating measures, and accommodation support.
+  - Confirm score interpretation, cutoffs, and how results flow into hiring workflows.
+  - Review adverse impact monitoring and candidate communication requirements.
+
+ats:
+  - Validate requisition creation, approval flows, and pipeline stage customization.
+  - Check scheduling, offer management, compliance reporting, and role-based access.
+  - Verify integrations with HRIS/HCM, background checks, e-sign, and calendars.
+  - Assess reporting, data exports, and migration tooling from your current ATS.
+
+automation:
+  - Map triggers, actions, and exceptions for each automation and document owners.
+  - Confirm throttling, approvals, and guardrails for candidate-facing actions.
+  - Verify audit trails and easy disable/rollback for problematic workflows.
+  - Test edge cases (duplicates, reschedules, rejected candidates) end-to-end.
+
+bias-reduction:
+  - Ask what fairness metrics are measured and how often monitoring runs.
+  - Verify that bias controls don’t reduce job relevance or create new adverse impact.
+  - Confirm transparency for stakeholders and documentation for compliance audits.
+  - Pilot with segmented analysis by role, location, and demographic proxies where legal.
+
+candidate-engagement:
+  - Validate outreach channels (email, SMS, chat) and response tracking.
+  - Check personalization controls, templates, and compliance with consent rules.
+  - Measure response rates and drop-off by stage with A/B test support if available.
+  - Ensure handoff to recruiters is clear with SLA and ownership.
+
+candidate-experience:
+  - Review touchpoints (apply, schedule, interview, offer) for friction and clarity.
+  - Confirm transparent status updates and self-serve rescheduling where applicable.
+  - Check accessibility, localization, and support for accommodations.
+  - Gather candidate feedback and define measurable experience KPIs.
+
+career-assistant:
+  - Validate recommendations against real openings and realistic skill requirements.
+  - Check privacy boundaries for job seeker profiles and messaging permissions.
+  - Confirm explainability for suggestions and how users can correct preferences.
+  - Measure engagement and conversion outcomes rather than just clicks.
+
+career-pathing:
+  - Confirm skill ontology and how role paths are generated and maintained.
+  - Check internal mobility workflows and manager approval steps.
+  - Verify integration with learning content and performance/skills data sources.
+  - Evaluate fairness and transparency of career recommendations.
+
+chatbot:
+  - Confirm supported channels and the handoff path to a human recruiter.
+  - Verify intent coverage for your FAQs and how new intents are trained/added.
+  - Check logging, PII handling, and consent notices in candidate conversations.
+  - Test multi-language, accessibility, and failure handling for edge cases.
+
+chatgpt:
+  - Define allowed use cases (drafting, summarizing) and disallowed ones (final decisions).
+  - Verify prompt governance, data redaction, and where conversations are stored.
+  - Ensure output review workflows exist for compliance-sensitive content.
+  - Run a red-team prompt test to validate leakage and jailbreak protections.
+
+cloud:
+  - Confirm hosting regions, data residency options, and disaster recovery posture.
+  - Review encryption in transit/at rest and key management options.
+  - Validate uptime/SLA, incident response, and status transparency.
+  - Check deployment constraints for regulated environments.
+
+collaboration:
+  - Verify stakeholder workflows (approvals, comments, scorecards) across teams.
+  - Confirm permissions, audit logs, and notification controls.
+  - Check integration with Slack/Teams/email and how information is shared securely.
+  - Evaluate reporting across multiple reviewers and calibration workflows.
+
+content-generation:
+  - Confirm template controls for tone, compliance statements, and brand voice.
+  - Check plagiarism/attribution policies and how outputs are reviewed before sending.
+  - Verify safe handling of confidential role details and internal compensation data.
+  - Measure impact via controlled experiments (open rate, conversion, time saved).
+
+conversational-ai:
+  - Validate NLU accuracy for your domain terms and edge-case queries.
+  - Confirm multi-turn context handling and safe escalation to human support.
+  - Review conversation logs, retention, and access controls for sensitive data.
+  - Test candidate experience across channels and devices.
+
+crm:
+  - Check talent pool segmentation, tagging, and deduplication across sources.
+  - Validate nurture campaigns, sequences, and deliverability controls.
+  - Confirm consent management and unsubscribe handling by region.
+  - Ensure CRM data stays synced with ATS stages and recruiter ownership.
+
+dei:
+  - Confirm the product supports inclusive workflows without masking critical job signals.
+  - Review reporting and monitoring options for representation and stage outcomes.
+  - Check policy controls (structured rubrics, required justifications) to reduce bias.
+  - Ensure compliance alignment for relevant jurisdictions and internal policy.
+
+developer-community:
+  - Verify how community signals map to candidate quality (skills, projects, activity).
+  - Check sourcing permissions and acceptable-use policies for outreach.
+  - Confirm data freshness and identity resolution to avoid duplicates.
+  - Validate conversion funnels from community to applicant/interview.
+
+employer-branding:
+  - Confirm control over career site content, brand assets, and localization.
+  - Check review moderation policies and how employer responses are handled.
+  - Validate analytics for source quality and brand-to-apply conversion.
+  - Ensure consistency with job posting and ATS application flows.
+
+enterprise:
+  - Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+  - Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+  - Check scalability (multi-entity, multi-region) and admin delegation.
+  - Review implementation support, SLAs, and change management processes.
+
+evaluation:
+  - Define evaluation criteria and weightings before vendor demos.
+  - Require an end-to-end pilot with real roles, real data, and clear success metrics.
+  - Compare total cost of ownership including implementation and integration work.
+  - Capture stakeholder feedback systematically to avoid recency bias.
+
+generative-ai:
+  - Define where generation is used (drafting, summarization) and where it is not.
+  - Verify model/provider options, data usage terms, and tenant isolation.
+  - Implement review/approval steps for candidate-facing content.
+  - Monitor quality drift and establish a process for prompt/template updates.
+
+hcm:
+  - Validate integration with your HRIS/HCM (identity, org chart, job catalog).
+  - Confirm data sync cadence, field mappings, and error handling.
+  - Check role-based access for sensitive employee data.
+  - Ensure reporting aligns across recruiting and core HR data.
+
+high-volume:
+  - Confirm throughput for scheduling, screening, and messaging at scale.
+  - Validate automation guardrails to prevent spamming and inconsistent decisions.
+  - Check queue management, bulk actions, and operational dashboards.
+  - Measure speed-to-contact and stage conversion improvements in a pilot.
+
+integration:
+  - Confirm supported integration methods (API, webhooks, native apps, iPaaS).
+  - Review data mapping, error handling, retries, and observability.
+  - Validate SSO, SCIM, and secure credential storage for connectors.
+  - Ensure integrations cover your must-have systems (ATS, HRIS, email, calendar).
+
+interview-intelligence:
+  - Check capture methods (Zoom/Meet/Teams) and consent/recording policies.
+  - Validate summary quality, action items, and linkage to scorecards/competencies.
+  - Confirm data access controls for interview recordings and transcripts.
+  - Review coaching and calibration workflows to improve interviewer consistency.
+
+job-board:
+  - Verify posting coverage, distribution partners, and source attribution accuracy.
+  - Check budget controls, sponsorship options, and performance reporting.
+  - Confirm compliance and content rules for different regions and role types.
+  - Ensure clean handoff to application/ATS with dedupe and tracking.
+
+job-seeker-tools:
+  - Validate privacy controls and how user data is shared with employers.
+  - Check guidance quality and transparency (what inputs drive recommendations).
+  - Confirm accessibility and localization for target user populations.
+  - Measure outcomes like interview rate, not just engagement.
+
+marketplace:
+  - Understand supply-side vetting, quality signals, and dispute resolution.
+  - Verify pricing model, fees, and what guarantees (if any) exist.
+  - Check matching transparency and how rankings can be influenced or corrected.
+  - Ensure integration with your hiring workflow for handoffs and tracking.
+
+matching:
+  - Confirm which attributes drive matching and whether they are configurable.
+  - Evaluate false positives/negatives on historical roles and applicants.
+  - Check explainability and controls to prevent over-reliance on a single score.
+  - Review fairness impact and monitoring across segments.
+
+nlp:
+  - Verify language coverage and accuracy for your job and resume vocabulary.
+  - Check how entities/skills are extracted and normalized.
+  - Confirm handling of non-standard resumes and multilingual documents.
+  - Validate performance with your own sample documents.
+
+note-taking:
+  - Confirm where notes are stored, who can access them, and retention policies.
+  - Check redaction controls and guidance to avoid sensitive/irrelevant content.
+  - Validate export and integration into ATS/scorecards.
+  - Review compliance for recording/transcription where applicable.
+
+outreach:
+  - Validate deliverability controls (domains, warmup, throttling) and bounce handling.
+  - Check personalization, sequencing, and response categorization.
+  - Confirm consent management and opt-out compliance by region.
+  - Measure response rate and quality, not just volume.
+
+performance-management:
+  - Confirm review cycles, goals, competencies, and calibration workflows.
+  - Validate integrations with HRIS and learning/skills systems.
+  - Check reporting for fairness, consistency, and manager enablement.
+  - Review data privacy around sensitive feedback and comments.
+
+predictive-analytics:
+  - Identify predicted outcomes (time-to-fill, attrition) and required inputs.
+  - Validate model performance on your historical data and monitor drift.
+  - Review explainability, bias impact, and decision governance.
+  - Confirm how predictions are operationalized in workflows.
+
+psychometric:
+  - Validate scientific backing and fit to job families before deployment.
+  - Check accommodations, localization, and candidate accessibility.
+  - Confirm interpretation guidance to avoid misuse in hiring decisions.
+  - Monitor adverse impact and ensure consistent use across roles.
+
+reference-checking:
+  - Confirm how references are collected, verified, and protected from fraud.
+  - Check questionnaire configurability and reporting summaries.
+  - Verify compliance and candidate consent flows for each region.
+  - Ensure results integrate cleanly into ATS and decision documentation.
+
+remote:
+  - Validate support for distributed interviewing and time zone scheduling.
+  - Check identity verification, fraud controls, and remote proctoring if relevant.
+  - Confirm communication workflows for candidates across regions.
+  - Review compliance for recording/transcripts in different jurisdictions.
+
+resume-screening:
+  - Confirm parsing accuracy, deduplication, and structured extraction fields.
+  - Validate ranking/explanations and recruiter controls over criteria.
+  - Test bias and edge cases (career breaks, non-traditional formats).
+  - Ensure transparent candidate communication and compliance documentation.
+
+screening:
+  - Validate screening questions, knockout logic, and exception handling.
+  - Confirm auditability for why candidates advance or are rejected.
+  - Check accommodation workflows and candidate appeal processes where needed.
+  - Ensure smooth handoff into interview scheduling and ATS stages.
+
+skills-based-hiring:
+  - Confirm skill taxonomy/ontology and how skills are inferred and validated.
+  - Check mapping from skills to roles, leveling, and learning resources.
+  - Validate bias impact and transparency of skill scoring.
+  - Ensure skills data integrates into ATS/HRIS and reporting.
+
+skills:
+  - Verify how skills are collected (self-reported, inferred) and kept up to date.
+  - Check normalization to a consistent skill framework and synonyms handling.
+  - Confirm search, filtering, and reporting uses the same skill definitions.
+  - Validate governance for adding/removing skills and versioning changes.
+
+smb:
+  - Confirm pricing fit, onboarding effort, and admin simplicity for small teams.
+  - Validate core integrations (email, calendar, ATS/HRIS) without heavy IT work.
+  - Check support availability and self-serve documentation quality.
+  - Ensure workflows scale as hiring volume grows.
+
+social-recruiting:
+  - Confirm supported networks and compliant data usage and outreach policies.
+  - Check tracking of source attribution and campaign performance.
+  - Validate brand controls and consistency across channels.
+  - Ensure dedupe and clean import into ATS/CRM.
+
+sourcing:
+  - Validate search filters, enrichment accuracy, and deduplication with ATS/CRM.
+  - Check outreach workflow integration and collaboration across recruiters.
+  - Confirm data provenance, acceptable use, and regional compliance.
+  - Measure quality of pipeline and conversion to interview/offer.
+
+staffing:
+  - Confirm workflows for requisitions, clients, assignments, and redeployments.
+  - Check time/expense, compliance, and documentation needs for placements.
+  - Validate reporting by client, recruiter, and placement outcomes.
+  - Ensure candidate ownership rules and duplicate handling are clear.
+
+startup:
+  - Optimize for speed: confirm setup time, minimal integrations, and quick wins.
+  - Validate flexible workflows for changing roles and processes.
+  - Check cost predictability and ability to scale to enterprise needs later.
+  - Ensure core compliance and data security even at early stage.
+
+structured-interviewing:
+  - Confirm rubric/scorecard support and consistent question sets per role.
+  - Validate interviewer training, calibration, and anti-bias guardrails.
+  - Check feedback collection, reminders, and completion SLAs.
+  - Ensure audit trails for decisions and versioning for rubrics over time.
+
+talent-intelligence:
+  - Verify data sources for talent graphs and how identities are resolved.
+  - Validate insights against known ground truth and monitor drift.
+  - Check segmentation, skills inference, and internal mobility use cases.
+  - Ensure governance for sensitive employee data and access controls.
+
+talent-management:
+  - Confirm coverage across lifecycle (performance, learning, mobility) as needed.
+  - Validate integrations with HRIS and skills frameworks.
+  - Check reporting, calibration, and manager workflows.
+  - Review privacy and policy controls for sensitive talent decisions.
+
+technical-assessment:
+  - Validate question quality, role relevance, and support for multiple languages.
+  - Check anti-cheating, plagiarism detection, and environment controls.
+  - Confirm scoring transparency and integration into ATS workflows.
+  - Pilot with real engineers and compare to on-the-job performance signals.
+
+video-interviewing:
+  - Confirm live vs one-way support, scheduling, and time zone handling.
+  - Review consent, recording policies, and retention for video assets.
+  - Validate accessibility (captions) and accommodation workflows.
+  - Ensure structured evaluation and guardrails for automated analysis if used.
+
+workflow:
+  - Map end-to-end processes and confirm configurability without heavy engineering.
+  - Validate permissions, approvals, and audit logs for critical transitions.
+  - Check integrations and handoffs between stages and teams.
+  - Ensure reporting aligns to workflow stages and changes are versioned.

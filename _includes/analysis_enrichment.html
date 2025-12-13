@@ -1,0 +1,149 @@
+{% assign page_tags = page.tags %}
+
+{% assign current_product = nil %}
+{% assign current_category = nil %}
+{% for category in site.data.products %}
+  {% for product in category.products %}
+    {% if product.analysis %}
+      {% assign analysis_path = '/' | append: (product.analysis | replace: '.md', '') | append: '/' %}
+      {% if analysis_path == page.url %}
+        {% assign current_product = product %}
+        {% assign current_category = category %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if page_tags == nil and current_product and current_product.tags %}
+  {% assign page_tags = current_product.tags %}
+{% endif %}
+
+<hr>
+
+<h2>Evaluation Guide</h2>
+<p>This section is a structured checklist based on the directory tags and era. It does not assume features—use it to verify capabilities with demos, docs, and a pilot.</p>
+
+<h3>Baseline Checklist</h3>
+<ul>
+  <li>Define primary use cases and who will use the product day-to-day.</li>
+  <li>Validate end-to-end workflow fit (data in → decisions/actions → reporting).</li>
+  <li>Confirm integrations (ATS/HRIS, calendar, email, SSO) and data sync details.</li>
+  <li>Review permissions, audit logs, and governance for hiring-sensitive actions.</li>
+  <li>Measure impact with a pilot and agreed success metrics (speed, quality, experience).</li>
+</ul>
+
+{% if page.era %}
+<h3>Era Context</h3>
+<ul>
+  {% if page.era contains '1990s' %}
+  <li>Expect core-system priorities: reliability, compliance, data model flexibility, and integrations.</li>
+  {% elsif page.era contains '2000s' %}
+  <li>Expect funnel priorities: attraction, assessment quality, and candidate experience improvements.</li>
+  {% elsif page.era contains '2010s' %}
+  <li>Expect workflow priorities: collaboration, integrations, and operational automation across recruiting teams.</li>
+  {% elsif page.era contains '2020s' %}
+  <li>Expect intelligence priorities: skills, analytics, fairness monitoring, and decision support.</li>
+  {% elsif page.era contains '2024+' %}
+  <li>Expect agentic priorities: safe autonomy, human-in-the-loop controls, and strong auditability.</li>
+  {% endif %}
+  <li>Use the tag checklists below to validate product-specific requirements for your stack.</li>
+</ul>
+{% endif %}
+
+{% if page_tags %}
+<h3>Tag Checklists</h3>
+{% for tag in page_tags %}
+  {% assign slug = tag | slugify %}
+  {% assign checklist = site.data.tag_checklists[slug] %}
+  {% if checklist %}
+  <h4>{{ tag }}</h4>
+  <ul>
+    {% for item in checklist %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
+{% endif %}
+
+<h2>Alternatives & Related Products</h2>
+{% assign related_scored = "" | split: "" %}
+
+{% if page_tags %}
+  {% for category in site.data.products %}
+    {% for product in category.products %}
+      {% if product.analysis %}
+        {% assign analysis_path = '/' | append: (product.analysis | replace: '.md', '') | append: '/' %}
+        {% if analysis_path != page.url %}
+          {% assign score = 0 %}
+          {% assign shared = "" | split: "" %}
+          {% for t in product.tags %}
+            {% if page_tags contains t %}
+              {% assign score = score | plus: 1 %}
+              {% assign shared = shared | push: t %}
+            {% endif %}
+          {% endfor %}
+          {% if score > 0 %}
+            {% assign score_key = score | prepend: '000' | slice: -3, 3 %}
+            {% capture entry %}{{ score_key }}|||{{ product.name | replace: '|||', '' }}|||{{ analysis_path }}|||{{ product.description | replace: '|||', '' }}|||{{ product.url }}|||{{ shared | join: ', ' | replace: '|||', '' }}{% endcapture %}
+            {% assign related_scored = related_scored | push: entry %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% assign related_sorted = related_scored | sort | reverse %}
+
+{% if related_sorted.size == 0 and current_category %}
+  {% for product in current_category.products %}
+    {% if product.analysis %}
+      {% assign analysis_path = '/' | append: (product.analysis | replace: '.md', '') | append: '/' %}
+      {% if analysis_path != page.url %}
+        {% capture entry %}000|||{{ product.name | replace: '|||', '' }}|||{{ analysis_path }}|||{{ product.description | replace: '|||', '' }}|||{{ product.url }}|||Same era{% endcapture %}
+        {% assign related_scored = related_scored | push: entry %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% assign related_sorted = related_scored | sort | reverse %}
+{% endif %}
+
+{% if related_sorted.size > 0 %}
+<div class="cards-grid">
+  {% for entry in related_sorted limit: 6 %}
+    {% assign parts = entry | split: '|||' %}
+    {% assign name = parts[1] %}
+    {% assign analysis_path = parts[2] %}
+    {% assign desc = parts[3] %}
+    {% assign website = parts[4] %}
+    {% assign shared = parts[5] %}
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title"><a href="{{ site.baseurl }}{{ analysis_path }}">{{ name }}</a></h3>
+      </div>
+      <p class="card-description">{{ desc }}</p>
+      {% if shared %}
+      <div class="card-footer">
+        <span style="font-size: 12px; color: var(--text-tertiary);">Shared: {{ shared }}</span>
+      </div>
+      {% endif %}
+      <div style="margin-top: 12px;">
+        <a href="{{ site.baseurl }}{{ analysis_path }}" class="btn btn-outline">Read Analysis</a>
+        <a href="{{ website }}" class="btn btn-secondary" target="_blank" rel="noopener" style="margin-left: 8px;">Website</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p>No related products found yet.</p>
+{% endif %}
+
+<h2>How To Improve This Article</h2>
+<ul>
+  <li>Add verified feature details with links to official docs, pricing, or release notes.</li>
+  <li>Document integrations you tested (screenshots or steps) and any limitations.</li>
+  <li>Include security/compliance evidence (SOC report availability, DPA, retention) when publicly documented.</li>
+  <li>Summarize pilot outcomes (time saved, conversion changes) with clear assumptions.</li>
+</ul>
+

@@ -33,9 +33,10 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="markdown-content">
-        {{ content }}
-    </div>
+	    <div class="markdown-content">
+	        {{ content }}
+	        {% include analysis_enrichment.html %}
+	    </div>
 
     <div class="page-footer">
         <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">← Back to Products</a>
