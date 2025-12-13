@@ -76,19 +76,20 @@
 
     <!-- Structured Data - Website -->
     <script nonce="hireai" type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": {{ site.title | jsonify }},
-      "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
-      "url": {{ site_root | jsonify }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ site.url | append: site.baseurl | append: '/product-directory/?q={search_term_string}' | jsonify }},
-        "query-input": {{ 'required name=search_term_string' | jsonify }}
-      }
-    }
-    </script>
+	    {
+	      "@context": "https://schema.org",
+	      "@type": "WebSite",
+	      "name": {{ site.title | jsonify }},
+	      "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
+	      "url": {{ site_root | jsonify }},
+	      "potentialAction": {
+	        "@type": "SearchAction",
+	        {% capture search_target %}{{ site.url }}{{ site.baseurl }}/product-directory/?q={search_term_string}{% endcapture %}
+	        "target": {{ search_target | jsonify }},
+	        "query-input": {{ 'required name=search_term_string' | jsonify }}
+	      }
+	    }
+	    </script>
 
     <!-- Structured Data - Organization -->
     <script nonce="hireai" type="application/ld+json">
