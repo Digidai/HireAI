@@ -849,6 +849,9 @@ body {
 .meta-item {
     font-size: 14px;
     color: var(--text-secondary);
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .meta-item strong {
@@ -1099,6 +1102,10 @@ body {
 .article-meta-bar .meta-item {
     font-size: 14px;
     color: var(--text-secondary);
+    min-width: 0;
+    /* Enable flex item shrinking */
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .article-meta-bar .meta-item strong {
@@ -1395,6 +1402,9 @@ body {
     border-collapse: collapse;
     margin: 24px 0;
     font-size: 14px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .markdown-content th,
