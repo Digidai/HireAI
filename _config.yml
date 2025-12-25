@@ -15,6 +15,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap # Explicitly enable sitemap generation
 
+# Collections - organize analysis files
+collections:
+  analyses:
+    output: true
+
 # Include special files used by some hosts/CDNs.
 include:
   - _headers

@@ -37,7 +37,7 @@ permalink: /product-directory/
             </div>
             {% if product.analysis %}
             <div style="margin-top: 12px;">
-                <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
+                <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
             </div>
             {% endif %}
         </div>

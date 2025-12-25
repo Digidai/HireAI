@@ -39,6 +39,7 @@ puts "products=#{products.size}"
 null_analysis = products.count { |p| p["analysis"].nil? || p["analysis"].to_s.strip.empty? }
 raise "products with missing analysis=#{null_analysis}" if null_analysis > 0
 
+# Analysis files are now in _analyses/ directory
 analysis_files = products.map { |p| p["analysis"] }.compact.uniq
 missing_analysis_files = analysis_files.reject { |f| File.exist?(f) }
 if missing_analysis_files.any?
@@ -50,7 +51,9 @@ analysis_files.each do |file|
   fm = front_matter(file)
   next unless fm
 
-  expected = "/#{File.basename(file, ".md")}/"
+  # Extract filename without directory and extension for permalink
+  basename = File.basename(file, ".md")
+  expected = "/#{basename}/"
   got = fm["permalink"].to_s
   bad_permalink << "#{file}: #{got} (expected #{expected})" unless got == expected
 end
@@ -75,7 +78,8 @@ Dir.glob("tags/*.md").each do |path|
 end
 raise "Bad tag page permalinks:\n" + bad_tag_pages.first(50).join("\n") if bad_tag_pages.any?
 
-analysis_pages = Dir.glob("*.md").select do |path|
+# Analysis pages are now in _analyses/ directory
+analysis_pages = Dir.glob("_analyses/*.md").select do |path|
   fm = front_matter(path)
   fm && fm["layout"] == "analysis"
 end
@@ -97,4 +101,3 @@ end
 puts "analysis_pages=#{analysis_pages.size}"
 puts "tag_pages=#{Dir.glob('tags/*.md').size}"
 puts "OK"
-

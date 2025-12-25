@@ -1,6 +1,8 @@
 {
   "permissions": {
-    "allow": [],
+    "allow": [
+      "WebFetch(domain:github.com)"
+    ],
     "deny": [],
     "ask": [],
     "defaultMode": "bypassPermissions"

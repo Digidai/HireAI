@@ -48,9 +48,9 @@ description: "Comprehensive collection of HR AI products and research, organized
             {% for product in category.products %}
                 {% if product.featured %}
                 <div class="featured-card">
-                    <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">{{ product.name | escape }}</a></h3>
+                    <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/">{{ product.name | escape }}</a></h3>
                     <p>{{ product.description | escape }}</p>
-                    <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
+                    <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
                 </div>
                 {% endif %}
             {% endfor %}
@@ -85,7 +85,7 @@ description: "Comprehensive collection of HR AI products and research, organized
                             Visit Website
                         </a>
                         {% if product.analysis %}
-                        <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/" class="product-link">
+                        <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="product-link">
                             Read Analysis
                         </a>
                         {% endif %}
@@ -133,7 +133,7 @@ description: "Comprehensive collection of HR AI products and research, organized
                         <td>{{ category.era | split: ' - ' | first }}</td>
                         <td>
                             {% if product.analysis %}
-                            <a href="{{ site.baseurl }}/{{ product.analysis | replace: '.md', '' }}/">Read</a>
+                            <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/">Read</a>
                             {% else %}
                             <span style="color: var(--text-tertiary);">-</span>
                             {% endif %}
