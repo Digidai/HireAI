@@ -213,7 +213,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## Acknowledgments
 
-- [Josh Bersin](https://joshbersin.com/) for the HR Technology evolution framework
 - All contributors who help maintain and improve this directory
 - The open-source community for inspiration and tools
 
