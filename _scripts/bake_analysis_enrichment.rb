@@ -52,7 +52,8 @@ products_data.each do |category|
     analysis_file = p["analysis"]
     next unless analysis_file
 
-    slug = analysis_file.to_s.sub(/\.md\z/, "")
+    # Extract basename for permalink (e.g., "_analyses/foo-analysis.md" -> "foo-analysis")
+    basename = File.basename(analysis_file, ".md")
     products << {
       "name" => p["name"],
       "website" => p["url"],
@@ -60,7 +61,7 @@ products_data.each do |category|
       "tags" => p["tags"] || [],
       "era" => era,
       "analysis_file" => analysis_file,
-      "analysis_permalink" => "/#{slug}/",
+      "analysis_permalink" => "/#{basename}/",
     }
   end
 end
@@ -68,7 +69,8 @@ end
 product_by_analysis_file = {}
 products.each { |p| product_by_analysis_file[p["analysis_file"]] = p }
 
-analysis_pages = Dir.glob("*.md").select do |path|
+# Analysis pages are now in _analyses/ directory
+analysis_pages = Dir.glob("_analyses/*.md").select do |path|
   fm, = parse_front_matter(path)
   fm && fm["layout"] == "analysis"
 end
