@@ -25,22 +25,7 @@ permalink: /product-directory/
 
     <div class="cards-grid">
         {% for product in category.products %}
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title"><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a></h3>
-            </div>
-            <p class="card-description">{{ product.description | escape }}</p>
-            <div class="card-footer">
-                {% for tag in product.tags %}
-                <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
-                {% endfor %}
-            </div>
-            {% if product.analysis %}
-            <div style="margin-top: 12px;">
-                <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
-            </div>
-            {% endif %}
-        </div>
+        {% include product-card.html product=product %}
         {% endfor %}
     </div>
 </section>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2383e2"/>
+      <stop offset="100%" style="stop-color:#1a5fb4"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <rect x="4" y="8" width="32" height="32" rx="6" fill="url(#logoGrad)"/>
+  <text x="20" y="31" text-anchor="middle" fill="white" font-family="Inter, -apple-system, sans-serif" font-size="20" font-weight="700">H</text>
+  <!-- Text -->
+  <text x="48" y="32" fill="#37352f" font-family="Inter, -apple-system, sans-serif" font-size="24" font-weight="600">
+    <tspan>Hire</tspan><tspan fill="#2383e2">AI</tspan>
+  </text>
+</svg>

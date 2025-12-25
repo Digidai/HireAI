@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-header">
+        {% if include.category %}<span class="card-icon">{{ include.category.icon }}</span>{% endif %}
+        <h3 class="card-title"><a href="{{ include.product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.product.name | escape }}</a></h3>
+    </div>
+    <p class="card-description">{{ include.product.description | escape }}</p>
+    <div class="card-footer">
+        {% for tag in include.product.tags %}
+        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
+        {% endfor %}
+    </div>
+    {% if include.product.analysis %}
+    <div style="margin-top: 12px;">
+        <a href="{{ site.baseurl }}/{{ include.product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
+    </div>
+    {% endif %}
+</div>

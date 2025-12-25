@@ -8,8 +8,8 @@
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#191919" media="(prefers-color-scheme: dark)">
 
-    <!-- Basic CSP (works best with a CDN/host that sets headers too) -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'nonce-hireai'; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests">
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests">
 
     {% assign meta_title = site.title %}
     {% if page.title %}
@@ -66,13 +66,20 @@
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png">
     <meta name="twitter:image:alt" content="HireAI - HR AI Products Collection">
 
-    <!-- Fonts -->
+    <!-- Preconnect for external resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- Fonts with display swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+    <!-- Favicon (SVG with PNG fallback) -->
+    <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg">
+    <link rel="alternate icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
     <!-- Structured Data - Website -->
     <script nonce="hireai" type="application/ld+json">
@@ -169,6 +176,9 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
+    <!-- Skip Link for Keyboard Navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <aside class="sidebar">
         <div class="sidebar-header">
             <div class="logo">
@@ -255,12 +265,17 @@
         </svg>
     </button>
 
-    <main class="main-content" role="main">
+    <main id="main-content" class="main-content" role="main">
         <div class="content-wrapper">
             {{ content }}
         </div>
     </main>
 
+    <!-- Fuse.js for fuzzy search (with SRI integrity check) -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"
+            integrity="sha384-IOVFm/3p8uS7cs2rXNxcn6sk8pWDWW1mMxWWyZzRMIQgWdI/6pGH7hsDSK+pCASE"
+            crossorigin="anonymous"
+            defer></script>
     <script src="{{ site.baseurl }}/assets/js/main.js" defer></script>
 </body>
 </html>

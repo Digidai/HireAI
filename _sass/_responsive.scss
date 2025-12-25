@@ -1,0 +1,277 @@
+// Responsive Styles
+
+// Extra large screens
+@media (min-width: 1440px) {
+    .content-wrapper {
+        max-width: 1100px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+// Large screens
+@media (min-width: 1200px) {
+    .sidebar {
+        width: 260px;
+    }
+
+    .main-content {
+        margin-left: 260px;
+    }
+}
+
+// Tablet breakpoint
+@media (max-width: 1024px) {
+    .analysis-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .analysis-sidebar {
+        position: static;
+        order: -1;
+    }
+
+    .analysis-container {
+        grid-template-columns: 1fr;
+
+        .sidebar {
+            position: static;
+            order: -1;
+        }
+    }
+}
+
+// Mobile breakpoint
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+
+        &.open {
+            transform: translateX(0);
+            box-shadow: var(--shadow-lg);
+        }
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .content-wrapper {
+        padding: 60px 20px 40px;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+
+    .stats-row {
+        gap: 16px;
+    }
+
+    .stat-value {
+        font-size: 24px;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .database-controls {
+        display: none;
+    }
+
+    .database-table {
+        th, td {
+            padding: 8px;
+            font-size: 13px;
+        }
+    }
+
+    .quick-links {
+        flex-direction: column;
+
+        .btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    .article-meta-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-header h1 {
+        font-size: 26px;
+    }
+
+    .product-meta-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .meta-items {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .features-grid,
+    .ideal-for-list,
+    .pros-cons-grid,
+    .related-grid {
+        grid-template-columns: 1fr;
+    }
+
+    // Improve touch targets
+    .nav-item {
+        padding: 10px 12px;
+        min-height: 44px;
+    }
+
+    .btn {
+        min-height: 44px;
+        padding: 12px 16px;
+    }
+
+    .tag {
+        padding: 6px 10px;
+        min-height: 32px;
+    }
+
+    // Better search input on mobile
+    .search-input {
+        width: 100%;
+        max-width: none;
+        padding: 10px 14px;
+        font-size: 16px; // Prevents iOS zoom
+    }
+
+    // Card improvements for mobile
+    .card {
+        padding: 16px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-description {
+        font-size: 12px;
+    }
+}
+
+// Small mobile breakpoint
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: 60px 16px 32px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+
+    .page-description {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .stat-value {
+        font-size: 20px;
+    }
+
+    .stat-label {
+        font-size: 12px;
+    }
+
+    .category-title {
+        font-size: 18px;
+    }
+
+    .category-icon {
+        font-size: 20px;
+    }
+
+    // Better spacing for mobile
+    .section {
+        margin: 32px 0;
+    }
+
+    .category-section {
+        margin: 24px 0;
+    }
+
+    .page-header {
+        margin-bottom: 24px;
+    }
+
+    .page-footer {
+        margin-top: 40px;
+    }
+}
+
+// High-DPI screen adjustments
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+// Reduced motion preference
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+// Print styles
+@media print {
+    .sidebar,
+    .mobile-menu-btn,
+    .theme-toggle,
+    .btn-group,
+    .search-input {
+        display: none !important;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .content-wrapper {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}

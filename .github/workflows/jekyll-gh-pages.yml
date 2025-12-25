@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# HireAI - Jekyll Site Build and Deploy
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
@@ -19,7 +19,6 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -36,7 +35,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true # Caches gems
+          bundler-cache: true
 
       - name: Validate data consistency
         run: ruby _scripts/check_site_data.rb
@@ -44,17 +43,35 @@ jobs:
       - name: Build with Jekyll
         run: JEKYLL_ENV=production bundle exec jekyll build -d ./_site
 
+      - name: Check HTML validity
+        uses: anishathalye/proof-html@v2
+        with:
+          directory: ./_site
+          check_html: true
+          check_opengraph: true
+          check_img_http: true
+          enforce_https: true
+          check_favicon: true
+          allow_hash_href: true
+          ignore_urls: |
+            https://fonts.googleapis.com
+            https://fonts.gstatic.com
+            https://cdn.jsdelivr.net
+        continue-on-error: true
+
       - name: Verify deployment files
         run: |
-          if [ ! -f ./_site/.well-known/security.txt ]; then
-            echo "::warning::Missing ./_site/.well-known/security.txt"
-          fi
-          if [ ! -f ./_site/_headers ]; then
-            echo "::warning::Missing ./_site/_headers (only used by some hosts)"
-          fi
-          if [ ! -f ./_site/CNAME ]; then
-            echo "::warning::Missing ./_site/CNAME"
-          fi
+          echo "Checking required files..."
+          [ -f ./_site/index.html ] || echo "::error::Missing index.html"
+          [ -f ./_site/sitemap.xml ] || echo "::warning::Missing sitemap.xml"
+          [ -f ./_site/robots.txt ] || echo "::warning::Missing robots.txt"
+          [ -f ./_site/.well-known/security.txt ] && echo "security.txt found" || echo "::warning::Missing security.txt"
+          [ -f ./_site/_headers ] && echo "_headers found" || echo "::warning::Missing _headers"
+          [ -f ./_site/CNAME ] && echo "CNAME found" || echo "::warning::Missing CNAME"
+
+          echo "Counting generated pages..."
+          HTML_COUNT=$(find ./_site -name "*.html" | wc -l | tr -d ' ')
+          echo "Generated $HTML_COUNT HTML pages"
 
       - name: Setup Pages
         if: github.event_name != 'pull_request'

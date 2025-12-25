@@ -15,6 +15,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap # Explicitly enable sitemap generation
 
+# Sass/SCSS settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
 # Collections - organize analysis files
 collections:
   analyses:

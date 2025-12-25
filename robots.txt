@@ -2,8 +2,12 @@
 layout: null
 permalink: /robots.txt
 ---
+# HireAI - HR AI Products Collection
+# https://hireai.genedai.me
+
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
 # Sitemap
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
@@ -11,3 +15,10 @@ Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
 # Disallow admin/private paths
 Disallow: /_templates/
 Disallow: /.claude/
+Disallow: /_scripts/
+
+# Disallow query string URLs to prevent duplicate content
+Disallow: /*?*
+
+# Allow search engines to index main query parameter
+Allow: /product-directory/?q=

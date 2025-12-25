@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2383e2"/>
+      <stop offset="100%" style="stop-color:#1a5fb4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="200" fill="#2383e2" opacity="0.05"/>
+  <circle cx="100" cy="530" r="150" fill="#2383e2" opacity="0.05"/>
+
+  <!-- Logo icon -->
+  <rect x="80" y="200" width="80" height="80" rx="16" fill="url(#accentGrad)"/>
+  <text x="120" y="258" text-anchor="middle" fill="white" font-family="Inter, -apple-system, sans-serif" font-size="48" font-weight="700">H</text>
+
+  <!-- Title -->
+  <text x="180" y="260" fill="#1e293b" font-family="Inter, -apple-system, sans-serif" font-size="64" font-weight="700">
+    <tspan>Hire</tspan><tspan fill="#2383e2">AI</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="340" fill="#475569" font-family="Inter, -apple-system, sans-serif" font-size="32" font-weight="500">HR AI Products Collection</text>
+
+  <!-- Description -->
+  <text x="80" y="400" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="24">
+    <tspan x="80" dy="0">Comprehensive directory of 149+ HR AI products</tspan>
+    <tspan x="80" dy="36">from ATS to Agentic AI Platforms</tspan>
+  </text>
+
+  <!-- Stats boxes -->
+  <g transform="translate(80, 480)">
+    <!-- Products -->
+    <rect width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="80" y="35" text-anchor="middle" fill="#2383e2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">149+</text>
+    <text x="80" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Products</text>
+
+    <!-- Analyses -->
+    <rect x="180" width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="260" y="35" text-anchor="middle" fill="#2383e2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">150+</text>
+    <text x="260" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Analyses</text>
+
+    <!-- Tags -->
+    <rect x="360" width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="440" y="35" text-anchor="middle" fill="#2383e2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">58</text>
+    <text x="440" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Categories</text>
+  </g>
+
+  <!-- URL -->
+  <text x="1120" y="580" text-anchor="end" fill="#94a3b8" font-family="Inter, -apple-system, sans-serif" font-size="20">hireai.genedai.me</text>
+</svg>
