@@ -1,6 +1,12 @@
-# HireAI - The Comprehensive HR AI Products Directory
-
 <div align="center">
+
+<img src="assets/images/og-image.svg" alt="HireAI - HR AI Products Collection" width="600">
+
+# HireAI
+
+### 🚀 The World's Most Comprehensive HR AI Products Directory
+
+**149+ Products · 150+ Analysis · 58 Categories · 100% Open Source**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fhireai.genedai.me&label=HireAI.me)](https://hireai.genedai.me)
@@ -13,43 +19,57 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Digidai/HireAI/pulls)
 [![Contributors](https://img.shields.io/github/contributors/Digidai/HireAI)](https://github.com/Digidai/HireAI/graphs/contributors)
 
-**The world's most comprehensive open-source directory of HR AI products and solutions.**
-
-[Explore Products](https://hireai.genedai.me/product-directory/) · [Read Analysis](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/) · [View by Tags](https://hireai.genedai.me/tags/ai/) · [Contribute](CONTRIBUTING.md)
+[**🌐 Explore Products**](https://hireai.genedai.me/product-directory/) · [**📊 Read Analysis**](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/) · [**🏷️ Browse Tags**](https://hireai.genedai.me/tags/ai/) · [**🤝 Contribute**](CONTRIBUTING.md)
 
 **Read this in other languages:** [中文](README-zh.md)
+
+---
+
+**⭐ If you find this useful, please star the repo — it helps others discover it!**
 
 </div>
 
 ---
 
-## Why HireAI?
+## 🎯 Who Is This For?
+
+| Role | Use Case |
+|------|----------|
+| **HR Leaders** | Evaluate and select the right AI tools for your organization |
+| **Recruiters** | Discover new tools to improve hiring efficiency |
+| **HR Tech Vendors** | Understand competitive landscape and market positioning |
+| **Investors** | Research HR tech market trends and opportunities |
+| **Developers** | Find integration opportunities and API ecosystems |
+| **Researchers** | Access structured data on HR AI evolution |
+
+## 💡 Why HireAI?
 
 The HR technology landscape is evolving rapidly with AI-powered solutions transforming every aspect of talent acquisition and management. **HireAI** provides a systematic, vendor-neutral knowledge base to help you navigate this complex ecosystem.
 
 | What We Offer | Description |
 |---------------|-------------|
-| **Comprehensive Coverage** | 149+ HR AI products across all categories |
-| **Deep Analysis** | 150+ in-depth product analysis articles |
-| **Structured Taxonomy** | 95 tags for precise categorization |
-| **Evolution Framework** | Josh Bersin's 5-stage technology framework |
-| **Community-Driven** | Open source with regular updates |
+| 📦 **Comprehensive Coverage** | 149+ HR AI products across all categories |
+| 🔍 **Deep Analysis** | 150+ in-depth product analysis articles |
+| 🏷️ **Structured Taxonomy** | 58 tags for precise categorization |
+| 📈 **Evolution Framework** | Josh Bersin's 5-stage technology framework |
+| 🌍 **Community-Driven** | Open source with regular updates |
+| 🆓 **100% Free** | No paywall, no registration required |
 
 ---
 
-## Quick Stats
+## 📊 Quick Stats
 
 <div align="center">
 
-| Products | Analysis Articles | Categories | Tags | Technology Eras |
-|:--------:|:-----------------:|:----------:|:----:|:---------------:|
-| **149+** | **150+** | **8** | **95** | **5** |
+| 📦 Products | 📝 Analysis | 🏷️ Tags | 📅 Eras |
+|:-----------:|:-----------:|:-------:|:-------:|
+| **149+** | **150+** | **58** | **5** |
 
 </div>
 
 ---
 
-## Technology Evolution Framework
+## 📈 Technology Evolution Framework
 
 We organize products using Josh Bersin's HR Technology evolution framework:
 
@@ -63,7 +83,7 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 
 ---
 
-## Featured Products
+## ⭐ Featured Products
 
 ### Agentic AI Leaders (2024+)
 
@@ -87,7 +107,7 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 
 ---
 
-## Top Tags
+## 🏷️ Top Tags
 
 | Tag | Products | Description |
 |-----|:--------:|-------------|
@@ -100,11 +120,11 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 | [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 11 | Chatbots & virtual assistants |
 | [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 11 | Autonomous AI agents |
 
-**[Browse All 95 Tags →](https://hireai.genedai.me/product-directory/)**
+**[Browse All 58 Tags →](https://hireai.genedai.me/product-directory/)**
 
 ---
 
-## Research & Analysis
+## 📚 Research & Analysis
 
 ### Flagship Report
 
@@ -126,7 +146,7 @@ Every product includes a detailed analysis covering:
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Browse Online
 
@@ -159,10 +179,10 @@ bundle exec jekyll serve
 HireAI/
 ├── _data/
 │   ├── products.yml        # Product database (149+ products)
-│   └── tag_checklists.yml  # Evaluation criteria (95 tags)
+│   └── tag_checklists.yml  # Evaluation criteria
 ├── _layouts/               # Page templates
 ├── _scripts/               # Build & validation scripts
-├── tags/                   # Tag pages (95 tags)
+├── tags/                   # Tag pages (58 tags)
 ├── *.md                    # Product analysis pages (150+)
 ├── index.html              # Homepage
 └── product-directory.md    # Product directory page
@@ -170,7 +190,7 @@ HireAI/
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -191,7 +211,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
 - [ ] Product comparison tool
 - [ ] User ratings & reviews
@@ -203,7 +223,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## Community
+## 💬 Community
 
 - **Issues**: [Report bugs or request features](https://github.com/Digidai/HireAI/issues)
 - **Discussions**: [Join the conversation](https://github.com/Digidai/HireAI/discussions)
@@ -211,7 +231,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - [Josh Bersin](https://joshbersin.com/) for the HR Technology evolution framework
 - All contributors who help maintain and improve this directory
@@ -219,7 +239,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
