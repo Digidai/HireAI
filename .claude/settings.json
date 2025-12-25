@@ -7,17 +7,17 @@
     "allow": [
       "Edit(*)",
       "Read(*)",
-      "Bash(*)",
-      "WebFetch(*)",
+      "Bash",
+      "WebFetch(domain:*)",
       "Write(*)",
       "Glob(*)",
       "Grep(*)"
     ],
     "deny": [
-      "Bash(rm -rf *)",
-      "Bash(sudo *)",
+      "Bash(rm -rf :*)",
+      "Bash(sudo :*)",
       "Bash(reboot)",
-      "Bash(shutdown *)",
+      "Bash(shutdown :*)",
       "Edit(.env*)",
       "Read(.env)",
       "Read(.env.*)",

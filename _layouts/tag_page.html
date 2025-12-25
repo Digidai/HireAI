@@ -3,9 +3,17 @@ layout: default
 ---
 <div class="page-header">
     <div class="page-icon">#</div>
-    <h1 class="page-title">{{ page.tag | escape }}</h1>
-    <p class="page-description">Products tagged with "{{ page.tag | escape }}"</p>
+    <h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}</h1>
+    <p class="page-description">{% if page.description %}{{ page.description | escape }}{% else %}Products tagged with "{{ page.tag | escape }}"{% endif %}</p>
 </div>
+
+{% if content != "" %}
+<section class="section">
+    <div class="markdown-content">
+        {{ content }}
+    </div>
+</section>
+{% endif %}
 
 {% assign checklist = site.data.tag_checklists[page.tag | slugify] %}
 {% if checklist %}
@@ -25,7 +33,20 @@ layout: default
 </section>
 {% endif %}
 
+{% assign product_count = 0 %}
+{% for category in site.data.products %}
+    {% for product in category.products %}
+        {% if product.tags contains page.tag %}
+            {% assign product_count = product_count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
 <section class="section">
+    <div class="section-header">
+        <span class="section-icon">📦</span>
+        <h2 class="section-title">Products ({{ product_count }})</h2>
+    </div>
     <div class="cards-grid">
         {% for category in site.data.products %}
             {% for product in category.products %}
@@ -57,5 +78,6 @@ layout: default
 
 <div class="btn-group" style="justify-content: center;">
     <a href="{{ site.baseurl }}/tags/" class="btn btn-secondary">View All Tags</a>
+    <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">Product Directory</a>
     <a href="{{ site.baseurl }}/" class="btn btn-secondary">Back to Home</a>
 </div>

@@ -1,117 +1,236 @@
-# HireAI - HR AI Products Collection
+# HireAI - The Comprehensive HR AI Products Directory
+
+<div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fhireai.genedai.me&label=HireAI.me)](https://hireai.genedai.me)
 [![GitHub Stars](https://img.shields.io/github/stars/Digidai/HireAI?style=social)](https://github.com/Digidai/HireAI/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Digidai/HireAI?style=social)](https://github.com/Digidai/HireAI/network/members)
+
 [![GitHub Issues](https://img.shields.io/github/issues/Digidai/HireAI)](https://github.com/Digidai/HireAI/issues)
 [![GitHub License](https://img.shields.io/github/license/Digidai/HireAI)](https://github.com/Digidai/HireAI/blob/master/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Digidai/HireAI)](https://github.com/Digidai/HireAI/commits/master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Digidai/HireAI/pulls)
-[![AI Powered](https://img.shields.io/badge/AI-Powered-blue.svg)](https://github.com/Digidai/HireAI)
-[![HR Tech](https://img.shields.io/badge/HR-Tech-orange.svg)](https://github.com/Digidai/HireAI)
+[![Contributors](https://img.shields.io/github/contributors/Digidai/HireAI)](https://github.com/Digidai/HireAI/graphs/contributors)
+
+**The world's most comprehensive open-source directory of HR AI products and solutions.**
+
+[Explore Products](https://hireai.genedai.me/product-directory/) · [Read Analysis](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/) · [View by Tags](https://hireai.genedai.me/tags/ai/) · [Contribute](CONTRIBUTING.md)
 
 **Read this in other languages:** [中文](README-zh.md)
 
-## Project Overview
+</div>
 
-This project is dedicated to collecting and organizing AI products and solutions in the Human Resources (HR) field. It powers the HireAI website and directory, with product data stored in `_data/products.yml` and analysis pages in the repo root.
+---
 
-## Local Development
+## Why HireAI?
 
-Prerequisites: Ruby + Bundler.
+The HR technology landscape is evolving rapidly with AI-powered solutions transforming every aspect of talent acquisition and management. **HireAI** provides a systematic, vendor-neutral knowledge base to help you navigate this complex ecosystem.
 
-- Install deps: `bundle install`
-- Run data checks: `ruby _scripts/check_site_data.rb`
-- Preview locally: `bundle exec jekyll serve`
-- Build: `JEKYLL_ENV=production bundle exec jekyll build`
+| What We Offer | Description |
+|---------------|-------------|
+| **Comprehensive Coverage** | 149+ HR AI products across all categories |
+| **Deep Analysis** | 150+ in-depth product analysis articles |
+| **Structured Taxonomy** | 95 tags for precise categorization |
+| **Evolution Framework** | Josh Bersin's 5-stage technology framework |
+| **Community-Driven** | Open source with regular updates |
 
-## Deployment (GitHub Pages)
+---
 
-This repo includes a GitHub Actions workflow at `.github/workflows/jekyll-gh-pages.yml` that builds the site and deploys it to GitHub Pages. In GitHub Pages settings, set **Build and deployment** → **Source** to **GitHub Actions**.
+## Quick Stats
 
-## Project Structure
+<div align="center">
 
-This project will contain the following content:
+| Products | Analysis Articles | Categories | Tags | Technology Eras |
+|:--------:|:-----------------:|:----------:|:----:|:---------------:|
+| **149+** | **150+** | **8** | **95** | **5** |
 
-- **Product Introductions** - Detailed introductions to various HR AI products, their features, characteristics, and use cases
-- **Research Reports** - In-depth analysis of HR AI market trends, technology developments, and industry applications
-- **Product Comparisons** - Functional comparisons and evaluations between different HR AI products
-- **Usage Guides** - How to select and use appropriate HR AI tools
+</div>
 
-## Document Format
+---
 
-All research reports and product introductions are written in Markdown format for easy reading and maintenance.
+## Technology Evolution Framework
 
-## Research Reports
+We organize products using Josh Bersin's HR Technology evolution framework:
 
-### [The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence](hr-ai-evolution-comprehensive-analysis.md)
-A comprehensive analysis of 46 HR AI products and vendors through Josh Bersin's five-stage technological evolution framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.
+| Era | Focus | Key Players |
+|-----|-------|-------------|
+| **1990s** | Applicant Tracking Systems (ATS) | Oracle Taleo, SAP SuccessFactors, Workday |
+| **2000s** | Candidate Marketing & Assessment | Glassdoor, ZipRecruiter, Textio, SHL |
+| **2010s** | Onboarding/Workflow/Sourcing | Greenhouse, Lever, SmartRecruiters, HireVue |
+| **2020s** | Intelligent Assessment & DEI | HackerRank, Indeed, Avature |
+| **2024+** | Agentic AI Platforms | Eightfold.ai, Paradox, Phenom, Beamery |
 
-## Product Directory
+---
 
-### [Complete HR AI Product Directory](product-directory.md)
-Comprehensive catalog of HR AI products organized by technological era, with direct links to official websites and an analysis page for every product (some are starter articles that need expansion).
+## Featured Products
 
-### By Category
+### Agentic AI Leaders (2024+)
 
-#### 1990s - Applicant Tracking Systems (ATS)
-- [Oracle Taleo](https://www.oracle.com/human-capital-management/taleo/)
-- [SAP SuccessFactors](https://www.sap.com/products/human-resources-hcm.html)
-- [PeopleFluent](https://www.peoplefluent.com/)
-- [Workday Recruiting](https://www.workday.com/en-us/products/human-capital-management/recruiting.html)
-- [Cornerstone OnDemand](https://www.cornerstoneondemand.com/)
+| Product | Description | Tags |
+|---------|-------------|------|
+| [Eightfold.ai](https://eightfold.ai/) | Talent Intelligence Platform with deep learning | `AI` `Talent Intelligence` `Skills` |
+| [Paradox](https://www.paradox.ai/) | Conversational AI for recruiting (Olivia) | `Conversational AI` `Automation` |
+| [Phenom](https://www.phenompeople.com/) | AI-powered Talent Experience Platform | `TXM` `AI` `Career Site` |
+| [Beamery](https://beamery.com/) | Talent Lifecycle Management with AI | `CRM` `AI` `Talent Marketplace` |
+| [HiredScore](https://www.hiredscore.com/) | AI-powered talent orchestration | `AI` `Automation` `Matching` |
 
-#### 2000s - Candidate Marketing & Assessment
-- [Glassdoor](https://www.glassdoor.com/)
-- [ZipRecruiter](https://www.ziprecruiter.com/)
-- [Textio](https://textio.com/)
-- [IBM Kenexa](https://www.ibm.com/products/kenexa-employee-assessments)
-- [SHL](https://www.shl.com/)
-- [Talview](https://www.talview.com/)
+### Enterprise Classics
 
-#### 2010s - Onboarding/Workflow/Integrated Sourcing
-- [Greenhouse](https://www.greenhouse.io/)
-- [Lever](https://www.lever.co/)
-- [SmartRecruiters](https://www.smartrecruiters.com/)
-- [XOR](https://www.xor.ai/)
-- [Harver](https://harver.com/)
-- [HireVue](https://www.hirevue.com/)
-- [Karat](https://karat.com/)
+| Product | Description | Tags |
+|---------|-------------|------|
+| [Greenhouse](https://www.greenhouse.io/) | Structured hiring platform | `ATS` `Structured Hiring` |
+| [Lever](https://www.lever.co/) | Modern talent acquisition suite | `ATS` `CRM` |
+| [Workday](https://www.workday.com/) | Enterprise HCM suite | `HCM` `Enterprise` `ATS` |
 
-#### 2020s - Intelligent Assessment, Diversity, Career
-- [HackerRank](https://www.hackerrank.com/)
-- [Yello](https://www.yello.co/)
-- [Indeed](https://www.indeed.com/)
-- [Avature](https://www.avature.net/)
-- [Unitive](https://www.unitive.com/)
+**[View All 149+ Products →](https://hireai.genedai.me/product-directory/)**
 
-#### 2024+ - Agentic AI Platforms
-- [Beamery](https://beamery.com/)
-- [Eightfold.ai](https://eightfold.ai/)
-- [HiredScore](https://www.hiredscore.com/)
-- [iCIMS](https://www.icims.com/)
-- [Paradox](https://www.paradox.ai/)
-- [Phenom People](https://www.phenompeople.com/)
-- [SeekOut](https://seekout.com/)
-- [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub)
-- [OpenJobs AI](https://www.openjobs-ai.com)
+---
 
-## Contributing Guidelines
+## Top Tags
 
-We welcome submissions of new HR AI product information or improvements to existing content. Please ensure:
-1. Content is accurate and reliable
-2. Format is standardized and consistent
-3. Information is timely and up-to-date
-4. If you add new tags, add the matching tag page under `tags/` (slug: lowercase, spaces → `-`)
+| Tag | Products | Description |
+|-----|:--------:|-------------|
+| [AI](https://hireai.genedai.me/tags/ai/) | 97 | Artificial Intelligence capabilities |
+| [Automation](https://hireai.genedai.me/tags/automation/) | 46 | Workflow automation features |
+| [Sourcing](https://hireai.genedai.me/tags/sourcing/) | 41 | Candidate sourcing tools |
+| [ATS](https://hireai.genedai.me/tags/ats/) | 33 | Applicant Tracking Systems |
+| [Assessment](https://hireai.genedai.me/tags/assessment/) | 17 | Candidate assessment tools |
+| [Analytics](https://hireai.genedai.me/tags/analytics/) | 13 | Data analytics & reporting |
+| [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 11 | Chatbots & virtual assistants |
+| [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 11 | Autonomous AI agents |
+
+**[Browse All 95 Tags →](https://hireai.genedai.me/product-directory/)**
+
+---
+
+## Research & Analysis
+
+### Flagship Report
+
+**[The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/)**
+
+A comprehensive analysis of 46 HR AI products through Josh Bersin's five-stage framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.
+
+### Product Analysis
+
+Every product includes a detailed analysis covering:
+
+- Company background & history
+- Core features & capabilities
+- Technology architecture
+- Target market & use cases
+- Strengths & weaknesses
+- Competitive positioning
+- Pricing & deployment options
+
+---
+
+## Getting Started
+
+### Browse Online
+
+Visit **[hireai.genedai.me](https://hireai.genedai.me)** to explore the full directory with search and filtering.
+
+### Local Development
+
+```bash
+# Prerequisites: Ruby 3.x + Bundler
+
+# Clone the repository
+git clone https://github.com/Digidai/HireAI.git
+cd HireAI
+
+# Install dependencies
+bundle install
+
+# Run data validation
+ruby _scripts/check_site_data.rb
+
+# Start local server
+bundle exec jekyll serve
+
+# Visit http://localhost:4000
+```
+
+### Project Structure
+
+```
+HireAI/
+├── _data/
+│   ├── products.yml        # Product database (149+ products)
+│   └── tag_checklists.yml  # Evaluation criteria (95 tags)
+├── _layouts/               # Page templates
+├── _scripts/               # Build & validation scripts
+├── tags/                   # Tag pages (95 tags)
+├── *.md                    # Product analysis pages (150+)
+├── index.html              # Homepage
+└── product-directory.md    # Product directory page
+```
+
+---
+
+## Contributing
+
+We welcome contributions! Here's how you can help:
+
+### Quick Contribution
+
+1. **Star this repo** to show your support
+2. **Report issues** for outdated or incorrect information
+3. **Suggest products** that should be included
+
+### Content Contribution
+
+1. Fork the repository
+2. Add/update product in `_data/products.yml`
+3. Create analysis page (use [template](_templates/analysis_template.md))
+4. Submit a Pull Request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## Roadmap
+
+- [ ] Product comparison tool
+- [ ] User ratings & reviews
+- [ ] API for data access
+- [ ] Integration guides
+- [ ] Vendor verification badges
+- [ ] Industry trend reports
+- [ ] Multi-language support expansion
+
+---
+
+## Community
+
+- **Issues**: [Report bugs or request features](https://github.com/Digidai/HireAI/issues)
+- **Discussions**: [Join the conversation](https://github.com/Digidai/HireAI/discussions)
+- **Twitter**: Follow [@HireAI](https://twitter.com/HireAI) for updates
+
+---
+
+## Acknowledgments
+
+- [Josh Bersin](https://joshbersin.com/) for the HR Technology evolution framework
+- All contributors who help maintain and improve this directory
+- The open-source community for inspiration and tools
+
+---
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-If you have any questions or suggestions, please contact us through GitHub Issues.
-
 ---
 
-*This project is continuously updated, please stay tuned*
+<div align="center">
+
+**If you find HireAI useful, please consider giving it a star!**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Digidai/HireAI&type=Date)](https://star-history.com/#Digidai/HireAI&Date)
+
+Made with ❤️ by the HireAI Community
+
+</div>
