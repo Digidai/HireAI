@@ -37,6 +37,12 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Convert SVG to PNG
+        run: |
+          sudo apt-get update && sudo apt-get install -y librsvg2-bin
+          chmod +x _scripts/convert_svg_to_png.sh
+          ./_scripts/convert_svg_to_png.sh
+
       - name: Validate data consistency
         run: ruby _scripts/check_site_data.rb
 
