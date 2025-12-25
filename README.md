@@ -207,7 +207,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 - **Issues**: [Report bugs or request features](https://github.com/Digidai/HireAI/issues)
 - **Discussions**: [Join the conversation](https://github.com/Digidai/HireAI/discussions)
-- **Twitter**: Follow [@HireAI](https://twitter.com/HireAI) for updates
+- **Twitter**: Follow [@genedai](https://twitter.com/genedai) for updates
 
 ---
 
