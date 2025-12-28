@@ -12,10 +12,13 @@
     padding: 20px;
     transition: all var(--transition);
     cursor: pointer;
+    position: relative;
+    z-index: 1;
 
     &:hover {
         box-shadow: var(--shadow-md);
         border-color: var(--bg-active);
+        z-index: 2;
     }
 }
 
@@ -247,10 +250,13 @@
     border-radius: var(--radius-lg);
     padding: 20px;
     transition: all var(--transition);
+    position: relative;
+    z-index: 1;
 
     &:hover {
         box-shadow: var(--shadow-md);
         transform: translateY(-2px);
+        z-index: 2;
     }
 
     h3 {
