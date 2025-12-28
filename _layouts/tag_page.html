@@ -1,6 +1,14 @@
 ---
 layout: default
+breadcrumb:
+  - name: "Home"
+    url: "/"
+  - name: "Tags"
+    url: "/tags/"
+  - name: "{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}"
+    url: null
 ---
+{% include breadcrumb.html %}
 <div class="page-header">
     <div class="page-icon">#</div>
     <h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}</h1>

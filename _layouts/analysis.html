@@ -1,6 +1,14 @@
 ---
 layout: default
+breadcrumb:
+  - name: "Home"
+    url: "/"
+  - name: "Product Directory"
+    url: "/product-directory/"
+  - name: "{{ page.title | escape }}"
+    url: null
 ---
+{% include breadcrumb.html %}
 <article class="article-page">
     <div class="page-header">
         <h1 class="page-title">{{ page.title | escape }}</h1>
@@ -40,4 +48,7 @@ layout: default
     <div class="page-footer">
         <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">← Back to Products</a>
     </div>
+
+    {%- comment -%} 添加相关产品推荐 {%- endcomment -%}
+    {% include related-products.html current_product=page limit=4 %}
 </article>

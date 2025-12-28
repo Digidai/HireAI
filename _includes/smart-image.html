@@ -1,0 +1,44 @@
+{%- comment -%}
+  智能图片组件
+  自动生成或使用提供的 alt 文本，优化 SEO 和无障碍访问
+  使用方法: {% include smart-image.html src="path/to/image.jpg" alt="Custom alt text" class="img-class" %}
+{%- endcomment -%}
+
+{%- assign src = include.src -%}
+{%- assign alt = include.alt -%}
+{%- assign class = include.class | default: '' -%}
+{%- assign title = include.title -%}
+{%- assign loading = include.loading | default: 'lazy' -%}
+{%- assign width = include.width -%}
+{%- assign height = include.height -%}
+
+{%- comment -%} 如果没有提供 alt 文本，自动生成 {%- endcomment -%}
+{%- unless alt -%}
+  {%- if page.title -%}
+    {%- assign alt = page.title | escape -%}
+  {%- elsif page.product_name -%}
+    {%- assign alt = page.product_name | escape -%}
+  {%- elsif page.tag -%}
+    {%- assign alt = page.tag | escape -%}
+  {%- else -%}
+    {%- comment -%} 从文件名生成描述性 alt 文本 {%- endcomment -%}
+    {%- assign filename = src | split: '/' | last -%}
+    {%- assign alt = filename | replace: '-', ' ' | replace: '_', ' ' | replace: '.jpg', '' | replace: '.png', '' | replace: '.jpeg', '' | replace: '.gif', '' | replace: '.webp', '' | capitalize -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- comment -%} 如果没有提供 title，使用 alt 作为 title {%- endcomment -%}
+{%- assign title = title | default: alt -%}
+
+{%- comment -%} 添加 responsive 图片支持 {%- endcomment -%}
+<picture class="{{ class }}">
+  <img
+    src="{{ src | relative_url }}"
+    alt="{{ alt | escape }}"
+    {% if title %}title="{{ title | escape }}"{% endif %}
+    loading="{{ loading }}"
+    {% if width %}width="{{ width }}"{% endif %}
+    {% if height %}height="{{ height }}"{% endif %}
+    decoding="async"
+  />
+</picture>

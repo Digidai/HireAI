@@ -1,0 +1,97 @@
+{%- comment -%}
+  面包屑导航组件
+  包含可视化面包屑和 BreadcrumbList Schema.org 结构化数据
+{%- endcomment -%}
+
+{%- assign breadcrumb_items = page.breadcrumb | default: layout.breadcrumb | default: nil -%}
+
+{%- if breadcrumb_items -%}
+  {%- comment -%} 生成 BreadcrumbList 结构化数据 {%- endcomment -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {%- for item in breadcrumb_items -%}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": "{{ item.name | escape }}",
+          "item": "{{ item.url | absolute_url | escape }}"
+        }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+
+  {%- comment -%} 可视化面包屑导航 {%- endcomment -%}
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      {%- for item in breadcrumb_items -%}
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          {%- if item.url -%}
+            <a href="{{ item.url | relative_url }}" itemprop="item">
+              <span itemprop="name">{{ item.name }}</span>
+            </a>
+          {%- else -%}
+            <span itemprop="name">{{ item.name }}</span>
+          {%- endif -%}
+          <meta itemprop="position" content="{{ forloop.index }}" />
+        </li>
+      {%- endfor -%}
+    </ol>
+  </nav>
+
+  <style>
+    .breadcrumb-nav {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .breadcrumb-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 0.5rem;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    .breadcrumb-item a {
+      color: #2563eb;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-item a:hover {
+      color: #1d4ed8;
+      text-decoration: underline;
+    }
+
+    .breadcrumb-item:not(:last-child)::after {
+      content: '/';
+      margin-left: 0.5rem;
+      color: #9ca3af;
+    }
+
+    .breadcrumb-item:last-child {
+      color: #1f2937;
+      font-weight: 500;
+    }
+
+    @media (max-width: 640px) {
+      .breadcrumb-nav {
+        padding: 0.75rem 0;
+        font-size: 0.8125rem;
+      }
+    }
+  </style>
+{%- endif -%}

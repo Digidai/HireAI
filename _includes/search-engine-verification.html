@@ -1,0 +1,24 @@
+{%- comment -%}
+  搜索引擎验证 meta 标签
+  在 _config.yml 中添加以下配置:
+    google_site_verification: "your-google-verification-code"
+    bing_site_verification: "your-bing-verification-code"
+    pinterest_verification: "your-pinterest-verification-code"
+    yandex_verification: "your-yandex-verification-code"
+{%- endcomment -%}
+
+{%- if site.google_site_verification -%}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{%- endif -%}
+
+{%- if site.bing_site_verification -%}
+<meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+{%- endif -%}
+
+{%- if site.pinterest_verification -%}
+<meta name="p:domain_verify" content="{{ site.pinterest_verification }}" />
+{%- endif -%}
+
+{%- if site.yandex_verification -%}
+<meta name="yandex-verification" content="{{ site.yandex_verification }}" />
+{%- endif -%}

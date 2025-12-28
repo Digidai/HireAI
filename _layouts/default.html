@@ -8,6 +8,9 @@
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#191919" media="(prefers-color-scheme: dark)">
 
+    <!-- Search Engine Verification -->
+    {% include search-engine-verification.html %}
+
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests">
 
@@ -72,6 +75,26 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- Performance and Resource Hints -->
+    <link rel="prefetch" href="{{ site.baseurl }}/product-directory/">
+    <link rel="prefetch" href="{{ site.baseurl }}/assets/css/style.css">
+
+    {%- comment -%} 预加载关键资源 {%- endcomment -%}
+    <link rel="preload" href="{{ site.baseurl }}/assets/images/logo.png" as="image">
+    <link rel="preload" href="{{ site.baseurl }}/assets/images/og-image.png" as="image">
+
+    {%- comment -%} 性能优化 meta 标签 {%- endcomment -%}
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+
+    {%- comment -%} 添加资源优先级提示 {%- endcomment -%}
+    {%- if page.layout == 'product-detail' or page.layout == 'analysis' -%}
+    <link rel="prerender" href="{{ site.baseurl }}/product-directory/">
+    {%- endif -%}
 
     <!-- Fonts with display swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">

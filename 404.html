@@ -1,14 +1,244 @@
 ---
 layout: default
-title: Page Not Found
+title: Page Not Found - 404 Error
+description: "The page you're looking for doesn't exist or has been moved. Explore our HR AI product directory or search for what you need."
 permalink: /404.html
+robots: noindex, follow
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "404 - Page Not Found",
+  "description": "The page you're looking for doesn't exist or has been moved. Explore our HR AI product directory or search for what you need.",
+  "url": "{{ site.url }}{{ site.baseurl }}/404.html",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}{{ site.baseurl }}/product-directory/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 <div class="error-page">
-    <div class="error-code">404</div>
+    <div class="error-visual">
+        <div class="error-code">404</div>
+        <div class="error-illustration" role="img" aria-label="Page not found illustration">
+            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </div>
+    </div>
+
     <h1 class="error-title">Page Not Found</h1>
-    <p class="error-description">The page you're looking for doesn't exist or has been moved.</p>
-    <div class="btn-group" style="justify-content: center;">
-        <a href="{{ site.baseurl }}/" class="btn btn-primary">Go to Home</a>
-        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">Browse Products</a>
+    <p class="error-description">
+        The page you're looking for doesn't exist or has been moved.
+    </p>
+    <p class="error-suggestion">
+        Here are some helpful links to find what you're looking for:
+    </p>
+
+    <nav class="error-navigation" aria-label="Helpful navigation links">
+        <div class="error-links-section">
+            <h2>Popular Pages</h2>
+            <ul class="error-links-list">
+                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/product-directory/">Product Directory</a></li>
+                <li><a href="{{ site.baseurl }}/tags/">Browse by Tags</a></li>
+                <li><a href="{{ site.baseurl }}/FAQ/">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="error-links-section">
+            <h2>Product Categories</h2>
+            <ul class="error-links-list">
+                <li><a href="{{ site.baseurl }}/#1990s">1990s - Applicant Tracking Systems</a></li>
+                <li><a href="{{ site.baseurl }}/#2000s">2000s - Candidate Marketing & Assessment</a></li>
+                <li><a href="{{ site.baseurl }}/#2010s">2010s - Onboarding & Workflow</a></li>
+                <li><a href="{{ site.baseurl }}/#2020s">2020s - Intelligent Assessment</a></li>
+                <li><a href="{{ site.baseurl }}/#2024">2024+ - Agentic AI Platforms</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="error-search">
+        <h2>Search for Products</h2>
+        <p>Use our product directory to find HR AI tools and solutions:</p>
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-primary btn-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            Browse Product Directory
+        </a>
+    </div>
+
+    <div class="error-footer">
+        <p>If you believe this is an error, please <a href="https://github.com/Digidai/HireAI/issues">report it</a>.</p>
     </div>
 </div>
+
+<style>
+  .error-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .error-visual {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+
+  .error-code {
+    font-size: 8rem;
+    font-weight: 900;
+    color: #e2e8f0;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .error-illustration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3b82f6;
+    opacity: 0.3;
+  }
+
+  .error-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1rem;
+  }
+
+  .error-description {
+    font-size: 1.125rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+  }
+
+  .error-suggestion {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+  }
+
+  .error-navigation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+  }
+
+  .error-links-section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+  }
+
+  .error-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .error-links-list li {
+    margin-bottom: 0.5rem;
+  }
+
+  .error-links-list a {
+    color: #3b82f6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s;
+  }
+
+  .error-links-list a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+
+  .error-links-list a::before {
+    content: '→';
+    margin-right: 0.5rem;
+    color: #94a3b8;
+  }
+
+  .error-search {
+    padding: 2rem;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .error-search h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+  }
+
+  .error-search p {
+    color: #64748b;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-large {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  .error-footer {
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .error-footer p {
+    color: #64748b;
+    font-size: 0.875rem;
+  }
+
+  .error-footer a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .error-footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .error-page {
+      padding: 2rem 1rem;
+    }
+
+    .error-code {
+      font-size: 6rem;
+    }
+
+    .error-title {
+      font-size: 2rem;
+    }
+
+    .error-navigation {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+</style>

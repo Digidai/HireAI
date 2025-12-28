@@ -1,0 +1,233 @@
+{%- comment -%}
+  相关产品推荐组件
+  基于标签和类别智能推荐相关产品，增强内部链接结构
+  使用方法: {% include related-products.html current_product=page limit=5 %}
+{%- endcomment -%}
+
+{%- assign current_product = include.current_product -%}
+{%- assign limit = include.limit | default: 5 -%}
+{%- assign current_tags = current_product.tags | default: current_product.tag | default: '' -%}
+{%- assign current_era = current_product.era | default: '' -%}
+{%- assign current_category = current_product.category | default: '' -%}
+
+{%- comment -%} 收集相关产品并评分 {%- endcomment -%}
+{%- assign related_products = '' | split: '' -%}
+
+{%- for category_data in site.data.products -%}
+  {%- for product in category_data.products -%}
+    {%- comment -%} 跳过当前产品 {%- endcomment -%}
+    {%- if product.name == current_product.title or product.name == current_product.product_name -%}
+      {%- continue -%}
+    {%- endif -%}
+
+    {%- assign score = 0 -%}
+    {%- assign reasons = '' | split: '' -%}
+
+    {%- comment -%} 计算相关性得分 {%- endcomment -%}
+    {%- if product.tags and current_tags -%}
+      {%- for tag in current_tags -%}
+        {%- if product.tags contains tag -%}
+          {%- assign score = score | plus: 3 -%}
+          {%- assign reasons = reasons | push: 'shared_tag' -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if product.era and current_era and product.era == current_era -%}
+      {%- assign score = score | plus: 2 -%}
+      {%- assign reasons = reasons | push: 'same_era' -%}
+    {%- endif -%}
+
+    {%- if product.category and current_category and product.category == current_category -%}
+      {%- assign score = score | plus: 2 -%}
+      {%- assign reasons = reasons | push: 'same_category' -%}
+    {%- endif -%}
+
+    {%- comment -%} 只保留有一定相关性的产品 {%- endcomment -%}
+    {%- if score > 0 -%}
+      {%- assign related_product = product | hash: 'score', score | hash: 'reasons', reasons -%}
+      {%- assign related_products = related_products | push: related_product -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- comment -%} 按相关性排序并限制数量 {%- endcomment -%}
+{%- assign sorted_products = related_products | sort: 'score' | reverse -%}
+{%- assign displayed_products = sorted_products | slice: 0, limit -%}
+
+{%- if displayed_products.size > 0 -%}
+<aside class="related-products-section" aria-labelledby="related-products-title">
+  <h2 id="related-products-title" class="section-title">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+    </svg>
+    Related Products
+  </h2>
+
+  <div class="related-products-grid">
+    {%- for product in displayed_products -%}
+      {%- assign product_url = product.url | default: product.website | default: '#' -%}
+      <article class="related-product-card">
+        <h3 class="related-product-name">
+          <a href="{{ product_url }}" rel="nofollow">{% if product.name %}{{ product.name | escape }}{% elsif product.product_name %}{{ product.product_name | escape }}{% else %}{{ product.title | escape }}{% endif %}</a>
+        </h3>
+
+        {%- if product.tagline or product.product_tagline -%}
+          <p class="related-product-tagline">
+            {{ product.tagline | default: product.product_tagline | escape }}
+          </p>
+        {%- endif -%}
+
+        {%- if product.tags -%}
+          <div class="related-product-tags">
+            {%- for tag in product.tags limit: 3 -%}
+              <span class="related-tag">{{ tag | escape }}</span>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- if product.era -%}
+          <span class="related-product-era">{{ product.era | escape }}</span>
+        {%- endif -%}
+      </article>
+    {%- endfor -%}
+  </div>
+
+  <div class="related-products-footer">
+    <a href="{{ site.baseurl }}/product-directory/" class="view-all-link">
+      View All Products
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14"/>
+        <path d="m12 5 7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</aside>
+
+<style>
+  .related-products-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+
+  .related-products-section .section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+  }
+
+  .related-products-section .section-title svg {
+    color: #3b82f6;
+  }
+
+  .related-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .related-product-card {
+    background: #ffffff;
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s ease;
+  }
+
+  .related-product-card:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .related-product-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .related-product-name a {
+    color: #1e293b;
+    text-decoration: none;
+  }
+
+  .related-product-name a:hover {
+    color: #3b82f6;
+  }
+
+  .related-product-tagline {
+    font-size: 0.875rem;
+    color: #64748b;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  .related-product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .related-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.625rem;
+    background: #eff6ff;
+    color: #2563eb;
+    border-radius: 9999px;
+    font-weight: 500;
+  }
+
+  .related-product-era {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.625rem;
+    background: #fef3c7;
+    color: #92400e;
+    border-radius: 9999px;
+    font-weight: 500;
+  }
+
+  .related-products-footer {
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: gap 0.2s ease;
+  }
+
+  .view-all-link:hover {
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 640px) {
+    .related-products-section {
+      padding: 1.5rem;
+    }
+
+    .related-products-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .related-products-section .section-title {
+      font-size: 1.25rem;
+    }
+  }
+</style>
+{%- endif -%}

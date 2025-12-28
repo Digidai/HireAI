@@ -1,0 +1,80 @@
+---
+layout: null
+sitemap:
+  lastmod: {% assign time = site.time | date_to_xmlschema %}{{ time }}
+  priority: 0.8
+  changefreq: weekly
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>{% assign time = site.time | date_to_rfc822 %}{{ time }}</lastBuildDate>
+    <managingEditor>{{ site.email | default: 'noreply@example.com' }} ({{ site.author | default: site.title }})</managingEditor>
+    <webMaster>{{ site.email | default: 'noreply@example.com' }} ({{ site.author | default: site.title }})</webMaster>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    <image>
+      <url>{{ site.url }}{{ site.baseurl }}/assets/images/logo.png</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}/</link>
+      <description>{{ site.title | xml_escape }} - HR AI Products Collection</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+
+    {%- comment -%} 包含最新分析文章 {%- endcomment -%}
+    {%- for post in site.analyses limit: 20 -%}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        {%- if post.description -%}
+        <description>{{ post.description | xml_escape | strip_html | truncate: 400 }}</description>
+        {%- elsif post.page_description -%}
+        <description>{{ post.page_description | xml_escape | strip_html | truncate: 400 }}</description>
+        {%- else -%}
+        <description>{{ post.content | xml_escape | strip_html | truncate: 400 }}</description>
+        {%- endif -%}
+        <content:encoded><![CDATA[{{ post.content | strip }}]]></content:encoded>
+        <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+        {%- if post.date -%}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {%- else -%}
+        <pubDate>{{ post.last_modified_at | default: site.time | date_to_rfc822 }}</pubDate>
+        {%- endif -%}
+        <author>{{ site.email | default: 'noreply@example.com' }} ({{ post.author | default: site.author | default: site.title }})</author>
+        {%- if post.tags -%}
+        <category>{{ post.tags | join: '</category><category>' }}</category>
+        {%- endif -%}
+      </item>
+    {%- endfor -%}
+
+    {%- comment -%} 包含产品目录页面（作为更新内容） {%- endcomment -%}
+    {%- for category in site.data.products limit: 10 -%}
+      {%- for product in category.products limit: 3 -%}
+      <item>
+        <title>{{ product.name | xml_escape }} - {{ category.category | xml_escape }}</title>
+        {%- if product.tagline -%}
+        <description>{{ product.tagline | xml_escape | strip_html | truncate: 400 }}</description>
+        {%- elsif product.description -%}
+        <description>{{ product.description | xml_escape | strip_html | truncate: 400 }}</description>
+        {%- else -%}
+        <description>{{ category.category | xml_escape }} - {{ product.name | xml_escape }}</description>
+        {%- endif -%}
+        <link>{{ site.url }}{{ site.baseurl }}/product-directory/#{{ product.name | slugify }}</link>
+        <guid isPermaLink="false">{{ product.name | xml_escape }}-{{ category.category | xml_escape }}</guid>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+        {%- if product.tags -%}
+        <category>{{ product.tags | join: '</category><category>' }}</category>
+        {%- endif -%}
+      </item>
+      {%- endfor -%}
+    {%- endfor -%}
+
+  </channel>
+</rss>

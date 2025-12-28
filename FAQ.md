@@ -4,6 +4,136 @@ title: FAQ
 description: "Answers to common questions about HireAI, the HR AI product directory, and how the content is organized."
 permalink: /FAQ/
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is HireAI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HireAI is a comprehensive collection of HR AI products and solutions. We track and organize various AI tools used in the Human Resources field, providing information and selection guides for HR professionals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who maintains this project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This project is maintained by contributors from the HR and AI communities. It is an open-source project hosted on GitHub, and we welcome contributions from anyone interested in HR technology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the content organized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our content is organized based on Josh Bersin's five-stage technological evolution framework: 1990s Applicant Tracking Systems (ATS), 2000s Candidate Marketing & Assessment, 2010s Onboarding/Workflow/Integrated Sourcing, 2020s Intelligent Assessment/Diversity/Career, and 2024+ Agentic AI Platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often is the content updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We aim to update the collection regularly as new HR AI products emerge and existing ones evolve. Major updates typically occur monthly, but we also make smaller updates as needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contribute to this project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contributions are welcome! You can add new HR AI products, update information about existing products, improve documentation, translate content to other languages, report issues or suggest improvements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you ensure the accuracy of the information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We strive to maintain accurate and up-to-date information by regularly reviewing product websites and documentation, following industry news and announcements, accepting contributions from the community, and verifying information before merging changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I use this collection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This collection can help you research and compare HR AI products, stay informed about trends in HR technology, make informed decisions when selecting HR tools, and understand the evolution of HR technology."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this information commercially?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the information in this collection can be used commercially. The project is licensed under the MIT License, which allows for commercial use, modification, distribution, and patent use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide product recommendations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We aim to provide objective information about HR AI products rather than specific recommendations. However, our analysis may highlight strengths and weaknesses of different products to help you make informed decisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this website hosted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This website is hosted on GitHub Pages. The source code is available on GitHub, and updates are automatically deployed using GitHub Actions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I access this data programmatically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, we don't provide an official API. However, since this is an open-source project, you can access the data directly from the GitHub repository in Markdown format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a way to search for specific products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can browse products by category on the home page, use the search function in the product table, or browse by tags."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact the team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can reach us through GitHub Issues. Simply open a new issue with your question or feedback."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I report a broken link or outdated information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Please open an issue on GitHub or submit a pull request with the corrected information. We appreciate your help in keeping the collection up-to-date."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I support this project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can support this project by contributing content or improvements, sharing the project with others, starring the repository on GitHub, or providing feedback and suggestions."
+      }
+    }
+  ]
+}
+</script>
+
 <div class="page-header">
     <h1 class="page-title">Frequently Asked Questions</h1>
     <p class="page-description">Common questions about HireAI and HR AI products.</p>
