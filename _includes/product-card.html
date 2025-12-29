@@ -10,7 +10,7 @@
         {% endfor %}
     </div>
     {% if include.product.analysis %}
-    <div style="margin-top: 12px;">
+    <div class="card-actions">
         <a href="{{ site.baseurl }}/{{ include.product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
     </div>
     {% endif %}
