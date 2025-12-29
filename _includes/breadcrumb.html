@@ -13,10 +13,14 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       {%- for item in breadcrumb_items -%}
+        {%- assign item_name = item.name -%}
+        {%- if item_name contains "page.title" or item_name contains "{{" -%}
+          {%- assign item_name = page.title | default: page.tag | default: "Page" -%}
+        {%- endif -%}
         {
           "@type": "ListItem",
           "position": {{ forloop.index }},
-          "name": "{{ item.name | escape }}",
+          "name": {{ item_name | jsonify }},
           "item": "{{ item.url | absolute_url | escape }}"
         }{%- unless forloop.last -%},{%- endunless -%}
       {%- endfor -%}
@@ -28,13 +32,17 @@
   <nav class="breadcrumb-nav" aria-label="Breadcrumb">
     <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
       {%- for item in breadcrumb_items -%}
+        {%- assign item_name = item.name -%}
+        {%- if item_name contains "page.title" or item_name contains "{{" -%}
+          {%- assign item_name = page.title | default: page.tag | default: "Page" -%}
+        {%- endif -%}
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           {%- if item.url -%}
             <a href="{{ item.url | relative_url }}" itemprop="item">
-              <span itemprop="name">{{ item.name }}</span>
+              <span itemprop="name">{{ item_name | escape }}</span>
             </a>
           {%- else -%}
-            <span itemprop="name">{{ item.name }}</span>
+            <span itemprop="name">{{ item_name | escape }}</span>
           {%- endif -%}
           <meta itemprop="position" content="{{ forloop.index }}" />
         </li>
