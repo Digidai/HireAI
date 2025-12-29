@@ -51,6 +51,9 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ canonical_url }}">
 
+    <!-- Hreflang for multi-language support -->
+    {% include hreflang.html %}
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="{% if page.layout == 'product-detail' or page.layout == 'analysis' or page.layout == 'article' %}article{% else %}website{% endif %}">
     <meta property="og:url" content="{{ canonical_url }}">
@@ -165,11 +168,12 @@
     {% endif %}
 
     {% if page.layout == 'analysis' or page.layout == 'article' %}
-    <!-- Structured Data - Article -->
+    <!-- Structured Data - Article (Enhanced) -->
     {% assign article_description = page.description | default: page.page_description | default: '' %}
     {% assign article_description = article_description | strip_html | strip_newlines | strip %}
     {% assign published_at = page.date | default: page.last_modified_at | default: page.last_updated | default: site.time %}
     {% assign modified_at = page.last_modified_at | default: page.last_updated | default: site.time %}
+    {% assign word_count = content | strip_html | number_of_words %}
     <script nonce="hireai" type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -179,17 +183,40 @@
       "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
       "datePublished": {{ published_at | date_to_xmlschema | jsonify }},
       "dateModified": {{ modified_at | date_to_xmlschema | jsonify }},
+      "wordCount": {{ word_count }},
+      "articleSection": {% if page.era %}{{ page.era | jsonify }}{% else %}"HR AI Analysis"{% endif %},
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "keywords": {% if page.tags %}{{ page.tags | join: ', ' | jsonify }}{% else %}"HR AI, Recruiting, Talent Management"{% endif %},
       "author": {
         "@type": "Organization",
-        "name": "HireAI"
+        "name": "HireAI",
+        "url": {{ site.url | append: site.baseurl | jsonify }}
       },
       "publisher": {
         "@type": "Organization",
         "name": "HireAI",
+        "url": {{ site.url | append: site.baseurl | jsonify }},
         "logo": {
           "@type": "ImageObject",
-          "url": {{ site.url | append: site.baseurl | append: '/assets/images/logo.png' | jsonify }}
+          "url": {{ site.url | append: site.baseurl | append: '/assets/images/logo.png' | jsonify }},
+          "width": 512,
+          "height": 512
         }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ site.url | append: site.baseurl | append: page.url | jsonify }}
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".page-title", ".page-description", ".markdown-content h2", ".markdown-content h3"]
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": {{ site.url | append: site.baseurl | append: '/assets/images/og-image.png' | jsonify }},
+        "width": 1200,
+        "height": 630
       }
     }
     </script>

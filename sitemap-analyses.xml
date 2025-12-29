@@ -1,0 +1,18 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  {% comment %} Analysis Pages Sitemap {% endcomment %}
+  {% for analysis in site.analyses %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ analysis.url | replace: '.html', '/' }}</loc>
+    <lastmod>{{ analysis.last_modified_at | default: analysis.date | default: site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+</urlset>

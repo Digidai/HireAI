@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  {% comment %} Tag Pages Sitemap {% endcomment %}
+  {% assign all_tags = "" | split: "" %}
+  {% for category in site.data.products %}
+    {% for product in category.products %}
+      {% for tag in product.tags %}
+        {% assign all_tags = all_tags | push: tag %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  {% assign unique_tags = all_tags | uniq | sort %}
+
+  {% for tag in unique_tags %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag | slugify }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {% endfor %}
+</urlset>

@@ -4,6 +4,59 @@ title: Product Directory
 description: "Browse all HR AI products by technology era, with tags, direct links, and analysis pages."
 permalink: /product-directory/
 ---
+{% assign total_products = 0 %}
+{% for category in site.data.products %}
+    {% assign total_products = total_products | plus: category.products.size %}
+{% endfor %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "HR AI Product Directory",
+  "description": "Complete directory of {{ total_products }}+ HR AI products organized by technology era, from 1990s ATS to 2024+ Agentic AI platforms.",
+  "url": "{{ site.url }}{{ site.baseurl }}/product-directory/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "HR AI Software",
+    "description": "Human Resources Artificial Intelligence Products and Solutions"
+  },
+  "numberOfItems": {{ total_products }},
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "numberOfItems": {{ total_products }},
+    "itemListElement": [
+      {% assign position = 0 %}
+      {% for category in site.data.products %}
+        {% for product in category.products limit: 5 %}
+          {% assign position = position | plus: 1 %}
+          {% if position <= 20 %}
+      {
+        "@type": "ListItem",
+        "position": {{ position }},
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "{{ product.name | escape }}",
+          "description": "{{ product.description | escape }}",
+          "url": "{{ product.url | escape }}",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web"
+        }
+      }{% if position < 20 %},{% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+
 <div class="page-header">
     <div class="page-icon">*</div>
     <h1 class="page-title">Product Directory</h1>

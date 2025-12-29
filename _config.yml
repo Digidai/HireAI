@@ -8,6 +8,18 @@ baseurl: "" # no subpath for custom domain
 url: "https://hireai.genedai.me" # custom domain
 github_username:  Digidai
 
+# Search Engine Verification (add your verification codes here)
+# google_site_verification: "your-google-verification-code"
+# bing_site_verification: "your-bing-verification-code"
+# pinterest_verification: "your-pinterest-verification-code"
+# yandex_verification: "your-yandex-verification-code"
+
+# Multi-language Support
+default_lang: en
+languages:
+  - en
+  - zh
+
 # Build settings
 markdown: kramdown
 theme: minima # This is the default theme for GitHub Pages, but it's good to specify

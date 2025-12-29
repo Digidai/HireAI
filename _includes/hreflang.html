@@ -1,0 +1,32 @@
+{%- comment -%}
+  Hreflang 多语言支持标签
+
+  配置方法：
+  1. 在 _config.yml 中设置 default_lang 和 languages
+  2. 创建多语言版本时，在页面 front matter 中添加:
+     lang: zh
+     alternate_lang:
+       en: /path/to/english-version/
+       zh: /path/to/chinese-version/
+
+  使用方法: {% include hreflang.html %}
+{%- endcomment -%}
+
+{%- assign default_lang = site.default_lang | default: 'en' -%}
+{%- assign page_lang = page.lang | default: default_lang -%}
+{%- assign site_url = site.url | append: site.baseurl -%}
+
+{%- comment -%} 默认 hreflang 标签 {%- endcomment -%}
+<link rel="alternate" hreflang="{{ page_lang }}" href="{{ site_url }}{{ page.url | replace: 'index.html', '' }}">
+<link rel="alternate" hreflang="x-default" href="{{ site_url }}{{ page.url | replace: 'index.html', '' }}">
+
+{%- comment -%} 如果页面有多语言版本配置 {%- endcomment -%}
+{%- if page.alternate_lang -%}
+  {%- for alt in page.alternate_lang -%}
+    {%- assign alt_lang = alt[0] -%}
+    {%- assign alt_url = alt[1] -%}
+    {%- unless alt_lang == page_lang -%}
+<link rel="alternate" hreflang="{{ alt_lang }}" href="{{ site_url }}{{ alt_url }}">
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endif -%}

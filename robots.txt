@@ -9,8 +9,11 @@ User-agent: *
 Allow: /
 Crawl-delay: 1
 
-# Sitemap
+# Sitemaps
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-index.xml
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-analyses.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-tags.xml
 
 # Disallow admin/private paths
 Disallow: /_templates/
