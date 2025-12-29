@@ -358,3 +358,117 @@
     white-space: nowrap;
     border: 0;
 }
+
+// Related Products Section
+.related-products-section {
+    margin-top: 48px;
+    padding: 24px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+
+    .section-title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 20px;
+        border-bottom: none;
+        padding-bottom: 0;
+
+        svg {
+            color: var(--accent-color);
+        }
+    }
+}
+
+.related-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.related-product-card {
+    background: var(--bg-primary);
+    padding: 16px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    transition: all var(--transition);
+
+    &:hover {
+        border-color: var(--accent-color);
+        box-shadow: var(--shadow-md);
+    }
+}
+
+.related-product-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+    a {
+        color: var(--text-primary);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+    }
+}
+
+.related-product-tagline {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.related-product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.related-tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 8px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+}
+
+.related-product-era {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 8px;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    border-radius: var(--radius-sm);
+    font-weight: 500;
+}
+
+.related-products-footer {
+    padding-top: 16px;
+    border-top: 1px solid var(--divider-color);
+}
+
+.view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: gap var(--transition);
+
+    &:hover {
+        gap: 10px;
+    }
+}
