@@ -33,25 +33,17 @@ permalink: /product-directory/
     "numberOfItems": {{ total_products }},
     "itemListElement": [
       {% assign position = 0 %}
+      {% assign items_json = "" | split: "" %}
       {% for category in site.data.products %}
         {% for product in category.products limit: 5 %}
           {% assign position = position | plus: 1 %}
           {% if position <= 20 %}
-      {
-        "@type": "ListItem",
-        "position": {{ position }},
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "{{ product.name | escape }}",
-          "description": "{{ product.description | escape }}",
-          "url": "{{ product.url | escape }}",
-          "applicationCategory": "BusinessApplication",
-          "operatingSystem": "Web"
-        }
-      }{% if position < 20 %},{% endif %}
+            {% capture item_json %}{"@type": "ListItem", "position": {{ position }}, "item": {"@type": "SoftwareApplication", "name": {{ product.name | jsonify }}, "description": {{ product.description | jsonify }}, "url": {{ product.url | jsonify }}, "applicationCategory": "BusinessApplication", "operatingSystem": "Web"}}{% endcapture %}
+            {% assign items_json = items_json | push: item_json %}
           {% endif %}
         {% endfor %}
       {% endfor %}
+      {{ items_json | join: ", " }}
     ]
   }
 }

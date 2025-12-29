@@ -39,19 +39,12 @@ breadcrumb:
   "mainEntity": {
     "@type": "ItemList",
     "itemListElement": [
+      {% assign items_json = "" | split: "" %}
       {% for product in product_items limit: 10 %}
-      {
-        "@type": "ListItem",
-        "position": {{ forloop.index }},
-        "item": {
-          "@type": "SoftwareApplication",
-          "name": "{{ product.name | escape }}",
-          "description": "{{ product.description | escape }}",
-          "url": "{{ product.url | escape }}",
-          "applicationCategory": "BusinessApplication"
-        }
-      }{% unless forloop.last %},{% endunless %}
+        {% capture item_json %}{"@type": "ListItem", "position": {{ forloop.index }}, "item": {"@type": "SoftwareApplication", "name": {{ product.name | jsonify }}, "description": {{ product.description | jsonify }}, "url": {{ product.url | jsonify }}, "applicationCategory": "BusinessApplication"}}{% endcapture %}
+        {% assign items_json = items_json | push: item_json %}
       {% endfor %}
+      {{ items_json | join: ", " }}
     ]
   }
 }
