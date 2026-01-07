@@ -67,9 +67,9 @@
       analysis: "_analyses/talent-sonar-analysis.md"
       description: "Passive candidate engagement platform specializing in talent community building and email marketing."
       tags: ["CRM", "Sourcing", "Candidate Engagement"]
-    - name: "IBM Kenexa"
-      url: "https://www.ibm.com/products/kenexa-employee-assessments"
-      analysis: "_analyses/ibm-kenexa-analysis.md"
+    - name: "IBM Kenexas"
+      url: "https://www.ibm.com/products/kenexas-employee-assessments"
+      analysis: "_analyses/ibm-kenexas-analysis.md"
       description: "Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities."
       tags: ["Assessment", "Analytics", "AI", "Enterprise"]
     - name: "SHL"
