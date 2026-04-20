@@ -18,7 +18,6 @@
       {%- continue -%}
     {%- endif -%}
 
-    {%- comment -{%- endcomment -%}
     {%- comment -%} 计算共享标签数作为相关性得分 {%- endcomment -%}
     {%- assign score = 0 -%}
     {%- if product.tags and current_tags -%}
@@ -34,7 +33,6 @@
       {%- assign score = score | plus: 1 -%}
     {%- endif -%}
 
-    {%- comment -{%- endcomment -%}
     {%- comment -%} 只保留有相关性的产品 {%- endcomment -%}
     {%- if score > 0 -%}
       {%- assign related_collected = related_collected | push: product -%}
@@ -42,9 +40,6 @@
   {%- endfor -%}
 {%- endfor -%}
 
-{%- comment -{%- endcomment -%}
-{%- comment -{%- endcomment -%}
-{%- comment -{%- endcomment -%}
 {%- assign displayed_count = 0 -%}
 
 {%- for product in related_collected -%}
