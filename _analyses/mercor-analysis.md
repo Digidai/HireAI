@@ -2,7 +2,7 @@
 layout: article
 title: "Mercor Analysis"
 description: "AI-native recruiting platform using large language models to match technical candidates with roles through deep skill evaluation."
-permalink: /mercor/
+permalink: /mercor-analysis/
 website: ""
 tags: []
 page_title: Mercor

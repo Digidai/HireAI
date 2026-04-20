@@ -2,7 +2,7 @@
 layout: article
 title: "Jasper for HR Analysis"
 description: "Enterprise AI content platform configured for HR use cases including employer branding, job posting optimization, and candidate communication."
-permalink: /jasper-for-hr/
+permalink: /jasper-for-hr-analysis/
 website: ""
 tags: []
 page_title: Jasper for HR

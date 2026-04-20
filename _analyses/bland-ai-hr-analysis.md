@@ -2,7 +2,7 @@
 layout: article
 title: "Bland AI (HR) Analysis"
 description: "AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations."
-permalink: /bland-ai-hr/
+permalink: /bland-ai-hr-analysis/
 website: ""
 tags: []
 page_title: Bland AI (HR)

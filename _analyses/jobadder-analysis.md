@@ -2,7 +2,7 @@
 layout: article
 title: "JobAdder Analysis"
 description: "Recruitment platform providing ATS and CRM capabilities for agency and corporate recruiters across multiple regions."
-permalink: /jobadder/
+permalink: /jobadder-analysis/
 website: ""
 tags: []
 page_title: JobAdder

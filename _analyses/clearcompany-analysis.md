@@ -2,7 +2,7 @@
 layout: article
 title: "ClearCompany Analysis"
 description: "Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning."
-permalink: /clearcompany/
+permalink: /clearcompany-analysis/
 website: ""
 tags: []
 page_title: ClearCompany

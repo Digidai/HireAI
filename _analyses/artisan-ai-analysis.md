@@ -2,7 +2,7 @@
 layout: article
 title: "Artisan AI Analysis"
 description: "AI employee platform creating autonomous digital workers for recruiting tasks including candidate sourcing and outreach."
-permalink: /artisan-ai/
+permalink: /artisan-ai-analysis/
 website: ""
 tags: []
 page_title: Artisan AI

@@ -2,7 +2,7 @@
 layout: article
 title: "JazzHR Analysis"
 description: "Affordable applicant tracking system for small and mid-sized businesses with collaborative hiring tools."
-permalink: /jazzhr/
+permalink: /jazzhr-analysis/
 website: ""
 tags: []
 page_title: JazzHR

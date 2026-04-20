@@ -2,7 +2,7 @@
 layout: article
 title: "Lattice Analysis"
 description: "People management platform combining performance reviews, goal setting, employee engagement surveys, and career development."
-permalink: /lattice/
+permalink: /lattice-analysis/
 website: ""
 tags: []
 page_title: Lattice

@@ -2,7 +2,7 @@
 layout: article
 title: "RecruitBPM Analysis"
 description: "Recruiting business process management platform with ATS, CRM, and back-office tools for staffing agencies."
-permalink: /recruitbpm/
+permalink: /recruitbpm-analysis/
 website: ""
 tags: []
 page_title: RecruitBPM

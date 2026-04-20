@@ -2,7 +2,7 @@
 layout: article
 title: "Joveo Analysis"
 description: "Programmatic job advertising platform using AI to optimize job distribution and improve candidate quality across channels."
-permalink: /joveo/
+permalink: /joveo-analysis/
 website: ""
 tags: []
 page_title: Joveo

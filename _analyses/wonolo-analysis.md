@@ -2,7 +2,7 @@
 layout: article
 title: "Wonolo Analysis"
 description: "On-demand staffing platform connecting workers with same-day warehouse, delivery, and event jobs through a mobile-first app."
-permalink: /wonolo/
+permalink: /wonolo-analysis/
 website: ""
 tags: []
 page_title: Wonolo

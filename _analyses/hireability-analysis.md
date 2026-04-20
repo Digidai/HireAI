@@ -2,7 +2,7 @@
 layout: article
 title: "HireAbility Analysis"
 description: "AI-powered resume parsing and data extraction service supporting multilingual resume processing for ATS integration."
-permalink: /hireability/
+permalink: /hireability-analysis/
 website: ""
 tags: []
 page_title: HireAbility

@@ -2,7 +2,7 @@
 layout: article
 title: "RolePoint Analysis"
 description: "Employee referral and internal mobility platform that leverages social networks to source quality candidates."
-permalink: /rolepoint/
+permalink: /rolepoint-analysis/
 website: ""
 tags: []
 page_title: RolePoint

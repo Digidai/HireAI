@@ -2,7 +2,7 @@
 layout: article
 title: "Flowise (HR) Analysis"
 description: "Drag-and-drop LLM workflow builder for creating custom HR AI agents without coding, supporting resume parsing and candidate scoring."
-permalink: /flowise-hr/
+permalink: /flowise-hr-analysis/
 website: ""
 tags: []
 page_title: Flowise (HR)

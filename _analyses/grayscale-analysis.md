@@ -2,7 +2,7 @@
 layout: article
 title: "Grayscale Analysis"
 description: "Talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions."
-permalink: /grayscale/
+permalink: /grayscale-analysis/
 website: ""
 tags: []
 page_title: Grayscale

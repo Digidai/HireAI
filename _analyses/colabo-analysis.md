@@ -2,7 +2,7 @@
 layout: article
 title: "Colabo Analysis"
 description: "Recruitment marketing automation platform combining CRM, career site management, and candidate nurturing."
-permalink: /colabo/
+permalink: /colabo-analysis/
 website: ""
 tags: []
 page_title: Colabo

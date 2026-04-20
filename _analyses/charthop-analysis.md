@@ -2,7 +2,7 @@
 layout: article
 title: "ChartHop Analysis"
 description: "People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management."
-permalink: /charthop/
+permalink: /charthop-analysis/
 website: ""
 tags: []
 page_title: ChartHop

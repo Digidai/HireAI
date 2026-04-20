@@ -2,7 +2,7 @@
 layout: article
 title: "Codeassess Analysis"
 description: "Technical screening platform providing coding assessments and programming tests for evaluating developer candidates."
-permalink: /codeassess/
+permalink: /codeassess-analysis/
 website: ""
 tags: []
 page_title: Codeassess

@@ -2,7 +2,7 @@
 layout: article
 title: "Langchain (HR Agents) Analysis"
 description: "Framework for building custom LLM-powered recruiting agents with retrieval-augmented generation for candidate analysis and matching."
-permalink: /langchain-hr-agents/
+permalink: /langchain-hr-agents-analysis/
 website: ""
 tags: []
 page_title: Langchain (HR Agents)

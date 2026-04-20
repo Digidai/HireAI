@@ -2,7 +2,7 @@
 layout: article
 title: "Wonderlic Analysis"
 description: "Pre-employment testing platform offering cognitive ability assessments, personality tests, and skills evaluations for hiring decisions."
-permalink: /wonderlic/
+permalink: /wonderlic-analysis/
 website: ""
 tags: []
 page_title: Wonderlic

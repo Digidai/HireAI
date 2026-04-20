@@ -2,7 +2,7 @@
 layout: article
 title: "OnPay Analysis"
 description: "HR and payroll platform for small businesses with integrated onboarding, benefits administration, and compliance."
-permalink: /onpay/
+permalink: /onpay-analysis/
 website: ""
 tags: []
 page_title: OnPay

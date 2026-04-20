@@ -2,7 +2,7 @@
 layout: article
 title: "Bullhorn Analysis"
 description: "Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation."
-permalink: /bullhorn/
+permalink: /bullhorn-analysis/
 website: ""
 tags: []
 page_title: Bullhorn

@@ -2,7 +2,7 @@
 layout: article
 title: "SAP Joule for HR Analysis"
 description: "SAP's generative AI assistant for HR providing conversational access to employee data, policy information, and workflow automation."
-permalink: /sap-joule-for-hr/
+permalink: /sap-joule-for-hr-analysis/
 website: ""
 tags: []
 page_title: SAP Joule for HR

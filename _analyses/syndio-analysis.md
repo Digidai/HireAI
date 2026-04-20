@@ -2,7 +2,7 @@
 layout: article
 title: "Syndio Analysis"
 description: "Workplace equity platform using data analytics to identify and fix pay disparities, ensuring fair compensation across organizations."
-permalink: /syndio/
+permalink: /syndio-analysis/
 website: ""
 tags: []
 page_title: Syndio

@@ -2,7 +2,7 @@
 layout: article
 title: "Lemon.io Analysis"
 description: "Developer matching platform that connects vetted software engineers with companies for freelance and contract work."
-permalink: /lemonio/
+permalink: /lemonio-analysis/
 website: ""
 tags: []
 page_title: Lemon.io

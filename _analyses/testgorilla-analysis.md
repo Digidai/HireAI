@@ -2,7 +2,7 @@
 layout: article
 title: "TestGorilla Analysis"
 description: "Pre-employment assessment platform offering a library of cognitive, behavioral, and skills tests for data-driven candidate evaluation."
-permalink: /testgorilla/
+permalink: /testgorilla-analysis/
 website: ""
 tags: []
 page_title: TestGorilla

@@ -2,7 +2,7 @@
 layout: article
 title: "Remote Analysis"
 description: "Global HR platform enabling companies to hire, pay, and manage employees and contractors worldwide with full compliance."
-permalink: /remote/
+permalink: /remote-analysis/
 website: ""
 tags: []
 page_title: Remote

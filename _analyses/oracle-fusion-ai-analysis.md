@@ -2,7 +2,7 @@
 layout: article
 title: "Oracle Fusion AI Analysis"
 description: "Oracle's AI-powered HCM suite with autonomous recruiting agents, predictive analytics, and intelligent process automation."
-permalink: /oracle-fusion-ai/
+permalink: /oracle-fusion-ai-analysis/
 website: ""
 tags: []
 page_title: Oracle Fusion AI

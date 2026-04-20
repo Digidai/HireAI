@@ -2,7 +2,7 @@
 layout: article
 title: "Pandologic Analysis"
 description: "AI-driven recruitment marketing platform that automates job advertising and optimizes sourcing budget allocation."
-permalink: /pandologic/
+permalink: /pandologic-analysis/
 website: ""
 tags: []
 page_title: Pandologic

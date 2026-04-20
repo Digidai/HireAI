@@ -2,7 +2,7 @@
 layout: article
 title: "Generatie Analysis"
 description: "AI-native recruiting platform that uses generative AI for job description writing, candidate matching, and interview prep."
-permalink: /generatie/
+permalink: /generatie-analysis/
 website: ""
 tags: []
 page_title: Generatie

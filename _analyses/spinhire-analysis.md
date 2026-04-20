@@ -2,7 +2,7 @@
 layout: article
 title: "SpinHire Analysis"
 description: "AI-powered candidate sourcing platform that automates outreach and engagement with passive candidates across multiple channels."
-permalink: /spinhire/
+permalink: /spinhire-analysis/
 website: ""
 tags: []
 page_title: SpinHire

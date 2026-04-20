@@ -2,7 +2,7 @@
 layout: article
 title: "DevSkiller Analysis"
 description: "Technical skills assessment platform using real-world coding tasks and DevOps challenges to evaluate software developers."
-permalink: /devskiller/
+permalink: /devskiller-analysis/
 website: ""
 tags: []
 page_title: DevSkiller

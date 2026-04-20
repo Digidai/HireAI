@@ -2,7 +2,7 @@
 layout: article
 title: "Bria AI (Recruiting Content) Analysis"
 description: "Generative AI platform for creating recruiting marketing content including employer branding visuals and job advertisements."
-permalink: /bria-ai-recruiting-content/
+permalink: /bria-ai-recruiting-content-analysis/
 website: ""
 tags: []
 page_title: Bria AI (Recruiting Content)

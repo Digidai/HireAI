@@ -2,7 +2,7 @@
 layout: article
 title: "OutMatch (Harver) Analysis"
 description: "Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring."
-permalink: /outmatch-harver/
+permalink: /outmatch-harver-analysis/
 website: ""
 tags: []
 page_title: OutMatch (Harver)

@@ -2,7 +2,7 @@
 layout: article
 title: "Ascendify Analysis"
 description: "Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing."
-permalink: /ascendify/
+permalink: /ascendify-analysis/
 website: ""
 tags: []
 page_title: Ascendify

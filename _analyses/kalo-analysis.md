@@ -2,7 +2,7 @@
 layout: article
 title: "Kalo Analysis"
 description: "Freelancer management platform for engaging, onboarding, and managing freelance and contract talent."
-permalink: /kalo/
+permalink: /kalo-analysis/
 website: ""
 tags: []
 page_title: Kalo

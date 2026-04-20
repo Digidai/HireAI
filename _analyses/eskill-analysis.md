@@ -2,7 +2,7 @@
 layout: article
 title: "eSkill Analysis"
 description: "Online skills testing platform with customizable assessments for technical, cognitive, and behavioral skill evaluation."
-permalink: /eskill/
+permalink: /eskill-analysis/
 website: ""
 tags: []
 page_title: eSkill

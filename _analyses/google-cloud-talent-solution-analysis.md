@@ -2,7 +2,7 @@
 layout: article
 title: "Google Cloud Talent Solution Analysis"
 description: "Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation."
-permalink: /google-cloud-talent-solution/
+permalink: /google-cloud-talent-solution-analysis/
 website: ""
 tags: []
 page_title: Google Cloud Talent Solution

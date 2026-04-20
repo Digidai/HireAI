@@ -2,7 +2,7 @@
 layout: article
 title: "Apriora Analysis"
 description: "AI interview platform that conducts automated screening interviews and evaluates candidate responses using language models."
-permalink: /apriora/
+permalink: /apriora-analysis/
 website: ""
 tags: []
 page_title: Apriora

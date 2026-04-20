@@ -2,7 +2,7 @@
 layout: article
 title: "CodePair Analysis"
 description: "Collaborative technical interview platform enabling real-time coding assessments with video, voice, and shared code editors."
-permalink: /codepair/
+permalink: /codepair-analysis/
 website: ""
 tags: []
 page_title: CodePair

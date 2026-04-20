@@ -2,7 +2,7 @@
 layout: article
 title: "Censia Analysis"
 description: "AI talent intelligence platform providing predictive workforce analytics, talent mapping, and skills-based workforce planning."
-permalink: /censia/
+permalink: /censia-analysis/
 website: ""
 tags: []
 page_title: Censia

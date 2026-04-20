@@ -2,7 +2,7 @@
 layout: article
 title: "PredictiveHire Analysis"
 description: "AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality."
-permalink: /predictivehire/
+permalink: /predictivehire-analysis/
 website: ""
 tags: []
 page_title: PredictiveHire

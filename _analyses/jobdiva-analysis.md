@@ -2,7 +2,7 @@
 layout: article
 title: "JobDiva Analysis"
 description: "Full-cycle applicant tracking and talent acquisition platform designed for staffing agencies and recruiting firms."
-permalink: /jobdiva/
+permalink: /jobdiva-analysis/
 website: ""
 tags: []
 page_title: JobDiva

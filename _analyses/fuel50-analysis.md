@@ -2,7 +2,7 @@
 layout: article
 title: "Fuel50 Analysis"
 description: "AI-powered talent marketplace and career pathing platform that connects employees to internal growth opportunities."
-permalink: /fuel50/
+permalink: /fuel50-analysis/
 website: ""
 tags: []
 page_title: Fuel50

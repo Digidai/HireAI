@@ -2,7 +2,7 @@
 layout: article
 title: "HireRight Analysis"
 description: "Global background screening and verification platform providing criminal checks, employment verification, and drug testing."
-permalink: /hireright/
+permalink: /hireright-analysis/
 website: ""
 tags: []
 page_title: HireRight

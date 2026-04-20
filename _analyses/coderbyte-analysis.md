@@ -2,7 +2,7 @@
 layout: article
 title: "Coderbyte Analysis"
 description: "Online code assessment platform for screening developers with coding challenges, algorithms, and project-based evaluations."
-permalink: /coderbyte/
+permalink: /coderbyte-analysis/
 website: ""
 tags: []
 page_title: Coderbyte

@@ -2,7 +2,7 @@
 layout: article
 title: "HiPeople Analysis"
 description: "Automated reference checking platform that uses AI to collect, verify, and analyze candidate references at scale."
-permalink: /hipeople/
+permalink: /hipeople-analysis/
 website: ""
 tags: []
 page_title: HiPeople

@@ -2,7 +2,7 @@
 layout: article
 title: "Coze (HR Bots) Analysis"
 description: "AI bot development platform for creating custom recruiting assistants with multi-agent workflows and tool integrations."
-permalink: /coze-hr-bots/
+permalink: /coze-hr-bots-analysis/
 website: ""
 tags: []
 page_title: Coze (HR Bots)

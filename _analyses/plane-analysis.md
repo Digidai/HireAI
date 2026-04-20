@@ -2,7 +2,7 @@
 layout: article
 title: "Plane Analysis"
 description: "HR and payroll platform for startups to hire and pay global team members with compliant contracts and local benefits."
-permalink: /plane/
+permalink: /plane-analysis/
 website: ""
 tags: []
 page_title: Plane

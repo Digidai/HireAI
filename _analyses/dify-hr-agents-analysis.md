@@ -2,7 +2,7 @@
 layout: article
 title: "Dify (HR Agents) Analysis"
 description: "Open-source LLM app development platform for creating custom HR recruiting agents with workflow orchestration and RAG capabilities."
-permalink: /dify-hr-agents/
+permalink: /dify-hr-agents-analysis/
 website: ""
 tags: []
 page_title: Dify (HR Agents)

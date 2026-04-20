@@ -2,7 +2,7 @@
 layout: article
 title: "11x (HR Workflow Agents) Analysis"
 description: "AI agent platform for building autonomous recruiting workflows that handle sourcing, outreach, and candidate pipeline management."
-permalink: /11x-hr-workflow-agents/
+permalink: /11x-hr-workflow-agents-analysis/
 website: ""
 tags: []
 page_title: 11x (HR Workflow Agents)

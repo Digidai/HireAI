@@ -2,7 +2,7 @@
 layout: article
 title: "GoodTime Analysis"
 description: "AI-powered interview scheduling platform that automates complex interview coordination and candidate logistics."
-permalink: /goodtime/
+permalink: /goodtime-analysis/
 website: ""
 tags: []
 page_title: GoodTime

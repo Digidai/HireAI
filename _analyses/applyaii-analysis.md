@@ -2,7 +2,7 @@
 layout: article
 title: "ApplyAII Analysis"
 description: "AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms."
-permalink: /applyaii/
+permalink: /applyaii-analysis/
 website: ""
 tags: []
 page_title: ApplyAII

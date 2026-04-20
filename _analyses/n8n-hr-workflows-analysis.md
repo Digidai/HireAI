@@ -2,7 +2,7 @@
 layout: article
 title: "N8N (HR Workflows) Analysis"
 description: "Workflow automation platform with AI agent nodes for building custom recruiting pipelines connecting ATS, email, and assessment tools."
-permalink: /n8n-hr-workflows/
+permalink: /n8n-hr-workflows-analysis/
 website: ""
 tags: []
 page_title: N8N (HR Workflows)

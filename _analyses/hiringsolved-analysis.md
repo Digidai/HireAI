@@ -2,7 +2,7 @@
 layout: article
 title: "HiringSolved Analysis"
 description: "AI-powered talent sourcing and search platform that aggregates candidate data from across the web for recruiters."
-permalink: /hiringsolved/
+permalink: /hiringsolved-analysis/
 website: ""
 tags: []
 page_title: HiringSolved

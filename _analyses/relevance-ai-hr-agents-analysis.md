@@ -2,7 +2,7 @@
 layout: article
 title: "Relevance AI (HR Agents) Analysis"
 description: "Platform for building custom AI agents for HR workflows including candidate screening, interview scheduling, and data analysis."
-permalink: /relevance-ai-hr-agents/
+permalink: /relevance-ai-hr-agents-analysis/
 website: ""
 tags: []
 page_title: Relevance AI (HR Agents)

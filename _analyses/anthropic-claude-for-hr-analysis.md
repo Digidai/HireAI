@@ -2,7 +2,7 @@
 layout: article
 title: "Anthropic Claude for HR Analysis"
 description: "Enterprise deployment of Claude AI for HR use cases including resume screening, job description generation, and interview analysis."
-permalink: /anthropic-claude-for-hr/
+permalink: /anthropic-claude-for-hr-analysis/
 website: ""
 tags: []
 page_title: Anthropic Claude for HR

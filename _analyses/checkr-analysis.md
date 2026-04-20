@@ -2,7 +2,7 @@
 layout: article
 title: "Checkr Analysis"
 description: "AI-powered background check platform using machine learning to speed up screening while maintaining compliance."
-permalink: /checkr/
+permalink: /checkr-analysis/
 website: ""
 tags: []
 page_title: Checkr

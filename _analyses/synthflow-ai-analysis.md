@@ -2,7 +2,7 @@
 layout: article
 title: "Synthflow AI Analysis"
 description: "No-code AI voice agent platform for building custom recruiting phone assistants that screen and qualify candidates."
-permalink: /synthflow-ai/
+permalink: /synthflow-ai-analysis/
 website: ""
 tags: []
 page_title: Synthflow AI

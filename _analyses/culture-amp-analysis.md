@@ -2,7 +2,7 @@
 layout: article
 title: "Culture Amp Analysis"
 description: "Employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture."
-permalink: /culture-amp/
+permalink: /culture-amp-analysis/
 website: ""
 tags: []
 page_title: Culture Amp

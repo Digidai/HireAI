@@ -2,7 +2,7 @@
 layout: article
 title: "Naylor Association Solutions Analysis"
 description: "Association career center and job board platform connecting employers with professional association member talent pools."
-permalink: /naylor-association-solutions/
+permalink: /naylor-association-solutions-analysis/
 website: ""
 tags: []
 page_title: Naylor Association Solutions

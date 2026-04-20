@@ -2,7 +2,7 @@
 layout: article
 title: "Windsurf (Recruiting AI) Analysis"
 description: "AI-powered code evaluation platform used in technical hiring to assess developer skills through real-world coding challenges."
-permalink: /windsurf-recruiting-ai/
+permalink: /windsurf-recruiting-ai-analysis/
 website: ""
 tags: []
 page_title: Windsurf (Recruiting AI)

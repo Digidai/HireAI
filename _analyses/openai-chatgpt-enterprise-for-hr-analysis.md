@@ -2,7 +2,7 @@
 layout: article
 title: "OpenAI ChatGPT Enterprise for HR Analysis"
 description: "Enterprise-grade ChatGPT deployment configured for HR workflows including drafting, summarization, and candidate communication."
-permalink: /openai-chatgpt-enterprise-for-hr/
+permalink: /openai-chatgpt-enterprise-for-hr-analysis/
 website: ""
 tags: []
 page_title: OpenAI ChatGPT Enterprise for HR

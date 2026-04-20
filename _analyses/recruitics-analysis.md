@@ -2,7 +2,7 @@
 layout: article
 title: "Recruitics Analysis"
 description: "Recruitment marketing analytics platform providing job advertising optimization and applicant tracking analytics."
-permalink: /recruitics/
+permalink: /recruitics-analysis/
 website: ""
 tags: []
 page_title: Recruitics

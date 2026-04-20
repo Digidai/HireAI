@@ -2,7 +2,7 @@
 layout: article
 title: "CrewAI (HR) Analysis"
 description: "Multi-agent AI framework for orchestrating teams of specialized recruiting agents for sourcing, screening, and coordination."
-permalink: /crewai-hr/
+permalink: /crewai-hr-analysis/
 website: ""
 tags: []
 page_title: CrewAI (HR)

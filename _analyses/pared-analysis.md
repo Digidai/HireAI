@@ -2,7 +2,7 @@
 layout: article
 title: "Pared Analysis"
 description: "Hospitality staffing platform that connects restaurants and venues with vetted hospitality professionals for shift work."
-permalink: /pared/
+permalink: /pared-analysis/
 website: ""
 tags: []
 page_title: Pared

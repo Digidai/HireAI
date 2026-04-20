@@ -2,7 +2,7 @@
 layout: article
 title: "Eloomi Analysis"
 description: "People development platform combining learning management, performance reviews, and employee engagement surveys."
-permalink: /eloomi/
+permalink: /eloomi-analysis/
 website: ""
 tags: []
 page_title: Eloomi

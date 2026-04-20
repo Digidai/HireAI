@@ -2,7 +2,7 @@
 layout: article
 title: "LlamaIndex (HR) Analysis"
 description: "Data framework for building LLM applications over HR data, enabling intelligent search across resumes, policies, and candidate records."
-permalink: /llamaindex-hr/
+permalink: /llamaindex-hr-analysis/
 website: ""
 tags: []
 page_title: LlamaIndex (HR)

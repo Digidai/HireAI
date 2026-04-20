@@ -2,7 +2,7 @@
 layout: article
 title: "LinkedIn Hiring Assistant Analysis"
 description: "LinkedIn's AI hiring agent that autonomously sources, messages, and shortlists candidates based on job requirements and recruiter preferences."
-permalink: /linkedin-hiring-assistant/
+permalink: /linkedin-hiring-assistant-analysis/
 website: ""
 tags: []
 page_title: LinkedIn Hiring Assistant

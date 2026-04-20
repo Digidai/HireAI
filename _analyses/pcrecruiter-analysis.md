@@ -2,7 +2,7 @@
 layout: article
 title: "PCRecruiter Analysis"
 description: "Flexible recruiting software offering ATS, CRM, and sourcing tools for independent recruiters and staffing firms."
-permalink: /pcrecruiter/
+permalink: /pcrecruiter-analysis/
 website: ""
 tags: []
 page_title: PCRecruiter

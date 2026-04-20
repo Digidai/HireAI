@@ -2,7 +2,7 @@
 layout: article
 title: "Beam (Recruiting) Analysis"
 description: "AI agent platform for automating recruiting research tasks including company analysis, market mapping, and candidate profiling."
-permalink: /beam-recruiting/
+permalink: /beam-recruiting-analysis/
 website: ""
 tags: []
 page_title: Beam (Recruiting)

@@ -2,7 +2,7 @@
 layout: article
 title: "Drata (HR Compliance) Analysis"
 description: "Compliance automation platform helping HR teams maintain SOC 2, ISO 27001, and GDPR compliance with continuous monitoring."
-permalink: /drata-hr-compliance/
+permalink: /drata-hr-compliance-analysis/
 website: ""
 tags: []
 page_title: Drata (HR Compliance)

@@ -1,7 +1,7 @@
 ---
 layout: analysis
 title: "IBM Kenexa"
-permalink: /ibm-kenexa-analysis/
+permalink: /ibm-kenexas-analysis/
 description: "Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities."
 website: "https://www.ibm.com/products/kenexa-employee-assessments"
 era: "2000s - Candidate Marketing & Assessment"

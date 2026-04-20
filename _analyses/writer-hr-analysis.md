@@ -2,7 +2,7 @@
 layout: article
 title: "Writer (HR) Analysis"
 description: "Enterprise generative AI platform for HR teams providing compliant, brand-consistent content creation for recruiting and employee communication."
-permalink: /writer-hr/
+permalink: /writer-hr-analysis/
 website: ""
 tags: []
 page_title: Writer (HR)

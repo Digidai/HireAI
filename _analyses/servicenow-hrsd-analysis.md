@@ -2,7 +2,7 @@
 layout: article
 title: "ServiceNow HRSD Analysis"
 description: "HR Service Delivery platform with AI agents automating employee services, onboarding, and HR case management at enterprise scale."
-permalink: /servicenow-hrsd/
+permalink: /servicenow-hrsd-analysis/
 website: ""
 tags: []
 page_title: ServiceNow HRSD

@@ -2,7 +2,7 @@
 layout: article
 title: " papaya Global Analysis"
 description: "Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries."
-permalink: /papaya-global/
+permalink: /papaya-global-analysis/
 website: ""
 tags: []
 page_title:  papaya Global

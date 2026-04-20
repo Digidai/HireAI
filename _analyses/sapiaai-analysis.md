@@ -2,7 +2,7 @@
 layout: article
 title: "Sapia.ai Analysis"
 description: "AI chat-based hiring platform that uses natural language interviews to assess candidates fairly and at scale."
-permalink: /sapiaai/
+permalink: /sapiaai-analysis/
 website: ""
 tags: []
 page_title: Sapia.ai

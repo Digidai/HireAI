@@ -2,7 +2,7 @@
 layout: article
 title: "Covey Analysis"
 description: "AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management."
-permalink: /covey/
+permalink: /covey-analysis/
 website: ""
 tags: []
 page_title: Covey

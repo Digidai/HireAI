@@ -2,7 +2,7 @@
 layout: article
 title: "Oyster HR Analysis"
 description: "Distributed HR platform for hiring, paying, and providing benefits to remote employees across international borders."
-permalink: /oyster-hr/
+permalink: /oyster-hr-analysis/
 website: ""
 tags: []
 page_title: Oyster HR

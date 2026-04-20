@@ -2,7 +2,7 @@
 layout: article
 title: "AutoGPT for Recruiting Analysis"
 description: "Open-source autonomous AI agent framework adapted for recruiting use cases including automated candidate research and outreach."
-permalink: /autogpt-for-recruiting/
+permalink: /autogpt-for-recruiting-analysis/
 website: ""
 tags: []
 page_title: AutoGPT for Recruiting

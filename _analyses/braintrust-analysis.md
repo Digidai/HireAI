@@ -2,7 +2,7 @@
 layout: article
 title: "Braintrust Analysis"
 description: "Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace."
-permalink: /braintrust/
+permalink: /braintrust-analysis/
 website: ""
 tags: []
 page_title: Braintrust

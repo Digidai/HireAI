@@ -2,7 +2,7 @@
 layout: article
 title: "Ema (EmaHire) Analysis"
 description: "Universal AI employee platform with specialized hiring agents that automate sourcing, screening, and candidate communication."
-permalink: /ema-emahire/
+permalink: /ema-emahire-analysis/
 website: ""
 tags: []
 page_title: Ema (EmaHire)

@@ -2,7 +2,7 @@
 layout: article
 title: "Fountain Analysis"
 description: "High-volume hiring platform automating the recruitment funnel for hourly and shift-based workforce hiring."
-permalink: /fountain/
+permalink: /fountain-analysis/
 website: ""
 tags: []
 page_title: Fountain

@@ -2,7 +2,7 @@
 layout: article
 title: "HackerEarth Analysis"
 description: "Developer assessment and hackathon platform for technical hiring with coding challenges and AI-driven candidate evaluation."
-permalink: /hackerearth/
+permalink: /hackerearth-analysis/
 website: ""
 tags: []
 page_title: HackerEarth

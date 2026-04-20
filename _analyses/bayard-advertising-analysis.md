@@ -2,7 +2,7 @@
 layout: article
 title: "Bayard Advertising Analysis"
 description: "Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions."
-permalink: /bayard-advertising/
+permalink: /bayard-advertising-analysis/
 website: ""
 tags: []
 page_title: Bayard Advertising

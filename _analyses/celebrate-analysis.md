@@ -2,7 +2,7 @@
 layout: article
 title: "Celebrate Analysis"
 description: "AI-driven employee recognition and engagement platform that supports DEI initiatives and workplace culture building."
-permalink: /celebrate/
+permalink: /celebrate-analysis/
 website: ""
 tags: []
 page_title: Celebrate

@@ -2,7 +2,7 @@
 layout: article
 title: "CoderPad Analysis"
 description: "Technical interview platform for conducting live coding interviews with support for 30+ programming languages and frameworks."
-permalink: /coderpad/
+permalink: /coderpad-analysis/
 website: ""
 tags: []
 page_title: CoderPad

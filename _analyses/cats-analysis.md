@@ -2,7 +2,7 @@
 layout: article
 title: "CATS Analysis"
 description: "Applicant tracking system designed for recruiting agencies with customizable workflows, career portals, and reporting."
-permalink: /cats/
+permalink: /cats-analysis/
 website: ""
 tags: []
 page_title: CATS

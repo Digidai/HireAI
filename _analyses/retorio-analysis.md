@@ -2,7 +2,7 @@
 layout: article
 title: "Retorio Analysis"
 description: "AI video assessment platform that analyzes candidate behavior and communication to predict job fit and performance."
-permalink: /retorio/
+permalink: /retorio-analysis/
 website: ""
 tags: []
 page_title: Retorio

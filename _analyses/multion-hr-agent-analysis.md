@@ -2,7 +2,7 @@
 layout: article
 title: "MultiOn (HR Agent) Analysis"
 description: "AI agent platform that autonomously browses the web to perform recruiting tasks like job posting and candidate research."
-permalink: /multion-hr-agent/
+permalink: /multion-hr-agent-analysis/
 website: ""
 tags: []
 page_title: MultiOn (HR Agent)

@@ -2,7 +2,7 @@
 layout: article
 title: "Make.com (HR) Analysis"
 description: "Visual automation platform for connecting HR tools and building AI-powered recruiting workflows across ATS, CRM, and communication channels."
-permalink: /makecom-hr/
+permalink: /makecom-hr-analysis/
 website: ""
 tags: []
 page_title: Make.com (HR)

@@ -2,7 +2,7 @@
 layout: article
 title: "Erecruit Analysis"
 description: "Enterprise staffing software providing front-office and back-office solutions for large staffing organizations."
-permalink: /erecruit/
+permalink: /erecruit-analysis/
 website: ""
 tags: []
 page_title: Erecruit

@@ -2,7 +2,7 @@
 layout: article
 title: "Salesforce Recruiting AI Analysis"
 description: "AI-powered recruiting module within Salesforce enabling autonomous candidate sourcing, screening, and pipeline management."
-permalink: /salesforce-recruiting-ai/
+permalink: /salesforce-recruiting-ai-analysis/
 website: ""
 tags: []
 page_title: Salesforce Recruiting AI

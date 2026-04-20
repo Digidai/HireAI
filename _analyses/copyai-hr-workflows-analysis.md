@@ -2,7 +2,7 @@
 layout: article
 title: "Copy.ai (HR Workflows) Analysis"
 description: "AI-powered workflow automation platform for HR teams to generate job descriptions, outreach messages, and candidate summaries at scale."
-permalink: /copyai-hr-workflows/
+permalink: /copyai-hr-workflows-analysis/
 website: ""
 tags: []
 page_title: Copy.ai (HR Workflows)

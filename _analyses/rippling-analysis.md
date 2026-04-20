@@ -2,7 +2,7 @@
 layout: article
 title: "Rippling Analysis"
 description: "Unified workforce management platform combining HR, IT, and finance automation for onboarding, payroll, and device management."
-permalink: /rippling/
+permalink: /rippling-analysis/
 website: ""
 tags: []
 page_title: Rippling

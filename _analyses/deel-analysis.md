@@ -2,7 +2,7 @@
 layout: article
 title: "Deel Analysis"
 description: "Global HR and payroll platform for hiring and managing remote international teams with compliant contractor and employee management."
-permalink: /deel/
+permalink: /deel-analysis/
 website: ""
 tags: []
 page_title: Deel

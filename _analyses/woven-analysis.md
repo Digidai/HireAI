@@ -2,7 +2,7 @@
 layout: article
 title: "Woven Analysis"
 description: "Senior developer assessment platform using real-world work simulations to evaluate engineering candidates for senior roles."
-permalink: /woven/
+permalink: /woven-analysis/
 website: ""
 tags: []
 page_title: Woven

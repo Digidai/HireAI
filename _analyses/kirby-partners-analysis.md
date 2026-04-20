@@ -2,7 +2,7 @@
 layout: article
 title: "Kirby Partners Analysis"
 description: "Executive search firm specializing in healthcare leadership recruiting with AI-enhanced candidate identification."
-permalink: /kirby-partners/
+permalink: /kirby-partners-analysis/
 website: ""
 tags: []
 page_title: Kirby Partners

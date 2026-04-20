@@ -2,7 +2,7 @@
 layout: article
 title: "Appcast Analysis"
 description: "Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality."
-permalink: /appcast/
+permalink: /appcast-analysis/
 website: ""
 tags: []
 page_title: Appcast

@@ -2,7 +2,7 @@
 layout: article
 title: "Trainual Analysis"
 description: "Onboarding and training platform that helps businesses document processes and onboard new hires systematically."
-permalink: /trainual/
+permalink: /trainual-analysis/
 website: ""
 tags: []
 page_title: Trainual

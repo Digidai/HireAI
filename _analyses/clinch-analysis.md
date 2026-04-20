@@ -2,7 +2,7 @@
 layout: article
 title: "Clinch Analysis"
 description: "Talent relationship management and recruitment marketing platform with CRM, career sites, and analytics."
-permalink: /clinch/
+permalink: /clinch-analysis/
 website: ""
 tags: []
 page_title: Clinch
