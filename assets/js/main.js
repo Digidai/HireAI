@@ -258,9 +258,16 @@ function initKeyboardShortcuts() {
             }
         }
 
-        // "h" to go home
-        if (e.key === 'h' && !e.ctrlKey && !e.metaKey) {
-            window.location.href = '/';
+        // "g h" sequence to go home (vim-style: press g then h)
+        if (e.key === 'g' && !e.ctrlKey && !e.metaKey) {
+            const onKey = (ev) => {
+                document.removeEventListener('keydown', onKey);
+                if (ev.key === 'h' && !ev.ctrlKey && !ev.metaKey) {
+                    window.location.href = '/';
+                }
+            };
+            document.addEventListener('keydown', onKey);
+            setTimeout(() => document.removeEventListener('keydown', onKey), 1000);
         }
     });
 }

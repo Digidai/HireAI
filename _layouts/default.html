@@ -12,7 +12,7 @@
     {% include search-engine-verification.html %}
 
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests">
 
     {% assign meta_title = site.title %}
     {% if page.title %}
@@ -108,7 +108,7 @@
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
     <!-- Structured Data - Website -->
-    <script nonce="hireai" type="application/ld+json">
+    <script type="application/ld+json">
 	    {
 	      "@context": "https://schema.org",
 	      "@type": "WebSite",
@@ -125,7 +125,7 @@
 	    </script>
 
     <!-- Structured Data - Organization -->
-    <script nonce="hireai" type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -142,7 +142,7 @@
     <!-- Structured Data - Product/SoftwareApplication -->
     {% assign app_description = page.product_tagline | default: page.description | default: '' %}
     {% assign app_description = app_description | strip_html | strip_newlines | strip %}
-    <script nonce="hireai" type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
@@ -174,7 +174,7 @@
     {% assign published_at = page.date | default: page.last_modified_at | default: page.last_updated | default: site.time %}
     {% assign modified_at = page.last_modified_at | default: page.last_updated | default: site.time %}
     {% assign word_count = content | strip_html | number_of_words %}
-    <script nonce="hireai" type="application/ld+json">
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",

@@ -22,10 +22,8 @@ languages:
 
 # Build settings
 markdown: kramdown
-theme: minima # This is the default theme for GitHub Pages, but it's good to specify
 plugins:
   - jekyll-feed
-  - jekyll-sitemap # Explicitly enable sitemap generation
 
 # Sass/SCSS settings
 sass:

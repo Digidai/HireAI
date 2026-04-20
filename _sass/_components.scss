@@ -487,6 +487,16 @@
     margin-top: 24px;
 }
 
+// Centered button group
+.btn-group-center {
+    justify-content: center;
+}
+
+// Tertiary text color (replaces inline style)
+.text-tertiary {
+    color: var(--text-tertiary);
+}
+
 // Back to Top Button (moved from JS inline styles)
 .back-to-top {
     position: fixed;

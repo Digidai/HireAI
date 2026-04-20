@@ -58,16 +58,16 @@ sitemap:
     {%- for category in site.data.products limit: 10 -%}
       {%- for product in category.products limit: 3 -%}
       <item>
-        <title>{{ product.name | xml_escape }} - {{ category.category | xml_escape }}</title>
+        <title>{{ product.name | xml_escape }} - {{ category.era | xml_escape }}</title>
         {%- if product.tagline -%}
         <description>{{ product.tagline | xml_escape | strip_html | truncate: 400 }}</description>
         {%- elsif product.description -%}
         <description>{{ product.description | xml_escape | strip_html | truncate: 400 }}</description>
         {%- else -%}
-        <description>{{ category.category | xml_escape }} - {{ product.name | xml_escape }}</description>
+        <description>{{ category.era | xml_escape }} - {{ product.name | xml_escape }}</description>
         {%- endif -%}
         <link>{{ site.url }}{{ site.baseurl }}/product-directory/#{{ product.name | slugify }}</link>
-        <guid isPermaLink="false">{{ product.name | xml_escape }}-{{ category.category | xml_escape }}</guid>
+        <guid isPermaLink="false">{{ product.name | xml_escape }}-{{ category.era | slugify | xml_escape }}</guid>
         <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
         {%- if product.tags -%}
         <category>{{ product.tags | join: '</category><category>' }}</category>

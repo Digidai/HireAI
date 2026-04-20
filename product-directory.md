@@ -70,7 +70,7 @@ permalink: /product-directory/
 
     <div class="cards-grid">
         {% for product in category.products %}
-        {% include product-card.html product=product %}
+        {% include product-card.html product=product category=category %}
         {% endfor %}
     </div>
 </section>
