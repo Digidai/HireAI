@@ -1,0 +1,47 @@
+---
+layout: article
+title: "SpinHire Analysis"
+description: "AI-powered candidate sourcing platform that automates outreach and engagement with passive candidates across multiple channels."
+permalink: /spinhire/
+website: ""
+tags: []
+page_title: SpinHire
+page_description: "In-depth analysis of SpinHire HR AI product."
+last_modified_at: 2025-01-01
+---
+
+# SpinHire - Deep Analysis
+
+## Overview
+
+SpinHire is aI-powered candidate sourcing platform that automates outreach and engagement with passive candidates across multiple channels.
+
+## Key Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Technical Architecture
+
+Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+
+## Market Position
+
+Cover target users, pricing/packaging (if known), and key competitors.
+
+## Pros & Cons
+
+### Pros
+
+- Pro 1
+- Pro 2
+
+### Cons
+
+- Con 1
+- Con 2
+
+## Conclusion
+
+Give a concise takeaway and when you'd recommend it.
