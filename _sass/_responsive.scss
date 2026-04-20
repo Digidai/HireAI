@@ -1,4 +1,6 @@
+// ═══════════════════════════════════════════════
 // Responsive Styles
+// ═══════════════════════════════════════════════
 
 // Extra large screens
 @media (min-width: 1440px) {
@@ -70,10 +72,13 @@
 
     .content-wrapper {
         padding: 60px 20px 40px;
+        border-left: none;
+        border-right: none;
     }
 
     .page-title {
-        font-size: 28px;
+        font-size: 24px;
+        letter-spacing: -0.5px;
     }
 
     .stats-row {
@@ -118,7 +123,7 @@
     }
 
     .product-header h1 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .product-meta-bar {
@@ -194,7 +199,7 @@
     }
 
     .error-title {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .error-navigation {
@@ -210,7 +215,7 @@
     }
 
     .page-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .page-description {
@@ -299,6 +304,6 @@
     .card {
         break-inside: avoid;
         box-shadow: none;
-        border: 1px solid #ccc;
+        border: 1px solid var(--border-primary);
     }
 }

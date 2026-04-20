@@ -1,4 +1,7 @@
+// ═══════════════════════════════════════════════
 // Product Detail Page
+// ═══════════════════════════════════════════════
+
 .product-detail-page {
     max-width: 100%;
 }
@@ -8,17 +11,21 @@
 
     h1 {
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 510;
+        line-height: 1.13;
+        letter-spacing: -0.704px;
         margin: 0 0 8px 0;
         color: var(--text-primary);
     }
 }
 
 .product-tagline {
-    font-size: 18px;
-    color: var(--text-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-tertiary);
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.6;
+    letter-spacing: -0.165px;
 }
 
 .product-meta-bar {
@@ -28,8 +35,8 @@
     justify-content: space-between;
     gap: 16px;
     padding: 16px 20px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    background: var(--bg-panel);
+    border: 1px solid var(--border-subtle);
     border-radius: var(--radius-md);
     margin-bottom: 16px;
 }
@@ -41,8 +48,10 @@
 }
 
 .meta-item {
-    font-size: 14px;
-    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 510;
+    letter-spacing: -0.13px;
+    color: var(--text-tertiary);
     min-width: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
@@ -69,8 +78,9 @@
     border-top: 1px solid var(--divider-color);
 
     h2 {
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 20px;
+        font-weight: 590;
+        letter-spacing: -0.24px;
         margin: 0 0 20px 0;
         color: var(--text-primary);
     }
@@ -84,21 +94,22 @@
 }
 
 .feature-card {
-    background: var(--bg-secondary);
+    background: var(--bg-panel);
     padding: 20px;
     border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-subtle);
 
     h4 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 510;
+        letter-spacing: -0.182px;
         margin: 0 0 8px 0;
         color: var(--text-primary);
     }
 
     p {
-        font-size: 14px;
-        color: var(--text-secondary);
+        font-size: 13px;
+        color: var(--text-tertiary);
         margin: 0;
         line-height: 1.6;
     }
@@ -110,7 +121,7 @@
     padding: 24px;
     border-radius: var(--radius-md);
     border: none;
-    border-left: 4px solid var(--accent-color);
+    border-left: 3px solid var(--accent-color);
 
     h2 {
         margin-bottom: 12px;
@@ -120,6 +131,7 @@
         margin: 0;
         font-size: 15px;
         line-height: 1.7;
+        color: var(--text-secondary);
     }
 }
 
@@ -134,17 +146,18 @@
 
     li {
         padding: 12px 16px 12px 40px;
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-color);
+        background: var(--bg-panel);
+        border: 1px solid var(--border-subtle);
         border-radius: var(--radius-md);
         font-size: 14px;
+        color: var(--text-secondary);
         position: relative;
 
         &:before {
             content: '\2713';
             position: absolute;
             left: 16px;
-            color: var(--accent-color);
+            color: var(--emerald);
             font-weight: bold;
         }
     }
@@ -159,14 +172,15 @@
 
 .pros-card,
 .cons-card {
-    background: var(--bg-secondary);
+    background: var(--bg-panel);
     padding: 24px;
     border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-subtle);
 
     h3 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 510;
+        letter-spacing: -0.182px;
         margin: 0 0 16px 0;
     }
 
@@ -177,24 +191,25 @@
 
     li {
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.6;
+        color: var(--text-secondary);
     }
 }
 
 .pros-card {
-    border-left: 4px solid #10b981;
+    border-left: 3px solid var(--emerald);
 
     h3 {
-        color: #10b981;
+        color: var(--emerald);
     }
 }
 
 .cons-card {
-    border-left: 4px solid #f59e0b;
+    border-left: 3px solid var(--warning);
 
     h3 {
-        color: #f59e0b;
+        color: var(--warning);
     }
 }
 
@@ -206,11 +221,11 @@
 }
 
 .related-card {
-    background: var(--bg-secondary);
+    background: var(--bg-panel);
     padding: 20px;
     border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
-    transition: all 0.15s ease;
+    border: 1px solid var(--border-subtle);
+    transition: all var(--transition-fast);
 
     &:hover {
         border-color: var(--accent-color);
@@ -218,8 +233,9 @@
     }
 
     h4 {
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 510;
+        letter-spacing: -0.182px;
         margin: 0 0 8px 0;
 
         a {
@@ -234,7 +250,7 @@
 
     p {
         font-size: 13px;
-        color: var(--text-secondary);
+        color: var(--text-tertiary);
         margin: 0;
         line-height: 1.5;
     }
@@ -268,11 +284,11 @@
         min-width: 0;
     }
 
-    .sidebar {
+    .detail-sidebar {
         position: sticky;
         top: 24px;
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-color);
+        background: var(--bg-panel);
+        border: 1px solid var(--border-subtle);
         border-radius: var(--radius-lg);
         padding: 20px;
 
@@ -282,8 +298,9 @@
             padding: 0;
 
             h3 {
-                font-size: 16px;
-                font-weight: 600;
+                font-size: 14px;
+                font-weight: 510;
+                letter-spacing: -0.182px;
                 margin-bottom: 16px;
                 color: var(--text-primary);
             }
@@ -296,8 +313,8 @@
 
             li {
                 margin-bottom: 12px;
-                font-size: 14px;
-                color: var(--text-secondary);
+                font-size: 13px;
+                color: var(--text-tertiary);
             }
 
             strong {
@@ -309,12 +326,12 @@
     .toc {
         margin-top: 20px;
         padding-top: 20px;
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid var(--border-subtle);
 
         h3 {
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--text-tertiary);
+            font-size: 11px;
+            font-weight: 510;
+            color: var(--text-quaternary);
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 12px;
@@ -326,9 +343,9 @@
             a {
                 display: block;
                 padding: 6px 0;
-                color: var(--text-secondary);
+                color: var(--text-tertiary);
                 text-decoration: none;
-                transition: color var(--transition);
+                transition: color var(--transition-fast);
 
                 &:hover {
                     color: var(--text-primary);
@@ -340,16 +357,16 @@
 
 // Standalone TOC
 .toc {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    background: var(--bg-panel);
+    border: 1px solid var(--border-subtle);
     border-radius: var(--radius-lg);
     padding: 16px;
 }
 
 .toc-title {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--text-tertiary);
+    font-size: 11px;
+    font-weight: 510;
+    color: var(--text-quaternary);
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 12px;
@@ -364,9 +381,11 @@
 
     a {
         font-size: 13px;
-        color: var(--text-secondary);
+        font-weight: 510;
+        letter-spacing: -0.13px;
+        color: var(--text-tertiary);
         text-decoration: none;
-        transition: all var(--transition);
+        transition: color var(--transition-fast);
 
         &:hover {
             color: var(--text-primary);
@@ -384,14 +403,16 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 16px 20px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    background: var(--bg-panel);
+    border: 1px solid var(--border-subtle);
     border-radius: var(--radius-md);
     margin-bottom: 16px;
 
     .meta-item {
-        font-size: 14px;
-        color: var(--text-secondary);
+        font-size: 13px;
+        font-weight: 510;
+        letter-spacing: -0.13px;
+        color: var(--text-tertiary);
         min-width: 0;
         overflow-wrap: anywhere;
         word-break: break-word;
@@ -431,8 +452,9 @@
     }
 
     h3 {
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 510;
+        letter-spacing: -0.182px;
         color: var(--text-primary);
         margin-bottom: 10px;
     }

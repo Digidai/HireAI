@@ -55,9 +55,9 @@ permalink: /product-directory/
     <p class="page-description">Complete list of HR AI products organized by technology era.</p>
 </div>
 
-<div style="margin: 16px 0 28px;">
+<div class="search-bar">
     <input type="text" class="search-input" id="product-directory-search" placeholder="Search products...">
-    <span id="product-directory-results" style="margin-left: 10px; font-size: 13px; color: var(--text-tertiary);"></span>
+    <span id="product-directory-results" class="search-results"></span>
 </div>
 
 {% for category in site.data.products %}

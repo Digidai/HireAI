@@ -15,7 +15,7 @@ permalink: /tags/
         <span class="section-icon">&</span>
         <h2 class="section-title">All Tags</h2>
     </div>
-    <div style="margin: 16px 0 24px;">
+    <div class="search-bar">
         <input type="text" class="search-input" id="tag-search" placeholder="Search tags...">
     </div>
     <div class="tag-cloud">

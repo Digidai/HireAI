@@ -1,70 +1,117 @@
-// CSS Variables - Light Theme
+// ═══════════════════════════════════════════════
+// HireAI Design System — Tokens & Variables
+// Ultra-minimal, precise, indigo accent
+// ═══════════════════════════════════════════════
+
+// ── Light Theme ────────────────────────────────
 :root {
-    --bg-primary: #ffffff;
-    --bg-secondary: #fbfbfa;
-    --bg-tertiary: #f7f6f3;
-    --bg-hover: #efefef;
-    --bg-active: #e8e8e8;
+    // Backgrounds
+    --bg-page: #f7f8f8;
+    --bg-surface: #ffffff;
+    --bg-panel: #f3f4f5;
+    --bg-hover: #ececee;
+    --bg-active: #e2e3e5;
 
-    --text-primary: #37352f;
-    --text-secondary: #6b6b6b;
-    --text-tertiary: #9b9a97;
-    --text-link: #37352f;
+    // Text
+    --text-primary: #1a1a1e;
+    --text-secondary: #3c3c43;
+    --text-tertiary: #62666d;
+    --text-quaternary: #8a8f98;
+    --text-link: #5e6ad2;
 
-    --border-color: #e9e9e7;
-    --divider-color: #edebe9;
+    // Borders
+    --border-primary: #d0d6e0;
+    --border-subtle: #e6e6e6;
+    --border-light: rgba(0, 0, 0, 0.08);
+    --divider-color: #e6e6e6;
 
-    --sidebar-bg: #fbfbfa;
+    // Brand & Accent
+    --brand: #5e6ad2;
+    --accent-color: #5e6ad2;
+    --accent-hover: #7170ff;
+    --accent-light: rgba(94, 106, 210, 0.08);
+    --accent-ring: rgba(113, 112, 255, 0.2);
+
+    // Brand text on colored backgrounds
+    --brand-text: #ffffff;
+
+    // Status
+    --success: #27a644;
+    --emerald: #10b981;
+    --warning: #f59e0b;
+    --error: #e5484d;
+
+    // Shadows — ring-based elevation system
+    --shadow-ring: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    --shadow-sm: rgba(0, 0, 0, 0.03) 0px 1.2px 0px 0px;
+    --shadow-md: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+    --shadow-lg: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) 0px 4px 12px 0px;
+
+    // Sidebar
+    --sidebar-bg: #ffffff;
     --sidebar-width: 240px;
 
-    --accent-color: #2383e2;
-    --accent-light: #e8f4fd;
-    --accent-blue: #2383e2;
-    --accent-blue-bg: #e8f4fd;
+    // Tags & Badges
+    --tag-bg: rgba(94, 106, 210, 0.08);
+    --tag-text: #5e6ad2;
+    --pill-bg: var(--bg-panel);
+    --pill-text: var(--text-tertiary);
 
-    --card-bg: #fbfbfa;
-    --card-hover-bg: #efefef;
-
-    --tag-bg: #f1f1ef;
-    --tag-text: #5c5c5c;
-
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
-
+    // Radius
+    --radius-xs: 2px;
     --radius-sm: 4px;
     --radius-md: 6px;
     --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-pill: 9999px;
 
+    // Transitions
+    --transition-fast: 0.1s ease;
     --transition: 0.15s ease;
+    --transition-slow: 0.2s ease;
 }
 
-// Dark Theme
+// ── Dark Theme ─────────────────────────────────
 [data-theme="dark"] {
-    --bg-primary: #191919;
-    --bg-secondary: #202020;
-    --bg-tertiary: #2f2f2f;
-    --bg-hover: #333333;
-    --bg-active: #3d3d3d;
+    --bg-page: #0f1011;
+    --bg-surface: #191a1b;
+    --bg-panel: #28282c;
+    --bg-hover: #2e2e33;
+    --bg-active: #36363c;
 
-    --text-primary: #ebebeb;
-    --text-secondary: #9b9b9b;
-    --text-tertiary: #6b6b6b;
-    --text-link: #ebebeb;
+    --text-primary: #f7f8f8;
+    --text-secondary: #d0d6e0;
+    --text-tertiary: #8a8f98;
+    --text-quaternary: #62666d;
+    --text-link: #828fff;
 
-    --border-color: #333333;
-    --divider-color: #2d2d2d;
+    --border-primary: #34343a;
+    --border-subtle: #2d2d32;
+    --border-light: rgba(255, 255, 255, 0.06);
+    --divider-color: #2d2d32;
 
-    --sidebar-bg: #202020;
+    --brand: #7170ff;
+    --accent-color: #7170ff;
+    --accent-hover: #828fff;
+    --accent-light: rgba(113, 112, 255, 0.1);
+    --accent-ring: rgba(113, 112, 255, 0.25);
 
-    --accent-color: #529cca;
-    --accent-light: #1a3a4d;
-    --accent-blue: #529cca;
-    --accent-blue-bg: #1a3a4d;
+    --brand-text: #ffffff;
 
-    --card-bg: #202020;
-    --card-hover-bg: #333333;
+    --success: #27a644;
+    --emerald: #10b981;
+    --warning: #f59e0b;
+    --error: #e5484d;
 
-    --tag-bg: #373737;
-    --tag-text: #b4b4b4;
+    --shadow-ring: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+    --shadow-sm: rgba(0, 0, 0, 0.1) 0px 1.2px 0px 0px;
+    --shadow-md: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    --shadow-lg: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px, rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+
+    --sidebar-bg: #191a1b;
+
+    --tag-bg: rgba(113, 112, 255, 0.1);
+    --tag-text: #828fff;
+    --pill-bg: var(--bg-panel);
+    --pill-text: var(--text-tertiary);
 }
