@@ -19,6 +19,23 @@
     }
 }
 
+.product-header-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    img {
+        width: 32px;
+        height: 32px;
+        border-radius: var(--radius-md);
+        flex-shrink: 0;
+    }
+
+    h1 {
+        margin: 0;
+    }
+}
+
 .product-tagline {
     font-size: 16px;
     font-weight: 400;

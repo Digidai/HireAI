@@ -67,6 +67,7 @@
       {%- assign product_url = product.url | default: product.website | default: '#' -%}
       <article class="related-product-card">
         <h3 class="related-product-name">
+          {% include product-favicon.html url=product_url %}
           <a href="{{ product_url }}" rel="nofollow">{% if product.name %}{{ product.name | escape }}{% elsif product.product_name %}{{ product.product_name | escape }}{% else %}{{ product.title | escape }}{% endif %}</a>
         </h3>
 

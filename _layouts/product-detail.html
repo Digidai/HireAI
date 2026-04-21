@@ -11,7 +11,11 @@ breadcrumb:
 {% include breadcrumb.html %}
 <article class="product-detail-page">
     <div class="product-header">
-        <h1>{{ page.product_name | escape }}</h1>
+        <div class="product-header-row">
+            {% assign product_website = page.website | default: page.url %}
+            {% include product-favicon.html url=product_website %}
+            <h1>{{ page.product_name | escape }}</h1>
+        </div>
         {% if page.product_tagline %}
         <p class="product-tagline">{{ page.product_tagline | escape }}</p>
         {% endif %}

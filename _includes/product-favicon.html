@@ -1,0 +1,10 @@
+{%- comment -%}
+  Product favicon — usage: {% include product-favicon.html url=product.url %}
+  Uses Google's favicon service to fetch the product's actual site icon.
+{%- endcomment -%}
+
+{%- assign url = include.url | default: include.website | default: '' -%}
+{%- if url != '' and url != '#' -%}
+  {%- assign domain = url | remove: 'https://' | remove: 'http://' | remove: 'www.' | split: '/' | first -%}
+  <img src="https://www.google.com/s2/favicons?domain={{ domain }}&sz=32" alt="" width="20" height="20" class="product-favicon" loading="lazy" onerror="this.style.display='none'">
+{%- endif -%}

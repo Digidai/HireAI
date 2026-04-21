@@ -25,6 +25,23 @@
     margin-bottom: 40px;
 }
 
+.page-header-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    img {
+        width: 28px;
+        height: 28px;
+        border-radius: var(--radius-md);
+        flex-shrink: 0;
+    }
+
+    .page-title {
+        margin-bottom: 0;
+    }
+}
+
 .page-icon {
     margin-bottom: 16px;
 
@@ -238,13 +255,19 @@
 }
 
 .product-bullet {
-    width: 6px;
-    height: 6px;
-    background: var(--text-quaternary);
-    border-radius: 50%;
-    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
     margin-right: 12px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .product-favicon {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .product-content {

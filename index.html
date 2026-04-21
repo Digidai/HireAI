@@ -74,7 +74,7 @@ description: "Comprehensive collection of HR AI products and research, organized
         <ul class="product-list">
             {% for product in category.products %}
             <li class="product-item">
-                <span class="product-bullet"></span>
+                <span class="product-bullet">{% include product-favicon.html url=product.url %}</span>
                 <div class="product-content">
                     <div class="product-name">
                         <a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a>
@@ -129,7 +129,7 @@ description: "Comprehensive collection of HR AI products and research, organized
                 {% for category in site.data.products %}
                     {% for product in category.products %}
                     <tr>
-                        <td><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a></td>
+                        <td><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{% include product-favicon.html url=product.url %} {{ product.name | escape }}</a></td>
                         <td>{{ category.era | split: ' - ' | first }}</td>
                         <td>
                             {% if product.analysis %}

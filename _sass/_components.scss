@@ -37,11 +37,21 @@
     align-items: center;
     flex-shrink: 0;
 
-    svg {
+    img, svg {
         width: 22px;
         height: 22px;
-        color: var(--accent-color);
+        border-radius: var(--radius-sm);
     }
+}
+
+// ── Product Favicon ────────────────────────────
+.product-favicon {
+    width: 20px;
+    height: 20px;
+    border-radius: var(--radius-sm);
+    vertical-align: middle;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .card-title {
@@ -580,6 +590,16 @@
     font-weight: 510;
     letter-spacing: -0.182px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+        width: 18px;
+        height: 18px;
+        border-radius: var(--radius-sm);
+        flex-shrink: 0;
+    }
 
     a {
         color: var(--text-primary);
