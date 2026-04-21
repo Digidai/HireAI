@@ -1,5 +1,5 @@
 - era: 1990s - Applicant Tracking Systems (ATS)
-  icon: 🗄️
+  icon: database
   products:
   - name: Oracle Taleo
     url: https://www.oracle.com/human-capital-management/taleo/
@@ -130,7 +130,7 @@
     - Staffing
     - Enterprise
 - era: 2000s - Candidate Marketing & Assessment
-  icon: 📈
+  icon: trending-up
   products:
   - name: Glassdoor
     url: https://www.glassdoor.com/
@@ -292,7 +292,7 @@
     - Enterprise
     - Staffing
 - era: 2010s - Onboarding/Workflow/Integrated Sourcing
-  icon: ⚡
+  icon: zap
   products:
   - name: Greenhouse
     url: https://www.greenhouse.io/
@@ -567,7 +567,7 @@
     - Automation
     - Candidate Engagement
 - era: 2020s - Intelligent Assessment, Diversity, Career
-  icon: 🎯
+  icon: target
   products:
   - name: HackerRank
     url: https://www.hackerrank.com/
@@ -885,7 +885,7 @@
     - Skills
     - Evaluation
 - era: 2024+ - Agentic AI Platforms
-  icon: 🤖
+  icon: cpu
   products:
   - name: Beamery
     url: https://beamery.com/

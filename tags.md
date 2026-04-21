@@ -5,14 +5,14 @@ description: "Browse HR AI products by tag, with evaluation checklists and relat
 permalink: /tags/
 ---
 <div class="page-header">
-    <div class="page-icon">#</div>
+    <div class="page-icon">{% include icon.html name="hash" %}</div>
     <h1 class="page-title">Tags</h1>
     <p class="page-description">Browse HR AI products by technology category and feature tags.</p>
 </div>
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">&</span>
+        <span class="section-icon">{% include icon.html name="link" %}</span>
         <h2 class="section-title">All Tags</h2>
     </div>
     <div class="search-bar">

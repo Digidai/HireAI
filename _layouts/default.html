@@ -102,7 +102,8 @@
     <!-- Fonts with display swap for better performance -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Favicon (SVG with PNG fallback) -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg">
     <link rel="alternate icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/logo.png">
@@ -275,7 +276,7 @@
             <div class="section-title">Categories</div>
             {% for category in site.data.products %}
             <a href="{{ site.baseurl }}/#{{ category.era | slugify }}" class="nav-item nav-item-small">
-                <span class="nav-emoji">{{ category.icon }}</span>
+                <span class="nav-emoji">{% include icon.html name=category.icon size="16" %}</span>
                 <span>{{ category.era | split: ' - ' | last }}</span>
             </a>
             {% endfor %}

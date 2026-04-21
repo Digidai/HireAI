@@ -91,9 +91,19 @@
 }
 
 .nav-emoji {
-    font-size: 14px;
     width: 18px;
-    text-align: center;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    svg {
+        width: 16px;
+        height: 16px;
+        color: var(--text-tertiary);
+    }
+}
 }
 
 .sidebar-section {

@@ -87,7 +87,7 @@ breadcrumb:
         <div class="pros-cons-grid">
             {% if page.pros_cons.pros %}
             <div class="pros-card">
-                <h3>✓ Pros</h3>
+                <h3>Pros</h3>
                 <ul>
                     {% for pro in page.pros_cons.pros %}
                     <li>{{ pro | escape }}</li>
@@ -97,7 +97,7 @@ breadcrumb:
             {% endif %}
             {% if page.pros_cons.cons %}
             <div class="cons-card">
-                <h3>✗ Cons</h3>
+                <h3>Cons</h3>
                 <ul>
                     {% for con in page.pros_cons.cons %}
                     <li>{{ con | escape }}</li>

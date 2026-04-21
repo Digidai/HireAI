@@ -40,7 +40,7 @@ description: "Comprehensive collection of HR AI products and research, organized
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">*</span>
+        <span class="section-icon">{% include icon.html name="star" %}</span>
         <h2 class="section-title">Featured Research</h2>
     </div>
     <div class="featured-grid">
@@ -60,14 +60,14 @@ description: "Comprehensive collection of HR AI products and research, organized
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">#</span>
+        <span class="section-icon">{% include icon.html name="hash" %}</span>
         <h2 class="section-title">Product Categories</h2>
     </div>
 
     {% for category in site.data.products %}
     <div class="category-section" id="{{ category.era | slugify }}">
         <div class="category-header">
-            <span class="category-icon">{{ category.icon }}</span>
+            <span class="category-icon">{% include icon.html name=category.icon %}</span>
             <h3 class="category-title">{{ category.era | split: ' - ' | last }}</h3>
             <span class="category-era">{{ category.era | split: ' - ' | first }}</span>
         </div>
@@ -100,7 +100,7 @@ description: "Comprehensive collection of HR AI products and research, organized
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">@</span>
+        <span class="section-icon">{% include icon.html name="grid" %}</span>
         <h2 class="section-title">All Products</h2>
     </div>
     <div class="database">
@@ -148,7 +148,7 @@ description: "Comprehensive collection of HR AI products and research, organized
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">&</span>
+        <span class="section-icon">{% include icon.html name="link" %}</span>
         <h2 class="section-title">Browse by Tag</h2>
     </div>
     <div class="tag-cloud">
@@ -169,7 +169,7 @@ description: "Comprehensive collection of HR AI products and research, organized
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">></span>
+        <span class="section-icon">{% include icon.html name="arrow-right" %}</span>
         <h2 class="section-title">Quick Access</h2>
     </div>
     <div class="quick-links">

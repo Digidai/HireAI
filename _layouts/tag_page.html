@@ -52,7 +52,7 @@ breadcrumb:
 
 {% include breadcrumb.html %}
 <div class="page-header">
-    <div class="page-icon">#</div>
+    <div class="page-icon">{% include icon.html name="hash" %}</div>
     <h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}</h1>
     <p class="page-description">{% if page.description %}{{ page.description | escape }}{% else %}Products tagged with "{{ page.tag | escape }}"{% endif %}</p>
 </div>
@@ -69,7 +69,7 @@ breadcrumb:
 {% if checklist %}
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">✓</span>
+        <span class="section-icon">{% include icon.html name="check" %}</span>
         <h2 class="section-title">Evaluation Checklist</h2>
     </div>
     <div class="markdown-content">
@@ -85,7 +85,7 @@ breadcrumb:
 
 <section class="section">
     <div class="section-header">
-        <span class="section-icon">📦</span>
+        <span class="section-icon">{% include icon.html name="package" %}</span>
         <h2 class="section-title">Products ({{ product_count }})</h2>
     </div>
     <div class="cards-grid">
