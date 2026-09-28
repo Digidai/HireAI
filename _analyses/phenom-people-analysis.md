@@ -1,9 +1,9 @@
 ---
 layout: analysis
-title: "Phenom People"
+title: "Phenom"
 permalink: /phenom-people-analysis/
-description: "Talent experience management platform with AI-powered personalization and candidate engagement."
-website: "https://www.phenompeople.com/"
+description: "Phenom, formerly Phenom People, publishes an applied AI platform for hiring, development, and retention. phenompeople.com redirects to phenom.com."
+website: "https://www.phenom.com/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["Candidate Experience", "AI"]
@@ -13,13 +13,13 @@ tags: ["Candidate Experience", "AI"]
 
 ## Overview
 
-**Phenom People** — Talent experience management platform with AI-powered personalization and candidate engagement.
+**Phenom** — Phenom, formerly Phenom People, publishes an applied AI platform for hiring, development, and retention.
 
-HireAI files Phenom People in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
+HireAI files Phenom in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
 ## When to shortlist it
 
-Shortlist Phenom People when you are comparing Candidate Experience and AI tools. This page does not rank the product and does not confirm pricing.
+Shortlist Phenom when you are comparing Candidate Experience and AI tools. This page does not rank the product and does not confirm pricing.
 
 ## How to use the evaluation guide
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.phenompeople.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+phenompeople.com redirected to phenom.com. The live site title was Phenom Applied AI, a talent platform covering hiring, development, and retention.
+
+Source: [phenom.com](https://www.phenom.com/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -72,11 +78,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Visit Website](https://www.teamtailor.com/)
-- [Wepow]({{ site.baseurl }}/wepow-analysis/) — Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making. (Shared: AI, Candidate Experience) · [Visit Website](https://www.wepow.com/)
+- [Wepow]({{ site.baseurl }}/wepow-analysis/) — The former Wepow website now opens Harver. Confirm on Harver whether any Wepow video-interview product is still sold separately. (Shared: AI, Candidate Experience) · [Visit Website](https://harver.com/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI) · [Visit Website](https://www.applyaii.com/)
 - [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Visit Website](https://arc.dev/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Visit Website](https://arya.ai/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: AI) · [Visit Website](https://www.bamboohr.com/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI) · [Visit Website](https://beamery.com/)
 
 ## How To Improve This Article
 

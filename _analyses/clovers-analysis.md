@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: Automation, Workflow) · [Visit Website](https://www.hiredscore.com/)
+- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Talent orchestration product. Workday agreed to acquire HiredScore on 26 February 2024, and hiredscore.com now redirects to Workday. (Shared: Automation, Workflow) · [Visit Website](https://www.hiredscore.com/)
+- [Kalo]({{ site.baseurl }}/kalo-analysis/) — The former kalohq.com domain no longer shows a freelancer product and redirects to an unrelated site. HireAI does not link there. (Shared: Workflow, Automation)
 - [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: Automation, Workflow) · [Visit Website](https://www.leonar.app/)
 - [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: Automation, Workflow) · [Visit Website](https://www.skillate.com/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Visit Website](https://www.allyo.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Automation) · [Visit Website](https://arya.ai/)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Automation) · [Visit Website](https://www.ashbyhq.com/)
+- [Trainual]({{ site.baseurl }}/trainual-analysis/) — Onboarding and training platform that helps businesses document processes and onboard new hires systematically. (Shared: Workflow, Automation) · [Visit Website](https://trainual.com/)
+- [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries. (Shared: Automation) · [Visit Website](https://www.papayaglobal.com/)
 
 ## How To Improve This Article
 

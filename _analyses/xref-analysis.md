@@ -78,12 +78,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Automation) · [Visit Website](https://www.applyaii.com/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
 - [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: Reference Checking, AI) · [Visit Website](https://www.crosschq.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Visit Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Visit Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: AI, Automation) · [Visit Website](https://www.gem.com/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: AI, Automation) · [Visit Website](https://checkr.com/)
+- [Covey]({{ site.baseurl }}/covey-analysis/) — AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management. (Shared: AI, Automation) · [Visit Website](https://www.covey.io/)
 
 ## How To Improve This Article
 

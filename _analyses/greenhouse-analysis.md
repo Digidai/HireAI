@@ -3,7 +3,7 @@ layout: article
 title: "Greenhouse Analysis"
 description: "Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality."
 permalink: /greenhouse-analysis/
-website: "https://www.greenhouse.io/"
+website: "https://www.greenhouse.com/"
 tags: ["ATS", "Structured Interviewing", "DEI"]
 page_title: Greenhouse
 page_description: "Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality."
@@ -145,3 +145,10 @@ While not a complete HR suite, Greenhouse provides exceptional value for organiz
 - Official website: [{{ page.website }}]({{ page.website }})
 
 > Note: Quantitative metrics in this analysis may be vendor-reported; please verify independently.
+
+## Status checked 28 September 2026
+
+greenhouse.io redirected to greenhouse.com. The product name is unchanged.
+
+Source: [greenhouse.com](https://www.greenhouse.com/), checked 28 September 2026.
+

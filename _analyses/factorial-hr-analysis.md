@@ -90,7 +90,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, SMB) · [Visit Website](https://www.freshworks.com/hrms/)
 - [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://recooty.com/)
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, HCM) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
+- [CATS]({{ site.baseurl }}/cats-analysis/) — Applicant tracking system designed for recruiting agencies with customizable workflows, career portals, and reporting. (Shared: ATS, SMB) · [Visit Website](https://www.catsone.com/)
 
 ## How To Improve This Article
 

@@ -136,10 +136,11 @@ analysis_pages.each do |path|
       related.first(6).map do |r|
         p = r[:product]
         analysis_link = "{{ site.baseurl }}#{p["analysis_permalink"]}"
-        website_link = p["website"]
+        website_link = p["website"].to_s.strip
         shared_txt = r[:shared].join(", ")
         desc = p["description"].to_s.strip
-      "- [#{p["name"]}](#{analysis_link}) — #{desc} (Shared: #{shared_txt}) · [Visit Website](#{website_link})"
+        website_bit = website_link.empty? ? "" : " · [Visit Website](#{website_link})"
+      "- [#{p["name"]}](#{analysis_link}) — #{desc} (Shared: #{shared_txt})#{website_bit}"
     end.join("\n")
   end
 

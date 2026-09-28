@@ -80,10 +80,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Performance Management, Analytics) · [Visit Website](https://effy.ai/)
 - [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
+- [Culture Amp]({{ site.baseurl }}/culture-amp-analysis/) — Employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture. (Shared: Performance Management, Analytics) · [Visit Website](https://www.cultureamp.com/)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Analytics) · [Visit Website](https://darwinbox.com/)
 - [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: AI, Analytics) · [Visit Website](https://honeit.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Analytics, AI) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
-- [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: AI, Analytics) · [Visit Website](https://www.screenloop.com/)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Analytics, AI) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
 
 ## How To Improve This Article
 

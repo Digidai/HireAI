@@ -86,11 +86,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, Assessment, AI) · [Visit Website](https://www.imocha.io/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment) · [Visit Website](https://www.alex.com/)
 - [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Skills-based Hiring, Assessment) · [Visit Website](https://www.beapplied.com/)
 - [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Skills-based Hiring) · [Visit Website](https://catalyte.io/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
 
 ## How To Improve This Article
 

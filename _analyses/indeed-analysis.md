@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality. (Shared: Job Board, Analytics) · [Visit Website](https://appcast.io/)
 - [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Visit Website](https://www.careerbuilder.com/)
+- [Joveo]({{ site.baseurl }}/joveo-analysis/) — Programmatic job advertising platform using AI to optimize job distribution and improve candidate quality across channels. (Shared: Job Board, Analytics) · [Visit Website](https://www.joveo.com/)
 - [Monster]({{ site.baseurl }}/monster-analysis/) — Pioneer online job board with global reach and comprehensive candidate search capabilities. (Shared: Job Board, Sourcing) · [Visit Website](https://www.monster.com/)
-- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, Analytics) · [Visit Website](https://seekout.com/)
-- [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Visit Website](https://www.ziprecruiter.com/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Sourcing) · [Visit Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
+- [Pandologic]({{ site.baseurl }}/pandologic-analysis/) — AI-driven recruitment marketing platform that automates job advertising and optimizes sourcing budget allocation. (Shared: Job Board, Analytics) · [Visit Website](https://www.pandologic.com/)
+- [Recruitics]({{ site.baseurl }}/recruitics-analysis/) — Recruitment marketing analytics platform providing job advertising optimization and applicant tracking analytics. (Shared: Analytics, Job Board) · [Visit Website](https://www.recruitics.com/)
 
 ## How To Improve This Article
 

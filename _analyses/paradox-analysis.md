@@ -2,7 +2,7 @@
 layout: analysis
 title: "Paradox"
 permalink: /paradox-analysis/
-description: "Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant."
+description: "Conversational recruiting platform featuring Olivia. Workday completed its acquisition of Paradox on 1 October 2025."
 website: "https://www.paradox.ai/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
@@ -13,7 +13,7 @@ tags: ["Conversational AI", "Chatbot", "AI"]
 
 ## Overview
 
-**Paradox** — Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant.
+**Paradox** — Conversational recruiting platform featuring Olivia. Workday completed its acquisition of Paradox on 1 October 2025.
 
 HireAI files Paradox in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.paradox.ai/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+Workday completed its acquisition of Paradox on 1 October 2025. Workday said the Paradox candidate experience agent is available through Workday or Paradox. paradox.ai was still online on this date.
+
+Source: [Workday press release, 1 October 2025](https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Paradox-10-01-2025/default.aspx).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -80,8 +86,8 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Chatbot, AI) · [Visit Website](https://www.brazenconnect.com/)
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.humanly.io/)
-- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.makipeople.com/)
-- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.mya.com/)
+- [Maki]({{ site.baseurl }}/makipeople-analysis/) — Maki, at makipeople.com, is a conversational hiring product. The public site title no longer uses the MakiPeople name. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.makipeople.com/)
+- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — mya.com now opens The Stepstone Group. That address did not publish a separate Mya product page on 28 September 2026. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.thestepstonegroup.com/english/)
 - [Wade & Wendy]({{ site.baseurl }}/wade-wendy-analysis/) — Conversational AI platform offering personalized candidate engagement and employee career guidance through AI avatars. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.wadeandwendy.ai/)
 - [XOR]({{ site.baseurl }}/xor-analysis/) — Conversational AI recruiting assistant for automated candidate screening and engagement. (Shared: Conversational AI, Chatbot) · [Visit Website](https://www.xor.ai/)
 

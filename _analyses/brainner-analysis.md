@@ -78,12 +78,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Resume Screening, Automation) · [Visit Website](https://www.applyaii.com/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: AI, Automation) · [Visit Website](https://checkr.com/)
+- [Covey]({{ site.baseurl }}/covey-analysis/) — AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management. (Shared: AI, Automation) · [Visit Website](https://www.covey.io/)
 - [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Resume Screening) · [Visit Website](https://cvviz.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Visit Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Visit Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: AI, Automation) · [Visit Website](https://www.gem.com/)
-- [HiredScore]({{ site.baseurl }}/hiredscore-analysis/) — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization. (Shared: AI, Automation) · [Visit Website](https://www.hiredscore.com/)
 
 ## How To Improve This Article
 

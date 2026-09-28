@@ -87,10 +87,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Automation, Job Seeker Tools, Application) · [Visit Website](https://lazyapply.com/)
 - [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Automation, Job Seeker Tools) · [Visit Website](https://www.sonara.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Automation) · [Visit Website](https://www.applyaii.com/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
 - [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation) · [Visit Website](https://www.dover.com/)
-- [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Automation) · [Visit Website](https://www.fetcher.ai/)
 
 ## How To Improve This Article
 

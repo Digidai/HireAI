@@ -2,8 +2,8 @@
 layout: analysis
 title: "Pillar"
 permalink: /pillar-analysis/
-description: "Talent engagement platform focused on relationship building and candidate experience optimization."
-website: "https://www.pillar.hr/"
+description: "pillar.hr now opens Employ's AI Interview Companion. The old Pillar product site is no longer separate."
+website: "https://www.employinc.com/ai-interview-companion/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 last_modified_at: 2026-09-28
 tags: ["Candidate Engagement", "CRM"]
@@ -13,7 +13,7 @@ tags: ["Candidate Engagement", "CRM"]
 
 ## Overview
 
-**Pillar** — Talent engagement platform focused on relationship building and candidate experience optimization.
+**Pillar** — pillar.hr now opens Employ's AI Interview Companion. The old Pillar product site is no longer separate.
 
 HireAI files Pillar in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.pillar.hr/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+pillar.hr redirected to Employ's AI Interview Companion page.
+
+Source: [Employ AI Interview Companion](https://www.employinc.com/ai-interview-companion/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -70,12 +76,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.ascendify.com/)
 - [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Clinch]({{ site.baseurl }}/clinch-analysis/) — Talent relationship management and recruitment marketing platform with CRM, career sites, and analytics. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.clinch.io/)
+- [Colabo]({{ site.baseurl }}/colabo-analysis/) — Recruitment marketing automation platform combining CRM, career site management, and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.colabosoftware.com/)
 - [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.lever.co/)
 - [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Visit Website](https://beamery.com/)
-- [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Visit Website](https://www.brazenconnect.com/)
-- [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Visit Website](https://breezy.hr/)
 
 ## How To Improve This Article
 

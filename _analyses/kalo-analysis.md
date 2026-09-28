@@ -1,12 +1,11 @@
 ---
 layout: article
 title: "Kalo Analysis"
-description: "Freelancer management platform for engaging, onboarding, and managing freelance and contract talent."
+description: "The former kalohq.com domain no longer shows a freelancer product and redirects to an unrelated site. HireAI does not link there."
 permalink: /kalo-analysis/
-website: "https://www.kalohq.com/"
 tags: ["Freelancer", "Workflow", "Automation"]
 page_title: Kalo
-page_description: "Freelancer management platform for engaging, onboarding, and managing freelance and contract talent."
+page_description: "The former kalohq.com domain no longer shows a freelancer product and redirects to an unrelated site. HireAI does not link there."
 last_modified_at: 2026-09-28
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
@@ -17,7 +16,7 @@ era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 
 ## Overview
 
-**Kalo** — Freelancer management platform for engaging, onboarding, and managing freelance and contract talent.
+**Kalo** — The former kalohq.com domain no longer shows a freelancer product and redirects to an unrelated site. HireAI does not link there.
 
 HireAI files Kalo in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -60,6 +59,11 @@ Use Kalo as a candidate in the Onboarding/Workflow/Integrated Sourcing group, no
 
 ## Source
 
-- Official website: https://www.kalohq.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+kalohq.com redirected to an unrelated gambling site. HireAI removed the website link. Do not use this row as a current freelancer-product listing until a real vendor page is found.
+
+Checked 28 September 2026.
 

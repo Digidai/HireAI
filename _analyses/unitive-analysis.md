@@ -83,7 +83,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.beapplied.com/)
 - [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Visit Website](https://catalyte.io/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: AI, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: AI, DEI) · [Visit Website](https://www.entelo.com/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure. (Shared: AI, DEI) · [Visit Website](https://www.rival-hr.com/entelo-recruit)
 
 ## How To Improve This Article
 

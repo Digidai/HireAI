@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.ascendify.com/)
+- [Bullhorn]({{ site.baseurl }}/bullhorn-analysis/) — Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation. (Shared: CRM, Enterprise) · [Visit Website](https://www.bullhorn.com/)
+- [Clinch]({{ site.baseurl }}/clinch-analysis/) — Talent relationship management and recruitment marketing platform with CRM, career sites, and analytics. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.clinch.io/)
+- [Colabo]({{ site.baseurl }}/colabo-analysis/) — Recruitment marketing automation platform combining CRM, career site management, and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.colabosoftware.com/)
 - [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.lever.co/)
-- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Visit Website](https://www.pillar.hr/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
-- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: Enterprise) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: CRM) · [Visit Website](https://beamery.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: Enterprise) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [Pillar]({{ site.baseurl }}/pillar-analysis/) — pillar.hr now opens Employ's AI Interview Companion. The old Pillar product site is no longer separate. (Shared: Candidate Engagement, CRM) · [Visit Website](https://www.employinc.com/ai-interview-companion/)
 
 ## How To Improve This Article
 

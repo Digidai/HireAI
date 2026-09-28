@@ -86,11 +86,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Turing]({{ site.baseurl }}/turing-analysis/) — AI-powered talent cloud platform matching companies with pre-vetted remote developers using intelligent vetting and matching algorithms. (Shared: AI, Technical Assessment, Sourcing, Developer Community) · [Visit Website](https://www.turing.com/)
+- [Windsurf (Recruiting AI)]({{ site.baseurl }}/windsurf-recruiting-ai-analysis/) — codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system. HireAI does not list it as a current hiring tool. (Shared: Technical Assessment, AI, Developer Community)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
 - [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Visit Website](https://beamery.com/)
 - [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Visit Website](https://www.careerbuilder.com/)
-- [Codility]({{ site.baseurl }}/codility-analysis/) — Technical hiring platform with coding tests and interview solutions for engineering recruitment. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://www.codility.com/)
-- [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Sourcing) · [Visit Website](https://www.dover.com/)
+- [Coderbyte]({{ site.baseurl }}/coderbyte-analysis/) — Online code assessment platform for screening developers with coding challenges, algorithms, and project-based evaluations. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://coderbyte.com/)
 
 ## How To Improve This Article
 

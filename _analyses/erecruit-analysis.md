@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "Erecruit Analysis"
-description: "Enterprise staffing software providing front-office and back-office solutions for large staffing organizations."
+description: "Staffing software now presented on Bullhorn's Erecruit page. erecruit.com redirects there."
 permalink: /erecruit-analysis/
-website: "https://www.erecruit.com/"
+website: "https://www.bullhorn.com/erecruit/"
 tags: ["ATS", "Staffing", "Enterprise"]
 page_title: Erecruit
 page_description: "Enterprise staffing software providing front-office and back-office solutions for large staffing organizations."
@@ -17,7 +17,7 @@ era: "1990s - Applicant Tracking Systems (ATS)"
 
 ## Overview
 
-**Erecruit** — Enterprise staffing software providing front-office and back-office solutions for large staffing organizations.
+**Erecruit** — Staffing software now presented on Bullhorn's Erecruit page. erecruit.com redirects there.
 
 HireAI files Erecruit in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
 
@@ -65,4 +65,10 @@ Use Erecruit as a candidate in the Applicant Tracking Systems (ATS) group, not a
 
 - Official website: https://www.erecruit.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+erecruit.com redirected to Bullhorn's Erecruit page.
+
+Source: [Bullhorn Erecruit](https://www.bullhorn.com/erecruit/), checked 28 September 2026.
 

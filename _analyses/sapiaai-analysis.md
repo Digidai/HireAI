@@ -66,3 +66,9 @@ Use Sapia.ai as a candidate in the Onboarding/Workflow/Integrated Sourcing group
 - Official website: https://www.sapia.ai/
 - HireAI directory record updated 28 September 2026.
 
+## Status checked 28 September 2026
+
+predictivehire.com, a separate older HireAI row, redirected to this Sapia.ai site.
+
+Source: [sapia.ai](https://sapia.ai/), checked 28 September 2026.
+

@@ -86,11 +86,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing, Automation) · [Visit Website](https://arya.ai/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, AI, Automation) · [Visit Website](https://checkr.com/)
+- [Covey]({{ site.baseurl }}/covey-analysis/) — AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.covey.io/)
 - [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Sourcing) · [Visit Website](https://www.dover.com/)
 - [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Visit Website](https://www.fetcher.ai/)
 - [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.gem.com/)
-- [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://hireez.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Automation, Screening) · [Visit Website](https://www.ideal.com/)
 
 ## How To Improve This Article
 

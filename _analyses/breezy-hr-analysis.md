@@ -80,9 +80,9 @@ This section is a structured checklist based on the directory tags and era. It d
 - [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Workflow) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
 - [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, Workflow) · [Visit Website](https://clickup.com/hr)
 - [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: ATS, Candidate Engagement) · [Visit Website](https://www.lever.co/)
+- [RecruitBPM]({{ site.baseurl }}/recruitbpm-analysis/) — Recruiting business process management platform with ATS, CRM, and back-office tools for staffing agencies. (Shared: ATS, Workflow) · [Visit Website](https://www.recruitbpm.com/)
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Visit Website](https://www.avature.net/)
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: Candidate Engagement) · [Visit Website](https://www.ascendify.com/)
 
 ## How To Improve This Article
 

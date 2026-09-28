@@ -1,8 +1,8 @@
 ---
 layout: analysis
-title: "MakiPeople"
+title: "Maki"
 permalink: /makipeople-analysis/
-description: "Conversational AI platform for automated candidate engagement and recruiting process optimization."
+description: "Maki, at makipeople.com, is a conversational hiring product. The public site title no longer uses the MakiPeople name."
 website: "https://www.makipeople.com/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
@@ -13,13 +13,13 @@ tags: ["Conversational AI", "Chatbot", "Automation"]
 
 ## Overview
 
-**MakiPeople** — Conversational AI platform for automated candidate engagement and recruiting process optimization.
+**Maki** — Maki, at makipeople.com, is a conversational hiring product. The public site title no longer uses the MakiPeople name.
 
-HireAI files MakiPeople in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
+HireAI files Maki in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
 ## When to shortlist it
 
-Shortlist MakiPeople when you are comparing Conversational AI, Chatbot, and Automation tools. This page does not rank the product and does not confirm pricing.
+Shortlist Maki when you are comparing Conversational AI, Chatbot, and Automation tools. This page does not rank the product and does not confirm pricing.
 
 ## How to use the evaluation guide
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.makipeople.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+makipeople.com stayed on that host. Its title was "Maki — The intelligence running your hiring, end to end," so the public brand is Maki rather than MakiPeople.
+
+Source: [makipeople.com](https://www.makipeople.com/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -78,11 +84,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.humanly.io/)
-- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.mya.com/)
+- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — mya.com now opens The Stepstone Group. That address did not publish a separate Mya product page on 28 September 2026. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.thestepstonegroup.com/english/)
 - [XOR]({{ site.baseurl }}/xor-analysis/) — Conversational AI recruiting assistant for automated candidate screening and engagement. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.xor.ai/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation) · [Visit Website](https://www.allyo.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Conversational AI, Automation) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Bland AI (HR)]({{ site.baseurl }}/bland-ai-hr-analysis/) — AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations. (Shared: Conversational AI, Automation) · [Visit Website](https://www.bland.ai/)
 - [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: Conversational AI, Automation) · [Visit Website](https://leena.ai/)
 
 ## How To Improve This Article
 

@@ -2,8 +2,7 @@
 layout: analysis
 title: "Hired"
 permalink: /hired-analysis/
-description: "AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities."
-website: "https://hired.com/"
+description: "hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page."
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["AI", "Marketplace", "Sourcing", "Matching"]
@@ -13,7 +12,7 @@ tags: ["AI", "Marketplace", "Sourcing", "Matching"]
 
 ## Overview
 
-**Hired** — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities.
+**Hired** — hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page.
 
 HireAI files Hired in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -27,9 +26,14 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://hired.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+hired.com redirected to LHH's "Our story" page. HireAI is not linking that page as a current Hired product site.
+
+Source: redirect from hired.com, checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 

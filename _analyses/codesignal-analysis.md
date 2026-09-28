@@ -75,7 +75,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Skills-based Hiring) · [Visit Website](https://www.beapplied.com/)
 - [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment) · [Visit Website](https://arc.dev/)
 - [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: Skills-based Hiring) · [Visit Website](https://catalyte.io/)
-- [Codility]({{ site.baseurl }}/codility-analysis/) — Technical hiring platform with coding tests and interview solutions for engineering recruitment. (Shared: Technical Assessment) · [Visit Website](https://www.codility.com/)
+- [Codeassess]({{ site.baseurl }}/codeassess-analysis/) — Technical screening platform providing coding assessments and programming tests for evaluating developer candidates. (Shared: Technical Assessment) · [Visit Website](https://www.codeassess.com/)
 
 ## How To Improve This Article
 

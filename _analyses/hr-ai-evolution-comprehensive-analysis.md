@@ -255,21 +255,21 @@ The emergence of Agentic AI Platforms represents the most significant advancemen
 
 **Eightfold.ai** leverages deep learning and natural language processing to create a unified talent intelligence platform that can match candidates to roles, predict career trajectories, and identify skills gaps across the organization.
 
-**HiredScore** specializes in recruiting automation and candidate matching, using AI agents to automatically screen resumes, schedule interviews, and provide real-time recommendations to hiring managers.
+**HiredScore** specializes in recruiting automation and candidate matching. On 26 February 2024 Workday announced an agreement to acquire HiredScore. As of 28 September 2026, hiredscore.com redirects to Workday.
 
 **iCIMS (Gen-AI Suite)** has integrated generative AI throughout their platform, enabling natural language interactions, automated job description generation, and intelligent candidate communication.
 
 **MakiPeople** focuses on conversational AI and automated candidate engagement, using sophisticated chatbots that can conduct initial screenings, answer candidate questions, and maintain ongoing relationships.
 
-**Paradox** has developed Olivia, one of the most advanced recruiting assistants, capable of scheduling interviews, conducting screenings, and providing personalized candidate experiences at scale.
+**Paradox** developed Olivia, a conversational recruiting assistant for screening and scheduling. Workday completed its acquisition of Paradox on 1 October 2025.
 
-**Phenom People** creates personalized candidate experiences using AI-powered career sites, chatbots, and recommendation engines that adapt to individual candidate preferences and behaviors.
+**Phenom** (formerly Phenom People) publishes an applied AI talent platform. phenompeople.com now redirects to phenom.com.
 
 **SeekOut** combines AI-powered sourcing with diversity analytics, helping organizations find and engage diverse candidates while providing insights into market availability and compensation trends.
 
 **LinkedIn Talent Hub** serves as an ecosystem anchor, providing a centralized platform that integrates with multiple recruiting tools while leveraging LinkedIn's vast professional network and data.
 
-**OpenJobs AI** represents the next generation of autonomous recruiting platforms, utilizing advanced AI agents to automate job matching, candidate sourcing, and intelligent hiring workflows with minimal human intervention.
+**Metix AI** (formerly OpenJobs AI) is the hiring platform of OpenJobs AI Inc. The company renamed the product on 1 July 2026. Mira searches profiles, sends outreach after approval, and books interviews. The directory keeps the original page address.
 
 ### Core Capabilities of Agentic AI Platforms
 

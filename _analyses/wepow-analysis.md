@@ -2,8 +2,8 @@
 layout: analysis
 title: "Wepow"
 permalink: /wepow-analysis/
-description: "Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making."
-website: "https://www.wepow.com/"
+description: "The former Wepow website now opens Harver. Confirm on Harver whether any Wepow video-interview product is still sold separately."
+website: "https://harver.com/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["Video Interviewing", "AI", "Candidate Experience"]
@@ -13,7 +13,7 @@ tags: ["Video Interviewing", "AI", "Candidate Experience"]
 
 ## Overview
 
-**Wepow** — Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making.
+**Wepow** — The former Wepow website now opens Harver. Confirm on Harver whether any Wepow video-interview product is still sold separately.
 
 HireAI files Wepow in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.wepow.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+wepow.com redirected to harver.com. This directory does not treat that redirect, by itself, as a feature list for the old Wepow product.
+
+Source: [harver.com](https://harver.com/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -80,10 +86,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Visit Website](https://www.hirevue.com/)
 - [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Video Interviewing, AI) · [Visit Website](https://interviewer.ai/)
-- [Phenom People]({{ site.baseurl }}/phenom-people-analysis/) — Talent experience management platform with AI-powered personalization and candidate engagement. (Shared: Candidate Experience, AI) · [Visit Website](https://www.phenompeople.com/)
+- [Phenom]({{ site.baseurl }}/phenom-people-analysis/) — Phenom, formerly Phenom People, publishes an applied AI platform for hiring, development, and retention. phenompeople.com redirects to phenom.com. (Shared: Candidate Experience, AI) · [Visit Website](https://www.phenom.com/)
 - [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Visit Website](https://pomato.ai/)
+- [Retorio]({{ site.baseurl }}/retorio-analysis/) — AI video assessment platform that analyzes candidate behavior and communication to predict job fit and performance. (Shared: Video Interviewing, AI) · [Visit Website](https://www.retorio.com/)
 - [Talview]({{ site.baseurl }}/talview-analysis/) — Video interviewing and AI-powered candidate assessment platform for remote hiring. (Shared: Video Interviewing, AI) · [Visit Website](https://www.talview.com/)
-- [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: AI, Candidate Experience) · [Visit Website](https://www.teamtailor.com/)
 
 ## How To Improve This Article
 

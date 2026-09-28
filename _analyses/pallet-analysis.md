@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Covey]({{ site.baseurl }}/covey-analysis/) — AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management. (Shared: Sourcing, AI, Outreach, Automation) · [Visit Website](https://www.covey.io/)
 - [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: AI, Sourcing, Automation, Outreach) · [Visit Website](https://kula.ai/)
 - [Spotted]({{ site.baseurl }}/spotted-analysis/) — AI recruiting platform that sources and engages candidates automatically through intelligent outreach. (Shared: AI, Sourcing, Automation, Outreach) · [Visit Website](https://www.spotted.careers/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing, Automation) · [Visit Website](https://arya.ai/)
 - [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Sourcing) · [Visit Website](https://www.dover.com/)
 - [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Visit Website](https://www.fetcher.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.gem.com/)
 
 ## How To Improve This Article
 

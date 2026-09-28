@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Apriora Analysis"
-description: "AI interview platform that conducts automated screening interviews and evaluates candidate responses using language models."
+title: "Alex (formerly Apriora)"
+description: "Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com."
 permalink: /apriora-analysis/
-website: "https://www.apriora.ai/"
+website: "https://www.alex.com/"
 tags: ["AI", "Assessment", "Automation", "Interview Intelligence"]
 page_title: Apriora
 page_description: "AI interview platform that conducts automated screening interviews and evaluates candidate responses using language models."
@@ -17,15 +17,15 @@ era: "2020s - Intelligent Assessment, Diversity, Career"
 
 ## Overview
 
-**Apriora** — AI interview platform that conducts automated screening interviews and evaluates candidate responses using language models.
+**Alex (formerly Apriora)** — Alex interviews, screens, and schedules candidates. apriora.ai now opens alex.com.
 
-HireAI files Apriora in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
+HireAI files Alex (formerly Apriora) in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
 This briefing is vendor-neutral. It does not rank Apriora, quote a price, or treat unchecked capabilities as facts.
 
 ## When to shortlist it
 
-Shortlist Apriora when you are comparing AI, Assessment, Automation, and Interview Intelligence tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
+Shortlist Alex when you are comparing AI, Assessment, Automation, and Interview Intelligence tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
 ## What to verify
 
@@ -65,4 +65,10 @@ Use Apriora as a candidate in the Intelligent Assessment, Diversity, Career grou
 
 - Official website: https://www.apriora.ai/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+apriora.ai redirected to alex.com. The live title was "Alex - AI Recruiter for Hiring Great People." Alex's own description says it interviews, screens, and schedules candidates.
+
+Source: [alex.com](https://www.alex.com/), checked 28 September 2026.
 

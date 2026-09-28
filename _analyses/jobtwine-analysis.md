@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.com/)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise) · [Visit Website](https://darwinbox.com/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
-- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireguide.com/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
+- [Deel]({{ site.baseurl }}/deel-analysis/) — Global HR and payroll platform for hiring and managing remote international teams with compliant contractor and employee management. (Shared: Enterprise, Integration) · [Visit Website](https://www.deel.com/)
+- [Drata (HR Compliance)]({{ site.baseurl }}/drata-hr-compliance-analysis/) — Compliance automation platform helping HR teams maintain SOC 2, ISO 27001, and GDPR compliance with continuous monitoring. (Shared: Enterprise, Integration) · [Visit Website](https://drata.com/)
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Enterprise) · [Visit Website](https://cloud.google.com/talent-solution)
 
 ## How To Improve This Article
 

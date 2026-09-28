@@ -88,9 +88,9 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, Job Board) · [Visit Website](https://recooty.com/)
 - [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: ATS, AI, Employer Branding) · [Visit Website](https://www.teamtailor.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
+- [Bayard Advertising]({{ site.baseurl }}/bayard-advertising-analysis/) — bayardad.com now opens Appcast, which has its own HireAI page. This row is not a separate live product site. (Shared: Employer Branding, Job Board) · [Visit Website](https://appcast.io/)
 - [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, AI) · [Visit Website](https://www.careerbuilder.com/)
 - [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, AI) · [Visit Website](https://clickup.com/hr)
 
 ## How To Improve This Article
 

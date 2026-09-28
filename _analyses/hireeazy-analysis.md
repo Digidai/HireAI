@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment, Automation, Interview Intelligence) · [Visit Website](https://www.alex.com/)
 - [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI, Interview Intelligence) · [Visit Website](https://www.imocha.io/)
 - [Metaview]({{ site.baseurl }}/metaview-analysis/) — AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights. (Shared: Interview Intelligence, AI, Automation) · [Visit Website](https://www.metaview.ai/)
-- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions. (Shared: Interview Intelligence, Assessment, AI) · [Visit Website](https://modernhire.com/)
+- [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — modernhire.com now opens HireVue. Treat Modern Hire as part of HireVue's interview and assessment products. (Shared: Interview Intelligence, Assessment, AI) · [Visit Website](https://www.hirevue.com/)
 - [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: AI, Assessment, Automation) · [Visit Website](https://pomato.ai/)
 - [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: AI, Interview Intelligence, Automation) · [Visit Website](https://www.screenloop.com/)
-- [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Assessment) · [Visit Website](https://www.theysaid.io/)
 
 ## How To Improve This Article
 

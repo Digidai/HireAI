@@ -78,12 +78,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Matching) · [Visit Website](https://hired.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page. (Shared: AI, Marketplace, Matching)
 - [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Matching) · [Visit Website](https://www.instahyre.com/)
+- [Braintrust]({{ site.baseurl }}/braintrust-analysis/) — Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace. (Shared: Marketplace, AI) · [Visit Website](https://www.braintrust.dev/)
 - [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Visit Website](https://cvviz.com/)
 - [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace, AI) · [Visit Website](https://www.gloat.com/)
-- [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI) · [Visit Website](https://hundred5.com/)
-- [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace) · [Visit Website](https://www.massive.co/)
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Matching) · [Visit Website](https://cloud.google.com/talent-solution)
 
 ## How To Improve This Article
 

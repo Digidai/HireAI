@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.ascendify.com/)
 - [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.avature.net/)
 - [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Candidate Engagement) · [Visit Website](https://breezy.hr/)
-- [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, CRM) · [Visit Website](https://www.loxo.co/)
-- [Pillar]({{ site.baseurl }}/pillar-analysis/) — Talent engagement platform focused on relationship building and candidate experience optimization. (Shared: Candidate Engagement, CRM) · [Visit Website](https://www.pillar.hr/)
-- [Recruiterflow]({{ site.baseurl }}/recruiterflow-analysis/) — Applicant tracking and CRM platform designed specifically for recruiting agencies. (Shared: ATS, CRM) · [Visit Website](https://recruiterflow.com/)
-- [Talent Sonar]({{ site.baseurl }}/talent-sonar-analysis/) — Passive candidate engagement platform specializing in talent community building and email marketing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.talentsonar.com/)
+- [Bullhorn]({{ site.baseurl }}/bullhorn-analysis/) — Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation. (Shared: ATS, CRM) · [Visit Website](https://www.bullhorn.com/)
+- [Clinch]({{ site.baseurl }}/clinch-analysis/) — Talent relationship management and recruitment marketing platform with CRM, career sites, and analytics. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.clinch.io/)
+- [Colabo]({{ site.baseurl }}/colabo-analysis/) — Recruitment marketing automation platform combining CRM, career site management, and candidate nurturing. (Shared: CRM, Candidate Engagement) · [Visit Website](https://www.colabosoftware.com/)
 
 ## How To Improve This Article
 

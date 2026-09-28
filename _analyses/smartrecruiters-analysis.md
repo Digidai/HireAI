@@ -2,7 +2,7 @@
 layout: analysis
 title: "SmartRecruiters"
 permalink: /smartrecruiters-analysis/
-description: "Global recruiting platform with marketplace model and comprehensive talent acquisition capabilities."
+description: "Enterprise recruiting platform. SAP completed its acquisition of SmartRecruiters on 11 September 2025."
 website: "https://www.smartrecruiters.com/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 last_modified_at: 2026-09-28
@@ -13,7 +13,7 @@ tags: ["ATS", "Marketplace"]
 
 ## Overview
 
-**SmartRecruiters** — Global recruiting platform with marketplace model and comprehensive talent acquisition capabilities.
+**SmartRecruiters** — Enterprise recruiting platform. SAP completed its acquisition of SmartRecruiters on 11 September 2025.
 
 HireAI files SmartRecruiters in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.smartrecruiters.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+SAP completed its acquisition of SmartRecruiters on 11 September 2025. SAP said the product would be integrated with SAP SuccessFactors and that customers could keep using SmartRecruiters with other HCM systems. smartrecruiters.com was still the public product site on 28 September 2026.
+
+Source: [SAP News Center, 11 September 2025](https://news.sap.com/2025/09/sap-completes-smartrecruiters-acquisition/).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -73,9 +79,9 @@ This section is a structured checklist based on the directory tags and era. It d
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
 - [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Visit Website](https://www.bamboohr.com/)
+- [Braintrust]({{ site.baseurl }}/braintrust-analysis/) — Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace. (Shared: Marketplace) · [Visit Website](https://www.braintrust.dev/)
 - [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
 - [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS) · [Visit Website](https://breezy.hr/)
-- [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS) · [Visit Website](https://www.ceipal.com/)
 
 ## How To Improve This Article
 

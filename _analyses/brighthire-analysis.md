@@ -3,7 +3,7 @@ layout: analysis
 title: "BrightHire"
 permalink: /brighthire-analysis/
 description: "Interview intelligence platform with AI-powered recording, transcription, and hiring insights."
-website: "https://www.brighthire.ai/"
+website: "https://www.brighthire.com/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["Interview Intelligence", "AI", "Structured Interviewing"]
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.brighthire.ai/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+brighthire.ai redirected to brighthire.com. The product name is unchanged.
+
+Source: [brighthire.com](https://www.brighthire.com/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -79,11 +85,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://hireguide.com/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
 - [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)
 - [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.imocha.io/)
 - [JobTwine]({{ site.baseurl }}/jobtwine-analysis/) — Interview intelligence platform integrating with 40+ HRIS and ATS systems for enterprise-scale hiring teams. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.jobtwine.com/)
-- [Metaview]({{ site.baseurl }}/metaview-analysis/) — AI-generated interview notes platform that saves recruiters time with superhuman-quality documentation and insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.metaview.ai/)
 
 ## How To Improve This Article
 

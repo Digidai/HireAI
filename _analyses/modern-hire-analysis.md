@@ -1,7 +1,7 @@
 ---
 layout: product-detail
 title: "Modern Hire - Hiring Science Platform Analysis"
-description: "Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions."
+description: "modernhire.com now opens HireVue. Treat Modern Hire as part of HireVue's interview and assessment products."
 permalink: /modern-hire-analysis/
 product_name: "Modern Hire"
 product_tagline: "Science-Backed Virtual Interviews, Assessments & Predictive Analytics"
@@ -9,7 +9,7 @@ company: "Modern Hire (formerly Montage)"
 founded: "2012"
 location: "Chicago, IL"
 category: "Virtual Interview & Assessment Platform"
-website: "https://modernhire.com/"
+website: "https://www.hirevue.com/"
 tags: ["Interview Intelligence", "Assessment", "AI", "Predictive Analytics"]
 last_modified_at: 2026-09-28
 key_features:
@@ -52,6 +52,14 @@ era: "2024+ - Agentic AI Platforms"
 <!-- HireAI: briefing:2026-09-28 -->
 
 > **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
+
+## Status checked 28 September 2026
+
+modernhire.com redirected to hirevue.com. Treat the product history below as background. The live site is HireVue.
+
+Source: [hirevue.com](https://www.hirevue.com/), checked 28 September 2026.
+
 
 
 # Modern Hire - Deep Analysis

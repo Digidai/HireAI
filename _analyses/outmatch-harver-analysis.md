@@ -1,12 +1,12 @@
 ---
 layout: article
 title: "OutMatch (Harver) Analysis"
-description: "Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring."
+description: "OutMatch's former site now opens Harver, a talent assessment platform. See the Harver record for the current product."
 permalink: /outmatch-harver-analysis/
-website: "https://www.outmatch.com/"
+website: "https://harver.com/"
 tags: ["Assessment", "Video Interviewing", "Enterprise"]
 page_title: OutMatch (Harver)
-page_description: "Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring."
+page_description: "OutMatch's former site now opens Harver, a talent assessment platform. See the Harver record for the current product."
 last_modified_at: 2026-09-28
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
@@ -17,7 +17,7 @@ era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 
 ## Overview
 
-**OutMatch (Harver)** — Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring.
+**OutMatch (Harver)** — OutMatch's former site now opens Harver. See the Harver record for the current product.
 
 HireAI files OutMatch (Harver) in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -65,4 +65,10 @@ Use OutMatch (Harver) as a candidate in the Onboarding/Workflow/Integrated Sourc
 
 - Official website: https://www.outmatch.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+outmatch.com redirected to harver.com. Use the Harver page for the current assessment product, and treat older OutMatch claims on this page as historical.
+
+Source: [harver.com](https://harver.com/), checked 28 September 2026.
 

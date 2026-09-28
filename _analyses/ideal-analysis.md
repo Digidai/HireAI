@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, AI, Automation) · [Visit Website](https://checkr.com/)
 - [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Automation, Screening) · [Visit Website](https://hyreo.com/)
 - [Processica]({{ site.baseurl }}/processica-analysis/) — AI-driven candidate qualification and screening platform for efficient talent pipeline management. (Shared: AI, Screening, Automation) · [Visit Website](https://processica.com/)
 - [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: AI, Automation, Screening) · [Visit Website](https://shortlist.so/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation, Screening) · [Visit Website](https://www.allyo.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Automation, Screening) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
 
 ## How To Improve This Article
 

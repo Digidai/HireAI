@@ -2,8 +2,8 @@
 layout: analysis
 title: "Mya Systems"
 permalink: /mya-systems-analysis/
-description: "Conversational AI recruiting assistant for candidate engagement and automated screening."
-website: "https://www.mya.com/"
+description: "mya.com now opens The Stepstone Group. That address did not publish a separate Mya product page on 28 September 2026."
+website: "https://www.thestepstonegroup.com/english/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 last_modified_at: 2026-09-28
 tags: ["Conversational AI", "Chatbot", "Automation"]
@@ -13,7 +13,7 @@ tags: ["Conversational AI", "Chatbot", "Automation"]
 
 ## Overview
 
-**Mya Systems** — Conversational AI recruiting assistant for candidate engagement and automated screening.
+**Mya Systems** — mya.com now opens The Stepstone Group. That address did not publish a separate Mya product page on 28 September 2026.
 
 HireAI files Mya Systems in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.mya.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+mya.com redirected to The Stepstone Group's English site. That page did not present a separate Mya product.
+
+Source: [The Stepstone Group](https://www.thestepstonegroup.com/english/), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -78,11 +84,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.humanly.io/)
-- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.makipeople.com/)
+- [Maki]({{ site.baseurl }}/makipeople-analysis/) — Maki, at makipeople.com, is a conversational hiring product. The public site title no longer uses the MakiPeople name. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.makipeople.com/)
 - [XOR]({{ site.baseurl }}/xor-analysis/) — Conversational AI recruiting assistant for automated candidate screening and engagement. (Shared: Conversational AI, Chatbot, Automation) · [Visit Website](https://www.xor.ai/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation) · [Visit Website](https://www.allyo.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Conversational AI, Automation) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Bland AI (HR)]({{ site.baseurl }}/bland-ai-hr-analysis/) — AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations. (Shared: Conversational AI, Automation) · [Visit Website](https://www.bland.ai/)
 - [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
-- [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: Conversational AI, Automation) · [Visit Website](https://leena.ai/)
 
 ## How To Improve This Article
 

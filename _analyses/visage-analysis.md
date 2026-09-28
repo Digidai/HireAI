@@ -86,11 +86,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing, Automation) · [Visit Website](https://arya.ai/)
+- [Covey]({{ site.baseurl }}/covey-analysis/) — AI-powered outbound recruiting platform that automates candidate sourcing, engagement, and pipeline management. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.covey.io/)
 - [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Sourcing) · [Visit Website](https://www.dover.com/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.entelo.com/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.rival-hr.com/entelo-recruit)
 - [Fetcher]({{ site.baseurl }}/fetcher-analysis/) — AI-driven automated sourcing platform that finds and engages qualified candidates continuously. (Shared: AI, Sourcing, Automation) · [Visit Website](https://www.fetcher.ai/)
 - [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
-- [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: Sourcing, AI, Automation) · [Visit Website](https://www.gem.com/)
 
 ## How To Improve This Article
 

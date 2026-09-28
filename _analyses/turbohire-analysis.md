@@ -95,10 +95,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Agentic AI, AI, Automation, ATS) · [Visit Website](https://hireez.com/)
 - [Dover]({{ site.baseurl }}/dover-analysis/) — AI-powered recruiting orchestration platform automating sourcing, outreach, and candidate engagement. (Shared: AI, Automation, Agentic AI) · [Visit Website](https://www.dover.com/)
+- [Ema (EmaHire)]({{ site.baseurl }}/ema-emahire-analysis/) — Universal AI employee platform with specialized hiring agents that automate sourcing, screening, and candidate communication. (Shared: Agentic AI, AI, Automation) · [Visit Website](https://www.ema.ai/)
 - [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Visit Website](https://www.manatal.com/)
-- [OpenJobs AI]({{ site.baseurl }}/openjobs-ai-analysis/) — AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows. (Shared: AI, Automation, Agentic AI) · [Visit Website](https://www.openjobs-ai.com)
+- [Metix AI]({{ site.baseurl }}/openjobs-ai-analysis/) — Metix AI (formerly OpenJobs AI) is OpenJobs AI Inc.'s hiring platform. Mira searches profiles, sends outreach after approval, and books interviews. (Shared: AI, Automation, Agentic AI) · [Visit Website](https://metix.ai/)
 - [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Visit Website](https://www.screenloop.com/)
-- [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, AI, Automation) · [Visit Website](https://shortlist.so/)
 
 ## How To Improve This Article
 

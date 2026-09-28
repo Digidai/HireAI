@@ -123,9 +123,9 @@
     - Staffing
     - Workflow
   - name: Erecruit
-    url: https://www.erecruit.com/
+    url: https://www.bullhorn.com/erecruit/
     analysis: _analyses/erecruit-analysis.md
-    description: Enterprise staffing software providing front-office and back-office solutions for large staffing organizations.
+    description: Staffing software now presented on Bullhorn's Erecruit page. erecruit.com redirects there.
     tags:
     - ATS
     - Staffing
@@ -270,9 +270,9 @@
     - Job Board
     - Automation
   - name: Bayard Advertising
-    url: https://www.bayardad.com/
+    url: https://appcast.io/
     analysis: _analyses/bayard-advertising-analysis.md
-    description: Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions.
+    description: bayardad.com now opens Appcast, which has its own HireAI page. This row is not a separate live product site.
     tags:
     - Employer Branding
     - Job Board
@@ -298,7 +298,7 @@
   summary: Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
   products:
   - name: Greenhouse
-    url: https://www.greenhouse.io/
+    url: https://www.greenhouse.com/
     analysis: _analyses/greenhouse-analysis.md
     description: Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality.
     tags:
@@ -317,7 +317,7 @@
   - name: SmartRecruiters
     url: https://www.smartrecruiters.com/
     analysis: _analyses/smartrecruiters-analysis.md
-    description: Global recruiting platform with marketplace model and comprehensive talent acquisition capabilities.
+    description: Enterprise recruiting platform. SAP completed its acquisition of SmartRecruiters on 11 September 2025.
     tags:
     - ATS
     - Marketplace
@@ -351,17 +351,17 @@
     tags:
     - Technical Assessment
   - name: Plum
-    url: https://www.plum.io/
+    url: https://www.phenom.com/blog/phenom-acquires-plum
     analysis: _analyses/plum-analysis.md
-    description: Personality-based matching platform using psychometric profiles for cultural fit and performance prediction.
+    description: Phenom says it acquired Plum. plum.io now opens that announcement rather than a standalone Plum product site.
     tags:
     - Assessment
     - Psychometric
     - AI
   - name: Pillar
-    url: https://www.pillar.hr/
+    url: https://www.employinc.com/ai-interview-companion/
     analysis: _analyses/pillar-analysis.md
-    description: Talent engagement platform focused on relationship building and candidate experience optimization.
+    description: pillar.hr now opens Employ's AI Interview Companion. The old Pillar product site is no longer separate.
     tags:
     - Candidate Engagement
     - CRM
@@ -417,9 +417,9 @@
     - Technical Assessment
     - Sourcing
   - name: Mya Systems
-    url: https://www.mya.com/
+    url: https://www.thestepstonegroup.com/english/
     analysis: _analyses/mya-systems-analysis.md
-    description: Conversational AI recruiting assistant for candidate engagement and automated screening.
+    description: mya.com now opens The Stepstone Group. That address did not publish a separate Mya product page on 28 September 2026.
     tags:
     - Conversational AI
     - Chatbot
@@ -433,9 +433,9 @@
     - Automation
     - Candidate Experience
   - name: PredictiveHire
-    url: https://www.predictivehire.com/
+    url: https://sapia.ai/
     analysis: _analyses/predictivehire-analysis.md
-    description: AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality.
+    description: The PredictiveHire address now opens Sapia.ai, a chat-interview platform with its own HireAI page.
     tags:
     - Assessment
     - Chatbot
@@ -458,9 +458,9 @@
     - Bias Reduction
     - High-Volume
   - name: OutMatch (Harver)
-    url: https://www.outmatch.com/
+    url: https://harver.com/
     analysis: _analyses/outmatch-harver-analysis.md
-    description: Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring.
+    description: OutMatch's former site now opens Harver, a talent assessment platform. See the Harver record for the current product.
     tags:
     - Assessment
     - Video Interviewing
@@ -522,9 +522,8 @@
     - Employer Branding
     - Candidate Engagement
   - name: Kalo
-    url: https://www.kalohq.com/
     analysis: _analyses/kalo-analysis.md
-    description: Freelancer management platform for engaging, onboarding, and managing freelance and contract talent.
+    description: The former kalohq.com domain no longer shows a freelancer product and redirects to an unrelated site. HireAI does not link there.
     tags:
     - Freelancer
     - Workflow
@@ -668,17 +667,17 @@
     - Matching
     - Technical Assessment
     - Startup
-  - name: Apriora
-    url: https://www.apriora.ai/
+  - name: Alex (formerly Apriora)
+    url: https://www.alex.com/
     analysis: _analyses/apriora-analysis.md
-    description: AI interview platform that conducts automated screening interviews and evaluates candidate responses using language models.
+    description: Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com.
     tags:
     - AI
     - Assessment
     - Automation
     - Interview Intelligence
   - name: Ema (EmaHire)
-    url: https://www.ema.co/
+    url: https://www.ema.ai/
     analysis: _analyses/ema-emahire-analysis.md
     description: Universal AI employee platform with specialized hiring agents that automate sourcing, screening, and candidate communication.
     tags:
@@ -696,9 +695,8 @@
     - Outreach
     - Automation
   - name: Windsurf (Recruiting AI)
-    url: https://codeium.com/
     analysis: _analyses/windsurf-recruiting-ai-analysis.md
-    description: AI-powered code evaluation platform used in technical hiring to assess developer skills through real-world coding challenges.
+    description: codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system. HireAI does not list it as a current hiring tool.
     tags:
     - Technical Assessment
     - AI
@@ -912,7 +910,7 @@
   - name: HiredScore
     url: https://www.hiredscore.com/
     analysis: _analyses/hiredscore-analysis.md
-    description: Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization.
+    description: Talent orchestration product. Workday agreed to acquire HiredScore on 26 February 2024, and hiredscore.com now redirects to Workday.
     tags:
     - AI
     - Automation
@@ -924,10 +922,10 @@
     tags:
     - Generative AI
     - ATS
-  - name: MakiPeople
+  - name: Maki
     url: https://www.makipeople.com/
     analysis: _analyses/makipeople-analysis.md
-    description: Conversational AI platform for automated candidate engagement and recruiting process optimization.
+    description: Maki, at makipeople.com, is a conversational hiring product. The public site title no longer uses the MakiPeople name.
     tags:
     - Conversational AI
     - Chatbot
@@ -935,15 +933,15 @@
   - name: Paradox
     url: https://www.paradox.ai/
     analysis: _analyses/paradox-analysis.md
-    description: Conversational recruiting platform featuring Olivia, an advanced AI recruiting assistant.
+    description: Conversational recruiting platform featuring Olivia. Workday completed its acquisition of Paradox on 1 October 2025.
     tags:
     - Conversational AI
     - Chatbot
     - AI
-  - name: Phenom People
-    url: https://www.phenompeople.com/
+  - name: Phenom
+    url: https://www.phenom.com/
     analysis: _analyses/phenom-people-analysis.md
-    description: Talent experience management platform with AI-powered personalization and candidate engagement.
+    description: Phenom, formerly Phenom People, publishes an applied AI platform for hiring, development, and retention. phenompeople.com redirects to phenom.com.
     tags:
     - Candidate Experience
     - AI
@@ -963,10 +961,10 @@
     tags:
     - Sourcing
     - ATS
-  - name: OpenJobs AI
-    url: https://www.openjobs-ai.com
+  - name: Metix AI
+    url: https://metix.ai/
     analysis: _analyses/openjobs-ai-analysis.md
-    description: AI-powered recruiting platform with autonomous job matching, candidate sourcing, and intelligent hiring workflows.
+    description: Metix AI (formerly OpenJobs AI) is OpenJobs AI Inc.'s hiring platform. Mira searches profiles, sends outreach after approval, and books interviews.
     tags:
     - AI
     - Automation
@@ -1015,9 +1013,9 @@
     - AI
     - Sourcing
   - name: Entelo
-    url: https://www.entelo.com/
+    url: https://www.rival-hr.com/entelo-recruit
     analysis: _analyses/entelo-analysis.md
-    description: Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing.
+    description: entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure.
     tags:
     - Talent Intelligence
     - AI
@@ -1048,7 +1046,7 @@
     - Marketplace
     - AI
   - name: BrightHire
-    url: https://www.brighthire.ai/
+    url: https://www.brighthire.com/
     analysis: _analyses/brighthire-analysis.md
     description: Interview intelligence platform with AI-powered recording, transcription, and hiring insights.
     tags:
@@ -1136,7 +1134,7 @@
   - name: Hopward
     url: https://www.visage.jobs/hopward
     analysis: _analyses/hopward-analysis.md
-    description: Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition.
+    description: The Hopward address on visage.jobs now presents Visage, which sources, screens, and shortlists candidates inside an ATS.
     tags:
     - Generative AI
     - AI Assistant
@@ -1339,9 +1337,9 @@
     - Screening
     - Predictive Analytics
   - name: Modern Hire
-    url: https://modernhire.com/
+    url: https://www.hirevue.com/
     analysis: _analyses/modern-hire-analysis.md
-    description: Hiring science platform combining virtual interviews, assessments, and predictive analytics for evidence-based talent decisions.
+    description: modernhire.com now opens HireVue. Treat Modern Hire as part of HireVue's interview and assessment products.
     tags:
     - Interview Intelligence
     - Assessment
@@ -1357,9 +1355,9 @@
     - Predictive Analytics
     - Bias Reduction
   - name: Wepow
-    url: https://www.wepow.com/
+    url: https://harver.com/
     analysis: _analyses/wepow-analysis.md
-    description: Video interviewing and talent experience platform with AI-powered candidate evaluation and collaborative decision-making.
+    description: The former Wepow website now opens Harver. Confirm on Harver whether any Wepow video-interview product is still sold separately.
     tags:
     - Video Interviewing
     - AI
@@ -1498,9 +1496,9 @@
     - Automation
     - Enterprise
   - name: AllyO
-    url: https://www.allyo.com/
+    url: https://www.hirevue.com/platform/candidate-engagement-tools
     analysis: _analyses/allyo-analysis.md
-    description: AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale.
+    description: AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling.
     tags:
     - Conversational AI
     - Automation
@@ -1554,9 +1552,8 @@
     - Content Generation
     - AI Assistant
   - name: Hired
-    url: https://hired.com/
     analysis: _analyses/hired-analysis.md
-    description: AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities.
+    description: hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page.
     tags:
     - AI
     - Marketplace

@@ -23,7 +23,9 @@
         {% endfor %}
     </div>
     <div class="card-actions">
+        {% if include.product.url != blank %}
         <a href="{{ include.product.url | escape }}" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Website</a>
+        {% endif %}
         {% if analysis_path != "" %}
         <a href="{{ site.baseurl }}/{{ analysis_path }}/" class="btn btn-outline">Analysis</a>
         {% endif %}

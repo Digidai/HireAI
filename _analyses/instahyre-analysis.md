@@ -92,12 +92,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Sourcing, Matching) · [Visit Website](https://hired.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page. (Shared: AI, Marketplace, Sourcing, Matching)
 - [Wellfound (AngelList Talent)]({{ site.baseurl }}/wellfound-angellist-talent-analysis/) — Startup-focused recruiting platform with AI-powered candidate matching and direct connections to founders. (Shared: AI, Marketplace, Sourcing, Startup) · [Visit Website](https://wellfound.com/)
+- [Braintrust]({{ site.baseurl }}/braintrust-analysis/) — Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace. (Shared: Marketplace, AI, Startup) · [Visit Website](https://www.braintrust.dev/)
 - [Hundred5]({{ site.baseurl }}/hundred5-analysis/) — On-demand recruiting platform with AI-powered project management connecting companies to vetted recruiting professionals. (Shared: Marketplace, AI, Sourcing) · [Visit Website](https://hundred5.com/)
 - [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.massive.co/)
-- [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.recruitercloud.com/)
-- [Upwork Enterprise]({{ site.baseurl }}/upwork-enterprise-analysis/) — Enterprise freelance talent platform with AI-powered talent matching and workforce management for flexible hiring. (Shared: AI, Marketplace, Matching) · [Visit Website](https://www.upwork.com/enterprise)
+- [Mercor]({{ site.baseurl }}/mercor-analysis/) — AI-native recruiting platform using large language models to match technical candidates with roles through deep skill evaluation. (Shared: AI, Matching, Startup) · [Visit Website](https://www.mercor.com/)
 
 ## How To Improve This Article
 

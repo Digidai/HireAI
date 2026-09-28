@@ -2,8 +2,8 @@
 layout: analysis
 title: "AllyO"
 permalink: /allyo-analysis/
-description: "AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale."
-website: "https://www.allyo.com/"
+description: "AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling."
+website: "https://www.hirevue.com/platform/candidate-engagement-tools"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["Conversational AI", "Automation", "High-Volume", "Screening"]
@@ -13,7 +13,7 @@ tags: ["Conversational AI", "Automation", "High-Volume", "Screening"]
 
 ## Overview
 
-**AllyO** — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale.
+**AllyO** — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling.
 
 HireAI files AllyO in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.allyo.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+allyo.com redirected to HireVue's candidate engagement page. That page describes text recruiting and scheduling tools.
+
+Source: [HireVue candidate engagement](https://www.hirevue.com/platform/candidate-engagement-tools), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -85,11 +91,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [PreScreenAI]({{ site.baseurl }}/prescreenai-analysis/) — Conversational AI platform for automated candidate screening with 24/7 availability and instant assessments. (Shared: Conversational AI, Screening, Automation) · [Visit Website](https://prescreenai.com/)
+- [Bland AI (HR)]({{ site.baseurl }}/bland-ai-hr-analysis/) — AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations. (Shared: Conversational AI, Automation) · [Visit Website](https://www.bland.ai/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, Automation) · [Visit Website](https://checkr.com/)
+- [Fountain]({{ site.baseurl }}/fountain-analysis/) — High-volume hiring platform automating the recruitment funnel for hourly and shift-based workforce hiring. (Shared: High-Volume, Automation) · [Visit Website](https://www.fountain.com/)
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Automation) · [Visit Website](https://www.humanly.io/)
 - [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: Automation, Screening) · [Visit Website](https://hyreo.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: Automation, Screening) · [Visit Website](https://www.ideal.com/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: Screening, High-Volume) · [Visit Website](https://interviewer.ai/)
-- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
 
 ## How To Improve This Article
 

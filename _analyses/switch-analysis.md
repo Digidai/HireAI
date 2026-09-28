@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: High-Volume) · [Visit Website](https://www.allyo.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: High-Volume) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: Candidate Engagement) · [Visit Website](https://www.ascendify.com/)
 - [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Visit Website](https://www.avature.net/)
 - [Brazen]({{ site.baseurl }}/brazen-analysis/) — Virtual recruiting events platform with AI-powered chat and candidate engagement tools. (Shared: Candidate Engagement) · [Visit Website](https://www.brazenconnect.com/)
 - [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: Candidate Engagement) · [Visit Website](https://breezy.hr/)
-- [Interviewer.AI]({{ site.baseurl }}/interviewer-ai-analysis/) — AI video interviewing platform with automated screening, assessment, and candidate ranking for high-volume hiring. (Shared: High-Volume) · [Visit Website](https://interviewer.ai/)
-- [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Candidate Engagement) · [Visit Website](https://kula.ai/)
+- [Clinch]({{ site.baseurl }}/clinch-analysis/) — Talent relationship management and recruitment marketing platform with CRM, career sites, and analytics. (Shared: Candidate Engagement) · [Visit Website](https://www.clinch.io/)
 
 ## How To Improve This Article
 

@@ -94,10 +94,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM, AI) · [Visit Website](https://www.bamboohr.com/)
+- [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management. (Shared: Analytics, HCM, Enterprise) · [Visit Website](https://www.charthop.com/)
 - [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, HCM) · [Visit Website](https://factorialhr.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Analytics, AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Analytics, AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
 - [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.oracle.com/human-capital-management/taleo/)
-- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.sap.com/products/human-resources-hcm.html)
 
 ## How To Improve This Article
 

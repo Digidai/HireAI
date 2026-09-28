@@ -93,7 +93,7 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, CRM, Sourcing) · [Visit Website](https://beamery.com/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.entelo.com/)
+- [Entelo]({{ site.baseurl }}/entelo-analysis/) — entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.rival-hr.com/entelo-recruit)
 - [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
 - [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Sourcing) · [Visit Website](https://www.freshworks.com/hrms/)
 - [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: CRM, Sourcing, AI) · [Visit Website](https://www.gem.com/)

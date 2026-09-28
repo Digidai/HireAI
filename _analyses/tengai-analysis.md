@@ -88,8 +88,8 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Bias Reduction, DEI) · [Visit Website](https://www.pymetrics.ai/)
 - [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: Bias Reduction, DEI) · [Visit Website](https://www.searchlight.ai/)
 - [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.unitive.com/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI) · [Visit Website](https://www.allyo.com/)
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence) · [Visit Website](https://www.brighthire.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: Interview Intelligence) · [Visit Website](https://www.alex.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Conversational AI) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
 
 ## How To Improve This Article
 

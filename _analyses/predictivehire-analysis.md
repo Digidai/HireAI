@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "PredictiveHire Analysis"
-description: "AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality."
+description: "The PredictiveHire address now opens Sapia.ai, a chat-interview platform with its own HireAI page."
 permalink: /predictivehire-analysis/
-website: "https://www.predictivehire.com/"
+website: "https://sapia.ai/"
 tags: ["Assessment", "Chatbot", "Bias Reduction"]
 page_title: PredictiveHire
 page_description: "AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality."
@@ -17,7 +17,7 @@ era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 
 ## Overview
 
-**PredictiveHire** — AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality.
+**PredictiveHire** — The PredictiveHire address now opens Sapia.ai, a chat-interview platform with its own HireAI page.
 
 HireAI files PredictiveHire in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -65,4 +65,10 @@ Use PredictiveHire as a candidate in the Onboarding/Workflow/Integrated Sourcing
 
 - Official website: https://www.predictivehire.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+predictivehire.com redirected to sapia.ai. Sapia.ai has a separate HireAI page.
+
+Source: [sapia.ai](https://sapia.ai/), checked 28 September 2026.
 

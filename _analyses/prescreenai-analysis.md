@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation, Screening) · [Visit Website](https://www.allyo.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Conversational AI, Automation, Screening) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: Assessment, Automation) · [Visit Website](https://www.alex.com/)
+- [Bland AI (HR)]({{ site.baseurl }}/bland-ai-hr-analysis/) — AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations. (Shared: Conversational AI, Automation) · [Visit Website](https://www.bland.ai/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, Automation) · [Visit Website](https://checkr.com/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Assessment, Automation) · [Visit Website](https://hireeazy.com/)
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Automation) · [Visit Website](https://www.humanly.io/)
-- [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: Automation, Screening) · [Visit Website](https://hyreo.com/)
-- [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: Automation, Screening) · [Visit Website](https://www.ideal.com/)
-- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
 
 ## How To Improve This Article
 

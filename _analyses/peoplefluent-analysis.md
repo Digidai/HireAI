@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality. (Shared: Analytics) · [Visit Website](https://appcast.io/)
 - [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Analytics) · [Visit Website](https://www.ashbyhq.com/)
+- [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management. (Shared: Analytics) · [Visit Website](https://www.charthop.com/)
+- [ClearCompany]({{ site.baseurl }}/clearcompany-analysis/) — Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning. (Shared: Talent Management) · [Visit Website](https://www.clearcompany.com/)
 - [Cornerstone OnDemand]({{ site.baseurl }}/cornerstone-ondemand-analysis/) — Unified talent management suite combining recruiting, learning, performance, and succession planning. (Shared: Talent Management) · [Visit Website](https://www.cornerstoneondemand.com/)
 - [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: Analytics) · [Visit Website](https://www.crosschq.com/)
-- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: Analytics) · [Visit Website](https://darwinbox.com/)
-- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: Analytics) · [Visit Website](https://effy.ai/)
-- [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Analytics) · [Visit Website](https://honeit.com/)
 
 ## How To Improve This Article
 

@@ -2,7 +2,7 @@
 layout: analysis
 title: "HiredScore"
 permalink: /hiredscore-analysis/
-description: "Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization."
+description: "Talent orchestration product. Workday agreed to acquire HiredScore on 26 February 2024, and hiredscore.com now redirects to Workday."
 website: "https://www.hiredscore.com/"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
@@ -13,7 +13,7 @@ tags: ["AI", "Automation", "Workflow"]
 
 ## Overview
 
-**HiredScore** — Recruiting automation platform with AI-powered candidate matching and hiring workflow optimization.
+**HiredScore** — Talent orchestration product. Workday agreed to acquire HiredScore on 26 February 2024, and hiredscore.com now redirects to Workday.
 
 HireAI files HiredScore in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.hiredscore.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+On 26 February 2024 Workday announced an agreement to acquire HiredScore. Workday's 1 October 2025 Paradox announcement describes HiredScore as part of that talent suite. On 28 September 2026, hiredscore.com redirected to workday.com.
+
+Sources: [agreement, 26 February 2024](https://investor.workday.com/news-and-events/press-releases/news-details/2024/Workday-Announces-Intent-to-Acquire-HiredScore-02-26-2024/default.aspx) and [Paradox close, 1 October 2025](https://investor.workday.com/news-and-events/press-releases/news-details/2025/Workday-Completes-Acquisition-of-Paradox-10-01-2025/default.aspx).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -80,10 +86,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [Leonar]({{ site.baseurl }}/leonar-analysis/) — AI recruiting platform combining multiple AI tools for comprehensive talent acquisition workflows. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.leonar.app/)
 - [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Workflow) · [Visit Website](https://www.skillate.com/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Automation) · [Visit Website](https://www.applyaii.com/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
 - [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
-- [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: AI, Workflow) · [Visit Website](https://clickup.com/hr)
-- [Clovers]({{ site.baseurl }}/clovers-analysis/) — Recruiting workflow automation platform with collaborative hiring capabilities. (Shared: Automation, Workflow) · [Visit Website](https://www.clovers.com/)
 
 ## How To Improve This Article
 

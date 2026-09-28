@@ -1,12 +1,11 @@
 ---
 layout: article
 title: "Windsurf (Recruiting AI) Analysis"
-description: "AI-powered code evaluation platform used in technical hiring to assess developer skills through real-world coding challenges."
+description: "codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system. HireAI does not list it as a current hiring tool."
 permalink: /windsurf-recruiting-ai-analysis/
-website: "https://codeium.com/"
 tags: ["Technical Assessment", "AI", "Developer Community"]
 page_title: Windsurf (Recruiting AI)
-page_description: "AI-powered code evaluation platform used in technical hiring to assess developer skills through real-world coding challenges."
+page_description: "codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system."
 last_modified_at: 2026-09-28
 era: "2020s - Intelligent Assessment, Diversity, Career"
 ---
@@ -17,7 +16,7 @@ era: "2020s - Intelligent Assessment, Diversity, Career"
 
 ## Overview
 
-**Windsurf (Recruiting AI)** — AI-powered code evaluation platform used in technical hiring to assess developer skills through real-world coding challenges.
+**Windsurf (Recruiting AI)** — codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system.
 
 HireAI files Windsurf (Recruiting AI) in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
@@ -63,6 +62,11 @@ Use Windsurf (Recruiting AI) as a candidate in the Intelligent Assessment, Diver
 
 ## Source
 
-- Official website: https://codeium.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+The recorded website, codeium.com, redirected to Devin Desktop, a software-agent product. It is not an HR assessment system. HireAI removed the website link from this row.
+
+Source: redirect from codeium.com, checked 28 September 2026.
 

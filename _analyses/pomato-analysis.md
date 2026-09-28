@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment, Automation) · [Visit Website](https://www.alex.com/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment, Automation) · [Visit Website](https://hireeazy.com/)
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI, Assessment) · [Visit Website](https://www.hirevue.com/)
+- [Retorio]({{ site.baseurl }}/retorio-analysis/) — AI video assessment platform that analyzes candidate behavior and communication to predict job fit and performance. (Shared: Video Interviewing, Assessment, AI) · [Visit Website](https://www.retorio.com/)
 - [Talview]({{ site.baseurl }}/talview-analysis/) — Video interviewing and AI-powered candidate assessment platform for remote hiring. (Shared: Video Interviewing, Assessment, AI) · [Visit Website](https://www.talview.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
-- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Automation) · [Visit Website](https://www.applyaii.com/)
 
 ## How To Improve This Article
 

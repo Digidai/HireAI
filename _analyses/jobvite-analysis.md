@@ -77,12 +77,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Bayard Advertising]({{ site.baseurl }}/bayard-advertising-analysis/) — bayardad.com now opens Appcast, which has its own HireAI page. This row is not a separate live product site. (Shared: Employer Branding, Social Recruiting) · [Visit Website](https://appcast.io/)
 - [JOIN]({{ site.baseurl }}/join-analysis/) — AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies. (Shared: ATS, Employer Branding) · [Visit Website](https://join.com/)
 - [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, Social Recruiting) · [Visit Website](https://www.manatal.com/)
 - [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: ATS, Employer Branding) · [Visit Website](https://www.teamtailor.com/)
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
-- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Visit Website](https://www.bamboohr.com/)
+- [Ascendify]({{ site.baseurl }}/ascendify-analysis/) — Talent community and recruitment marketing platform enabling branded career portals and candidate nurturing. (Shared: Employer Branding) · [Visit Website](https://www.ascendify.com/)
 
 ## How To Improve This Article
 

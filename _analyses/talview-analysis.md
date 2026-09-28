@@ -80,10 +80,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI, Assessment) · [Visit Website](https://www.hirevue.com/)
 - [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI, Assessment) · [Visit Website](https://pomato.ai/)
+- [Retorio]({{ site.baseurl }}/retorio-analysis/) — AI video assessment platform that analyzes candidate behavior and communication to predict job fit and performance. (Shared: Video Interviewing, Assessment, AI) · [Visit Website](https://www.retorio.com/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment) · [Visit Website](https://www.alex.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
-- [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
 
 ## How To Improve This Article
 

@@ -57,7 +57,7 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 |-----|------|---------|
 | **1990年代** | 申请人追踪系统 (ATS) | Oracle Taleo, SAP SuccessFactors, Workday |
 | **2000年代** | 候选人营销与评估 | Glassdoor, ZipRecruiter, Textio, SHL |
-| **2010年代** | 入职/工作流/集成寻源 | Greenhouse, Lever, SmartRecruiters, HireVue |
+| **2010年代** | 入职/工作流/集成寻源 | Greenhouse, Lever, SmartRecruiters（SAP，2025）, HireVue |
 | **2020年代** | 智能评估与多元化 | HackerRank, Indeed, Avature |
 | **2024+** | 智能体 AI 平台 | Eightfold.ai, Paradox, Phenom, Beamery |
 
@@ -70,10 +70,10 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 | 产品 | 描述 | 标签 |
 |-----|------|------|
 | [Eightfold.ai](https://eightfold.ai/) | 基于深度学习的人才智能平台 | `AI` `人才智能` `技能` |
-| [Paradox](https://www.paradox.ai/) | 招聘对话式 AI（Olivia） | `对话式AI` `自动化` |
-| [Phenom](https://www.phenompeople.com/) | AI 驱动的人才体验平台 | `TXM` `AI` `职业网站` |
+| [Paradox](https://www.paradox.ai/) | 招聘对话式 AI（Olivia）。Workday 于 2025 年 10 月 1 日完成收购 | `对话式AI` `自动化` |
+| [Phenom](https://www.phenom.com/) | 应用型 AI 人才平台，原 Phenom People | `TXM` `AI` `职业网站` |
 | [Beamery](https://beamery.com/) | AI 人才全生命周期管理 | `CRM` `AI` `人才市场` |
-| [HiredScore](https://www.hiredscore.com/) | AI 驱动的人才编排 | `AI` `自动化` `匹配` |
+| [HiredScore](https://www.hiredscore.com/) | 人才编排。Workday 于 2024 年宣布收购，旧站现跳转到 Workday | `AI` `自动化` `匹配` |
 
 ### 企业经典产品
 

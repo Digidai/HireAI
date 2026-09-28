@@ -2,8 +2,8 @@
 layout: analysis
 title: "Entelo"
 permalink: /entelo-analysis/
-description: "Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing."
-website: "https://www.entelo.com/"
+description: "entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure."
+website: "https://www.rival-hr.com/entelo-recruit"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
 tags: ["Talent Intelligence", "AI", "Sourcing", "DEI"]
@@ -13,7 +13,7 @@ tags: ["Talent Intelligence", "AI", "Sourcing", "DEI"]
 
 ## Overview
 
-**Entelo** — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing.
+**Entelo** — entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure.
 
 HireAI files Entelo in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.entelo.com/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+entelo.com redirected to a Rival HR login titled "Entelo & ConveyIQ." That page is a sign-in screen, not a public product brochure.
+
+Source: [Rival HR login](https://www.rival-hr.com/entelo-recruit), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -86,11 +92,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
+- [HiringSolved]({{ site.baseurl }}/hiringsolved-analysis/) — AI-powered talent sourcing and search platform that aggregates candidate data from across the web for recruiters. (Shared: Sourcing, AI, Talent Intelligence) · [Visit Website](https://www.hiringsolved.com/)
 - [Juicebox (PeopleGPT)]({{ site.baseurl }}/juicebox-peoplegpt-analysis/) — AI-powered people search engine with access to 800M+ profiles for advanced candidate sourcing and talent discovery. (Shared: AI, Sourcing, Talent Intelligence) · [Visit Website](https://juicebox.ai/)
 - [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.loxo.co/)
 - [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence. (Shared: Sourcing, AI, DEI) · [Visit Website](https://seekout.com/)
 - [Visage]({{ site.baseurl }}/visage-analysis/) — AI-powered talent intelligence platform with advanced sourcing automation and candidate engagement capabilities. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.visage.jobs/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
 
 ## How To Improve This Article
 

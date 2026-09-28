@@ -307,7 +307,7 @@ const url = '/YYYY/MM/DD/filename-without-extension/';
       <div class="author-bio">
         <h3>About the Author</h3>
         <p>
-          <strong>Gene Dai</strong> is a Co-founder of <strong><a href="http://openjobs-ai.com">OpenJobs AI</a></strong
+          <strong>Gene Dai</strong> is a Co-founder of <strong><a href="https://metix.ai">Metix AI</a></strong
           >, an AI-powered recruitment platform revolutionizing talent acquisition. With deep expertise in AI systems,
           product strategy, and global HR technology markets, Gene specializes in analyzing how technological
           breakthroughs translate into business transformation. His research focuses on the intersection of artificial
@@ -669,7 +669,7 @@ item - Second item
   <div class="author-bio">
     <h3>About the Author</h3>
     <p>
-      <strong>Gene Dai</strong> is a Co-founder of <strong><a href="http://openjobs-ai.com">OpenJobs AI</a></strong
+      <strong>Gene Dai</strong> is a Co-founder of <strong><a href="https://metix.ai">Metix AI</a></strong
       >, an AI-powered recruitment platform revolutionizing talent acquisition. With deep expertise in AI systems,
       product strategy, and global HR technology markets, Gene specializes in analyzing how technological breakthroughs
       translate into business transformation. His research focuses on the intersection of artificial intelligence,
@@ -1434,7 +1434,7 @@ grep -r "OpenAI\|Google\|Apple" src/pages/2025/11/*/
   <div class="author-bio">
     <h3>About the Author</h3>
     <p>
-      <strong>Gene Dai</strong> is a Co-founder of <strong><a href="http://openjobs-ai.com">OpenJobs AI</a></strong
+      <strong>Gene Dai</strong> is a Co-founder of <strong><a href="https://metix.ai">Metix AI</a></strong
       >...
     </p>
   </div>

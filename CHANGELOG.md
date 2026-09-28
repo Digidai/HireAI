@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved structured data for better SEO
 
 ### Changed
+- Recorded that OpenJobs AI is now Metix AI, and updated other products whose public sites or owners changed, with the source named on each page.
 - Refreshed every product page with a 28 September 2026 briefing, era placement, and demo checks tied to directory tags.
 - Replaced placeholder feature lists with catalog-backed briefings and labeled vendor-reported figures.
 - Updated public directory counts in the README, roadmap, tag pages, and flagship essay.

@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: High-Volume, Screening) · [Visit Website](https://www.allyo.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: High-Volume, Screening) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, AI) · [Visit Website](https://checkr.com/)
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: Video Interviewing, AI) · [Visit Website](https://www.hirevue.com/)
 - [Hyreo]({{ site.baseurl }}/hyreo-analysis/) — AI recruiting platform with automated sourcing, screening, and candidate engagement capabilities. (Shared: AI, Screening) · [Visit Website](https://hyreo.com/)
 - [Ideal]({{ site.baseurl }}/ideal-analysis/) — AI recruiting automation platform that learns from historical hiring data to predict candidate success and streamline screening. (Shared: AI, Screening) · [Visit Website](https://www.ideal.com/)
 - [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions. (Shared: Video Interviewing, AI) · [Visit Website](https://pomato.ai/)
-- [Processica]({{ site.baseurl }}/processica-analysis/) — AI-driven candidate qualification and screening platform for efficient talent pipeline management. (Shared: AI, Screening) · [Visit Website](https://processica.com/)
 
 ## How To Improve This Article
 

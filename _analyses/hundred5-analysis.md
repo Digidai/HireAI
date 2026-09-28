@@ -78,7 +78,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://hired.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page. (Shared: AI, Marketplace, Sourcing)
 - [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.instahyre.com/)
 - [Massive]({{ site.baseurl }}/massive-analysis/) — AI recruiter marketplace platform connecting companies with specialized independent recruiters for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.massive.co/)
 - [RecruiterCloud]({{ site.baseurl }}/recruitercloud-analysis/) — AI-powered recruitment marketplace connecting companies with pre-vetted recruiters and autonomous AI agents for flexible hiring. (Shared: AI, Marketplace, Sourcing) · [Visit Website](https://www.recruitercloud.com/)

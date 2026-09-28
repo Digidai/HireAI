@@ -84,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Conversational AI, Automation) · [Visit Website](https://www.allyo.com/)
-- [Hopward]({{ site.baseurl }}/hopward-analysis/) — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition. (Shared: AI Assistant, Automation) · [Visit Website](https://www.visage.jobs/hopward)
+- [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries. (Shared: Enterprise, Automation) · [Visit Website](https://www.papayaglobal.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Conversational AI, Automation) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
+- [Bland AI (HR)]({{ site.baseurl }}/bland-ai-hr-analysis/) — AI phone calling platform for HR enabling automated candidate screening calls, interview scheduling, and follow-up conversations. (Shared: Conversational AI, Automation) · [Visit Website](https://www.bland.ai/)
+- [Drata (HR Compliance)]({{ site.baseurl }}/drata-hr-compliance-analysis/) — Compliance automation platform helping HR teams maintain SOC 2, ISO 27001, and GDPR compliance with continuous monitoring. (Shared: Enterprise, Automation) · [Visit Website](https://drata.com/)
+- [Hopward]({{ site.baseurl }}/hopward-analysis/) — The Hopward address on visage.jobs now presents Visage, which sources, screens, and shortlists candidates inside an ATS. (Shared: AI Assistant, Automation) · [Visit Website](https://www.visage.jobs/hopward)
 - [Humanly]({{ site.baseurl }}/humanly-analysis/) — Conversational AI recruiting assistant with interview scheduling and candidate screening automation. (Shared: Conversational AI, Automation) · [Visit Website](https://www.humanly.io/)
-- [Iris by Qureos]({{ site.baseurl }}/iris-analysis/) — Revolutionary AI recruiter agent that sources, screens, and engages candidates 24/7 with human-like conversations and autonomous decision-making. (Shared: Conversational AI, Automation) · [Visit Website](https://www.qureos.com/iris)
-- [MakiPeople]({{ site.baseurl }}/makipeople-analysis/) — Conversational AI platform for automated candidate engagement and recruiting process optimization. (Shared: Conversational AI, Automation) · [Visit Website](https://www.makipeople.com/)
-- [Mya Systems]({{ site.baseurl }}/mya-systems-analysis/) — Conversational AI recruiting assistant for candidate engagement and automated screening. (Shared: Conversational AI, Automation) · [Visit Website](https://www.mya.com/)
 
 ## How To Improve This Article
 

@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Colabo]({{ site.baseurl }}/colabo-analysis/) — Recruitment marketing automation platform combining CRM, career site management, and candidate nurturing. (Shared: Automation, Candidate Engagement) · [Visit Website](https://www.colabosoftware.com/)
 - [Kula.ai]({{ site.baseurl }}/kula-ai-analysis/) — AI-powered outbound recruiting platform automating candidate outreach, engagement, and nurturing with personalized campaigns. (Shared: Automation, Candidate Engagement) · [Visit Website](https://kula.ai/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Visit Website](https://www.allyo.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Automation) · [Visit Website](https://arya.ai/)
-- [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: Automation) · [Visit Website](https://www.ashbyhq.com/)
-- [Avature]({{ site.baseurl }}/avature-analysis/) — Talent relationship management platform with sophisticated candidate engagement and pipeline management. (Shared: Candidate Engagement) · [Visit Website](https://www.avature.net/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: Automation) · [Visit Website](https://brainner.ai/)
+- [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries. (Shared: Automation) · [Visit Website](https://www.papayaglobal.com/)
+- [11x (HR Workflow Agents)]({{ site.baseurl }}/11x-hr-workflow-agents-analysis/) — AI agent platform for building autonomous recruiting workflows that handle sourcing, outreach, and candidate pipeline management. (Shared: Automation) · [Visit Website](https://www.11x.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: Automation) · [Visit Website](https://www.alex.com/)
+- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AllyO's former site now opens HireVue's candidate engagement tools for text recruiting and scheduling. (Shared: Automation) · [Visit Website](https://www.hirevue.com/platform/candidate-engagement-tools)
 
 ## How To Improve This Article
 

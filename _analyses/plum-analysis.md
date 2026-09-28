@@ -2,8 +2,8 @@
 layout: analysis
 title: "Plum"
 permalink: /plum-analysis/
-description: "Personality-based matching platform using psychometric profiles for cultural fit and performance prediction."
-website: "https://www.plum.io/"
+description: "Phenom says it acquired Plum. plum.io now opens that announcement rather than a standalone Plum product site."
+website: "https://www.phenom.com/blog/phenom-acquires-plum"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 last_modified_at: 2026-09-28
 tags: ["Assessment", "Psychometric", "AI"]
@@ -13,7 +13,7 @@ tags: ["Assessment", "Psychometric", "AI"]
 
 ## Overview
 
-**Plum** — Personality-based matching platform using psychometric profiles for cultural fit and performance prediction.
+**Plum** — Phenom says it acquired Plum. plum.io now opens that announcement rather than a standalone product site.
 
 HireAI files Plum in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.plum.io/
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+plum.io redirected to Phenom's post "Phenom Acquires Plum To Validate Durable Skills AI Can't Replace."
+
+Source: [Phenom, Plum acquisition post](https://www.phenom.com/blog/phenom-acquires-plum), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -78,12 +84,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment) · [Visit Website](https://www.alex.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: AI, Assessment) · [Visit Website](https://www.hirevue.com/)
-- [IBM Kenexa]({{ site.baseurl }}/ibm-kenexa-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Visit Website](https://www.ibm.com/products/kenexa-employee-assessments)
-- [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Assessment, AI) · [Visit Website](https://www.imocha.io/)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
 
 ## How To Improve This Article
 

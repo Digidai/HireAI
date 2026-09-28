@@ -3,7 +3,7 @@ layout: article
 title: "Ema (EmaHire) Analysis"
 description: "Universal AI employee platform with specialized hiring agents that automate sourcing, screening, and candidate communication."
 permalink: /ema-emahire-analysis/
-website: "https://www.ema.co/"
+website: "https://www.ema.ai/"
 tags: ["Agentic AI", "AI", "Automation", "Startup"]
 page_title: Ema (EmaHire)
 page_description: "Universal AI employee platform with specialized hiring agents that automate sourcing, screening, and candidate communication."
@@ -65,4 +65,10 @@ Use Ema (EmaHire) as a candidate in the Intelligent Assessment, Diversity, Caree
 
 - Official website: https://www.ema.co/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+ema.co redirected to ema.ai. The live title was "Ema - Universal AI Employee."
+
+Source: [ema.ai](https://www.ema.ai/), checked 28 September 2026.
 

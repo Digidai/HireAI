@@ -89,8 +89,8 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: DEI, AI, Bias Reduction) · [Visit Website](https://www.unitive.com/)
 - [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.beapplied.com/)
 - [Catalyte]({{ site.baseurl }}/catalyte-analysis/) — AI-driven talent discovery platform identifying high-potential candidates based on cognitive ability rather than traditional credentials. (Shared: AI, Bias Reduction) · [Visit Website](https://catalyte.io/)
+- [Checkr]({{ site.baseurl }}/checkr-analysis/) — AI-powered background check platform using machine learning to speed up screening while maintaining compliance. (Shared: Screening, AI) · [Visit Website](https://checkr.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: AI, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
-- [Entelo]({{ site.baseurl }}/entelo-analysis/) — Talent intelligence platform with predictive analytics and diversity-focused candidate sourcing. (Shared: AI, DEI) · [Visit Website](https://www.entelo.com/)
 
 ## How To Improve This Article
 

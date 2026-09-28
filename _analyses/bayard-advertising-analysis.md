@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "Bayard Advertising Analysis"
-description: "Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions."
+description: "bayardad.com now opens Appcast, which has its own HireAI page. This row is not a separate live product site."
 permalink: /bayard-advertising-analysis/
-website: "https://www.bayardad.com/"
+website: "https://appcast.io/"
 tags: ["Employer Branding", "Job Board", "Social Recruiting"]
 page_title: Bayard Advertising
 page_description: "Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions."
@@ -17,7 +17,7 @@ era: "2000s - Candidate Marketing & Assessment"
 
 ## Overview
 
-**Bayard Advertising** — Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions.
+**Bayard Advertising** — bayardad.com now opens Appcast, which has its own HireAI page.
 
 HireAI files Bayard Advertising in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
@@ -65,4 +65,10 @@ Use Bayard Advertising as a candidate in the Candidate Marketing & Assessment gr
 
 - Official website: https://www.bayardad.com/
 - HireAI directory record updated 28 September 2026.
+
+## Status checked 28 September 2026
+
+bayardad.com redirected to appcast.io. Appcast already has its own HireAI page. Do not treat this row as a second live product.
+
+Source: [appcast.io](https://appcast.io/), checked 28 September 2026.
 

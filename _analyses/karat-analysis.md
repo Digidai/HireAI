@@ -65,10 +65,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: Technical Assessment) · [Visit Website](https://arc.dev/)
 - [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.canditech.io/)
-- [CodeSignal]({{ site.baseurl }}/codesignal-analysis/) — Skills-based technical assessment platform with coding challenges and interview preparation. (Shared: Technical Assessment) · [Visit Website](https://codesignal.com/)
-- [Codility]({{ site.baseurl }}/codility-analysis/) — Technical hiring platform with coding tests and interview solutions for engineering recruitment. (Shared: Technical Assessment) · [Visit Website](https://www.codility.com/)
-- [Filtered]({{ site.baseurl }}/filtered-analysis/) — Skills-based hiring platform with technical assessment and coding evaluation capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.filtered.com/)
-- [HackerRank]({{ site.baseurl }}/hackerrank-analysis/) — Technical recruiting platform with comprehensive coding assessments and developer community engagement. (Shared: Technical Assessment) · [Visit Website](https://www.hackerrank.com/)
+- [Codeassess]({{ site.baseurl }}/codeassess-analysis/) — Technical screening platform providing coding assessments and programming tests for evaluating developer candidates. (Shared: Technical Assessment) · [Visit Website](https://www.codeassess.com/)
+- [CodePair]({{ site.baseurl }}/codepair-analysis/) — Collaborative technical interview platform enabling real-time coding assessments with video, voice, and shared code editors. (Shared: Technical Assessment) · [Visit Website](https://codepair.io/)
+- [Coderbyte]({{ site.baseurl }}/coderbyte-analysis/) — Online code assessment platform for screening developers with coding challenges, algorithms, and project-based evaluations. (Shared: Technical Assessment) · [Visit Website](https://coderbyte.com/)
+- [CoderPad]({{ site.baseurl }}/coderpad-analysis/) — Technical interview platform for conducting live coding interviews with support for 30+ programming languages and frameworks. (Shared: Technical Assessment) · [Visit Website](https://coderpad.io/)
 
 ## How To Improve This Article
 

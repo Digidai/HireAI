@@ -2,7 +2,7 @@
 layout: analysis
 title: "Hopward"
 permalink: /hopward-analysis/
-description: "Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition."
+description: "The Hopward address on visage.jobs now presents Visage, which sources, screens, and shortlists candidates inside an ATS."
 website: "https://www.visage.jobs/hopward"
 era: "2024+ - Agentic AI Platforms"
 last_modified_at: 2026-09-28
@@ -13,7 +13,7 @@ tags: ["Generative AI", "AI Assistant", "Automation"]
 
 ## Overview
 
-**Hopward** — Generative AI recruiting co-pilot with ChatGPT-like interface for democratizing talent acquisition.
+**Hopward** — The Hopward address on visage.jobs now presents Visage, which sources, screens, and shortlists candidates inside an ATS.
 
 HireAI files Hopward in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,12 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.visage.jobs/hopward
 - HireAI directory record updated 28 September 2026.
 
+
+## Status checked 28 September 2026
+
+https://www.visage.jobs/hopward presented Visage, with the title "Source, Screen & Shortlist Candidates — Inside Your ATS."
+
+Source: [visage.jobs/hopward](https://www.visage.jobs/hopward), checked 28 September 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -78,11 +84,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [ChattyHiring]({{ site.baseurl }}/chattyhiring-analysis/) — ChatGPT-powered recruiting assistant for generating job descriptions, interview questions, and hiring content. (Shared: Generative AI, AI Assistant) · [Visit Website](https://chattyhiring.com/)
+- [Copy.ai (HR Workflows)]({{ site.baseurl }}/copyai-hr-workflows-analysis/) — AI-powered workflow automation platform for HR teams to generate job descriptions, outreach messages, and candidate summaries at scale. (Shared: Generative AI, Automation) · [Visit Website](https://www.copy.ai/)
 - [Leena AI]({{ site.baseurl }}/leena-ai-analysis/) — Enterprise conversational AI platform automating HR and recruiting workflows with intelligent virtual assistants. (Shared: AI Assistant, Automation) · [Visit Website](https://leena.ai/)
 - [Microsoft Copilot for HR]({{ site.baseurl }}/microsoft-copilot-for-hr-analysis/) — Generative AI assistant integrated into Microsoft 365 for recruiting content creation and HR workflows. (Shared: Generative AI, AI Assistant) · [Visit Website](https://www.microsoft.com/en-us/microsoft-365/copilot)
+- [OpenAI ChatGPT Enterprise for HR]({{ site.baseurl }}/openai-chatgpt-enterprise-for-hr-analysis/) — Enterprise-grade ChatGPT deployment configured for HR workflows including drafting, summarization, and candidate communication. (Shared: Generative AI, AI Assistant) · [Visit Website](https://openai.com/enterprise)
 - [RecruitGPT]({{ site.baseurl }}/recruitgpt-analysis/) — ChatGPT-powered recruiting assistant generating job descriptions, screening questions, and candidate communications instantly. (Shared: Generative AI, AI Assistant) · [Visit Website](https://recruitgpt.ai/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: Automation, Generative AI) · [Visit Website](https://turbohire.co/)
-- [AllyO]({{ site.baseurl }}/allyo-analysis/) — AI recruiting automation platform with conversational AI for candidate engagement, screening, and scheduling at scale. (Shared: Automation) · [Visit Website](https://www.allyo.com/)
 
 ## How To Improve This Article
 

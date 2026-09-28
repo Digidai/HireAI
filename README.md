@@ -77,7 +77,7 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 |-----|-------|-------------|
 | **1990s** | Applicant Tracking Systems (ATS) | Oracle Taleo, SAP SuccessFactors, Workday |
 | **2000s** | Candidate Marketing & Assessment | Glassdoor, ZipRecruiter, Textio, SHL |
-| **2010s** | Onboarding/Workflow/Sourcing | Greenhouse, Lever, SmartRecruiters, HireVue |
+| **2010s** | Onboarding/Workflow/Sourcing | Greenhouse, Lever, SmartRecruiters (SAP, 2025), HireVue |
 | **2020s** | Intelligent Assessment & DEI | HackerRank, Indeed, Avature |
 | **2024+** | Agentic AI Platforms | Eightfold.ai, Paradox, Phenom, Beamery |
 
@@ -90,10 +90,10 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 | Product | Description | Tags |
 |---------|-------------|------|
 | [Eightfold.ai](https://eightfold.ai/) | Talent Intelligence Platform with deep learning | `AI` `Talent Intelligence` `Skills` |
-| [Paradox](https://www.paradox.ai/) | Conversational AI for recruiting (Olivia) | `Conversational AI` `Automation` |
-| [Phenom](https://www.phenompeople.com/) | AI-powered Talent Experience Platform | `TXM` `AI` `Career Site` |
+| [Paradox](https://www.paradox.ai/) | Conversational AI (Olivia). Workday acquired Paradox on 1 October 2025 | `Conversational AI` `Automation` |
+| [Phenom](https://www.phenom.com/) | Applied AI talent platform, formerly Phenom People | `TXM` `AI` `Career Site` |
 | [Beamery](https://beamery.com/) | Talent Lifecycle Management with AI | `CRM` `AI` `Talent Marketplace` |
-| [HiredScore](https://www.hiredscore.com/) | AI-powered talent orchestration | `AI` `Automation` `Matching` |
+| [HiredScore](https://www.hiredscore.com/) | Talent orchestration. Workday agreed to acquire it in 2024; the old site redirects to Workday | `AI` `Automation` `Matching` |
 
 ### Enterprise Classics
 

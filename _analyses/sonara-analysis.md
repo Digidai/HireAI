@@ -89,8 +89,8 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Job Seeker Tools, Matching) · [Visit Website](https://www.ribbon.careers/)
 - [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Automation, Job Seeker Tools) · [Visit Website](https://simplify.jobs/)
 - [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Automation, Matching) · [Visit Website](https://www.skillate.com/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Automation) · [Visit Website](https://arya.ai/)
-- [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Automation) · [Visit Website](https://brainner.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Automation) · [Visit Website](https://www.applyaii.com/)
 
 ## How To Improve This Article
 

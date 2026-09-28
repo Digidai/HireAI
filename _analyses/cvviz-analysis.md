@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI, Resume Screening) · [Visit Website](https://www.applyaii.com/)
 - [Brainner]({{ site.baseurl }}/brainner-analysis/) — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking. (Shared: AI, Resume Screening) · [Visit Website](https://brainner.ai/)
-- [Hired]({{ site.baseurl }}/hired-analysis/) — AI-powered talent marketplace where companies compete for pre-screened candidates with transparent salaries and opportunities. (Shared: AI, Matching) · [Visit Website](https://hired.com/)
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Matching) · [Visit Website](https://cloud.google.com/talent-solution)
+- [HireAbility]({{ site.baseurl }}/hireability-analysis/) — AI-powered resume parsing and data extraction service supporting multilingual resume processing for ATS integration. (Shared: NLP, Resume Screening) · [Visit Website](https://www.hireability.com/)
+- [Hired]({{ site.baseurl }}/hired-analysis/) — hired.com now opens LHH's company story. This row is the former Hired marketplace, not a current LHH product page. (Shared: AI, Matching)
 - [Instahyre]({{ site.baseurl }}/instahyre-analysis/) — AI-powered job matching platform connecting startups with verified professionals through intelligent candidate screening. (Shared: AI, Matching) · [Visit Website](https://www.instahyre.com/)
-- [Ribbon]({{ site.baseurl }}/ribbon-analysis/) — AI career assistant helping job seekers optimize resumes, prepare for interviews, and match with opportunities. (Shared: AI, Matching) · [Visit Website](https://www.ribbon.careers/)
-- [Skillate]({{ site.baseurl }}/skillate-analysis/) — AI-powered recruiting automation platform with intelligent candidate matching and workflow optimization. (Shared: AI, Matching) · [Visit Website](https://www.skillate.com/)
-- [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Matching) · [Visit Website](https://www.sonara.ai/)
 
 ## How To Improve This Article
 

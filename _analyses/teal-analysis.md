@@ -82,8 +82,8 @@ This section is a structured checklist based on the directory tags and era. It d
 - [LazyApply]({{ site.baseurl }}/lazyapply-analysis/) — AI-powered job application automation tool helping candidates apply to thousands of jobs with one click. (Shared: AI, Job Seeker Tools) · [Visit Website](https://lazyapply.com/)
 - [Simplify]({{ site.baseurl }}/simplify-analysis/) — AI-powered job search copilot autofilling applications and tracking opportunities for efficient job hunting. (Shared: AI, Job Seeker Tools) · [Visit Website](https://simplify.jobs/)
 - [Sonara]({{ site.baseurl }}/sonara-analysis/) — AI job search automation platform that finds and applies to relevant jobs on behalf of candidates 24/7. (Shared: AI, Job Seeker Tools) · [Visit Website](https://www.sonara.ai/)
-- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI) · [Visit Website](https://arc.dev/)
-- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI) · [Visit Website](https://arya.ai/)
+- [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI) · [Visit Website](https://www.alex.com/)
+- [ApplyAII]({{ site.baseurl }}/applyaii-analysis/) — AI recruiting assistant that automates candidate screening and ranking using machine learning algorithms. (Shared: AI) · [Visit Website](https://www.applyaii.com/)
 
 ## How To Improve This Article
 
