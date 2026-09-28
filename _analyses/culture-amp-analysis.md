@@ -3,45 +3,66 @@ layout: article
 title: "Culture Amp Analysis"
 description: "Employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture."
 permalink: /culture-amp-analysis/
-website: ""
-tags: []
+website: "https://www.cultureamp.com/"
+tags: ["DEI", "Performance Management", "Analytics"]
 page_title: Culture Amp
-page_description: "In-depth analysis of Culture Amp HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture."
+last_modified_at: 2026-09-28
+era: "2020s - Intelligent Assessment, Diversity, Career"
 ---
 
-# Culture Amp - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Culture Amp
 
 ## Overview
 
-Culture Amp is employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture.
+**Culture Amp** — Employee experience platform offering engagement surveys, performance management, and analytics for building better workplace culture.
 
-## Key Features
+HireAI files Culture Amp in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Culture Amp, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Culture Amp when you are comparing DEI, Performance Management, and Analytics tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### DEI
 
-## Pros & Cons
+- Confirm the product supports inclusive workflows without masking critical job signals.
+- Review reporting and monitoring options for representation and stage outcomes.
+- Check policy controls (structured rubrics, required justifications) to reduce bias.
+- Ensure compliance alignment for relevant jurisdictions and internal policy.
 
-### Pros
+### Performance Management
 
-- Pro 1
-- Pro 2
+- Confirm review cycles, goals, competencies, and calibration workflows.
+- Validate integrations with HRIS and learning/skills systems.
+- Check reporting for fairness, consistency, and manager enablement.
+- Review data privacy around sensitive feedback and comments.
 
-### Cons
+### Analytics
 
-- Con 1
-- Con 2
+- Confirm available dashboards, custom reports, and export formats for raw data.
+- Verify metric definitions (time-to-fill, pass rate) match your internal standards.
+- Check filtering by job, location, stage, and recruiter, plus historical backfill.
+- Review data freshness, latency, and how corrections are handled.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Celebrate]({{ site.baseurl }}/celebrate-analysis/) — AI-driven employee recognition and engagement platform that supports DEI initiatives and workplace culture building.
+- [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions.
+- [Peoplebox.ai]({{ site.baseurl }}/peoplebox-ai-analysis/) — OKR and performance management platform with AI-powered talent analytics and strategic workforce planning.
+- [SeekOut]({{ site.baseurl }}/seekout-analysis/) — AI-powered sourcing platform with diversity analytics and comprehensive candidate intelligence.
+
+## Takeaway
+
+Use Culture Amp as a candidate in the Intelligent Assessment, Diversity, Career group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.cultureamp.com/
+- HireAI directory record updated 28 September 2026.
+

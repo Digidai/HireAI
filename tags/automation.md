@@ -2,9 +2,13 @@
 layout: tag_page
 tag: Automation
 title: "HR Automation Tools"
-description: "Discover 46+ HR products that automate recruiting workflows, candidate communication, and administrative tasks."
+description: "Discover 75 HR products that automate recruiting workflows, candidate communication, and administrative tasks."
 permalink: /tags/automation/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **75** products tagged Automation.
 
 ## About Automation in HR
 

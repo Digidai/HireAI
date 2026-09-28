@@ -6,6 +6,10 @@ description: "Browse CRM platforms that help build and nurture talent pipelines 
 permalink: /tags/crm/
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **15** products tagged CRM.
+
 ## About Candidate Relationship Management
 
 Recruitment CRM (Candidate Relationship Management) helps organizations build relationships with potential candidates before they apply. Like sales CRM, it focuses on pipeline development and nurturing.

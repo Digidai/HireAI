@@ -6,7 +6,9 @@ permalink: /llms.txt
 
 > HireAI is a free, open, vendor-neutral directory of HR AI products, from 1990s applicant tracking systems to 2024+ agentic AI platforms.
 
-HireAI helps HR leaders, recruiters, vendors, and researchers compare HR technology. It publishes product descriptions, capability tags, evaluation checklists, and in-depth analysis. HireAI does not sell placements, accept paid rankings, or score vendors.
+HireAI helps HR leaders, recruiters, vendors, and researchers compare HR technology. It publishes product descriptions, capability tags, evaluation checklists, and analysis pages. HireAI does not sell placements, accept paid rankings, or score vendors.
+
+On 28 September 2026 every product page was refreshed. A briefing states the directory record, the technology era, and checks to verify in a demo. Speed, database size, and conversion figures on product pages are vendor-reported unless the page says otherwise.
 
 The directory currently lists {{ site.data.products.size }} technology eras. Canonical site: {{ site.url }}{{ site.baseurl }}/
 

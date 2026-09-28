@@ -5,30 +5,31 @@ permalink: /avature-analysis/
 description: "Talent relationship management platform with sophisticated candidate engagement and pipeline management."
 website: "https://www.avature.net/"
 era: "2020s - Intelligent Assessment, Diversity, Career"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["CRM", "Candidate Engagement", "Enterprise"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-Talent relationship management platform with sophisticated candidate engagement and pipeline management.
+**Avature** — Talent relationship management platform with sophisticated candidate engagement and pipeline management.
 
-## What To Validate
+HireAI files Avature in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist Avature when you are comparing CRM, Candidate Engagement, and Enterprise tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
+
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
+
+## Source
 
 - Official website: https://www.avature.net/
+- HireAI directory record updated 28 September 2026.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
 
 <!-- HireAI: baked-enrichment:start -->
 

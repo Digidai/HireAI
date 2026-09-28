@@ -4,9 +4,9 @@
 
 # HireAI
 
-### 🚀 The World's Most Comprehensive HR AI Products Directory
+### Open directory of HR AI products
 
-**149+ Products · 150+ Analysis · 58 Categories · 100% Open Source**
+**249 Products · 251 Analyses · 61 Tags · 100% Open Source**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fhireai.genedai.me&label=HireAI.me)](https://hireai.genedai.me)
@@ -48,9 +48,9 @@ The HR technology landscape is evolving rapidly with AI-powered solutions transf
 
 | What We Offer | Description |
 |---------------|-------------|
-| 📦 **Comprehensive Coverage** | 149+ HR AI products across all categories |
-| 🔍 **Deep Analysis** | 150+ in-depth product analysis articles |
-| 🏷️ **Structured Taxonomy** | 58 tags for precise categorization |
+| 📦 **Comprehensive Coverage** | 249 HR AI products across five technology eras |
+| 🔍 **Deep Analysis** | 251 product briefings and analyses |
+| 🏷️ **Structured Taxonomy** | 61 tags for precise categorization |
 | 📈 **Evolution Framework** | Josh Bersin's 5-stage technology framework |
 | 🌍 **Community-Driven** | Open source with regular updates |
 | 🆓 **100% Free** | No paywall, no registration required |
@@ -63,7 +63,7 @@ The HR technology landscape is evolving rapidly with AI-powered solutions transf
 
 | 📦 Products | 📝 Analysis | 🏷️ Tags | 📅 Eras |
 |:-----------:|:-----------:|:-------:|:-------:|
-| **149+** | **150+** | **58** | **5** |
+| **249** | **251** | **61** | **5** |
 
 </div>
 
@@ -103,7 +103,7 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 | [Lever](https://www.lever.co/) | Modern talent acquisition suite | `ATS` `CRM` |
 | [Workday](https://www.workday.com/) | Enterprise HCM suite | `HCM` `Enterprise` `ATS` |
 
-**[View All 149+ Products →](https://hireai.genedai.me/product-directory/)**
+**[View All 249 Products →](https://hireai.genedai.me/product-directory/)**
 
 ---
 
@@ -111,16 +111,16 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 
 | Tag | Products | Description |
 |-----|:--------:|-------------|
-| [AI](https://hireai.genedai.me/tags/ai/) | 97 | Artificial Intelligence capabilities |
-| [Automation](https://hireai.genedai.me/tags/automation/) | 46 | Workflow automation features |
-| [Sourcing](https://hireai.genedai.me/tags/sourcing/) | 41 | Candidate sourcing tools |
-| [ATS](https://hireai.genedai.me/tags/ats/) | 33 | Applicant Tracking Systems |
-| [Assessment](https://hireai.genedai.me/tags/assessment/) | 17 | Candidate assessment tools |
-| [Analytics](https://hireai.genedai.me/tags/analytics/) | 13 | Data analytics & reporting |
-| [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 11 | Chatbots & virtual assistants |
-| [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 11 | Autonomous AI agents |
+| [AI](https://hireai.genedai.me/tags/ai/) | 111 | Artificial Intelligence capabilities |
+| [Automation](https://hireai.genedai.me/tags/automation/) | 75 | Workflow automation features |
+| [Sourcing](https://hireai.genedai.me/tags/sourcing/) | 47 | Candidate sourcing tools |
+| [ATS](https://hireai.genedai.me/tags/ats/) | 42 | Applicant Tracking Systems |
+| [Assessment](https://hireai.genedai.me/tags/assessment/) | 25 | Candidate assessment tools |
+| [Analytics](https://hireai.genedai.me/tags/analytics/) | 20 | Data analytics & reporting |
+| [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 13 | Chatbots & virtual assistants |
+| [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 31 | Autonomous AI agents |
 
-**[Browse All 58 Tags →](https://hireai.genedai.me/product-directory/)**
+**[Browse All 61 Tags →](https://hireai.genedai.me/product-directory/)**
 
 ---
 
@@ -130,19 +130,16 @@ We organize products using Josh Bersin's HR Technology evolution framework:
 
 **[The Evolution of HR AI: From Applicant Tracking to Agentic Intelligence](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/)**
 
-A comprehensive analysis of 46 HR AI products through Josh Bersin's five-stage framework, examining the progression from 1990s ATS systems to 2024+ Agentic AI Platforms.
+How HR AI moved from 1990s applicant tracking to agentic platforms, with the current directory of 249 products organized on that framework.
 
 ### Product Analysis
 
-Every product includes a detailed analysis covering:
+Every product page includes:
 
-- Company background & history
-- Core features & capabilities
-- Technology architecture
-- Target market & use cases
-- Strengths & weaknesses
-- Competitive positioning
-- Pricing & deployment options
+- A plain-language description and technology era
+- Capability tags and checks to run in a demo
+- A link to the vendor site and to related products in the directory
+- A dated note so vendor-reported figures are not treated as HireAI measurements
 
 ---
 
@@ -178,12 +175,12 @@ bundle exec jekyll serve
 ```
 HireAI/
 ├── _data/
-│   ├── products.yml        # Product database (149+ products)
+│   ├── products.yml        # Product database (249 products)
 │   └── tag_checklists.yml  # Evaluation criteria
 ├── _layouts/               # Page templates
 ├── _scripts/               # Build & validation scripts
-├── tags/                   # Tag pages (58 tags)
-├── *.md                    # Product analysis pages (150+)
+├── tags/                   # Tag pages (61 tags)
+├── *.md                    # Product analysis pages (251)
 ├── index.html              # Homepage
 └── product-directory.md    # Product directory page
 ```

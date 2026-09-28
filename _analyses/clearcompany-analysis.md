@@ -3,45 +3,66 @@ layout: article
 title: "ClearCompany Analysis"
 description: "Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning."
 permalink: /clearcompany-analysis/
-website: ""
-tags: []
+website: "https://www.clearcompany.com/"
+tags: ["ATS", "Talent Management", "Enterprise"]
 page_title: ClearCompany
-page_description: "In-depth analysis of ClearCompany HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning."
+last_modified_at: 2026-09-28
+era: "1990s - Applicant Tracking Systems (ATS)"
 ---
 
-# ClearCompany - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# ClearCompany
 
 ## Overview
 
-ClearCompany is integrated talent management platform combining ATS, onboarding, performance management, and workforce planning.
+**ClearCompany** — Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning.
 
-## Key Features
+HireAI files ClearCompany in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank ClearCompany, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist ClearCompany when you are comparing ATS, Talent Management, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### ATS
 
-## Pros & Cons
+- Validate requisition creation, approval flows, and pipeline stage customization.
+- Check scheduling, offer management, compliance reporting, and role-based access.
+- Verify integrations with HRIS/HCM, background checks, e-sign, and calendars.
+- Assess reporting, data exports, and migration tooling from your current ATS.
 
-### Pros
+### Talent Management
 
-- Pro 1
-- Pro 2
+- Confirm coverage across lifecycle (performance, learning, mobility) as needed.
+- Validate integrations with HRIS and skills frameworks.
+- Check reporting, calibration, and manager workflows.
+- Review privacy and policy controls for sensitive talent decisions.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities.
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities.
+- [Bullhorn]({{ site.baseurl }}/bullhorn-analysis/) — Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation.
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets.
+
+## Takeaway
+
+Use ClearCompany as a candidate in the Applicant Tracking Systems (ATS) group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.clearcompany.com/
+- HireAI directory record updated 28 September 2026.
+

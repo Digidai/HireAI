@@ -11,7 +11,7 @@ location: "Austin, TX"
 category: "AI Recruitment Marketplace"
 website: "https://www.recruitercloud.com/"
 tags: ["AI", "Marketplace", "Sourcing", "Agentic AI"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Hybrid Talent Marketplace"
     description: "Choose from pre-vetted human recruiters, AI agents, or hybrid teams based on your needs and budget"
@@ -56,7 +56,13 @@ related_products:
   - name: "Hundred5"
     description: "On-demand recruiting platform with project-based engagement"
     url: "https://hundred5.com/"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # RecruiterCloud - Deep Analysis
 

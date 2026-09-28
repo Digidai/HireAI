@@ -1,11 +1,11 @@
 ---
 layout: article
 title: HR AI Evolution - Comprehensive Analysis
-description: "Comprehensive analysis of 46 HR AI products through Josh Bersin's framework. From 1990s ATS to modern agentic AI platforms."
+description: "How HR technology moved from 1990s applicant tracking systems to agentic AI, and how the current HireAI directory uses that framework."
 permalink: /hr-ai-evolution-comprehensive-analysis/
 page_title: HR AI Evolution
-page_description: "Comprehensive Analysis: From Applicant Tracking to Agentic Intelligence"
-last_modified_at: 2024-12-04
+page_description: "A framework for reading HR AI, from applicant tracking systems to agentic platforms, plus the current HireAI directory counts."
+last_modified_at: 2026-09-28
 tags: ["AI", "Agentic AI", "Analytics"]
 ---
 
@@ -13,7 +13,20 @@ tags: ["AI", "Agentic AI", "Analytics"]
 
 ## Executive Summary
 
-The human resources technology landscape has undergone a revolutionary transformation over the past three decades, evolving from simple applicant tracking systems to sophisticated agentic AI platforms that fundamentally redefine how organizations attract, assess, and develop talent. This comprehensive analysis examines 46 leading HR AI products and vendors through the lens of Josh Bersin's five-stage technological evolution framework, spanning from the 1990s emergence of Applicant Tracking Systems (ATS) to the current era of Agentic AI Platforms.
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Directory snapshot (28 September 2026)
+
+This essay first examined a sample of 46 products. HireAI now lists **249** products. The framework below still explains the sequence. Use the [product directory]({{ site.baseurl }}/product-directory/) for the current catalog.
+
+- **1990s - Applicant Tracking Systems (ATS)** (16): Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
+- **2000s - Candidate Marketing & Assessment** (20): Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
+- **2010s - Onboarding/Workflow/Integrated Sourcing** (35): Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
+- **2020s - Intelligent Assessment, Diversity, Career** (39): Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
+- **2024+ - Agentic AI Platforms** (139): Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
+
+
+The human resources technology landscape has undergone a revolutionary transformation over the past three decades, evolving from simple applicant tracking systems to sophisticated agentic AI platforms that fundamentally redefine how organizations attract, assess, and develop talent. The framework below follows that five-stage sequence, from 1990s applicant tracking systems to agentic AI platforms. The original essay looked closely at 46 products. The directory snapshot above is the current catalog.
 
 Our research reveals a clear progression from reactive, administrative tools to proactive, intelligent systems that can autonomously execute complex HR workflows. The emergence of Agentic AI Platforms represents not merely an incremental improvement but a paradigm shift that promises to transform the very nature of human resources management. These platforms leverage multi-agent architectures, semantic search capabilities, and advanced natural language processing to deliver end-to-end talent management solutions that rival human expertise in many domains.
 
@@ -33,7 +46,7 @@ This analysis employs Josh Bersin's five-stage technological evolution framework
 4. **2020s - Intelligent Assessment, Diversity, Career**: AI-driven insights and bias correction
 5. **2024+ - Agentic AI Platforms**: Autonomous multi-agent systems
 
-Our analysis examines 46 products and vendors across these stages, evaluating their core capabilities, market positioning, and strategic evolution. The categorization reflects both Bersin's original framework and industry-standard positioning, with some brands spanning multiple eras based on their latest strategic focus.
+The original essay examined 46 products and vendors across these stages. Treat that sample as historical context. The directory snapshot is the current catalog. The categorization reflects both Bersin's original framework and industry-standard positioning, with some brands spanning multiple eras based on their latest strategic focus.
 
 ## Stage 1: The Foundation Era - Applicant Tracking Systems (1990s)
 

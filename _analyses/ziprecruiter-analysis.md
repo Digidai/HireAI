@@ -5,30 +5,31 @@ permalink: /ziprecruiter-analysis/
 description: "Intelligent job distribution platform with AI-powered candidate matching and application management."
 website: "https://www.ziprecruiter.com/"
 era: "2000s - Candidate Marketing & Assessment"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["Job Board", "Sourcing", "AI"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-Intelligent job distribution platform with AI-powered candidate matching and application management.
+**ZipRecruiter** — Intelligent job distribution platform with AI-powered candidate matching and application management.
 
-## What To Validate
+HireAI files ZipRecruiter in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist ZipRecruiter when you are comparing Job Board, Sourcing, and AI tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
+
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
+
+## Source
 
 - Official website: https://www.ziprecruiter.com/
+- HireAI directory record updated 28 September 2026.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
 
 <!-- HireAI: baked-enrichment:start -->
 

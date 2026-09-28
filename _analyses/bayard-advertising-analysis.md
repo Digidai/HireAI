@@ -3,45 +3,66 @@ layout: article
 title: "Bayard Advertising Analysis"
 description: "Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions."
 permalink: /bayard-advertising-analysis/
-website: ""
-tags: []
+website: "https://www.bayardad.com/"
+tags: ["Employer Branding", "Job Board", "Social Recruiting"]
 page_title: Bayard Advertising
-page_description: "In-depth analysis of Bayard Advertising HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions."
+last_modified_at: 2026-09-28
+era: "2000s - Candidate Marketing & Assessment"
 ---
 
-# Bayard Advertising - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Bayard Advertising
 
 ## Overview
 
-Bayard Advertising is recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions.
+**Bayard Advertising** — Recruitment advertising agency providing employer branding, job distribution, and talent attraction solutions.
 
-## Key Features
+HireAI files Bayard Advertising in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Bayard Advertising, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Bayard Advertising when you are comparing Employer Branding, Job Board, and Social Recruiting tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Employer Branding
 
-## Pros & Cons
+- Confirm control over career site content, brand assets, and localization.
+- Check review moderation policies and how employer responses are handled.
+- Validate analytics for source quality and brand-to-apply conversion.
+- Ensure consistency with job posting and ATS application flows.
 
-### Pros
+### Job Board
 
-- Pro 1
-- Pro 2
+- Verify posting coverage, distribution partners, and source attribution accuracy.
+- Check budget controls, sponsorship options, and performance reporting.
+- Confirm compliance and content rules for different regions and role types.
+- Ensure clean handoff to application/ATS with dedupe and tracking.
 
-### Cons
+### Social Recruiting
 
-- Con 1
-- Con 2
+- Confirm supported networks and compliant data usage and outreach policies.
+- Check tracking of source attribution and campaign performance.
+- Validate brand controls and consistency across channels.
+- Ensure dedupe and clean import into ATS/CRM.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [JOIN]({{ site.baseurl }}/join-analysis/) — AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies.
+- [Jobvite]({{ site.baseurl }}/jobvite-analysis/) — Talent acquisition suite combining recruiting marketing, applicant tracking, and social recruiting.
+- [Naylor Association Solutions]({{ site.baseurl }}/naylor-association-solutions-analysis/) — Association career center and job board platform connecting employers with professional association member talent pools.
+- [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
+
+## Takeaway
+
+Use Bayard Advertising as a candidate in the Candidate Marketing & Assessment group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.bayardad.com/
+- HireAI directory record updated 28 September 2026.
+

@@ -5,30 +5,31 @@ permalink: /pymetrics-analysis/
 description: "Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles."
 website: "https://www.pymetrics.ai/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["Assessment", "AI", "Bias Reduction", "DEI"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles.
+**Pymetrics** — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles.
 
-## What To Validate
+HireAI files Pymetrics in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist Pymetrics when you are comparing Assessment, AI, Bias Reduction, and DEI tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
+
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
+
+## Source
 
 - Official website: https://www.pymetrics.ai/
+- HireAI directory record updated 28 September 2026.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
 
 <!-- HireAI: baked-enrichment:start -->
 

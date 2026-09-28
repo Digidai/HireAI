@@ -6,6 +6,10 @@ description: "Explore the cutting-edge of HR tech: autonomous AI agents that can
 permalink: /tags/agentic-ai/
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **31** products tagged Agentic AI.
+
 ## About Agentic AI in HR
 
 Agentic AI represents the latest evolution in HR technology. Unlike traditional AI that provides recommendations, agentic systems can autonomously execute complex workflows—scheduling interviews, sending personalized outreach, and even making preliminary screening decisions.

@@ -3,45 +3,66 @@ layout: article
 title: "OutMatch (Harver) Analysis"
 description: "Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring."
 permalink: /outmatch-harver-analysis/
-website: ""
-tags: []
+website: "https://www.outmatch.com/"
+tags: ["Assessment", "Video Interviewing", "Enterprise"]
 page_title: OutMatch (Harver)
-page_description: "In-depth analysis of OutMatch (Harver) HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
-# OutMatch (Harver) - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# OutMatch (Harver)
 
 ## Overview
 
-OutMatch (Harver) is hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring.
+**OutMatch (Harver)** — Hiring intelligence platform combining assessments, video interviewing, and reference checking for data-driven hiring.
 
-## Key Features
+HireAI files OutMatch (Harver) in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank OutMatch (Harver), quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist OutMatch (Harver) when you are comparing Assessment, Video Interviewing, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Assessment
 
-## Pros & Cons
+- Verify assessment validity, reliability, and job relevance for your roles.
+- Check proctoring options, anti-cheating measures, and accommodation support.
+- Confirm score interpretation, cutoffs, and how results flow into hiring workflows.
+- Review adverse impact monitoring and candidate communication requirements.
 
-### Pros
+### Video Interviewing
 
-- Pro 1
-- Pro 2
+- Confirm live vs one-way support, scheduling, and time zone handling.
+- Review consent, recording policies, and retention for video assets.
+- Validate accessibility (captions) and accommodation workflows.
+- Ensure structured evaluation and guardrails for automated analysis if used.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities.
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
+- [Pomato]({{ site.baseurl }}/pomato-analysis/) — AI-powered video interview platform with automated candidate assessment and intelligent ranking for faster hiring decisions.
+- [Retorio]({{ site.baseurl }}/retorio-analysis/) — AI video assessment platform that analyzes candidate behavior and communication to predict job fit and performance.
+
+## Takeaway
+
+Use OutMatch (Harver) as a candidate in the Onboarding/Workflow/Integrated Sourcing group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.outmatch.com/
+- HireAI directory record updated 28 September 2026.
+

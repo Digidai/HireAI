@@ -6,11 +6,26 @@ permalink: /textio-analysis/
 website: "https://textio.com/"
 tags: ["AI", "DEI", "NLP"]
 page_title: Textio
-page_description: "In-depth analysis of Textio HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Augmented writing platform that uses predictive analytics to optimize job descriptions and recruiting content."
+last_modified_at: 2026-09-28
+era: "2000s - Candidate Marketing & Assessment"
 ---
 
 # Textio - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**Textio** — Augmented writing platform that uses predictive analytics to optimize job descriptions and recruiting content.
+
+HireAI files Textio in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
+
+Directory tags: AI, DEI, NLP.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

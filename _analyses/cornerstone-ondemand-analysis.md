@@ -6,11 +6,26 @@ permalink: /cornerstone-ondemand-analysis/
 website: "https://www.cornerstoneondemand.com/"
 tags: ["Talent Management", "Performance Management"]
 page_title: Cornerstone OnDemand
-page_description: "In-depth analysis of Cornerstone OnDemand HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Unified talent management suite combining recruiting, learning, performance, and succession planning."
+last_modified_at: 2026-09-28
+era: "1990s - Applicant Tracking Systems (ATS)"
 ---
 
 # Cornerstone OnDemand - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**Cornerstone OnDemand** — Unified talent management suite combining recruiting, learning, performance, and succession planning.
+
+HireAI files Cornerstone OnDemand in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
+
+Directory tags: Talent Management, Performance Management.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

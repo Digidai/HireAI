@@ -5,30 +5,31 @@ permalink: /plum-analysis/
 description: "Personality-based matching platform using psychometric profiles for cultural fit and performance prediction."
 website: "https://www.plum.io/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["Assessment", "Psychometric", "AI"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-Personality-based matching platform using psychometric profiles for cultural fit and performance prediction.
+**Plum** — Personality-based matching platform using psychometric profiles for cultural fit and performance prediction.
 
-## What To Validate
+HireAI files Plum in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist Plum when you are comparing Assessment, Psychometric, and AI tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
+
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
+
+## Source
 
 - Official website: https://www.plum.io/
+- HireAI directory record updated 28 September 2026.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
 
 <!-- HireAI: baked-enrichment:start -->
 

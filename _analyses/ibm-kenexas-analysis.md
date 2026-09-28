@@ -5,30 +5,31 @@ permalink: /ibm-kenexas-analysis/
 description: "Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities."
 website: "https://www.ibm.com/products/kenexa-employee-assessments"
 era: "2000s - Candidate Marketing & Assessment"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["Assessment", "Analytics", "AI", "Enterprise"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
+**IBM Kenexas** — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
 
-## What To Validate
+HireAI files IBM Kenexas in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist IBM Kenexas when you are comparing Assessment, Analytics, AI, and Enterprise tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
 
-- Official website: https://www.ibm.com/products/kenexa-employee-assessments
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
+## Source
+
+- Official website: https://www.ibm.com/products/kenexas-employee-assessments
+- HireAI directory record updated 28 September 2026.
+
 
 <!-- HireAI: baked-enrichment:start -->
 

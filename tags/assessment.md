@@ -2,9 +2,13 @@
 layout: tag_page
 tag: Assessment
 title: "Candidate Assessment Tools"
-description: "Evaluate 17+ assessment platforms for skills testing, personality evaluation, and structured candidate evaluation."
+description: "Evaluate 25 assessment platforms for skills testing, personality evaluation, and structured candidate evaluation."
 permalink: /tags/assessment/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **25** products tagged Assessment.
 
 ## About Candidate Assessments
 

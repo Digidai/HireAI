@@ -2,9 +2,13 @@
 layout: tag_page
 tag: Conversational AI
 title: "Conversational AI & Chatbots"
-description: "Discover 11+ conversational AI solutions that engage candidates through natural language chat, SMS, and voice interfaces."
+description: "Discover 13 conversational AI solutions that engage candidates through natural language chat, SMS, and voice interfaces."
 permalink: /tags/conversational-ai/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **13** products tagged Conversational AI.
 
 ## About Conversational AI in Recruiting
 

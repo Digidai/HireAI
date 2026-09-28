@@ -1,45 +1,41 @@
 ---
-layout: article
-title: "Product Name Analysis"
-description: "One-sentence description for SEO/social previews."
+layout: analysis
+title: "Product Name"
+description: "One-sentence directory description. Do not invent pricing or performance."
 permalink: /product-name-analysis/
-page_title: Product Name
-page_description: "In-depth analysis of Product Name HR AI product."
-last_modified_at: 2025-01-01
+website: "https://example.com/"
+era: "2024+ - Agentic AI Platforms"
+last_modified_at: 2026-09-28
+tags: ["ATS", "AI"]
 ---
 
-# Product Name - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
 
 ## Overview
 
-Describe what the product does, who it’s for, and why it matters in HR AI.
+**Product Name** — One-sentence directory description.
 
-## Key Features
+HireAI files Product Name in the **2024+ - Agentic AI Platforms** era. Replace this sentence with the era summary from `_data/products.yml`.
 
-- Feature 1
-- Feature 2
-- Feature 3
+## When to shortlist it
 
-## Technical Architecture
+Shortlist Product Name when you are comparing the tagged capabilities. This page does not rank the product and does not confirm pricing.
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+## What to verify
 
-## Market Position
+- Confirm the workflow this product claims to support.
+- Ask for integrations, permissions, audit logs, and a rollback path.
+- Pilot one role before a wider rollout.
 
-Cover target users, pricing/packaging (if known), and key competitors.
+## Source
 
-## Pros & Cons
+- Official website: https://example.com/
+- HireAI directory record updated 28 September 2026.
 
-### Pros
+<!-- HireAI: baked-enrichment:start -->
 
-- Pro 1
-- Pro 2
+## Evaluation Guide
 
-### Cons
+Replace this block by running `ruby _scripts/bake_analysis_enrichment.rb`.
 
-- Con 1
-- Con 2
-
-## Conclusion
-
-Give a concise takeaway and when you’d recommend it.
+<!-- HireAI: baked-enrichment:end -->

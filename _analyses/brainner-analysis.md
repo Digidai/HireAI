@@ -5,30 +5,31 @@ permalink: /brainner-analysis/
 description: "AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking."
 website: "https://brainner.ai/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2025-12-13
+last_modified_at: 2026-09-28
 tags: ["AI", "Resume Screening", "Automation"]
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
 ## Overview
 
-AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking.
+**Brainner** — AI-powered resume screening platform using advanced algorithms to automate candidate evaluation and ranking.
 
-## What To Validate
+HireAI files Brainner in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
-- Primary use cases and target users
-- Key features and differentiators (with examples)
-- Integrations (ATS/HCM, calendars, email, job boards)
-- Data privacy, security, and compliance (GDPR/CCPA, retention)
-- Pricing and packaging
-- Limitations and trade-offs
+## When to shortlist it
 
----
+Shortlist Brainner when you are comparing AI, Resume Screening, and Automation tools. This page does not rank the product and does not confirm pricing.
 
-## Sources
+## How to use the evaluation guide
+
+The guide below is a demo checklist drawn from the product's tags and era. Every item is something to verify. It is not a list of features HireAI has already seen in the product.
+
+## Source
 
 - Official website: https://brainner.ai/
+- HireAI directory record updated 28 September 2026.
 
-> Note: This is a starter article generated from the product directory entry. Please expand with verified details.
 
 <!-- HireAI: baked-enrichment:start -->
 

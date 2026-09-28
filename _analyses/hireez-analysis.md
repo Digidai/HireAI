@@ -11,7 +11,7 @@ location: "San Jose, CA"
 category: "Agentic AI Recruiting Platform & Outbound Sourcing"
 website: "https://hireez.com/"
 tags: ["Agentic AI", "Sourcing", "AI", "Automation", "ATS"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Agentic AI for Recruiting"
     description: "AI-first, people-centric platform that sources, matches, engages, and manages talent autonomously"
@@ -46,7 +46,13 @@ pros_cons:
     - "Some users report complexity in configuring advanced AI features optimally"
     - "Data quality varies across the 800M+ profiles depending on source"
     - "May require dedicated time investment to fully leverage all capabilities"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # hireEZ - Deep Analysis
 

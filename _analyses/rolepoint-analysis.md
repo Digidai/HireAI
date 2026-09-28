@@ -3,45 +3,66 @@ layout: article
 title: "RolePoint Analysis"
 description: "Employee referral and internal mobility platform that leverages social networks to source quality candidates."
 permalink: /rolepoint-analysis/
-website: ""
-tags: []
+website: "https://www.rolepoint.com/"
+tags: ["Sourcing", "Collaboration", "Social Recruiting"]
 page_title: RolePoint
-page_description: "In-depth analysis of RolePoint HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Employee referral and internal mobility platform that leverages social networks to source quality candidates."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
-# RolePoint - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# RolePoint
 
 ## Overview
 
-RolePoint is employee referral and internal mobility platform that leverages social networks to source quality candidates.
+**RolePoint** — Employee referral and internal mobility platform that leverages social networks to source quality candidates.
 
-## Key Features
+HireAI files RolePoint in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank RolePoint, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist RolePoint when you are comparing Sourcing, Collaboration, and Social Recruiting tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Sourcing
 
-## Pros & Cons
+- Validate search filters, enrichment accuracy, and deduplication with ATS/CRM.
+- Check outreach workflow integration and collaboration across recruiters.
+- Confirm data provenance, acceptable use, and regional compliance.
+- Measure quality of pipeline and conversion to interview/offer.
 
-### Pros
+### Collaboration
 
-- Pro 1
-- Pro 2
+- Verify stakeholder workflows (approvals, comments, scorecards) across teams.
+- Confirm permissions, audit logs, and notification controls.
+- Check integration with Slack/Teams/email and how information is shared securely.
+- Evaluate reporting across multiple reviewers and calibration workflows.
 
-### Cons
+### Social Recruiting
 
-- Con 1
-- Con 2
+- Confirm supported networks and compliant data usage and outreach policies.
+- Check tracking of source attribution and campaign performance.
+- Validate brand controls and consistency across channels.
+- Ensure dedupe and clean import into ATS/CRM.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features.
+- [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows.
+- [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers.
+- [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery.
+
+## Takeaway
+
+Use RolePoint as a candidate in the Onboarding/Workflow/Integrated Sourcing group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.rolepoint.com/
+- HireAI directory record updated 28 September 2026.
+

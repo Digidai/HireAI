@@ -5,9 +5,22 @@ permalink: /workday-recruiting-analysis/
 description: "Cloud-native recruiting solution integrated with comprehensive human capital management capabilities."
 website: "https://www.workday.com/en-us/products/human-capital-management/recruiting.html"
 era: "1990s - Applicant Tracking Systems (ATS)"
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 tags: ["ATS", "HCM", "Cloud"]
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**Workday Recruiting** — Cloud-native recruiting solution integrated with comprehensive human capital management capabilities.
+
+HireAI files Workday Recruiting in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
+
+Directory tags: ATS, HCM, Cloud.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

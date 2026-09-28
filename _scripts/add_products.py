@@ -195,7 +195,7 @@ def main():
 
             existing.add(name_lower)
             added += 1
-            new_analysis_files.append((prod['name'], analysis_file, prod['description']))
+            new_analysis_files.append((prod['name'], analysis_file, prod['description'], prod.get('url', ''), prod.get('tags', [])))
 
     # Write updated products.yml
     with open('_data/products.yml', 'w') as f:
@@ -205,58 +205,50 @@ def main():
     print(f"Skipped: {skipped}")
 
     # Create analysis files
-    for name, analysis_file, description in new_analysis_files:
+    for name, analysis_file, description, url, tags in new_analysis_files:
         if os.path.exists(analysis_file):
             continue
 
         safe_name = os.path.basename(analysis_file).replace('-analysis.md', '')
+        quoted_description = description.replace('"', '\\"')
+        quoted_tags = ", ".join(f'"{tag}"' for tag in tags)
+        website = url if url.startswith("http") else ""
         content = f"""---
 layout: article
 title: "{name} Analysis"
-description: "{description}"
-permalink: /{safe_name}/
-website: ""
-tags: []
+description: "{quoted_description}"
+permalink: /{safe_name}-analysis/
+website: "{website}"
+tags: [{quoted_tags}]
 page_title: {name}
-page_description: "In-depth analysis of {name} HR AI product."
-last_modified_at: 2025-01-01
+page_description: "{quoted_description}"
+last_modified_at: 2026-09-28
 ---
 
-# {name} - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# {name}
 
 ## Overview
 
-{name} is {description[0].lower()}{description[1:]}
+**{name}** — {description.rstrip(".")}.
 
-## Key Features
+This briefing is vendor-neutral. It does not rank {name}, quote a price, or treat unchecked capabilities as facts.
 
-- Feature 1
-- Feature 2
-- Feature 3
+## When to shortlist it
 
-## Technical Architecture
+Shortlist {name} when you are comparing the capabilities in its directory tags. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+## What to verify
 
-## Market Position
+- Confirm the workflow this product claims to support.
+- Ask for integrations, permissions, audit logs, and a rollback path.
+- Pilot one role before a wider rollout.
 
-Cover target users, pricing/packaging (if known), and key competitors.
+## Source
 
-## Pros & Cons
-
-### Pros
-
-- Pro 1
-- Pro 2
-
-### Cons
-
-- Con 1
-- Con 2
-
-## Conclusion
-
-Give a concise takeaway and when you'd recommend it.
+- Official website: {website or "not recorded"}
+- HireAI directory record. Confirm current packaging on the vendor site before you buy.
 """
         os.makedirs(os.path.dirname(analysis_file), exist_ok=True)
         with open(analysis_file, 'w') as f:

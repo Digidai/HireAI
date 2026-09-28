@@ -3,45 +3,66 @@ layout: article
 title: "OnPay Analysis"
 description: "HR and payroll platform for small businesses with integrated onboarding, benefits administration, and compliance."
 permalink: /onpay-analysis/
-website: ""
-tags: []
+website: "https://www.onpay.com/"
+tags: ["HCM", "SMB", "Workflow"]
 page_title: OnPay
-page_description: "In-depth analysis of OnPay HR AI product."
-last_modified_at: 2025-01-01
+page_description: "HR and payroll platform for small businesses with integrated onboarding, benefits administration, and compliance."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
-# OnPay - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# OnPay
 
 ## Overview
 
-OnPay is hR and payroll platform for small businesses with integrated onboarding, benefits administration, and compliance.
+**OnPay** — HR and payroll platform for small businesses with integrated onboarding, benefits administration, and compliance.
 
-## Key Features
+HireAI files OnPay in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank OnPay, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist OnPay when you are comparing HCM, SMB, and Workflow tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### HCM
 
-## Pros & Cons
+- Validate integration with your HRIS/HCM (identity, org chart, job catalog).
+- Confirm data sync cadence, field mappings, and error handling.
+- Check role-based access for sensitive employee data.
+- Ensure reporting aligns across recruiting and core HR data.
 
-### Pros
+### SMB
 
-- Pro 1
-- Pro 2
+- Confirm pricing fit, onboarding effort, and admin simplicity for small teams.
+- Validate core integrations (email, calendar, ATS/HRIS) without heavy IT work.
+- Check support availability and self-serve documentation quality.
+- Ensure workflows scale as hiring volume grows.
 
-### Cons
+### Workflow
 
-- Con 1
-- Con 2
+- Map end-to-end processes and confirm configurability without heavy engineering.
+- Validate permissions, approvals, and audit logs for critical transitions.
+- Check integrations and handoffs between stages and teams.
+- Ensure reporting aligns to workflow stages and changes are versioned.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses.
+- [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups.
+- [Trainual]({{ site.baseurl }}/trainual-analysis/) — Onboarding and training platform that helps businesses document processes and onboard new hires systematically.
+- [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries.
+
+## Takeaway
+
+Use OnPay as a candidate in the Onboarding/Workflow/Integrated Sourcing group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.onpay.com/
+- HireAI directory record updated 28 September 2026.
+

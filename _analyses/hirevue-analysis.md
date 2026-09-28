@@ -6,11 +6,26 @@ permalink: /hirevue-analysis/
 website: "https://www.hirevue.com/"
 tags: ["Video Interviewing", "AI", "Assessment"]
 page_title: HireVue
-page_description: "In-depth analysis of HireVue HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
 # HireVue - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**HireVue** — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities.
+
+HireAI files HireVue in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
+
+Directory tags: Video Interviewing, AI, Assessment.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

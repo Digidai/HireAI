@@ -11,7 +11,7 @@ location: "San Francisco, CA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.topazlabs.ai/"
 tags: ["Agentic AI", "AI Agent", "Predictive Analytics", "Automation"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Autonomous Pipeline Agent"
     description: "Self-managing AI agent that continuously monitors, optimizes, and maintains talent pipelines with zero manual intervention"
@@ -56,7 +56,13 @@ related_products:
   - name: "hireEZ"
     description: "All-in-one agentic AI recruiting with advanced sourcing capabilities"
     url: "/hireez-analysis/"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # Topaz Labs Recruitment AI - Deep Analysis
 

@@ -2,9 +2,13 @@
 layout: tag_page
 tag: AI
 title: "AI-Powered HR Products"
-description: "Explore 97+ HR products leveraging artificial intelligence for recruiting, talent management, and workforce optimization."
+description: "Explore 111 HR products leveraging artificial intelligence for recruiting, talent management, and workforce optimization."
 permalink: /tags/ai/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **111** products tagged AI.
 
 ## About AI in HR Technology
 

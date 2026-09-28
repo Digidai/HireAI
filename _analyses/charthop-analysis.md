@@ -3,45 +3,66 @@ layout: article
 title: "ChartHop Analysis"
 description: "People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management."
 permalink: /charthop-analysis/
-website: ""
-tags: []
+website: "https://www.charthop.com/"
+tags: ["Analytics", "HCM", "Enterprise"]
 page_title: ChartHop
-page_description: "In-depth analysis of ChartHop HR AI product."
-last_modified_at: 2025-01-01
+page_description: "People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management."
+last_modified_at: 2026-09-28
+era: "2020s - Intelligent Assessment, Diversity, Career"
 ---
 
-# ChartHop - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# ChartHop
 
 ## Overview
 
-ChartHop is people analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management.
+**ChartHop** — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management.
 
-## Key Features
+HireAI files ChartHop in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank ChartHop, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist ChartHop when you are comparing Analytics, HCM, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Analytics
 
-## Pros & Cons
+- Confirm available dashboards, custom reports, and export formats for raw data.
+- Verify metric definitions (time-to-fill, pass rate) match your internal standards.
+- Check filtering by job, location, stage, and recruiter, plus historical backfill.
+- Review data freshness, latency, and how corrections are handled.
 
-### Pros
+### HCM
 
-- Pro 1
-- Pro 2
+- Validate integration with your HRIS/HCM (identity, org chart, job catalog).
+- Confirm data sync cadence, field mappings, and error handling.
+- Check role-based access for sensitive employee data.
+- Ensure reporting aligns across recruiting and core HR data.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets.
+- [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries.
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities.
+- [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
+
+## Takeaway
+
+Use ChartHop as a candidate in the Intelligent Assessment, Diversity, Career group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.charthop.com/
+- HireAI directory record updated 28 September 2026.
+

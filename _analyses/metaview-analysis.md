@@ -11,7 +11,7 @@ location: "London, UK & San Francisco, USA"
 category: "Interview Intelligence Platform"
 website: "https://www.metaview.ai/"
 tags: ["Interview Intelligence", "AI", "Note-taking", "Automation"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Superhuman-Quality Notes"
     description: "AI generates comprehensive, accurate interview notes that capture every important detail without manual effort"
@@ -53,7 +53,13 @@ related_products:
   - name: "Greenhouse"
     url: "/greenhouse-analysis/"
     description: "ATS with structured interviewing capabilities"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 ## Overview
 

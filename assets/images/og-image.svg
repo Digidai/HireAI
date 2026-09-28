@@ -39,17 +39,17 @@
   <g transform="translate(80, 480)">
     <!-- Products -->
     <rect width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="80" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">149+</text>
+    <text x="80" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">249</text>
     <text x="80" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Products</text>
 
     <!-- Analyses -->
     <rect x="180" width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="260" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">150+</text>
+    <text x="260" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">251</text>
     <text x="260" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Analyses</text>
 
     <!-- Tags -->
     <rect x="360" width="160" height="80" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
-    <text x="440" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">58</text>
+    <text x="440" y="35" text-anchor="middle" fill="#5e6ad2" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="700">61</text>
     <text x="440" y="60" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-size="14">Tags</text>
   </g>
 

@@ -6,6 +6,10 @@ description: "Explore platforms focused on skills identification, assessment, an
 permalink: /tags/skills/
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **11** products tagged Skills.
+
 ## About Skills-Based HR
 
 Skills-based approaches are transforming how organizations hire, develop, and deploy talent. Instead of focusing solely on credentials and job titles, skills-first strategies match people to opportunities based on capabilities.

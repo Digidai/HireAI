@@ -1,4 +1,4 @@
-# HireAI - 全球最全面的 HR AI 产品目录
+# HireAI - 开源 HR AI 产品目录
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Digidai/HireAI/pulls)
 [![Contributors](https://img.shields.io/github/contributors/Digidai/HireAI)](https://github.com/Digidai/HireAI/graphs/contributors)
 
-**全球最全面的开源 HR AI 产品目录与知识库**
+**开源 HR AI 产品目录，按五个技术时代整理**
 
 [浏览产品](https://hireai.genedai.me/product-directory/) · [阅读分析](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/) · [按标签查看](https://hireai.genedai.me/tags/ai/) · [参与贡献](CONTRIBUTING.md)
 
@@ -29,9 +29,9 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 
 | 我们提供 | 说明 |
 |---------|------|
-| **全面覆盖** | 149+ 款 HR AI 产品，覆盖所有品类 |
-| **深度分析** | 150+ 篇产品深度分析文章 |
-| **结构化分类** | 95 个标签精准分类 |
+| **全面覆盖** | 249 款 HR AI 产品，覆盖五个技术时代 |
+| **深度分析** | 251 篇产品简报与分析 |
+| **结构化分类** | 61 个标签精准分类 |
 | **演进框架** | Josh Bersin 5阶段技术演进框架 |
 | **社区驱动** | 开源项目，持续更新 |
 
@@ -43,7 +43,7 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 
 | 产品数量 | 分析文章 | 主要类别 | 标签数量 | 技术时代 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
-| **149+** | **150+** | **8** | **95** | **5** |
+| **249** | **251** | **5** | **61** | **5** |
 
 </div>
 
@@ -83,7 +83,7 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 | [Lever](https://www.lever.co/) | 现代人才获取套件 | `ATS` `CRM` |
 | [Workday](https://www.workday.com/) | 企业级 HCM 套件 | `HCM` `企业级` `ATS` |
 
-**[查看全部 149+ 产品 →](https://hireai.genedai.me/product-directory/)**
+**[查看全部 249 产品 →](https://hireai.genedai.me/product-directory/)**
 
 ---
 
@@ -91,16 +91,16 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 
 | 标签 | 产品数 | 描述 |
 |-----|:------:|------|
-| [AI](https://hireai.genedai.me/tags/ai/) | 97 | 人工智能能力 |
-| [Automation](https://hireai.genedai.me/tags/automation/) | 46 | 工作流自动化 |
-| [Sourcing](https://hireai.genedai.me/tags/sourcing/) | 41 | 候选人寻源工具 |
-| [ATS](https://hireai.genedai.me/tags/ats/) | 33 | 申请人追踪系统 |
-| [Assessment](https://hireai.genedai.me/tags/assessment/) | 17 | 候选人评估工具 |
-| [Analytics](https://hireai.genedai.me/tags/analytics/) | 13 | 数据分析与报告 |
-| [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 11 | 聊天机器人与虚拟助手 |
-| [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 11 | 自主 AI 智能体 |
+| [AI](https://hireai.genedai.me/tags/ai/) | 111 | 人工智能能力 |
+| [Automation](https://hireai.genedai.me/tags/automation/) | 75 | 工作流自动化 |
+| [Sourcing](https://hireai.genedai.me/tags/sourcing/) | 47 | 候选人寻源工具 |
+| [ATS](https://hireai.genedai.me/tags/ats/) | 42 | 申请人追踪系统 |
+| [Assessment](https://hireai.genedai.me/tags/assessment/) | 25 | 候选人评估工具 |
+| [Analytics](https://hireai.genedai.me/tags/analytics/) | 20 | 数据分析与报告 |
+| [Conversational AI](https://hireai.genedai.me/tags/conversational-ai/) | 13 | 聊天机器人与虚拟助手 |
+| [Agentic AI](https://hireai.genedai.me/tags/agentic-ai/) | 31 | 自主 AI 智能体 |
 
-**[浏览全部 95 个标签 →](https://hireai.genedai.me/product-directory/)**
+**[浏览全部 61 个标签 →](https://hireai.genedai.me/product-directory/)**
 
 ---
 
@@ -110,19 +110,16 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 
 **[HR AI 演进：从申请追踪到智能体 AI 的全面分析](https://hireai.genedai.me/hr-ai-evolution-comprehensive-analysis/)**
 
-通过 Josh Bersin 的五阶段框架，对 46 个 HR AI 产品进行全面分析，研究从 1990 年代 ATS 系统到 2024+ 智能体 AI 平台的发展历程。
+用 Josh Bersin 的五阶段框架说明 HR AI 如何从 1990 年代申请追踪走到智能体平台，并给出当前目录中的 249 款产品。
 
 ### 产品分析
 
-每个产品都包含详细分析：
+每个产品页包含：
 
-- 公司背景与历史
-- 核心功能与能力
-- 技术架构
-- 目标市场与使用场景
-- 优势与劣势
-- 竞争定位
-- 定价与部署方式
+- 通俗描述和技术时代
+- 能力标签，以及需要在演示中核对的检查项
+- 供应商网站链接，以及目录中的相关产品
+- 日期说明，避免把供应商自称的数字当成 HireAI 的测量结果
 
 ---
 
@@ -158,12 +155,12 @@ bundle exec jekyll serve
 ```
 HireAI/
 ├── _data/
-│   ├── products.yml        # 产品数据库（149+ 产品）
-│   └── tag_checklists.yml  # 评估标准（95 个标签）
+│   ├── products.yml        # 产品数据库（249 产品）
+│   └── tag_checklists.yml  # 评估标准（61 个标签）
 ├── _layouts/               # 页面模板
 ├── _scripts/               # 构建与校验脚本
 ├── tags/                   # 标签页（95 个）
-├── *.md                    # 产品分析页（150+）
+├── *.md                    # 产品分析页（251）
 ├── index.html              # 首页
 └── product-directory.md    # 产品目录页
 ```

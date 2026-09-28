@@ -72,7 +72,7 @@ permalink: /FAQ/
       "name": "How often is the content updated?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We aim to update the collection regularly as new HR AI products emerge and existing ones evolve. Major updates typically occur monthly, but we also make smaller updates as needed."
+        "text": "HireAI updates the directory when products are added or corrected. On 28 September 2026 every product page was refreshed with a dated briefing, an era placement, and demo checks. HireAI does not measure vendor pricing or performance claims."
       }
     },
     {
@@ -112,7 +112,7 @@ permalink: /FAQ/
       "name": "Do you provide product recommendations?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We aim to provide objective information about HR AI products rather than specific recommendations. However, our analysis may highlight strengths and weaknesses of different products to help you make informed decisions."
+        "text": "No. HireAI does not rank products or name a default vendor. Each page states the directory description, the technology era, and checks to run in a demo."
       }
     },
     {
@@ -226,7 +226,7 @@ permalink: /FAQ/
 
     <div class="faq-item">
         <h3>How often is the content updated?</h3>
-        <p>We aim to update the collection regularly as new HR AI products emerge and existing ones evolve. Major updates typically occur monthly, but we also make smaller updates as needed.</p>
+        <p>HireAI updates the directory when products are added or corrected. On 28 September 2026 every product page was refreshed with a dated briefing, an era placement, and demo checks. HireAI does not measure vendor pricing or performance claims.</p>
     </div>
 
     <div class="faq-item">
@@ -276,7 +276,7 @@ permalink: /FAQ/
 
     <div class="faq-item">
         <h3>Do you provide product recommendations?</h3>
-        <p>We aim to provide objective information about HR AI products rather than specific recommendations. However, our analysis may highlight strengths and weaknesses of different products to help you make informed decisions.</p>
+        <p>No. HireAI does not rank products or name a default vendor. Each page states the directory description, the technology era, and checks to run in a demo.</p>
     </div>
 </section>
 

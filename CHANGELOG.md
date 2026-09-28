@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved structured data for better SEO
 
 ### Changed
+- Refreshed every product page with a 28 September 2026 briefing, era placement, and demo checks tied to directory tags.
+- Replaced placeholder feature lists with catalog-backed briefings and labeled vendor-reported figures.
+- Updated public directory counts in the README, roadmap, tag pages, and flagship essay.
 - Refined meta tag generation for tag pages
 - Enhanced URL construction in structured data
 

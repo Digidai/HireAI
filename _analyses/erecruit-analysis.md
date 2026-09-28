@@ -3,45 +3,66 @@ layout: article
 title: "Erecruit Analysis"
 description: "Enterprise staffing software providing front-office and back-office solutions for large staffing organizations."
 permalink: /erecruit-analysis/
-website: ""
-tags: []
+website: "https://www.erecruit.com/"
+tags: ["ATS", "Staffing", "Enterprise"]
 page_title: Erecruit
-page_description: "In-depth analysis of Erecruit HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Enterprise staffing software providing front-office and back-office solutions for large staffing organizations."
+last_modified_at: 2026-09-28
+era: "1990s - Applicant Tracking Systems (ATS)"
 ---
 
-# Erecruit - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Erecruit
 
 ## Overview
 
-Erecruit is enterprise staffing software providing front-office and back-office solutions for large staffing organizations.
+**Erecruit** — Enterprise staffing software providing front-office and back-office solutions for large staffing organizations.
 
-## Key Features
+HireAI files Erecruit in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Erecruit, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Erecruit when you are comparing ATS, Staffing, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### ATS
 
-## Pros & Cons
+- Validate requisition creation, approval flows, and pipeline stage customization.
+- Check scheduling, offer management, compliance reporting, and role-based access.
+- Verify integrations with HRIS/HCM, background checks, e-sign, and calendars.
+- Assess reporting, data exports, and migration tooling from your current ATS.
 
-### Pros
+### Staffing
 
-- Pro 1
-- Pro 2
+- Confirm workflows for requisitions, clients, assignments, and redeployments.
+- Check time/expense, compliance, and documentation needs for placements.
+- Validate reporting by client, recruiter, and placement outcomes.
+- Ensure candidate ownership rules and duplicate handling are clear.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Bullhorn]({{ site.baseurl }}/bullhorn-analysis/) — Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation.
+- [JobDiva]({{ site.baseurl }}/jobdiva-analysis/) — Full-cycle applicant tracking and talent acquisition platform designed for staffing agencies and recruiting firms.
+- [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities.
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities.
+
+## Takeaway
+
+Use Erecruit as a candidate in the Applicant Tracking Systems (ATS) group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.erecruit.com/
+- HireAI directory record updated 28 September 2026.
+

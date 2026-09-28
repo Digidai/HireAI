@@ -6,11 +6,26 @@ permalink: /shl-analysis/
 website: "https://www.shl.com/"
 tags: ["Assessment", "Psychometric"]
 page_title: SHL
-page_description: "In-depth analysis of SHL HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Global leader in psychometric testing and talent assessment solutions with scientifically validated evaluations."
+last_modified_at: 2026-09-28
+era: "2000s - Candidate Marketing & Assessment"
 ---
 
 # SHL - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**SHL** — Global leader in psychometric testing and talent assessment solutions with scientifically validated evaluations.
+
+HireAI files SHL in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
+
+Directory tags: Assessment, Psychometric.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

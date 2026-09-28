@@ -11,7 +11,7 @@ location: "Dubai, UAE / San Francisco, CA"
 category: "Agentic AI Recruiting Assistant"
 website: "https://www.qureos.com/iris"
 tags: ["Agentic AI", "AI Agent", "Conversational AI", "Automation"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "24/7 Autonomous Operation"
     description: "Iris works around the clock sourcing candidates, conducting screening conversations, and managing recruiting workflows without human intervention"
@@ -57,7 +57,13 @@ related_products:
   - name: "XOR"
     description: "Conversational AI for automated candidate screening and engagement"
     url: "https://www.xor.ai/"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # Iris by Qureos - Deep Analysis
 

@@ -6,11 +6,26 @@ permalink: /eightfold-ai-analysis/
 website: "https://eightfold.ai/"
 tags: ["Talent Intelligence", "AI", "Skills", "Career Pathing"]
 page_title: Eightfold.ai
-page_description: "In-depth analysis of Eightfold.ai HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics."
+last_modified_at: 2026-09-28
+era: "2024+ - Agentic AI Platforms"
 ---
 
 # Eightfold.ai - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**Eightfold.ai** — Talent intelligence platform using deep learning for candidate matching, career pathing, and skills analytics.
+
+HireAI files Eightfold.ai in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
+
+Directory tags: Talent Intelligence, AI, Skills, Career Pathing.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

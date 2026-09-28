@@ -2,9 +2,13 @@
 layout: tag_page
 tag: Analytics
 title: "HR Analytics & Reporting Tools"
-description: "Discover 13+ analytics platforms that provide data-driven insights into recruiting performance and workforce planning."
+description: "Discover 20 analytics platforms that provide data-driven insights into recruiting performance and workforce planning."
 permalink: /tags/analytics/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **20** products tagged Analytics.
 
 ## About HR Analytics
 

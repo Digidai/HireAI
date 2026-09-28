@@ -15,7 +15,7 @@ permalink: /product-directory/
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "HR AI Product Directory",
-  "description": "Complete directory of {{ total_products }}+ HR AI products organized by technology era, from 1990s ATS to 2024+ Agentic AI platforms.",
+  "description": "Directory of {{ total_products }} HR AI products organized by technology era, from 1990s applicant tracking systems to 2024+ agentic AI platforms.",
   "url": "{{ site.url }}{{ site.baseurl }}/product-directory/",
   "isPartOf": {
     "@type": "WebSite",

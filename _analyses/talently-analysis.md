@@ -11,7 +11,7 @@ location: "Tel Aviv, Israel / San Francisco, CA"
 category: "AI Technical Interview Platform"
 website: "https://talently.ai/"
 tags: ["Interview Intelligence", "AI", "Technical Assessment", "Agentic AI"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Real-Time AI Interviewer"
     description: "AI conducts live technical interviews with candidates, asking questions, evaluating responses, and probing deeper in real-time"
@@ -57,7 +57,13 @@ related_products:
   - name: "Codility"
     description: "Technical hiring platform with coding tests and assessments"
     url: "https://www.codility.com/"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # Talently.ai - Deep Analysis
 

@@ -1,80 +1,65 @@
 ---
 layout: article
 title: "HireAI Roadmap"
-description: "Future plans and development roadmap for the HireAI HR AI Products Directory"
+description: "What the HireAI directory includes as of 28 September 2026, and what is still unfinished."
 permalink: /roadmap/
+last_modified_at: 2026-09-28
 ---
 
 # HireAI Roadmap
 
-Our vision is to make HireAI the definitive resource for HR technology decision-makers worldwide.
+HireAI is an open directory of HR AI products. The aim is a catalog a buyer can cite: a description, a technology era, capability tags, and checks to run in a demo.
 
 ---
 
-## Current Status (v1.0)
+## Current status (28 September 2026)
 
-- 149+ HR AI products catalogued
-- 150+ in-depth analysis articles
-- 95 category tags
+- 249 HR AI products catalogued
+- 251 product briefings and analyses
+- 61 capability tags
 - 5 technology era classifications
-- Full-text search and filtering
-- Mobile-responsive design
-- Dark/Light theme support
+- Directory search, era filters, and tag pages with evaluation checklists
+- Dated briefings that separate directory facts from vendor-reported figures
+- Machine-readable catalog at `products.json` and guidance at `llms.txt`
+- Mobile layout and dark/light theme
 
 ---
 
-## Q1 2025: Enhanced Discovery
+## Shipped
 
-- [ ] **Advanced Filtering** - Multi-criteria product filtering
-- [ ] **Product Comparison** - Side-by-side feature comparison tool
-- [ ] **Related Products** - AI-powered product recommendations
-- [ ] **Search Improvements** - Fuzzy search and auto-suggestions
+- Product pages state the directory description, era, and tags
+- Related products on analysis pages, chosen by shared tags
+- Structured data, sitemap, and an answer-first FAQ
+- A reading note on pages that repeat vendor speed, database, or conversion claims
 
-## Q2 2025: Community Features
+## Next
 
-- [ ] **User Reviews** - Community ratings and reviews
-- [ ] **Vendor Verification** - Official vendor badges
-- [ ] **Discussion Forums** - Product-specific discussions
-- [ ] **Expert Contributions** - Guest analysis articles
+- [ ] Side-by-side comparison of products already in the directory
+- [ ] Search that tolerates typos and suggests tags
+- [ ] Vendor-confirmed fields, stored separately from HireAI's own text
+- [ ] More languages for the site itself (a Chinese README already exists)
+- [ ] Segment guides written from the catalog, without invented pricing
 
-## Q3 2025: Data & Analytics
+HireAI will not add a pricing database or a ranking until those figures are sourced. Unverified prices and scores will not be published as directory facts.
 
-- [ ] **Public API** - RESTful API for data access
-- [ ] **Market Reports** - Quarterly industry trend reports
-- [ ] **Pricing Database** - Comprehensive pricing information
-- [ ] **Integration Matrix** - Product integration compatibility
-
-## Q4 2025: Global Expansion
-
-- [ ] **Multi-language** - Chinese, Spanish, German, French
-- [ ] **Regional Products** - APAC, EMEA, LATAM coverage
-- [ ] **Local Partnerships** - Regional HR tech communities
-- [ ] **Events Calendar** - HR tech conferences and webinars
-
----
-
-## Long-term Vision
+## Longer-term
 
 | Goal | Description |
 |------|-------------|
-| **1000+ Products** | Comprehensive global coverage |
-| **Verified Data** | Vendor-confirmed information |
-| **Real-time Updates** | Automated product monitoring |
-| **AI Recommendations** | Personalized product matching |
-| **Buyer's Guides** | Segment-specific guides |
+| **Broader coverage** | Add products when a public website and a directory description exist |
+| **Verified fields** | Let vendors correct facts without turning the directory into an advertisement |
+| **Fresher records** | Show the date of each directory record, as the 28 September 2026 briefings do |
+| **Buyer's guides** | Explain a segment with the products and checks already on the site |
 
 ---
 
-## How to Contribute
+## How to contribute
 
-We welcome community input on our roadmap:
+1. **Suggest an idea** — open a feature request
+2. **Correct a record** — submit a pull request with a source
+3. **Add a product** — follow [CONTRIBUTING.md](https://github.com/Digidai/HireAI/blob/master/CONTRIBUTING.md)
 
-1. **Vote on features** - React to issues with thumbs up
-2. **Suggest ideas** - Open a feature request issue
-3. **Contribute code** - Submit pull requests
-4. **Write content** - Add product analyses
-
-[View all feature requests →](https://github.com/Digidai/HireAI/labels/enhancement)
+[View feature requests](https://github.com/Digidai/HireAI/labels/enhancement)
 
 ---
 

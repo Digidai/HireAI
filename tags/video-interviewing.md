@@ -6,6 +6,10 @@ description: "Compare video interview solutions for live, on-demand, and AI-anal
 permalink: /tags/video-interviewing/
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **9** products tagged Video Interviewing.
+
 ## About Video Interviewing
 
 Video interviewing has become essential for modern recruiting, enabling remote assessment while saving time and travel costs. Solutions range from simple video calls to AI-powered analysis platforms.

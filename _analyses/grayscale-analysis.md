@@ -3,45 +3,66 @@ layout: article
 title: "Grayscale Analysis"
 description: "Talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions."
 permalink: /grayscale-analysis/
-website: ""
-tags: []
+website: "https://www.grayscale.com/"
+tags: ["Structured Interviewing", "Analytics", "Enterprise"]
 page_title: Grayscale
-page_description: "In-depth analysis of Grayscale HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions."
+last_modified_at: 2026-09-28
+era: "2024+ - Agentic AI Platforms"
 ---
 
-# Grayscale - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Grayscale
 
 ## Overview
 
-Grayscale is talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions.
+**Grayscale** — Talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions.
 
-## Key Features
+HireAI files Grayscale in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Grayscale, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Grayscale when you are comparing Structured Interviewing, Analytics, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Structured Interviewing
 
-## Pros & Cons
+- Confirm rubric/scorecard support and consistent question sets per role.
+- Validate interviewer training, calibration, and anti-bias guardrails.
+- Check feedback collection, reminders, and completion SLAs.
+- Ensure audit trails for decisions and versioning for rubrics over time.
 
-### Pros
+### Analytics
 
-- Pro 1
-- Pro 2
+- Confirm available dashboards, custom reports, and export formats for raw data.
+- Verify metric definitions (time-to-fill, pass rate) match your internal standards.
+- Check filtering by job, location, stage, and recruiter, plus historical backfill.
+- Review data freshness, latency, and how corrections are handled.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
+- [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management.
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets.
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
+
+## Takeaway
+
+Use Grayscale as a candidate in the Agentic AI Platforms group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.grayscale.com/
+- HireAI directory record updated 28 September 2026.
+

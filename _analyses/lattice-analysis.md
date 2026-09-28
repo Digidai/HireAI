@@ -3,45 +3,66 @@ layout: article
 title: "Lattice Analysis"
 description: "People management platform combining performance reviews, goal setting, employee engagement surveys, and career development."
 permalink: /lattice-analysis/
-website: ""
-tags: []
+website: "https://lattice.com/"
+tags: ["Performance Management", "Talent Management", "Enterprise"]
 page_title: Lattice
-page_description: "In-depth analysis of Lattice HR AI product."
-last_modified_at: 2025-01-01
+page_description: "People management platform combining performance reviews, goal setting, employee engagement surveys, and career development."
+last_modified_at: 2026-09-28
+era: "2020s - Intelligent Assessment, Diversity, Career"
 ---
 
-# Lattice - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Lattice
 
 ## Overview
 
-Lattice is people management platform combining performance reviews, goal setting, employee engagement surveys, and career development.
+**Lattice** — People management platform combining performance reviews, goal setting, employee engagement surveys, and career development.
 
-## Key Features
+HireAI files Lattice in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Lattice, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Lattice when you are comparing Performance Management, Talent Management, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Performance Management
 
-## Pros & Cons
+- Confirm review cycles, goals, competencies, and calibration workflows.
+- Validate integrations with HRIS and learning/skills systems.
+- Check reporting for fairness, consistency, and manager enablement.
+- Review data privacy around sensitive feedback and comments.
 
-### Pros
+### Talent Management
 
-- Pro 1
-- Pro 2
+- Confirm coverage across lifecycle (performance, learning, mobility) as needed.
+- Validate integrations with HRIS and skills frameworks.
+- Check reporting, calibration, and manager workflows.
+- Review privacy and policy controls for sensitive talent decisions.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [ClearCompany]({{ site.baseurl }}/clearcompany-analysis/) — Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning.
+- [Cornerstone OnDemand]({{ site.baseurl }}/cornerstone-ondemand-analysis/) — Unified talent management suite combining recruiting, learning, performance, and succession planning.
+- [Eloomi]({{ site.baseurl }}/eloomi-analysis/) — People development platform combining learning management, performance reviews, and employee engagement surveys.
+- [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions.
+
+## Takeaway
+
+Use Lattice as a candidate in the Intelligent Assessment, Diversity, Career group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://lattice.com/
+- HireAI directory record updated 28 September 2026.
+

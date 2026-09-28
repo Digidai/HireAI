@@ -3,45 +3,66 @@ layout: article
 title: "Appcast Analysis"
 description: "Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality."
 permalink: /appcast-analysis/
-website: ""
-tags: []
+website: "https://appcast.io/"
+tags: ["Job Board", "Analytics", "Enterprise"]
 page_title: Appcast
-page_description: "In-depth analysis of Appcast HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality."
+last_modified_at: 2026-09-28
+era: "2000s - Candidate Marketing & Assessment"
 ---
 
-# Appcast - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Appcast
 
 ## Overview
 
-Appcast is programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
+**Appcast** — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
 
-## Key Features
+HireAI files Appcast in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Appcast, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Appcast when you are comparing Job Board, Analytics, and Enterprise tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Job Board
 
-## Pros & Cons
+- Verify posting coverage, distribution partners, and source attribution accuracy.
+- Check budget controls, sponsorship options, and performance reporting.
+- Confirm compliance and content rules for different regions and role types.
+- Ensure clean handoff to application/ATS with dedupe and tracking.
 
-### Pros
+### Analytics
 
-- Pro 1
-- Pro 2
+- Confirm available dashboards, custom reports, and export formats for raw data.
+- Verify metric definitions (time-to-fill, pass rate) match your internal standards.
+- Check filtering by job, location, stage, and recruiter, plus historical backfill.
+- Review data freshness, latency, and how corrections are handled.
 
-### Cons
+### Enterprise
 
-- Con 1
-- Con 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management.
+- [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets.
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation.
+- [Grayscale]({{ site.baseurl }}/grayscale-analysis/) — Talent acquisition platform providing structured interview guides, candidate scoring, and hiring analytics for better hiring decisions.
+
+## Takeaway
+
+Use Appcast as a candidate in the Candidate Marketing & Assessment group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://appcast.io/
+- HireAI directory record updated 28 September 2026.
+

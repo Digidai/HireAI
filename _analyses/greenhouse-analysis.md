@@ -6,11 +6,26 @@ permalink: /greenhouse-analysis/
 website: "https://www.greenhouse.io/"
 tags: ["ATS", "Structured Interviewing", "DEI"]
 page_title: Greenhouse
-page_description: "In-depth analysis of Greenhouse HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
 # Greenhouse - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**Greenhouse** — Structured interviewing and collaborative hiring platform designed to reduce bias and improve hiring quality.
+
+HireAI files Greenhouse in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
+
+Directory tags: ATS, Structured Interviewing, DEI.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

@@ -3,45 +3,66 @@ layout: article
 title: "Kirby Partners Analysis"
 description: "Executive search firm specializing in healthcare leadership recruiting with AI-enhanced candidate identification."
 permalink: /kirby-partners-analysis/
-website: ""
-tags: []
+website: "https://www.kirbypartners.com/"
+tags: ["Sourcing", "Enterprise", "Staffing"]
 page_title: Kirby Partners
-page_description: "In-depth analysis of Kirby Partners HR AI product."
-last_modified_at: 2025-01-01
+page_description: "Executive search firm specializing in healthcare leadership recruiting with AI-enhanced candidate identification."
+last_modified_at: 2026-09-28
+era: "2000s - Candidate Marketing & Assessment"
 ---
 
-# Kirby Partners - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# Kirby Partners
 
 ## Overview
 
-Kirby Partners is executive search firm specializing in healthcare leadership recruiting with AI-enhanced candidate identification.
+**Kirby Partners** — Executive search firm specializing in healthcare leadership recruiting with AI-enhanced candidate identification.
 
-## Key Features
+HireAI files Kirby Partners in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank Kirby Partners, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist Kirby Partners when you are comparing Sourcing, Enterprise, and Staffing tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Sourcing
 
-## Pros & Cons
+- Validate search filters, enrichment accuracy, and deduplication with ATS/CRM.
+- Check outreach workflow integration and collaboration across recruiters.
+- Confirm data provenance, acceptable use, and regional compliance.
+- Measure quality of pipeline and conversion to interview/offer.
 
-### Pros
+### Enterprise
 
-- Pro 1
-- Pro 2
+- Validate SSO/SAML, SCIM provisioning, RBAC, and audit logging requirements.
+- Confirm global compliance needs (GDPR, SOC reports) and contract terms.
+- Check scalability (multi-entity, multi-region) and admin delegation.
+- Review implementation support, SLAs, and change management processes.
 
-### Cons
+### Staffing
 
-- Con 1
-- Con 2
+- Confirm workflows for requisitions, clients, assignments, and redeployments.
+- Check time/expense, compliance, and documentation needs for placements.
+- Validate reporting by client, recruiter, and placement outcomes.
+- Ensure candidate ownership rules and duplicate handling are clear.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Bullhorn]({{ site.baseurl }}/bullhorn-analysis/) — Cloud-based CRM and applicant tracking system built for staffing and recruiting agencies with robust automation.
+- [Erecruit]({{ site.baseurl }}/erecruit-analysis/) — Enterprise staffing software providing front-office and back-office solutions for large staffing organizations.
+- [JobDiva]({{ site.baseurl }}/jobdiva-analysis/) — Full-cycle applicant tracking and talent acquisition platform designed for staffing agencies and recruiting firms.
+- [LinkedIn Hiring Assistant]({{ site.baseurl }}/linkedin-hiring-assistant-analysis/) — LinkedIn's AI hiring agent that autonomously sources, messages, and shortlists candidates based on job requirements and recruiter preferences.
+
+## Takeaway
+
+Use Kirby Partners as a candidate in the Candidate Marketing & Assessment group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.kirbypartners.com/
+- HireAI directory record updated 28 September 2026.
+

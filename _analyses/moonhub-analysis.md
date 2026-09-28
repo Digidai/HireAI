@@ -11,7 +11,7 @@ location: "San Francisco, CA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.moonhub.ai/"
 tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Qualify AI Agent"
     description: "Automatically identifies qualified candidates across millions of profiles using proprietary AI trained on expert recruiting insights"
@@ -46,7 +46,13 @@ pros_cons:
     - "May require organizational change management to fully leverage autonomous AI capabilities"
     - "Less transparency on pricing and implementation timeline for evaluation"
     - "Integration capabilities with existing ATS and HRIS systems not extensively detailed"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 # Moonhub - Deep Analysis
 

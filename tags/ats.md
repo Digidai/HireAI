@@ -2,9 +2,13 @@
 layout: tag_page
 tag: ATS
 title: "Applicant Tracking Systems"
-description: "Compare 33+ ATS solutions from enterprise platforms to modern cloud-based systems for managing your hiring pipeline."
+description: "Compare 42 ATS solutions from enterprise platforms to modern cloud-based systems for managing your hiring pipeline."
 permalink: /tags/ats/
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **42** products tagged ATS.
 
 ## About Applicant Tracking Systems
 

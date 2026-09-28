@@ -6,6 +6,10 @@ description: "Explore HR technology solutions designed to reduce bias, increase 
 permalink: /tags/dei/
 ---
 
+<!-- HireAI: briefing:2026-09-28 -->
+
+As of 28 September 2026, HireAI lists **12** products tagged DEI.
+
 ## About DEI in HR Technology
 
 Diversity, Equity, and Inclusion (DEI) technology helps organizations build more representative workforces by identifying and mitigating bias throughout the hiring process.

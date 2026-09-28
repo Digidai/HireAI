@@ -48,7 +48,7 @@ Thank you for your interest in contributing to HireAI! This document provides gu
 
 ```
 HireAI/
-├── _analyses/           # Product analysis articles (150+ files)
+├── _analyses/           # Product analysis articles (251 files)
 ├── _data/
 │   ├── products.yml     # Main product database
 │   └── tag_checklists.yml # Tag evaluation checklists
@@ -68,7 +68,7 @@ HireAI/
 │   ├── css/main.scss    # Main stylesheet entry
 │   ├── js/main.js       # JavaScript functionality
 │   └── images/          # Static images
-├── tags/                # Tag pages (95+ files)
+├── tags/                # Tag pages (61 files)
 └── *.md                 # Root-level pages
 ```
 
@@ -79,17 +79,22 @@ HireAI/
 Edit `_data/products.yml` and add your product under the appropriate era category:
 
 ```yaml
-- era: "2020s - Intelligence Platforms"
-  icon: "🧠"
-  products:
-    - name: "Your Product Name"
-      url: "https://product-website.com"
-      description: "Brief description (max 100 chars)"
-      tags:
-        - "ATS"
-        - "AI"
-      analysis: "_analyses/your-product-analysis.md"
+- name: "Your Product Name"
+  url: "https://product-website.com"
+  description: "One sentence on what the product does. Do not add pricing or performance figures you have not sourced."
+  tags:
+    - "ATS"
+    - "AI"
+  analysis: "_analyses/your-product-analysis.md"
 ```
+
+Add that entry under the matching era in `_data/products.yml`. The current eras are:
+
+- `1990s - Applicant Tracking Systems (ATS)`
+- `2000s - Candidate Marketing & Assessment`
+- `2010s - Onboarding/Workflow/Integrated Sourcing`
+- `2020s - Intelligent Assessment, Diversity, Career`
+- `2024+ - Agentic AI Platforms`
 
 ### Step 2: Create Analysis Article
 
@@ -98,14 +103,31 @@ Create a new file in `_analyses/`:
 ```markdown
 ---
 layout: analysis
-title: "Your Product Name Analysis"
-description: "Deep-dive analysis of Your Product Name"
+title: "Your Product Name"
+description: "One sentence copied from the directory record."
 permalink: /your-product-analysis/
+website: "https://product-website.com"
+era: "2024+ - Agentic AI Platforms"
+last_modified_at: 2026-09-28
+tags: ["ATS", "AI"]
 ---
 
 ## Overview
 
-Your analysis content here...
+**Your Product Name** — One sentence copied from the directory record.
+
+## When to shortlist it
+
+Name the job to be done. Do not rank the product.
+
+## What to verify
+
+- Confirm the workflow in a demo.
+- Ask for integrations, permissions, audit logs, and a rollback path.
+
+## Source
+
+- Official website: https://product-website.com
 ```
 
 ### Step 3: Create Missing Tag Pages
@@ -155,32 +177,34 @@ ruby _scripts/bake_analysis_enrichment.rb
 ```yaml
 ---
 layout: analysis
-title: "Product Name Analysis"
-description: "Concise description for SEO"
+title: "Product Name"
+description: "One sentence copied from the directory record."
 permalink: /product-name-analysis/
-product_name: "Product Name"
 website: "https://product.com"
+era: "2024+ - Agentic AI Platforms"
+last_modified_at: 2026-09-28
 tags:
-  - "Tag1"
-  - "Tag2"
+  - "ATS"
+  - "AI"
 ---
 ```
 
-### Recommended Structure
+### Recommended structure
 
-1. **Overview** - What the product does
-2. **Key Features** - Main capabilities
-3. **Use Cases** - Ideal scenarios
-4. **Pros & Cons** - Balanced assessment
-5. **Pricing** - If publicly available
-6. **Alternatives** - Similar products
+1. **Overview** — directory description and technology era
+2. **When to shortlist it** — the job to be done, without a rank
+3. **What to verify** — demo checks drawn from the product's tags
+4. **Related products** — other directory entries that share tags
+5. **Source** — official website and the date of the directory record
 
-### Writing Tips
+For `layout: analysis`, keep the baked enrichment block (`<!-- HireAI: baked-enrichment:start -->` through `<!-- HireAI: baked-enrichment:end -->`) and run the enrichment script after you edit tags.
 
-- Be objective and factual
-- Include specific feature names
-- Cite official sources when possible
-- Update `last_updated` when making changes
+### Writing tips
+
+- State only what the directory or a cited vendor page supports
+- Do not invent customers, pricing, or performance figures
+- If a vendor publishes a speed or database claim, label it as vendor-reported
+- Update `last_modified_at` when you change the page
 
 ## Creating Tag Pages
 

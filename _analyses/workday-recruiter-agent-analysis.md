@@ -11,7 +11,7 @@ location: "Pleasanton, California, USA"
 category: "Agentic AI Recruiting Platform"
 website: "https://www.workday.com/"
 tags: ["Agentic AI", "AI Agent", "Sourcing", "Automation"]
-last_modified_at: 2024-12-04
+last_modified_at: 2026-09-28
 key_features:
   - title: "Proactive Candidate Sourcing"
     description: "Automatically identifies and sources passive candidates based on role requirements and company needs"
@@ -46,7 +46,13 @@ related_products:
   - name: "Paradox"
     url: "https://www.paradox.ai/"
     description: "Conversational recruiting with AI assistant Olivia"
+era: "2024+ - Agentic AI Platforms"
 ---
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+> **How to read this page.** Speed, database size, and conversion figures below are vendor-reported claims, not measurements by HireAI. Confirm them before you buy. Directory record updated 28 September 2026.
+
 
 ## Overview
 

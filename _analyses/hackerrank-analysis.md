@@ -6,11 +6,26 @@ permalink: /hackerrank-analysis/
 website: "https://www.hackerrank.com/"
 tags: ["Technical Assessment", "Developer Community"]
 page_title: HackerRank
-page_description: "In-depth analysis of HackerRank HR AI product."
-last_modified_at: 2024-12-04
+page_description: "Technical recruiting platform with comprehensive coding assessments and developer community engagement."
+last_modified_at: 2026-09-28
+era: "2020s - Intelligent Assessment, Diversity, Career"
 ---
 
 # HackerRank - Deep Analysis
+
+
+<!-- HireAI: briefing:2026-09-28 -->
+
+## Updated briefing (28 September 2026)
+
+**HackerRank** — Technical recruiting platform with comprehensive coding assessments and developer community engagement.
+
+HireAI files HackerRank in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
+
+Directory tags: Technical Assessment, Developer Community.
+
+The research note below may include earlier or vendor-reported figures. Use it for context, then confirm current packaging, security, and integrations on the vendor site. Directory record updated 28 September 2026.
+
 
 ## Overview
 

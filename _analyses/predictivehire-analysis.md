@@ -3,45 +3,66 @@ layout: article
 title: "PredictiveHire Analysis"
 description: "AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality."
 permalink: /predictivehire-analysis/
-website: ""
-tags: []
+website: "https://www.predictivehire.com/"
+tags: ["Assessment", "Chatbot", "Bias Reduction"]
 page_title: PredictiveHire
-page_description: "In-depth analysis of PredictiveHire HR AI product."
-last_modified_at: 2025-01-01
+page_description: "AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality."
+last_modified_at: 2026-09-28
+era: "2010s - Onboarding/Workflow/Integrated Sourcing"
 ---
 
-# PredictiveHire - Deep Analysis
+<!-- HireAI: briefing:2026-09-28 -->
+
+# PredictiveHire
 
 ## Overview
 
-PredictiveHire is aI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality.
+**PredictiveHire** — AI-first candidate screening platform using chat-based assessments to reduce bias and improve hiring quality.
 
-## Key Features
+HireAI files PredictiveHire in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
-- Feature 1
-- Feature 2
-- Feature 3
+This briefing is vendor-neutral. It does not rank PredictiveHire, quote a price, or treat unchecked capabilities as facts.
 
-## Technical Architecture
+## When to shortlist it
 
-Summarize the core tech approach: data sources, models, integrations, and deployment (as far as publicly known).
+Shortlist PredictiveHire when you are comparing Assessment, Chatbot, and Bias Reduction tools. Read the checks below in a demo, then confirm packaging, security, and integrations on the vendor site.
 
-## Market Position
+## What to verify
 
-Cover target users, pricing/packaging (if known), and key competitors.
+### Assessment
 
-## Pros & Cons
+- Verify assessment validity, reliability, and job relevance for your roles.
+- Check proctoring options, anti-cheating measures, and accommodation support.
+- Confirm score interpretation, cutoffs, and how results flow into hiring workflows.
+- Review adverse impact monitoring and candidate communication requirements.
 
-### Pros
+### Chatbot
 
-- Pro 1
-- Pro 2
+- Confirm supported channels and the handoff path to a human recruiter.
+- Verify intent coverage for your FAQs and how new intents are trained/added.
+- Check logging, PII handling, and consent notices in candidate conversations.
+- Test multi-language, accessibility, and failure handling for edge cases.
 
-### Cons
+### Bias Reduction
 
-- Con 1
-- Con 2
+- Ask what fairness metrics are measured and how often monitoring runs.
+- Verify that bias controls don’t reduce job relevance or create new adverse impact.
+- Confirm transparency for stakeholders and documentation for compliance audits.
+- Pilot with segmented analysis by role, location, and demographic proxies where legal.
 
-## Conclusion
+## Related products in HireAI
 
-Give a concise takeaway and when you'd recommend it.
+- [Sapia.ai]({{ site.baseurl }}/sapiaai-analysis/) — AI chat-based hiring platform that uses natural language interviews to assess candidates fairly and at scale.
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments.
+- [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias.
+- [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles.
+
+## Takeaway
+
+Use PredictiveHire as a candidate in the Onboarding/Workflow/Integrated Sourcing group, not as a default winner. Keep it on the shortlist only if the checks above match the job you need done.
+
+## Source
+
+- Official website: https://www.predictivehire.com/
+- HireAI directory record updated 28 September 2026.
+
