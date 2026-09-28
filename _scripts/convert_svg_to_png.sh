@@ -20,6 +20,16 @@ fi
 
 echo "Using converter: $CONVERTER"
 
+# Square mark for structured data and touch icons (512x512)
+if [ -f "$IMAGES_DIR/favicon.svg" ]; then
+    echo "Converting favicon.svg to logo-mark.png..."
+    if [ "$CONVERTER" = "cairosvg" ]; then
+        cairosvg "$IMAGES_DIR/favicon.svg" -o "$IMAGES_DIR/logo-mark.png" -W 512 -H 512
+    else
+        rsvg-convert -w 512 -h 512 "$IMAGES_DIR/favicon.svg" > "$IMAGES_DIR/logo-mark.png"
+    fi
+fi
+
 # Convert favicon (32x32)
 if [ -f "$IMAGES_DIR/favicon.svg" ]; then
     echo "Converting favicon.svg..."

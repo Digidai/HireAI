@@ -1,47 +1,82 @@
 ---
 layout: default
-title: Home
-description: "Comprehensive collection of HR AI products and research, organized from 1990s ATS to 2024+ agentic AI platforms."
+title: HireAI
+seo_title: "HireAI — Open Directory of HR AI Products"
+description: "HireAI is an open directory of HR AI products, from 1990s applicant tracking systems to 2024+ agentic AI platforms, with vendor-neutral analysis."
 ---
-<div class="page-header">
-    <h1 class="page-title">HireAI</h1>
-    <p class="page-description">Comprehensive Collection of HR AI Products and Solutions. From 1990s ATS to 2024+ Agentic AI Platforms.</p>
-</div>
-
-<div class="stats-row">
-    {% assign product_count = 0 %}
-    {% for category in site.data.products %}
-        {% assign product_count = product_count | plus: category.products.size %}
+{% assign product_count = 0 %}
+{% assign all_tags = "" | split: "" %}
+{% for category in site.data.products %}
+    {% assign product_count = product_count | plus: category.products.size %}
+    {% for product in category.products %}
+        {% for tag in product.tags %}
+            {% assign all_tags = all_tags | push: tag %}
+        {% endfor %}
     {% endfor %}
-    <div class="stat-item">
-        <span class="stat-value">{{ product_count }}</span>
-        <span class="stat-label">HR AI Products</span>
-    </div>
-    <div class="stat-item">
-        <span class="stat-value">{{ site.data.products.size }}</span>
-        <span class="stat-label">Technology Eras</span>
-    </div>
-    <div class="stat-item">
-        <span class="stat-value">30+</span>
-        <span class="stat-label">Years of Evolution</span>
-    </div>
-</div>
+{% endfor %}
+{% assign unique_tags = all_tags | uniq | sort %}
 
-<div class="btn-group">
-    <a href="{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/" class="btn btn-primary">Read Research</a>
-    <a href="https://genedai.me/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">GeneDai.me</a>
-    <a href="https://github.com/Digidai/HireAI" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-        GitHub
-    </a>
-</div>
+<header class="hero">
+    <p class="eyebrow">Vendor-neutral research directory</p>
+    <h1 class="page-title">HireAI</h1>
+    <p class="answer-lead">HireAI is a free, open directory of {{ product_count }} HR AI products. It organizes applicant tracking systems, assessment tools, and agentic AI platforms into five technology eras, with analysis pages and evaluation checklists. HireAI does not sell placements or rank vendors.</p>
+    <form class="hero-search" action="{{ site.baseurl }}/product-directory/" method="get" role="search">
+        <label class="sr-only" for="hero-search">Search HR AI products</label>
+        <input class="search-input" id="hero-search" type="search" name="q" placeholder="Search {{ product_count }} HR AI products" enterkeyhint="search">
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <div class="btn-group">
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-primary">Browse the directory</a>
+        <a href="{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/" class="btn btn-secondary">Read the research</a>
+        <a href="{{ site.baseurl }}/tags/" class="btn btn-secondary">Browse tags</a>
+    </div>
+</header>
 
-<div class="divider"></div>
+<section class="section" aria-labelledby="coverage-heading">
+    <h2 id="coverage-heading" class="sr-only">Directory coverage</h2>
+    <div class="stats-grid">
+        <a class="stat-card" href="{{ site.baseurl }}/product-directory/">
+            <span class="stat-value">{{ product_count }}</span>
+            <span class="stat-label">Products</span>
+        </a>
+        <a class="stat-card" href="{{ site.baseurl }}/product-directory/">
+            <span class="stat-value">{{ site.data.products.size }}</span>
+            <span class="stat-label">Technology eras</span>
+        </a>
+        <a class="stat-card" href="{{ site.baseurl }}/tags/">
+            <span class="stat-value">{{ unique_tags.size }}</span>
+            <span class="stat-label">Tags</span>
+        </a>
+        <a class="stat-card" href="{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/">
+            <span class="stat-value">{{ site.analyses.size }}</span>
+            <span class="stat-label">Analyses</span>
+        </a>
+    </div>
+</section>
 
-<section class="section">
+<section class="section" aria-labelledby="eras-heading">
+    <div class="section-header">
+        <span class="section-icon">{% include icon.html name="hash" %}</span>
+        <h2 id="eras-heading" class="section-title">How the directory is organized</h2>
+    </div>
+    <p class="answer-lead">HireAI groups products with a five-stage HR technology framework, from 1990s applicant tracking systems to 2024+ agentic AI platforms.</p>
+    <dl class="era-defs">
+        {% for category in site.data.products %}
+        <div>
+            <dt>
+                <a href="{{ site.baseurl }}/product-directory/#{{ category.era | slugify }}">{{ category.era | escape }}</a>
+                <span class="era-count">{{ category.products.size }}</span>
+            </dt>
+            <dd>{{ category.summary | escape }}</dd>
+        </div>
+        {% endfor %}
+    </dl>
+</section>
+
+<section class="section" aria-labelledby="featured-heading">
     <div class="section-header">
         <span class="section-icon">{% include icon.html name="star" %}</span>
-        <h2 class="section-title">Featured Research</h2>
+        <h2 id="featured-heading" class="section-title">Featured analysis</h2>
     </div>
     <div class="featured-grid">
         {% for category in site.data.products %}
@@ -50,7 +85,7 @@ description: "Comprehensive collection of HR AI products and research, organized
                 <div class="featured-card">
                     <h3><a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/">{{ product.name | escape }}</a></h3>
                     <p>{{ product.description | escape }}</p>
-                    <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
+                    <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read analysis</a>
                 </div>
                 {% endif %}
             {% endfor %}
@@ -58,127 +93,90 @@ description: "Comprehensive collection of HR AI products and research, organized
     </div>
 </section>
 
-<section class="section">
-    <div class="section-header">
-        <span class="section-icon">{% include icon.html name="hash" %}</span>
-        <h2 class="section-title">Product Categories</h2>
-    </div>
-
-    {% for category in site.data.products %}
-    <div class="category-section" id="{{ category.era | slugify }}">
-        <div class="category-header">
-            <span class="category-icon">{% include icon.html name=category.icon %}</span>
-            <h3 class="category-title">{{ category.era | split: ' - ' | last }}</h3>
-            <span class="category-era">{{ category.era | split: ' - ' | first }}</span>
-        </div>
-        <ul class="product-list">
-            {% for product in category.products %}
-            <li class="product-item">
-                <span class="product-bullet">{% include product-favicon.html url=product.url %}</span>
-                <div class="product-content">
-                    <div class="product-name">
-                        <a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ product.name | escape }}</a>
-                    </div>
-                    <p class="product-desc">{{ product.description | escape }}</p>
-                    <div class="product-actions">
-                        <a href="{{ product.url | escape }}" class="product-link" target="_blank" rel="noopener noreferrer">
-                            Visit Website
-                        </a>
-                        {% if product.analysis %}
-                        <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="product-link">
-                            Read Analysis
-                        </a>
-                        {% endif %}
-                    </div>
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endfor %}
-</section>
-
-<section class="section">
-    <div class="section-header">
-        <span class="section-icon">{% include icon.html name="grid" %}</span>
-        <h2 class="section-title">All Products</h2>
-    </div>
-    <div class="database">
-        <div class="database-header">
-            <span class="database-title">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="9" y1="21" x2="9" y2="9"></line>
-                </svg>
-                Product Database
-            </span>
-            <div class="database-controls">
-                <input type="text" class="search-input" id="product-search" placeholder="Search products...">
-            </div>
-        </div>
-        <table class="database-table" id="product-table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Era</th>
-                    <th>Analysis</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for category in site.data.products %}
-                    {% for product in category.products %}
-                    <tr>
-                        <td><a href="{{ product.url | escape }}" target="_blank" rel="noopener noreferrer">{% include product-favicon.html url=product.url %} {{ product.name | escape }}</a></td>
-                        <td>{{ category.era | split: ' - ' | first }}</td>
-                        <td>
-                            {% if product.analysis %}
-                            <a href="{{ site.baseurl }}/{{ product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/">Read</a>
-                            {% else %}
-                            <span class="text-tertiary">-</span>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-</section>
-
-<section class="section">
+<section class="section" aria-labelledby="tags-heading">
     <div class="section-header">
         <span class="section-icon">{% include icon.html name="link" %}</span>
-        <h2 class="section-title">Browse by Tag</h2>
+        <h2 id="tags-heading" class="section-title">Browse by capability</h2>
     </div>
+    <p class="answer-lead">Tags describe what a product does, such as ATS, sourcing, assessment, or agentic AI. Each tag page includes an evaluation checklist.</p>
     <div class="tag-cloud">
-        {% assign all_tags = "" | split: "" %}
-        {% for category in site.data.products %}
-            {% for product in category.products %}
-                {% for tag in product.tags %}
-                    {% assign all_tags = all_tags | push: tag %}
+        {% for tag in unique_tags %}
+            {% assign tag_count = 0 %}
+            {% for category in site.data.products %}
+                {% for product in category.products %}
+                    {% if product.tags contains tag %}
+                        {% assign tag_count = tag_count | plus: 1 %}
+                    {% endif %}
                 {% endfor %}
             {% endfor %}
-        {% endfor %}
-        {% assign unique_tags = all_tags | uniq | sort %}
-        {% for tag in unique_tags %}
-            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
+            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}<span class="tag-count">{{ tag_count }}</span></a>
         {% endfor %}
     </div>
 </section>
 
-<section class="section">
+<section class="section" aria-labelledby="answers-heading">
     <div class="section-header">
         <span class="section-icon">{% include icon.html name="arrow-right" %}</span>
-        <h2 class="section-title">Quick Access</h2>
+        <h2 id="answers-heading" class="section-title">Common questions</h2>
     </div>
-    <div class="quick-links">
-        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">Complete Product Directory</a>
-        <a href="{{ site.baseurl }}/FAQ/" class="btn btn-secondary">Frequently Asked Questions</a>
+    <div class="question-list">
+        <article class="faq-item">
+            <h3>What is HR AI?</h3>
+            <p>HR AI is software that uses machine learning, natural language processing, or autonomous agents for human resources work such as recruiting, assessment, onboarding, learning, and talent management.</p>
+        </article>
+        <article class="faq-item">
+            <h3>How do I choose an HR AI product?</h3>
+            <p>Start with the job to be done, then filter HireAI by tag. Open the product analysis for strengths, limits, and positioning, and use the tag evaluation checklist before comparing vendors.</p>
+        </article>
+        <article class="faq-item">
+            <h3>What is an agentic AI platform for HR?</h3>
+            <p>An agentic AI platform can plan and carry out multi-step talent workflows, such as sourcing, engagement, and matching, with limited human intervention. HireAI files these products in the 2024+ era.</p>
+        </article>
     </div>
+    <p class="section-follow"><a href="{{ site.baseurl }}/FAQ/">Read all questions</a></p>
 </section>
 
-<div class="page-footer">
-    <p>2024 HireAI Contributors. Licensed under MIT License.</p>
-    <p>Powered by AI | Data-Driven | Open Source</p>
-</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "name": "HireAI HR AI Product Directory",
+      "description": {{ page.description | jsonify }},
+      "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+      "license": "https://opensource.org/licenses/MIT",
+      "isAccessibleForFree": true,
+      "keywords": ["HR AI", "ATS", "talent intelligence", "agentic AI", "recruiting software"],
+      "creator": {
+        "@type": "Organization",
+        "name": "HireAI",
+        "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }}
+      },
+      "temporalCoverage": "1990/2026",
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": {{ site.url | append: site.baseurl | append: "/products.json" | jsonify }}
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "HR AI technology eras",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": {{ site.data.products.size }},
+      "itemListElement": [
+        {% for category in site.data.products %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": {{ category.era | jsonify }},
+          "description": {{ category.summary | jsonify }},
+          "url": {{ site.url | append: site.baseurl | append: "/product-directory/#" | append: category.era | slugify | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>

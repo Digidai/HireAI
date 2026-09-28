@@ -1,7 +1,8 @@
 ---
 layout: default
 title: FAQ
-description: "Answers to common questions about HireAI, the HR AI product directory, and how the content is organized."
+seo_title: "HR AI FAQ | HireAI"
+description: "Answers about HireAI, how HR AI products are organized, how to choose a tool, and how to cite the directory."
 permalink: /FAQ/
 ---
 
@@ -15,7 +16,39 @@ permalink: /FAQ/
       "name": "What is HireAI?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "HireAI is a comprehensive collection of HR AI products and solutions. We track and organize various AI tools used in the Human Resources field, providing information and selection guides for HR professionals."
+        "text": "HireAI is a free, open directory of HR AI products. It organizes applicant tracking systems, assessment tools, and agentic AI platforms into five technology eras, with analysis pages and evaluation checklists. HireAI does not sell placements or rank vendors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is HR AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HR AI is software that uses machine learning, natural language processing, or autonomous agents for human resources work such as recruiting, assessment, onboarding, learning, and talent management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose an HR AI product?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the job to be done, then filter HireAI by tag such as ATS, sourcing, assessment, or agentic AI. Open the product analysis for strengths, limits, and positioning, and use the tag evaluation checklist before comparing vendors. HireAI does not rank or sell placements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an agentic AI platform for HR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An agentic AI platform can plan and carry out multi-step talent workflows, such as sourcing, engagement, and matching, with limited human intervention. In HireAI this is the 2024+ era, after applicant tracking, candidate marketing, workflow suites, and intelligent assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should HireAI be cited?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cite the specific page, for example: HireAI. \"Product name.\" https://hireai.genedai.me/page/. HireAI is an open directory maintained at https://github.com/Digidai/HireAI and licensed under MIT. A machine-readable catalog is at https://hireai.genedai.me/products.json."
       }
     },
     {
@@ -95,7 +128,7 @@ permalink: /FAQ/
       "name": "Can I access this data programmatically?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Currently, we don't provide an official API. However, since this is an open-source project, you can access the data directly from the GitHub repository in Markdown format."
+        "text": "Yes. A machine-readable catalog is published at https://hireai.genedai.me/products.json. Guidance for answer engines and language models is at https://hireai.genedai.me/llms.txt. The source data also lives in the GitHub repository."
       }
     },
     {
@@ -103,7 +136,7 @@ permalink: /FAQ/
       "name": "Is there a way to search for specific products?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You can browse products by category on the home page, use the search function in the product table, or browse by tags."
+        "text": "Search the product directory, press / or Ctrl/Cmd+K on any page, or browse products by tag. Each tag page includes an evaluation checklist."
       }
     },
     {
@@ -135,16 +168,39 @@ permalink: /FAQ/
 </script>
 
 <div class="page-header">
-    <h1 class="page-title">Frequently Asked Questions</h1>
-    <p class="page-description">Common questions about HireAI and HR AI products.</p>
+    <p class="eyebrow">Answers</p>
+    <h1 class="page-title">Frequently asked questions</h1>
+    <p class="answer-lead">HireAI is a free, open directory of HR AI products. These answers explain what the directory covers, how the five technology eras work, and how to choose or cite a product.</p>
 </div>
+
+<nav class="toc" id="toc" hidden aria-label="On this page"></nav>
 
 <section class="section">
     <h2 class="section-heading">About the Project</h2>
 
     <div class="faq-item">
         <h3>What is HireAI?</h3>
-        <p>HireAI is a comprehensive collection of HR AI products and solutions. We track and organize various AI tools used in the Human Resources field, providing information and selection guides for HR professionals.</p>
+        <p>HireAI is a free, open directory of HR AI products. It organizes applicant tracking systems, assessment tools, and agentic AI platforms into five technology eras, with analysis pages and evaluation checklists. HireAI does not sell placements or rank vendors.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What is HR AI?</h3>
+        <p>HR AI is software that uses machine learning, natural language processing, or autonomous agents for human resources work such as recruiting, assessment, onboarding, learning, and talent management.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>How do I choose an HR AI product?</h3>
+        <p>Start with the job to be done, then filter HireAI by tag such as ATS, sourcing, assessment, or agentic AI. Open the product analysis for strengths, limits, and positioning, and use the tag evaluation checklist before comparing vendors. HireAI does not rank or sell placements.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What is an agentic AI platform for HR?</h3>
+        <p>An agentic AI platform can plan and carry out multi-step talent workflows, such as sourcing, engagement, and matching, with limited human intervention. In HireAI this is the 2024+ era, after applicant tracking, candidate marketing, workflow suites, and intelligent assessment.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>How should HireAI be cited?</h3>
+        <p>Cite the specific page, for example: HireAI. “Product name.” https://hireai.genedai.me/page/. HireAI is an open directory maintained at <a href="https://github.com/Digidai/HireAI">github.com/Digidai/HireAI</a> and licensed under MIT. A machine-readable catalog is at <a href="{{ site.baseurl }}/products.json">products.json</a>.</p>
     </div>
 
     <div class="faq-item">
@@ -234,12 +290,12 @@ permalink: /FAQ/
 
     <div class="faq-item">
         <h3>Can I access this data programmatically?</h3>
-        <p>Currently, we don't provide an official API. However, since this is an open-source project, you can access the data directly from the GitHub repository in Markdown format.</p>
+        <p>Yes. A machine-readable catalog is published at <a href="{{ site.baseurl }}/products.json">products.json</a>. Guidance for answer engines and language models is at <a href="{{ site.baseurl }}/llms.txt">llms.txt</a>. The source data also lives in the GitHub repository.</p>
     </div>
 
     <div class="faq-item">
         <h3>Is there a way to search for specific products?</h3>
-        <p>You can browse products by category on the home page, use the search function in the product table, or browse by tags.</p>
+        <p>Search the product directory, press / or Ctrl/Cmd+K on any page, or browse products by tag. Each tag page includes an evaluation checklist.</p>
     </div>
 </section>
 

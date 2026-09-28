@@ -1,17 +1,31 @@
-<div class="card">
+{% assign analysis_path = "" %}
+{% if include.product.analysis %}
+    {% assign analysis_path = include.product.analysis | replace: "_analyses/", "" | replace: ".md", "" %}
+{% endif %}
+<article class="card">
     <div class="card-header">
         <span class="card-icon">{% include product-favicon.html url=include.product.url %}</span>
-        <h3 class="card-title"><a href="{{ include.product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.product.name | escape }}</a></h3>
+        <h3 class="card-title">
+            {% if analysis_path != "" %}
+            <a href="{{ site.baseurl }}/{{ analysis_path }}/">{{ include.product.name | escape }}</a>
+            {% else %}
+            <a href="{{ include.product.url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.product.name | escape }}</a>
+            {% endif %}
+        </h3>
     </div>
+    {% if include.category %}
+    <p class="card-era">{{ include.category.era | split: " - " | first | escape }}</p>
+    {% endif %}
     <p class="card-description">{{ include.product.description | escape }}</p>
     <div class="card-footer">
         {% for tag in include.product.tags %}
         <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" class="tag">{{ tag | escape }}</a>
         {% endfor %}
     </div>
-    {% if include.product.analysis %}
     <div class="card-actions">
-        <a href="{{ site.baseurl }}/{{ include.product.analysis | replace: '_analyses/', '' | replace: '.md', '' }}/" class="btn btn-outline">Read Analysis</a>
+        <a href="{{ include.product.url | escape }}" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Website</a>
+        {% if analysis_path != "" %}
+        <a href="{{ site.baseurl }}/{{ analysis_path }}/" class="btn btn-outline">Analysis</a>
+        {% endif %}
     </div>
-    {% endif %}
-</div>
+</article>

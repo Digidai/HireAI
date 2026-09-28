@@ -1,0 +1,154 @@
+{%- assign page_lang = page.lang | default: site.default_lang | default: "en" -%}
+{%- assign schema_lang = "en-US" -%}
+{%- if page_lang == "zh" -%}
+    {%- assign schema_lang = "zh-CN" -%}
+{%- endif -%}
+{%- assign page_modified = page.last_modified_at | default: page.last_updated -%}
+{%- capture search_template -%}{{ site_root }}/product-directory/?q={search_term_string}{%- endcapture -%}
+{%- assign webpage_id = canonical_url | append: "#webpage" -%}
+{%- assign website_id = site_root | append: "/#website" -%}
+{%- assign org_id = site_root | append: "/#organization" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
+      "url": {{ site_root | append: "/" | jsonify }},
+      "inLanguage": {{ schema_lang | jsonify }},
+      "publisher": { "@id": {{ org_id | jsonify }} },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": {{ search_template | jsonify }}
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": {{ org_id | jsonify }},
+      "name": "HireAI",
+      "alternateName": "HireAI HR AI Products Collection",
+      "url": {{ site_root | append: "/" | jsonify }},
+      "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ site_root | append: "/assets/images/logo-mark.png" | jsonify }},
+        "width": 512,
+        "height": 512
+      },
+      "knowsAbout": [
+        "Human resources technology",
+        "Applicant tracking systems",
+        "Talent intelligence",
+        "Recruiting automation",
+        "Agentic AI"
+      ],
+      "publishingPrinciples": {{ site_root | append: "/FAQ/" | jsonify }},
+      "sameAs": [
+        "https://github.com/Digidai/HireAI"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ meta_title | jsonify }},
+      "description": {{ meta_description | jsonify }},
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "about": { "@id": {{ org_id | jsonify }} },
+      "inLanguage": {{ schema_lang | jsonify }},
+      "isAccessibleForFree": true,
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ site_root | append: "/assets/images/og-image.png" | jsonify }},
+        "width": 1200,
+        "height": 630
+      }{% if page_modified %},
+      "dateModified": {{ page_modified | date_to_xmlschema | jsonify }}{% endif %},
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".answer-lead", ".page-description", ".fact-grid dd", ".faq-item p"]
+      }
+    }
+  ]
+}
+</script>
+{% if page.layout == "product-detail" %}
+{% assign app_description = page.product_tagline | default: page.description | default: "" %}
+{% assign app_description = app_description | strip_html | strip_newlines | strip %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": {{ page.product_name | jsonify }},
+  "description": {{ app_description | jsonify }},
+  "url": {{ page.website | jsonify }},
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  {% if page.company %}"author": {
+    "@type": "Organization",
+    "name": {{ page.company | jsonify }}
+  },{% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "HireAI",
+    "url": {{ site_root | jsonify }}
+  }
+}
+</script>
+{% endif %}
+{% if page.layout == "analysis" or page.layout == "article" %}
+{% assign article_description = page.description | default: page.page_description | default: "" %}
+{% assign article_description = article_description | strip_html | strip_newlines | strip %}
+{% assign published_at = page.date | default: page.last_modified_at | default: page.last_updated %}
+{% assign modified_at = page.last_modified_at | default: page.last_updated | default: published_at %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ article_description | jsonify }},
+  "url": {{ canonical_url | jsonify }},
+  {% if published_at %}"datePublished": {{ published_at | date_to_xmlschema | jsonify }},{% endif %}
+  {% if modified_at %}"dateModified": {{ modified_at | date_to_xmlschema | jsonify }},{% endif %}
+  "wordCount": {{ word_count | default: 0 }},
+  "articleSection": {% if page.era %}{{ page.era | jsonify }}{% else %}"HR AI Analysis"{% endif %},
+  "inLanguage": {{ schema_lang | jsonify }},
+  "isAccessibleForFree": true,
+  "keywords": {% if page.tags %}{{ page.tags | join: ", " | jsonify }}{% else %}"HR AI, Recruiting, Talent Management"{% endif %},
+  "author": {
+    "@type": "Organization",
+    "name": "HireAI",
+    "url": {{ site_root | append: "/" | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HireAI",
+    "url": {{ site_root | append: "/" | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site_root | append: "/assets/images/logo-mark.png" | jsonify }},
+      "width": 512,
+      "height": 512
+    }
+  },
+  "mainEntityOfPage": { "@id": {{ webpage_id | jsonify }} },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".answer-lead", ".fact-grid dd", ".markdown-content h2", ".markdown-content p"]
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ site_root | append: "/assets/images/og-image.png" | jsonify }},
+    "width": 1200,
+    "height": 630
+  }
+}
+</script>
+{% endif %}

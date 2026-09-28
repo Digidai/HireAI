@@ -8,6 +8,8 @@ breadcrumb:
   - name: "{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}"
     url: null
 ---
+{% assign tag_slug = page.tag | slugify %}
+{% assign checklist = site.data.tag_checklists[tag_slug] %}
 {% assign product_count = 0 %}
 {% assign product_items = "" | split: "" %}
 {% for category in site.data.products %}
@@ -52,10 +54,21 @@ breadcrumb:
 
 {% include breadcrumb.html %}
 <div class="page-header">
-    <div class="page-icon">{% include icon.html name="hash" %}</div>
+    <p class="eyebrow">Tag</p>
     <h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ page.tag | escape }}{% endif %}</h1>
-    <p class="page-description">{% if page.description %}{{ page.description | escape }}{% else %}Products tagged with "{{ page.tag | escape }}"{% endif %}</p>
+    <p class="answer-lead">{{ page.tag | escape }} covers {{ product_count }} HR AI {% if product_count == 1 %}product{% else %}products{% endif %} in the HireAI directory. Compare the products below{% if checklist %} and use the evaluation checklist{% endif %} before choosing a vendor.</p>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": {{ page.tag | jsonify }},
+  "description": {{ page.tag | append: " is a capability tag in the HireAI HR AI directory, covering " | append: product_count | append: " products." | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: page.url | jsonify }},
+  "inDefinedTermSet": {{ site.url | append: site.baseurl | append: "/tags/" | jsonify }}
+}
+</script>
 
 {% if content != "" %}
 <section class="section">
@@ -65,7 +78,6 @@ breadcrumb:
 </section>
 {% endif %}
 
-{% assign checklist = site.data.tag_checklists[page.tag | slugify] %}
 {% if checklist %}
 <section class="section">
     <div class="section-header">

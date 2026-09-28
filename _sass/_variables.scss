@@ -5,6 +5,10 @@
 
 // ── Light Theme ────────────────────────────────
 :root {
+    // Type
+    --font-sans: "Inter", -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-display: "Newsreader", "Iowan Old Style", Palatino, Georgia, serif;
+
     // Backgrounds
     --bg-page: #f7f8f8;
     --bg-surface: #ffffff;
@@ -109,6 +113,9 @@
     --shadow-lg: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px, rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
 
     --sidebar-bg: #191a1b;
+
+    --font-sans: "Inter", -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-display: "Newsreader", "Iowan Old Style", Palatino, Georgia, serif;
 
     --tag-bg: rgba(113, 112, 255, 0.1);
     --tag-text: #828fff;

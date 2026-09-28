@@ -1,0 +1,14 @@
+{%- if content contains "<h1" and content contains "</h1>" -%}
+    {%- assign h1_parts = content | split: "</h1>" -%}
+    {%- assign h1_head = h1_parts | first | replace: '<h1', '<h2 class="markdown-lead-title"' -%}
+<div class="markdown-content">
+    {{ h1_head }}</h2>
+    {%- for part in h1_parts offset:1 -%}
+        {{ part }}{% unless forloop.last %}</h1>{% endunless %}
+    {%- endfor -%}
+</div>
+{%- else -%}
+<div class="markdown-content">
+    {{ content }}
+</div>
+{%- endif -%}

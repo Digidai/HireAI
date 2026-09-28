@@ -1,5 +1,6 @@
 - era: 1990s - Applicant Tracking Systems (ATS)
   icon: database
+  summary: Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
   products:
   - name: Oracle Taleo
     url: https://www.oracle.com/human-capital-management/taleo/
@@ -131,6 +132,7 @@
     - Enterprise
 - era: 2000s - Candidate Marketing & Assessment
   icon: trending-up
+  summary: Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
   products:
   - name: Glassdoor
     url: https://www.glassdoor.com/
@@ -293,6 +295,7 @@
     - Staffing
 - era: 2010s - Onboarding/Workflow/Integrated Sourcing
   icon: zap
+  summary: Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
   products:
   - name: Greenhouse
     url: https://www.greenhouse.io/
@@ -568,6 +571,7 @@
     - Candidate Engagement
 - era: 2020s - Intelligent Assessment, Diversity, Career
   icon: target
+  summary: Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
   products:
   - name: HackerRank
     url: https://www.hackerrank.com/
@@ -886,6 +890,7 @@
     - Evaluation
 - era: 2024+ - Agentic AI Platforms
   icon: cpu
+  summary: Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
   products:
   - name: Beamery
     url: https://beamery.com/

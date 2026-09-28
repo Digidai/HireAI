@@ -1,0 +1,54 @@
+{%- assign lead = page.description | default: page.page_description | default: page.product_tagline -%}
+{%- assign fact_site = page.website | default: page.product_url -%}
+{%- assign fact_updated = page.last_modified_at | default: page.last_updated -%}
+{%- if lead -%}
+<p class="answer-lead">{{ lead | strip | escape }}</p>
+{%- endif -%}
+<dl class="fact-grid">
+    {%- if page.company -%}
+    <div>
+        <dt>Company</dt>
+        <dd>{{ page.company | escape }}</dd>
+    </div>
+    {%- endif -%}
+    {%- if page.founded -%}
+    <div>
+        <dt>Founded</dt>
+        <dd>{{ page.founded | escape }}</dd>
+    </div>
+    {%- endif -%}
+    {%- if page.location -%}
+    <div>
+        <dt>Location</dt>
+        <dd>{{ page.location | escape }}</dd>
+    </div>
+    {%- endif -%}
+    {%- if page.category -%}
+    <div>
+        <dt>Category</dt>
+        <dd>{{ page.category | escape }}</dd>
+    </div>
+    {%- endif -%}
+    {%- if page.era -%}
+    <div>
+        <dt>Technology era</dt>
+        <dd>{{ page.era | escape }}</dd>
+    </div>
+    {%- endif -%}
+    {%- if fact_site -%}
+    <div>
+        <dt>Website</dt>
+        <dd><a href="{{ fact_site | escape }}" target="_blank" rel="noopener noreferrer">{{ fact_site | escape }}</a></dd>
+    </div>
+    {%- endif -%}
+    {%- if fact_updated -%}
+    <div>
+        <dt>Updated</dt>
+        <dd><time datetime="{{ fact_updated | date: '%Y-%m-%d' }}">{{ fact_updated | date: "%B %d, %Y" }}</time></dd>
+    </div>
+    {%- endif -%}
+    <div>
+        <dt>Publisher</dt>
+        <dd>HireAI, an open HR AI directory</dd>
+    </div>
+</dl>

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Product Directory
-description: "Browse all HR AI products by technology era, with tags, direct links, and analysis pages."
+title: HR AI Product Directory
+seo_title: "HR AI Product Directory | HireAI"
+description: "Directory of HR AI products grouped by technology era, from 1990s applicant tracking systems to 2024+ agentic AI platforms."
 permalink: /product-directory/
 ---
 {% assign total_products = 0 %}
@@ -50,23 +51,35 @@ permalink: /product-directory/
 </script>
 
 <div class="page-header">
-    <div class="page-icon">{% include icon.html name="grid" %}</div>
-    <h1 class="page-title">Product Directory</h1>
-    <p class="page-description">Complete list of HR AI products organized by technology era.</p>
+    <p class="eyebrow">Product directory</p>
+    <h1 class="page-title">HR AI products by era</h1>
+    <p class="answer-lead">This directory lists {{ total_products }} HR AI products in {{ site.data.products.size }} technology eras, from 1990s applicant tracking systems to 2024+ agentic AI platforms. Search by product, vendor, or capability. Each card links to the vendor site and, when available, a HireAI analysis.</p>
 </div>
 
+<nav class="era-nav" aria-label="Filter by technology era">
+    <button type="button" class="pill-chip active" data-era-filter="all" aria-pressed="true">All eras</button>
+    {% for category in site.data.products %}
+    <button type="button" class="pill-chip" data-era-filter="{{ category.era | slugify }}" aria-pressed="false">{{ category.era | split: ' - ' | first | escape }}</button>
+    {% endfor %}
+</nav>
+
 <div class="search-bar">
-    <input type="text" class="search-input" id="product-directory-search" placeholder="Search products...">
+    <label class="sr-only" for="product-directory-search">Search the product directory</label>
+    <input type="search" class="search-input" id="product-directory-search" placeholder="Search products, vendors, or tags" enterkeyhint="search">
     <span id="product-directory-results" class="search-results"></span>
 </div>
+<p id="directory-empty" class="empty-state" hidden>No products match that search.</p>
 
 {% for category in site.data.products %}
 <section class="category-section" id="{{ category.era | slugify }}">
     <div class="category-header">
         <span class="category-icon">{% include icon.html name=category.icon %}</span>
         <h2 class="category-title">{{ category.era | split: ' - ' | last }}</h2>
-        <span class="category-era">{{ category.era | split: ' - ' | first }}</span>
+        <span class="category-era">{{ category.era | split: ' - ' | first }} · {{ category.products.size }}</span>
     </div>
+    {% if category.summary %}
+    <p class="category-summary">{{ category.summary | escape }}</p>
+    {% endif %}
 
     <div class="cards-grid">
         {% for product in category.products %}

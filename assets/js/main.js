@@ -2,31 +2,57 @@
 const themeToggle = document.getElementById('theme-toggle');
 const html = document.documentElement;
 
-const savedTheme = localStorage.getItem('theme') || 'light';
-html.setAttribute('data-theme', savedTheme);
+function currentTheme() {
+    return html.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+}
+
+if (!html.getAttribute('data-theme')) {
+    const savedTheme = localStorage.getItem('theme');
+    const theme = savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    html.setAttribute('data-theme', theme);
+}
 
 if (themeToggle) {
+    themeToggle.setAttribute('aria-pressed', currentTheme() === 'dark' ? 'true' : 'false');
     themeToggle.addEventListener('click', () => {
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        const newTheme = currentTheme() === 'light' ? 'dark' : 'light';
         html.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
+        themeToggle.setAttribute('aria-pressed', newTheme === 'dark' ? 'true' : 'false');
     });
 }
 
 // Mobile menu
 const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-const sidebar = document.querySelector('.sidebar');
+const sidebar = document.getElementById('site-sidebar');
+const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+
+function setSidebarOpen(open) {
+    if (!sidebar || !mobileMenuBtn) return;
+    sidebar.classList.toggle('open', open);
+    mobileMenuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    mobileMenuBtn.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    if (sidebarBackdrop) sidebarBackdrop.hidden = !open;
+    document.body.classList.toggle('sidebar-open', open);
+}
 
 if (mobileMenuBtn && sidebar) {
     mobileMenuBtn.addEventListener('click', () => {
-        sidebar.classList.toggle('open');
+        setSidebarOpen(!sidebar.classList.contains('open'));
     });
 
-    document.addEventListener('click', (e) => {
-        if (!sidebar.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
-            sidebar.classList.remove('open');
-        }
+    if (sidebarBackdrop) {
+        sidebarBackdrop.addEventListener('click', () => setSidebarOpen(false));
+    }
+
+    sidebar.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+            if (window.matchMedia('(max-width: 768px)').matches) setSidebarOpen(false);
+        });
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') setSidebarOpen(false);
     });
 }
 
@@ -141,6 +167,11 @@ function buildProductIndex() {
     return true;
 }
 
+function eraAllows(item) {
+    const era = window.activeEraFilter || 'all';
+    return era === 'all' || item.section.id === era;
+}
+
 function filterProductDirectoryCards(query) {
     const q = (query || '').trim();
 
@@ -156,19 +187,21 @@ function filterProductDirectoryCards(query) {
     allSections.forEach(section => sectionVisibility.set(section, 0));
 
     if (q === '') {
-        // Show all cards
         productCards.forEach(item => {
-            item.element.style.display = '';
-            sectionVisibility.set(item.section, sectionVisibility.get(item.section) + 1);
+            const isMatch = eraAllows(item);
+            item.element.style.display = isMatch ? '' : 'none';
+            if (isMatch) {
+                visibleCards++;
+                sectionVisibility.set(item.section, sectionVisibility.get(item.section) + 1);
+            }
         });
-        visibleCards = totalCards;
     } else if (productFuse) {
         // Use Fuse.js fuzzy search
         const results = productFuse.search(q);
         const matchedElements = new Set(results.map(r => r.item.element));
 
         productCards.forEach(item => {
-            const isMatch = matchedElements.has(item.element);
+            const isMatch = matchedElements.has(item.element) && eraAllows(item);
             item.element.style.display = isMatch ? '' : 'none';
             if (isMatch) {
                 visibleCards++;
@@ -179,7 +212,7 @@ function filterProductDirectoryCards(query) {
         // Fallback to simple includes search
         const lowerQ = q.toLowerCase();
         productCards.forEach(item => {
-            const isMatch = item.text.includes(lowerQ);
+            const isMatch = item.text.includes(lowerQ) && eraAllows(item);
             item.element.style.display = isMatch ? '' : 'none';
             if (isMatch) {
                 visibleCards++;
@@ -196,8 +229,11 @@ function filterProductDirectoryCards(query) {
     // Update results count
     const resultsEl = document.getElementById('product-directory-results');
     if (resultsEl) {
-        resultsEl.textContent = q === '' ? `${totalCards} products` : `${visibleCards} / ${totalCards} products`;
+        resultsEl.textContent = q === '' ? `${visibleCards} products` : `${visibleCards} / ${totalCards} products`;
     }
+
+    const emptyEl = document.getElementById('directory-empty');
+    if (emptyEl) emptyEl.hidden = visibleCards !== 0;
 }
 
 function initProductDirectorySearch() {
@@ -237,17 +273,6 @@ function initKeyboardShortcuts() {
         // Skip if user is typing in an input
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
             return;
-        }
-
-        // "/" to focus search
-        if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
-            e.preventDefault();
-            const searchInput = document.getElementById('product-directory-search') ||
-                               document.getElementById('tag-search') ||
-                               document.getElementById('product-search');
-            if (searchInput) {
-                searchInput.focus();
-            }
         }
 
         // "t" to toggle theme

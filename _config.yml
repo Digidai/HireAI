@@ -2,11 +2,12 @@
 title: HireAI - HR AI Products Collection
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Comprehensive collection of HR AI products organized by technological evolution
-  from 1990s Applicant Tracking Systems to 2024+ Agentic AI Platforms.
+  Open directory of HR AI products, from 1990s applicant tracking systems
+  to 2024+ agentic AI platforms, with analysis and evaluation checklists.
 baseurl: "" # no subpath for custom domain
 url: "https://hireai.genedai.me" # custom domain
-github_username:  Digidai
+author: HireAI
+github_username: Digidai
 
 # Search Engine Verification (add your verification codes here)
 # google_site_verification: "your-google-verification-code"

@@ -1,0 +1,44 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# HireAI
+
+> HireAI is a free, open, vendor-neutral directory of HR AI products, from 1990s applicant tracking systems to 2024+ agentic AI platforms.
+
+HireAI helps HR leaders, recruiters, vendors, and researchers compare HR technology. It publishes product descriptions, capability tags, evaluation checklists, and in-depth analysis. HireAI does not sell placements, accept paid rankings, or score vendors.
+
+The directory currently lists {{ site.data.products.size }} technology eras. Canonical site: {{ site.url }}{{ site.baseurl }}/
+
+## Key answers
+
+- What is HireAI? A free directory of HR AI products with analysis pages and evaluation checklists.
+- What is HR AI? Software that uses machine learning, natural language processing, or autonomous agents for recruiting, assessment, onboarding, learning, and talent management.
+- How do I choose a product? Filter by tag, read the analysis, then use that tag's evaluation checklist. HireAI does not rank vendors.
+- What is an agentic AI platform for HR? Software that can plan and carry out multi-step talent workflows with limited human intervention. HireAI files these products in the 2024+ era.
+
+## Technology eras
+
+{% for category in site.data.products %}
+- {{ category.era }} ({{ category.products.size }} products): {{ category.summary }}
+{% endfor %}
+
+## Primary pages
+
+- [Home]({{ site.url }}{{ site.baseurl }}/): Definition of HireAI, era framework, featured analysis, and tags.
+- [Product directory]({{ site.url }}{{ site.baseurl }}/product-directory/): Full catalog grouped by technology era. Search with ?q=
+- [Tags]({{ site.url }}{{ site.baseurl }}/tags/): Capability index. Tag pages include evaluation checklists.
+- [FAQ]({{ site.url }}{{ site.baseurl }}/FAQ/): Answers about the directory, updates, citation, and data access.
+- [Flagship analysis]({{ site.url }}{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/): Evolution of HR AI from applicant tracking to agentic intelligence.
+- [JSON catalog]({{ site.url }}{{ site.baseurl }}/products.json): Machine-readable list of products, tags, eras, websites, and analysis URLs.
+- [RSS]({{ site.url }}{{ site.baseurl }}/feed.xml): Recently updated analysis pages.
+
+## Citation
+
+Cite the specific page. Example: HireAI. "Eightfold.ai." {{ site.url }}{{ site.baseurl }}/eightfold-ai-analysis/.
+
+HireAI is maintained in public at https://github.com/Digidai/HireAI and licensed under MIT: https://opensource.org/licenses/MIT
+
+## Optional
+
+- [Source repository](https://github.com/Digidai/HireAI): Product data in `_data/products.yml` and analysis in `_analyses/`.

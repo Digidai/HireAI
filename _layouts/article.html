@@ -2,28 +2,49 @@
 layout: default
 ---
 <article class="article-page">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {{ site.url | append: site.baseurl | append: "/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Product Directory",
+          "item": {{ site.url | append: site.baseurl | append: "/product-directory/" | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ page.page_title | default: page.title | jsonify }},
+          "item": {{ site.url | append: site.baseurl | append: page.url | jsonify }}
+        }
+      ]
+    }
+    </script>
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ site.baseurl }}/product-directory/">Product Directory</a></li>
+            <li class="breadcrumb-item">{{ page.page_title | default: page.title | escape }}</li>
+        </ol>
+    </nav>
     <div class="page-header">
-        {% if page.page_title %}
+        {% if page.page_title or page.title %}
         <div class="page-header-row">
             {% include product-favicon.html url=page.website %}
-            <h1 class="page-title">{{ page.page_title | escape }}</h1>
+            <h1 class="page-title">{{ page.page_title | default: page.title | escape }}</h1>
         </div>
-        {% endif %}
-        {% if page.page_description %}
-        <p class="page-description">{{ page.page_description | escape }}</p>
         {% endif %}
     </div>
 
-    {% if page.website or page.tags or page.last_modified_at %}
-    <div class="article-meta-bar">
-        {% if page.website %}
-        <span class="meta-item"><strong>Website:</strong> <a href="{{ page.website | escape }}" target="_blank" rel="noopener noreferrer">{{ page.website | escape }}</a></span>
-        {% endif %}
-        {% if page.last_modified_at %}
-        <span class="meta-item"><strong>Updated:</strong> {{ page.last_modified_at | date: "%B %d, %Y" }}</span>
-        {% endif %}
-    </div>
-    {% endif %}
+    {% include extractable-summary.html %}
 
     {% if page.tags %}
     <div class="article-tags">
@@ -33,11 +54,13 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="markdown-content">
-        {{ content }}
-    </div>
+    <nav class="toc" id="toc" hidden aria-label="On this page"></nav>
+
+    {% include markdown-body.html %}
+
+    {% include cite-this.html %}
 
     <div class="page-footer">
-        <a href="{{ site.baseurl }}/" class="btn btn-secondary">← Back to Home</a>
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary">Back to products</a>
     </div>
 </article>

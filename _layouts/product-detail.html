@@ -16,30 +16,13 @@ breadcrumb:
             {% include product-favicon.html url=product_website %}
             <h1>{{ page.product_name | escape }}</h1>
         </div>
-        {% if page.product_tagline %}
-        <p class="product-tagline">{{ page.product_tagline | escape }}</p>
-        {% endif %}
     </div>
 
-    <div class="product-meta-bar">
-        <div class="meta-items">
-            {% if page.company %}
-            <span class="meta-item"><strong>Company:</strong> {{ page.company | escape }}</span>
-            {% endif %}
-            {% if page.founded %}
-            <span class="meta-item"><strong>Founded:</strong> {{ page.founded | escape }}</span>
-            {% endif %}
-            {% if page.location %}
-            <span class="meta-item"><strong>Location:</strong> {{ page.location | escape }}</span>
-            {% endif %}
-            {% if page.category %}
-            <span class="meta-item"><strong>Category:</strong> {{ page.category | escape }}</span>
-            {% endif %}
-        </div>
-        {% if page.website %}
-        <a href="{{ page.website | escape }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website →</a>
-        {% endif %}
-    </div>
+    {% include extractable-summary.html %}
+
+    {% if page.website %}
+    <p><a href="{{ page.website | escape }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit website</a></p>
+    {% endif %}
 
     {% if page.tags %}
     <div class="product-tags">
@@ -49,9 +32,13 @@ breadcrumb:
     </div>
     {% endif %}
 
-    <div class="product-content markdown-content">
-        {{ content }}
+    <nav class="toc" id="toc" hidden aria-label="On this page"></nav>
+
+    <div class="product-content">
+        {% include markdown-body.html %}
     </div>
+
+    {% include cite-this.html %}
 
     {% if page.key_features %}
     <section class="product-section">

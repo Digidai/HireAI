@@ -1,0 +1,4 @@
+{%- assign cite_title = page.page_title | default: page.product_name | default: page.title -%}
+{%- assign cite_updated = page.last_modified_at | default: page.last_updated -%}
+{%- assign cite_url = site.url | append: site.baseurl | append: page.url -%}
+<p class="cite-this">Cite as: HireAI. “{{ cite_title | escape }}.” <a href="{{ cite_url }}">{{ cite_url }}</a>{%- if cite_updated -%}. Updated {{ cite_updated | date: "%Y-%m-%d" }}{%- endif -%}.</p>

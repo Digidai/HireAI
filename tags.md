@@ -1,13 +1,14 @@
 ---
 layout: default
-title: All Tags
-description: "Browse HR AI products by tag, with evaluation checklists and related analysis pages."
+title: HR AI Product Tags
+seo_title: "HR AI Product Tags | HireAI"
+description: "Browse HR AI products by capability tag, with evaluation checklists for ATS, sourcing, assessment, agentic AI, and more."
 permalink: /tags/
 ---
 <div class="page-header">
-    <div class="page-icon">{% include icon.html name="hash" %}</div>
+    <p class="eyebrow">Capabilities</p>
     <h1 class="page-title">Tags</h1>
-    <p class="page-description">Browse HR AI products by technology category and feature tags.</p>
+    <p class="answer-lead">Tags group HR AI products by capability, such as ATS, sourcing, assessment, or agentic AI. Open a tag to see matching products and an evaluation checklist.</p>
 </div>
 
 <section class="section">

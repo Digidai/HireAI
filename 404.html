@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Page Not Found - 404 Error
-description: "The page you're looking for doesn't exist or has been moved. Explore our HR AI product directory or search for what you need."
+title: Page Not Found
+seo_title: "Page not found | HireAI"
+description: "The page you're looking for doesn't exist or has been moved. Explore the HR AI product directory or search for a product."
 permalink: /404.html
 robots: noindex, follow
 ---
@@ -51,21 +52,23 @@ robots: noindex, follow
         </div>
 
         <div class="error-links-section">
-            <h2>Product Categories</h2>
+            <h2>Technology eras</h2>
             <ul class="error-links-list">
-                <li><a href="{{ site.baseurl }}/#1990s">1990s - Applicant Tracking Systems</a></li>
-                <li><a href="{{ site.baseurl }}/#2000s">2000s - Candidate Marketing & Assessment</a></li>
-                <li><a href="{{ site.baseurl }}/#2010s">2010s - Onboarding & Workflow</a></li>
-                <li><a href="{{ site.baseurl }}/#2020s">2020s - Intelligent Assessment</a></li>
-                <li><a href="{{ site.baseurl }}/#2024">2024+ - Agentic AI Platforms</a></li>
+                {% for category in site.data.products %}
+                <li><a href="{{ site.baseurl }}/product-directory/#{{ category.era | slugify }}">{{ category.era | escape }}</a></li>
+                {% endfor %}
             </ul>
         </div>
     </nav>
 
     <div class="error-search">
-        <h2>Search for Products</h2>
-        <p>Use our product directory to find HR AI tools and solutions:</p>
-        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-primary btn-large">
+        <h2>Search for products</h2>
+        <form class="hero-search" action="{{ site.baseurl }}/product-directory/" method="get" role="search">
+            <label class="sr-only" for="error-search">Search HR AI products</label>
+            <input class="search-input" id="error-search" type="search" name="q" placeholder="Search HR AI products">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        <a href="{{ site.baseurl }}/product-directory/" class="btn btn-secondary btn-large">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

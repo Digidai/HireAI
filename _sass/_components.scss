@@ -15,9 +15,10 @@
     padding: 20px;
     box-shadow: var(--shadow-ring);
     transition: box-shadow var(--transition-slow), border-color var(--transition-slow);
-    cursor: pointer;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
 
     &:hover {
         box-shadow: var(--shadow-lg);
@@ -86,7 +87,11 @@
 }
 
 .card-actions {
-    margin-top: 16px;
+    margin-top: auto;
+    padding-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 // ── Tags ────────────────────────────────────────

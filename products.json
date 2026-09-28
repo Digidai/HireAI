@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /products.json
+---
+{
+  "name": "HireAI HR AI Product Directory",
+  "description": {{ site.description | strip | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+  "license": "https://opensource.org/licenses/MIT",
+  "updated": {{ site.time | date: "%Y-%m-%d" | jsonify }},
+  "citation": "HireAI. HR AI Product Directory. https://hireai.genedai.me/",
+  "eras": [
+    {% for category in site.data.products %}
+    {
+      "name": {{ category.era | jsonify }},
+      "summary": {{ category.summary | jsonify }},
+      "count": {{ category.products.size }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "products": [
+    {% for category in site.data.products %}
+      {% for product in category.products %}
+    {
+      "name": {{ product.name | jsonify }},
+      "description": {{ product.description | jsonify }},
+      "url": {{ product.url | jsonify }},
+      "era": {{ category.era | jsonify }},
+      "tags": {{ product.tags | jsonify }},
+      "analysis": {% if product.analysis %}{{ site.url | append: site.baseurl | append: "/" | append: product.analysis | replace: "_analyses/", "" | replace: ".md", "" | append: "/" | jsonify }}{% else %}null{% endif %}
+    }{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+      {% endfor %}
+    {% endfor %}
+  ]
+}
