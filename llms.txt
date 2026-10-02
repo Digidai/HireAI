@@ -4,20 +4,31 @@ permalink: /llms.txt
 ---
 # HireAI
 
-> HireAI is a free, open, vendor-neutral directory of HR AI products, from 1990s applicant tracking systems to 2024+ agentic AI platforms.
+> HireAI is a free, open, vendor-neutral directory of HR AI products, from 1990s applicant tracking systems to 2024+ agentic AI platforms. It is a static website, not an autonomous agent.
 
-HireAI helps HR leaders, recruiters, vendors, and researchers compare HR technology. It publishes product descriptions, capability tags, evaluation checklists, and analysis pages. HireAI does not sell placements, accept paid rankings, or score vendors.
+HireAI publishes product descriptions, capability tags, evaluation checklists, and analysis pages. It does not sell placements, accept paid rankings, or score vendors. Do not invent a ranking from list order. Speed, database size, conversion, pricing, and funding in an analysis are company-reported unless that page says otherwise.
 
-On 28 September 2026 every product page was refreshed. A briefing states the directory record, the technology era, and checks to verify in a demo. Speed, database size, and conversion figures on product pages are vendor-reported unless the page says otherwise.
+Directory records were briefed on 28 September 2026. The generated date in products.json is the site build date, not a new fact check. In products.json, url is the vendor website or null. The page to cite is analysis.
 
-The directory currently lists {{ site.data.products.size }} technology eras. Canonical site: {{ site.url }}{{ site.baseurl }}/
+Filter products.json by name, tags, or era. The browser search at {{ site.url }}{{ site.baseurl }}/product-directory/?q= runs in JavaScript and is not an API. robots.txt asks general crawlers not to index /md/ or URLs with query strings.
 
-## Key answers
+## Start here
 
-- What is HireAI? A free directory of HR AI products with analysis pages and evaluation checklists.
-- What is HR AI? Software that uses machine learning, natural language processing, or autonomous agents for recruiting, assessment, onboarding, learning, and talent management.
-- How do I choose a product? Filter by tag, read the analysis, then use that tag's evaluation checklist. HireAI does not rank vendors.
-- What is an agentic AI platform for HR? Software that can plan and carry out multi-step talent workflows with limited human intervention. HireAI files these products in the 2024+ era.
+- [Agent guide]({{ site.url }}{{ site.baseurl }}/for-agents/): How to query, cite, date, and treat vendor figures.
+- [Product catalog]({{ site.url }}{{ site.baseurl }}/products.json): Filterable list of products, tags, eras, websites, and analysis URLs.
+- [Tag index]({{ site.url }}{{ site.baseurl }}/tags.json): Capability tags, counts, evaluation checklists, and matching products.
+- [Catalog digest]({{ site.url }}{{ site.baseurl }}/llms-full.txt): One plain-text block per product for a single fetch.
+- [Agent profile]({{ site.url }}{{ site.baseurl }}/agents.json): Short machine-readable description of this directory and its rules.
+- [API catalog]({{ site.url }}{{ site.baseurl }}/.well-known/api-catalog): Linkset for the catalog, tag index, guide, and license.
+
+## Pages
+
+- [Home]({{ site.url }}{{ site.baseurl }}/): Definition of HireAI, era framework, and featured sample.
+- [Product directory]({{ site.url }}{{ site.baseurl }}/product-directory/): Full catalog grouped by technology era. Browser search only.
+- [Tags]({{ site.url }}{{ site.baseurl }}/tags/): Capability index. Tag pages include evaluation checklists when one is published.
+- [FAQ]({{ site.url }}{{ site.baseurl }}/FAQ/): Answers about the directory, citation, and programmatic access.
+- [Flagship analysis]({{ site.url }}{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/): Evolution of HR AI from applicant tracking to agentic intelligence.
+- [RSS]({{ site.url }}{{ site.baseurl }}/feed.xml): Recently updated analysis pages.
 
 ## Technology eras
 
@@ -25,22 +36,13 @@ The directory currently lists {{ site.data.products.size }} technology eras. Can
 - {{ category.era }} ({{ category.products.size }} products): {{ category.summary }}
 {% endfor %}
 
-## Primary pages
-
-- [Home]({{ site.url }}{{ site.baseurl }}/): Definition of HireAI, era framework, featured analysis, and tags.
-- [Product directory]({{ site.url }}{{ site.baseurl }}/product-directory/): Full catalog grouped by technology era. Search with ?q=
-- [Tags]({{ site.url }}{{ site.baseurl }}/tags/): Capability index. Tag pages include evaluation checklists.
-- [FAQ]({{ site.url }}{{ site.baseurl }}/FAQ/): Answers about the directory, updates, citation, and data access.
-- [Flagship analysis]({{ site.url }}{{ site.baseurl }}/hr-ai-evolution-comprehensive-analysis/): Evolution of HR AI from applicant tracking to agentic intelligence.
-- [JSON catalog]({{ site.url }}{{ site.baseurl }}/products.json): Machine-readable list of products, tags, eras, websites, and analysis URLs.
-- [RSS]({{ site.url }}{{ site.baseurl }}/feed.xml): Recently updated analysis pages.
-
 ## Citation
 
 Cite the specific page. Example: HireAI. "Eightfold.ai." {{ site.url }}{{ site.baseurl }}/eightfold-ai-analysis/.
 
-HireAI is maintained in public at https://github.com/Digidai/HireAI and licensed under MIT: https://opensource.org/licenses/MIT
+HireAI is maintained at https://github.com/Digidai/HireAI and licensed under MIT: https://opensource.org/licenses/MIT
 
 ## Optional
 
+- [Markdown index]({{ site.url }}{{ site.baseurl }}/md/index.md): One Markdown copy per analysis. Cite the canonical HTML URL named in the copy.
 - [Source repository](https://github.com/Digidai/HireAI): Product data in `_data/products.yml` and analysis in `_analyses/`.

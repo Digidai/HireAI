@@ -8,10 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Agent guide, catalog records, tag index, Markdown copies, and a plain-text digest so an agent can query the directory without the browser search.
 - New tag pages for enhanced categorization (35+ new tags)
 - Improved structured data for better SEO
 
 ### Changed
+- Stated that directory search runs in the browser, that list order is not a ranking, and that vendor figures are not HireAI measurements.
 - Recorded that OpenJobs AI is now Metix AI, and updated other products whose public sites or owners changed, with the source named on each page.
 - Refreshed every product page with a 28 September 2026 briefing, era placement, and demo checks tied to directory tags.
 - Replaced placeholder feature lists with catalog-backed briefings and labeled vendor-reported figures.

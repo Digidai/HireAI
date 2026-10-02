@@ -3,38 +3,55 @@ layout: null
 permalink: /robots.txt
 ---
 # HireAI — open directory of HR AI products
-# https://hireai.genedai.me
-# Language-model guide: {{ site.url }}{{ site.baseurl }}/llms.txt
-# Machine-readable catalog: {{ site.url }}{{ site.baseurl }}/products.json
+# {{ site.url }}{{ site.baseurl }}/
+# Agent guide: {{ site.url }}{{ site.baseurl }}/for-agents/
+# Language-model index: {{ site.url }}{{ site.baseurl }}/llms.txt
+# Catalog: {{ site.url }}{{ site.baseurl }}/products.json
+# Query the catalog. /product-directory/?q= is browser-only and is disallowed by /*?*
+# /md/ is a Markdown copy for agents. General crawlers are asked not to index it.
 
-# Answer engines and AI crawlers are welcome to read and cite HireAI.
+# Documented answer-engine and AI crawlers may read the HTML, the catalog, and the Markdown copies.
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
-User-agent: PerplexityBot
-User-agent: Perplexity-User
 User-agent: ClaudeBot
 User-agent: Claude-SearchBot
 User-agent: Claude-User
 User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
 User-agent: Google-Extended
 User-agent: Applebot-Extended
 User-agent: Amazonbot
 User-agent: CCBot
 User-agent: Bingbot
-Allow: /
-Disallow: /_templates/
-Disallow: /.claude/
-Disallow: /_scripts/
-
-User-agent: *
-Allow: /
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalfetcher
+User-agent: Bytespider
+User-agent: cohere-ai
+User-agent: DuckAssistBot
+User-agent: YouBot
+User-agent: AI2Bot
+User-agent: Diffbot
 Disallow: /_templates/
 Disallow: /.claude/
 Disallow: /_scripts/
 Disallow: /*?*
+Allow: /md/
+Allow: /catalog/
+Allow: /
+
+# Everyone else may read the site. Markdown copies stay out of the general index.
+User-agent: *
+Disallow: /md/
+Disallow: /_templates/
+Disallow: /.claude/
+Disallow: /_scripts/
+Disallow: /*?*
+Allow: /
 
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-index.xml
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-analyses.xml
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-tags.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap-catalog.xml

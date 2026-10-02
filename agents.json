@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /agents.json
+---
+{% capture record_template %}{{ site.url }}{{ site.baseurl }}/catalog/{id}.json{% endcapture %}
+{% capture markdown_template %}{{ site.url }}{{ site.baseurl }}/md/{id}.md{% endcapture %}
+{
+  "name": "HireAI",
+  "kind": "static-directory",
+  "autonomous": false,
+  "description": "HireAI is a readable directory of HR AI products. It does not take actions, rank vendors, or measure vendor performance.",
+  "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+  "license": "https://opensource.org/licenses/MIT",
+  "usageInfo": {{ site.url | append: site.baseurl | append: "/for-agents/" | jsonify }},
+  "contentBriefing": "2026-09-28",
+  "generated": {{ site.time | date: "%Y-%m-%d" | jsonify }},
+  "guide": {{ site.url | append: site.baseurl | append: "/for-agents/" | jsonify }},
+  "llms": {{ site.url | append: site.baseurl | append: "/llms.txt" | jsonify }},
+  "digest": {{ site.url | append: site.baseurl | append: "/llms-full.txt" | jsonify }},
+  "catalog": {{ site.url | append: site.baseurl | append: "/products.json" | jsonify }},
+  "tags": {{ site.url | append: site.baseurl | append: "/tags.json" | jsonify }},
+  "recordTemplate": {{ record_template | jsonify }},
+  "markdownTemplate": {{ markdown_template | jsonify }},
+  "markdownIndex": {{ site.url | append: site.baseurl | append: "/md/index.md" | jsonify }},
+  "apiCatalog": {{ site.url | append: site.baseurl | append: "/.well-known/api-catalog" | jsonify }},
+  "query": "Filter products.json by name, tags, and era. /product-directory/?q= is not an API. That page fills results with JavaScript.",
+  "rules": [
+    "Do not rank vendors or infer a score from list order, era order, or the spotlight flag.",
+    "spotlight true means the home page shows that product as a sample. false is not a negative judgment.",
+    "Do not treat vendor speed, database size, conversion, pricing, or funding as HireAI measurements.",
+    "Cite the analysis URL for the product you use.",
+    "If url is null, HireAI intentionally lists no website. Do not substitute another domain.",
+    "contentBriefing is the last full directory refresh. generated is only the site build date.",
+    "In products.json, url is the vendor website. In a catalog record, url is the JSON file and vendorUrl is the vendor website."
+  ]
+}

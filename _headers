@@ -1,6 +1,6 @@
 /*
   Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; form-action 'self'; upgrade-insecure-requests
-  Link: </llms.txt>; rel="describedby"; type="text/plain", </products.json>; rel="alternate"; type="application/json"
+  Link: </llms.txt>; rel="describedby"; type="text/plain", </products.json>; rel="service-desc"; type="application/json", </tags.json>; rel="service-desc"; type="application/json", </for-agents/>; rel="service-doc", </.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", <https://opensource.org/licenses/MIT>; rel="license"
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
@@ -22,8 +22,36 @@
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=3600
 
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
 /products.json
   Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/tags.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/agents.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/catalog/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/md/*
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/api-catalog.json
+  Content-Type: application/linkset+json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8
   Cache-Control: public, max-age=3600
 
 /robots.txt

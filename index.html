@@ -60,6 +60,7 @@ description: "HireAI is an open directory of HR AI products, from 1990s applican
         <h2 id="eras-heading" class="section-title">How the directory is organized</h2>
     </div>
     <p class="answer-lead">HireAI groups products with a five-stage HR technology framework, from 1990s applicant tracking systems to 2024+ agentic AI platforms.</p>
+    <p class="page-description">Eras are listed from oldest to newest. That order is chronological, not a ranking of products.</p>
     <dl class="era-defs">
         {% for category in site.data.products %}
         <div>
@@ -114,6 +115,33 @@ description: "HireAI is an open directory of HR AI products, from 1990s applican
     </div>
 </section>
 
+<section class="section" aria-labelledby="agents-heading">
+    <div class="section-header">
+        <span class="section-icon">{% include icon.html name="link" %}</span>
+        <h2 id="agents-heading" class="section-title">For agents and answer engines</h2>
+    </div>
+    <p class="answer-lead">HireAI is a static directory, not an autonomous agent. The search box runs in the browser. Filter products.json by name, tag, or era. Do not rank vendors, and do not treat vendor pricing or performance figures as HireAI measurements.</p>
+    <p class="page-description">Open access. See the agent guide for citation and measurement rules.</p>
+    <dl class="fact-grid">
+        <div>
+            <dt>Guide</dt>
+            <dd><a href="{{ site.baseurl }}/for-agents/">How to query and cite</a></dd>
+        </div>
+        <div>
+            <dt>Catalog</dt>
+            <dd><a href="{{ site.baseurl }}/products.json">products.json</a></dd>
+        </div>
+        <div>
+            <dt>Tags</dt>
+            <dd><a href="{{ site.baseurl }}/tags.json">tags.json</a></dd>
+        </div>
+        <div>
+            <dt>Digest</dt>
+            <dd><a href="{{ site.baseurl }}/llms-full.txt">llms-full.txt</a></dd>
+        </div>
+    </dl>
+</section>
+
 <section class="section" aria-labelledby="answers-heading">
     <div class="section-header">
         <span class="section-icon">{% include icon.html name="arrow-right" %}</span>
@@ -132,6 +160,10 @@ description: "HireAI is an open directory of HR AI products, from 1990s applican
             <h3>What is an agentic AI platform for HR?</h3>
             <p>An agentic AI platform can plan and carry out multi-step talent workflows, such as sourcing, engagement, and matching, with limited human intervention. HireAI files these products in the 2024+ era.</p>
         </article>
+        <article class="faq-item">
+            <h3>How should an agent read HireAI?</h3>
+            <p>Filter <a href="{{ site.baseurl }}/products.json">products.json</a> by name, tags, or era. HireAI is a static directory, not an autonomous agent. Do not rank vendors, and do not report vendor pricing or performance figures as HireAI measurements. The rules are in the <a href="{{ site.baseurl }}/for-agents/">agent guide</a>.</p>
+        </article>
     </div>
     <p class="section-follow"><a href="{{ site.baseurl }}/FAQ/">Read all questions</a></p>
 </section>
@@ -145,8 +177,11 @@ description: "HireAI is an open directory of HR AI products, from 1990s applican
       "name": "HireAI HR AI Product Directory",
       "description": {{ page.description | jsonify }},
       "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
-      "license": "https://opensource.org/licenses/MIT",
       "isAccessibleForFree": true,
+      "license": "https://opensource.org/licenses/MIT",
+      "usageInfo": {{ site.url | append: site.baseurl | append: "/for-agents/" | jsonify }},
+      "conditionsOfAccess": "Open access. See the agent guide for citation and measurement rules.",
+      "includedInDataCatalog": { "@id": {{ site.url | append: site.baseurl | append: "/#datacatalog" | jsonify }} },
       "keywords": ["HR AI", "ATS", "talent intelligence", "agentic AI", "recruiting software"],
       "creator": {
         "@type": "Organization",
@@ -154,15 +189,68 @@ description: "HireAI is an open directory of HR AI products, from 1990s applican
         "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }}
       },
       "temporalCoverage": "1990/2026",
-      "distribution": {
-        "@type": "DataDownload",
-        "encodingFormat": "application/json",
-        "contentUrl": {{ site.url | append: site.baseurl | append: "/products.json" | jsonify }}
-      }
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Product catalog",
+          "encodingFormat": "application/json",
+          "contentUrl": {{ site.url | append: site.baseurl | append: "/products.json" | jsonify }}
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Tag index",
+          "encodingFormat": "application/json",
+          "contentUrl": {{ site.url | append: site.baseurl | append: "/tags.json" | jsonify }}
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Catalog digest",
+          "encodingFormat": "text/plain",
+          "contentUrl": {{ site.url | append: site.baseurl | append: "/llms-full.txt" | jsonify }}
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is HR AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HR AI is software that uses machine learning, natural language processing, or autonomous agents for human resources work such as recruiting, assessment, onboarding, learning, and talent management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose an HR AI product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the job to be done, then filter HireAI by tag. Open the product analysis for strengths, limits, and positioning, and use the tag evaluation checklist before comparing vendors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is an agentic AI platform for HR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An agentic AI platform can plan and carry out multi-step talent workflows, such as sourcing, engagement, and matching, with limited human intervention. HireAI files these products in the 2024+ era."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should an agent read HireAI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Filter products.json by name, tags, or era. HireAI is a static directory, not an autonomous agent. Do not rank vendors, and do not report vendor pricing or performance figures as HireAI measurements. The rules are in the agent guide."
+          }
+        }
+      ]
     },
     {
       "@type": "ItemList",
       "name": "HR AI technology eras",
+      "description": "Eras are listed from oldest to newest. That order is chronological, not a ranking of products.",
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "numberOfItems": {{ site.data.products.size }},
       "itemListElement": [

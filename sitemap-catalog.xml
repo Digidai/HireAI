@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /sitemap-catalog.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for category in site.data.products %}
+    {% for product in category.products %}
+      {% assign product_id = product.analysis | replace: "_analyses/", "" | replace: ".md", "" %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/catalog/{{ product_id }}.json</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+    {% endfor %}
+  {% endfor %}
+</urlset>

@@ -2,13 +2,61 @@
 layout: null
 permalink: /products.json
 ---
+{% assign product_count = 0 %}
+{% assign tag_names = "" | split: "" %}
+{% for category in site.data.products %}
+  {% assign product_count = product_count | plus: category.products.size %}
+  {% for product in category.products %}
+    {% for tag in product.tags %}
+      {% assign tag_names = tag_names | push: tag %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+{% assign tag_count = tag_names | uniq | size %}
+{% capture catalog_citation %}HireAI. HR AI Product Directory. {{ site.url }}{{ site.baseurl }}/.{% endcapture %}
+{% capture browser_search %}{{ site.url }}{{ site.baseurl }}/product-directory/?q= runs in the browser and is not an API.{% endcapture %}
+{% capture record_template %}{{ site.url }}{{ site.baseurl }}/catalog/{id}.json{% endcapture %}
+{% capture markdown_template %}{{ site.url }}{{ site.baseurl }}/md/{id}.md{% endcapture %}
 {
   "name": "HireAI HR AI Product Directory",
   "description": {{ site.description | strip | jsonify }},
   "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+  "kind": "static-directory",
+  "autonomous": false,
   "license": "https://opensource.org/licenses/MIT",
-  "updated": {{ site.time | date: "%Y-%m-%d" | jsonify }},
-  "citation": "HireAI. HR AI Product Directory. https://hireai.genedai.me/",
+  "usageInfo": {{ site.url | append: site.baseurl | append: "/for-agents/" | jsonify }},
+  "contentBriefing": "2026-09-28",
+  "generated": {{ site.time | date: "%Y-%m-%d" | jsonify }},
+  "citation": {{ catalog_citation | jsonify }},
+  "source": "https://github.com/Digidai/HireAI",
+  "fields": {
+    "url": "Vendor website, or null when HireAI lists no link. This is not the analysis URL.",
+    "analysis": "Canonical HireAI page to cite.",
+    "record": "JSON record. In that file, url is the record itself and vendorUrl is the vendor website.",
+    "spotlight": "True only when the home page shows the product as a sample. False is not a negative judgment and not a rank."
+  },
+  "query": {
+    "method": "Filter products by name, tags, or era. Each id is the analysis filename without .md.",
+    "recordTemplate": {{ record_template | jsonify }},
+    "markdownTemplate": {{ markdown_template | jsonify }},
+    "tags": {{ site.url | append: site.baseurl | append: "/tags.json" | jsonify }},
+    "digest": {{ site.url | append: site.baseurl | append: "/llms-full.txt" | jsonify }},
+    "guide": {{ site.url | append: site.baseurl | append: "/for-agents/" | jsonify }},
+    "browserSearch": {{ browser_search | jsonify }}
+  },
+  "rules": [
+    "Do not rank vendors or infer a score from list order, era order, or the spotlight flag.",
+    "spotlight true means the home page shows that product as a sample. false is not a negative judgment.",
+    "Do not treat vendor speed, database size, conversion, pricing, or funding as HireAI measurements.",
+    "Cite products.citation for the product you use.",
+    "If url is null, HireAI intentionally lists no website. Do not substitute another domain.",
+    "contentBriefing is the last full directory refresh. generated is only the site build date."
+  ],
+  "counts": {
+    "products": {{ product_count }},
+    "eras": {{ site.data.products.size }},
+    "tags": {{ tag_count }}
+  },
   "eras": [
     {% for category in site.data.products %}
     {
@@ -21,13 +69,21 @@ permalink: /products.json
   "products": [
     {% for category in site.data.products %}
       {% for product in category.products %}
+        {% assign product_id = product.analysis | replace: "_analyses/", "" | replace: ".md", "" %}
+        {% capture product_page %}{{ site.url }}{{ site.baseurl }}/{{ product_id }}/{% endcapture %}
+        {% capture product_citation %}HireAI. "{{ product.name }}." {{ product_page }}.{% endcapture %}
     {
+      "id": {{ product_id | jsonify }},
       "name": {{ product.name | jsonify }},
       "description": {{ product.description | jsonify }},
-      "url": {{ product.url | jsonify }},
+      "url": {% if product.url != blank %}{{ product.url | jsonify }}{% else %}null{% endif %},
       "era": {{ category.era | jsonify }},
       "tags": {{ product.tags | jsonify }},
-      "analysis": {% if product.analysis %}{{ site.url | append: site.baseurl | append: "/" | append: product.analysis | replace: "_analyses/", "" | replace: ".md", "" | append: "/" | jsonify }}{% else %}null{% endif %}
+      "analysis": {{ product_page | jsonify }},
+      "record": {{ site.url | append: site.baseurl | append: "/catalog/" | append: product_id | append: ".json" | jsonify }},
+      "markdown": {{ site.url | append: site.baseurl | append: "/md/" | append: product_id | append: ".md" | jsonify }},
+      "citation": {{ product_citation | jsonify }},
+      "spotlight": {% if product.featured %}true{% else %}false{% endif %}
     }{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
       {% endfor %}
     {% endfor %}

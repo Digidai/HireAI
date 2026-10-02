@@ -1,5 +1,7 @@
 # SEO 快速配置指南
 
+智能体请直接读站点上的 [for-agents](https://hireai.genedai.me/for-agents/)、[products.json](https://hireai.genedai.me/products.json) 和 [llms.txt](https://hireai.genedai.me/llms.txt)。目录页的 `?q=` 搜索在浏览器里执行，不是接口。不要根据列表顺序给厂商排名，也不要把厂商公布的速度、库容、转化、价格或融资写成 HireAI 的测量结果。
+
 ## 🔧 立即配置项
 
 ### 1. 搜索引擎验证

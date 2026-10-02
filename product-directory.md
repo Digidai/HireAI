@@ -30,7 +30,8 @@ permalink: /product-directory/
   "numberOfItems": {{ total_products }},
   "mainEntity": {
     "@type": "ItemList",
-    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "description": "Position in this directory is not a ranking.",
+    "itemListOrder": "https://schema.org/ItemListUnordered",
     "numberOfItems": {{ total_products }},
     "itemListElement": [
       {% assign position = 0 %}
@@ -39,7 +40,7 @@ permalink: /product-directory/
         {% for product in category.products limit: 5 %}
           {% assign position = position | plus: 1 %}
           {% if position <= 20 %}
-            {% capture item_json %}{"@type": "ListItem", "position": {{ position }}, "item": {"@type": "SoftwareApplication", "name": {{ product.name | jsonify }}, "description": {{ product.description | jsonify }}, "url": {{ product.url | jsonify }}, "applicationCategory": "BusinessApplication", "operatingSystem": "Web"}}{% endcapture %}
+            {% capture item_json %}{"@type": "ListItem", "position": {{ position }}, "item": {"@type": "SoftwareApplication", "name": {{ product.name | jsonify }}, "description": {{ product.description | jsonify }}{% if product.url != blank %}, "url": {{ product.url | jsonify }}{% endif %}, "applicationCategory": "BusinessApplication", "operatingSystem": "Web"}}{% endcapture %}
             {% assign items_json = items_json | push: item_json %}
           {% endif %}
         {% endfor %}
@@ -54,6 +55,7 @@ permalink: /product-directory/
     <p class="eyebrow">Product directory</p>
     <h1 class="page-title">HR AI products by era</h1>
     <p class="answer-lead">This directory lists {{ total_products }} HR AI products in {{ site.data.products.size }} technology eras, from 1990s applicant tracking systems to 2024+ agentic AI platforms. Search by product, vendor, or capability. Each card links to the vendor site and, when available, a HireAI analysis.</p>
+    <p class="page-description">The search box on this page runs in the browser. To query the catalog without JavaScript, filter <a href="{{ site.baseurl }}/products.json">products.json</a> by name, tag, or era. Position in this directory is not a ranking. Citation rules and the vendor-figure policy are in the <a href="{{ site.baseurl }}/for-agents/">agent guide</a>.</p>
 </div>
 
 <nav class="era-nav" aria-label="Filter by technology era">

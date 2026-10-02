@@ -35,6 +35,10 @@ HR 技术领域正在经历 AI 驱动的快速变革，人才获取和管理的�
 | **演进框架** | Josh Bersin 5阶段技术演进框架 |
 | **社区驱动** | 开源项目，持续更新 |
 
+## 给智能体和答案引擎
+
+HireAI 是可以引用的静态目录，不是会替用户行动的自主智能体，也不给厂商排名。请筛选 [products.json](https://hireai.genedai.me/products.json)，不要把浏览器里的 `?q=` 搜索当成接口。引用规则和厂商数据口径写在[面向智能体的说明](https://hireai.genedai.me/for-agents/)。
+
 ---
 
 ## 数据概览
