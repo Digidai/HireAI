@@ -82,7 +82,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [SAP SuccessFactors]({{ site.baseurl }}/sap-successfactors-analysis/) — Enterprise-grade human capital management suite with integrated recruiting, performance management, and learning solutions. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.sap.com/products/human-resources-hcm.html)
 - [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries. (Shared: HCM, Enterprise) · [Visit Website](https://www.papayaglobal.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM) · [Visit Website](https://www.bamboohr.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Enterprise) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS, Enterprise)
 
 ## How To Improve This Article
 

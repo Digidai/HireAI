@@ -89,7 +89,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Assessment) · [Visit Website](https://effy.ai/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: AI, Assessment) · [Visit Website](https://hireeazy.com/)
 - [HireVue]({{ site.baseurl }}/hirevue-analysis/) — Video interviewing platform with AI-powered candidate analysis and predictive assessment capabilities. (Shared: AI, Assessment) · [Visit Website](https://www.hirevue.com/)
-- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, AI) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list. (Shared: Assessment, AI)
 
 ## How To Improve This Article
 

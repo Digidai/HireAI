@@ -2,10 +2,9 @@
 layout: analysis
 title: "BrassRing"
 permalink: /brassring-analysis/
-description: "Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities."
-website: "https://www.ibm.com/products/talent-acquisition-suite"
+description: "Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list."
 era: "1990s - Applicant Tracking Systems (ATS)"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["ATS", "Enterprise", "Workflow"]
 ---
 
@@ -13,7 +12,7 @@ tags: ["ATS", "Enterprise", "Workflow"]
 
 ## Overview
 
-**BrassRing** — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities.
+**BrassRing** — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list.
 
 HireAI files BrassRing in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
 
@@ -27,9 +26,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://www.ibm.com/products/talent-acquisition-suite
-- HireAI directory record updated 28 September 2026.
+- Checked URL: https://www.ibm.com/products/talent-acquisition-suite opened IBM's products index on 2 October 2026. It is not used as the product website.
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+https://www.ibm.com/products/talent-acquisition-suite opened IBM's products index. That index is not a BrassRing feature list, so this directory does not use it as the product website. IBM still hosts older support notes for IBM Kenexa BrassRing on Cloud.
+
+Sources: [IBM products index](https://www.ibm.com/products), reached from the talent-acquisition-suite URL on 2 October 2026. [IBM Kenexa BrassRing on Cloud support notes](https://www.ibm.com/support/pages/ibm-kenexa-brassring-cloud-technote-table-contents).
 
 <!-- HireAI: baked-enrichment:start -->
 

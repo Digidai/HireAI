@@ -78,7 +78,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Bias Reduction, Skills-based Hiring) · [Visit Website](https://www.beapplied.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied. (Shared: Bias Reduction, Skills-based Hiring) · [Visit Website](https://www.beapplied.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: AI, Bias Reduction) · [Visit Website](https://www.criteriacorp.com/)
 - [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: Skills-based Hiring, AI) · [Visit Website](https://www.imocha.io/)
 - [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: AI, Bias Reduction) · [Visit Website](https://www.pymetrics.ai/)

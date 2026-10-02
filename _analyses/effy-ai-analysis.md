@@ -85,12 +85,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, Analytics, AI) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list. (Shared: Assessment, Analytics, AI)
 - [Peoplebox.ai]({{ site.baseurl }}/peoplebox-ai-analysis/) — OKR and performance management platform with AI-powered talent analytics and strategic workforce planning. (Shared: AI, Performance Management, Analytics) · [Visit Website](https://www.peoplebox.ai/)
 - [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: AI, Assessment, Analytics) · [Visit Website](https://www.theysaid.io/)
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Assessment) · [Visit Website](https://www.alex.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment, AI) · [Visit Website](https://www.criteriacorp.com/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
+- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
 
 ## How To Improve This Article
 

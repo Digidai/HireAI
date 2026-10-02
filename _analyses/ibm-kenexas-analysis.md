@@ -2,10 +2,9 @@
 layout: analysis
 title: "IBM Kenexa"
 permalink: /ibm-kenexas-analysis/
-description: "Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities."
-website: "https://www.ibm.com/products/kenexa-employee-assessments"
+description: "IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list."
 era: "2000s - Candidate Marketing & Assessment"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Assessment", "Analytics", "AI", "Enterprise"]
 ---
 
@@ -13,7 +12,7 @@ tags: ["Assessment", "Analytics", "AI", "Enterprise"]
 
 ## Overview
 
-**IBM Kenexas** — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
+**IBM Kenexas** — IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list.
 
 HireAI files IBM Kenexas in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
@@ -27,9 +26,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://www.ibm.com/products/kenexas-employee-assessments
-- HireAI directory record updated 28 September 2026.
+- Checked URL: https://www.ibm.com/products/kenexas-employee-assessments opened IBM's products index on 2 October 2026. It is not used as the product website.
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+https://www.ibm.com/products/kenexas-employee-assessments opened IBM's products index. That index is not a Kenexa feature list, so this directory does not use it as the product website.
+
+Source: [IBM products index](https://www.ibm.com/products), reached from the employee-assessments URL on 2 October 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 

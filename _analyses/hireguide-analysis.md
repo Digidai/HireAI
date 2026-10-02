@@ -2,10 +2,10 @@
 layout: analysis
 title: "Hireguide"
 permalink: /hireguide-analysis/
-description: "Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools."
+description: "HireVue said on 10 March 2026 that it acquired Hireguide's technology and team. hireguide.com now presents HireVue."
 website: "https://hireguide.com/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Interview Intelligence", "AI", "Structured Interviewing", "Collaboration"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Interview Intelligence", "AI", "Structured Interviewing", "Collaboration
 
 ## Overview
 
-**Hireguide** — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools.
+**Hireguide** — HireVue said on 10 March 2026 that it acquired Hireguide's technology and team. hireguide.com now presents HireVue.
 
 HireAI files Hireguide in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://hireguide.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+hireguide.com now presents HireVue and says Hireguide's team and technology have been acquired by HireVue. HireVue's 10 March 2026 release says it acquired the technology behind Hireguide and that the Hireguide team joins HireVue's product organization.
+
+Sources: [hireguide.com](https://hireguide.com/), [HireVue press release, 10 March 2026](https://www.hirevue.com/press-release/hirevue-acquires-hireguide-technology-to-accelerate-agentic-ai-hiring).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -85,9 +92,9 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://www.brighthire.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://www.brighthire.com/)
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: AI, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: AI, Collaboration)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
 - [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)
 - [iMocha]({{ site.baseurl }}/imocha-analysis/) — AI-powered skills intelligence and interview platform designed to support skills-first hiring with comprehensive assessments. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.imocha.io/)

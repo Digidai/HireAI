@@ -2,10 +2,10 @@
 layout: analysis
 title: "Harver"
 permalink: /harver-analysis/
-description: "Pre-employment assessment platform with game-based evaluations and candidate experience optimization."
+description: "Pre-employment assessment platform. Harver said on 17 September 2026 that it acquired Symphony Talent."
 website: "https://harver.com/"
 era: "2010s - Onboarding/Workflow/Integrated Sourcing"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Assessment", "Candidate Experience"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Assessment", "Candidate Experience"]
 
 ## Overview
 
-**Harver** — Pre-employment assessment platform with game-based evaluations and candidate experience optimization.
+**Harver** — Pre-employment assessment platform. Harver said on 17 September 2026 that it acquired Symphony Talent.
 
 HireAI files Harver in the **2010s - Onboarding/Workflow/Integrated Sourcing** era. Onboarding, workflow, and sourcing platforms connected CRM, referrals, scheduling, and process automation around the hiring team.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://harver.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+Harver said on 17 September 2026 that it acquired Symphony Talent, which Harver described as a recruitment marketing, employer brand, and candidate relationship management company. Customer counts in that release are Harver's, not HireAI measurements. harver.com remains the assessment site.
+
+Source: [Harver press release](https://harver.com/press/harver-acquires-symphony-talent/).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -71,7 +78,7 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: Assessment) · [Visit Website](https://www.alex.com/)
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Assessment) · [Visit Website](https://www.beapplied.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied. (Shared: Assessment) · [Visit Website](https://www.beapplied.com/)
 - [Celebrate]({{ site.baseurl }}/celebrate-analysis/) — AI-driven employee recognition and engagement platform that supports DEI initiatives and workplace culture building. (Shared: Candidate Experience) · [Visit Website](https://www.getcelebrate.com/)
 - [Criteria Corp]({{ site.baseurl }}/criteria-corp-analysis/) — Predictive hiring assessment platform using validated tests and AI to identify top performers and reduce bias. (Shared: Assessment) · [Visit Website](https://www.criteriacorp.com/)
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: Assessment) · [Visit Website](https://effy.ai/)

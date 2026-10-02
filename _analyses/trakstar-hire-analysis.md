@@ -2,10 +2,10 @@
 layout: analysis
 title: "Trakstar Hire"
 permalink: /trakstar-hire-analysis/
-description: "Modern applicant tracking system with AI-enhanced candidate evaluation and collaborative hiring workflows."
-website: "https://www.trakstar.com/hire/"
+description: "Mitratech publishes Trakstar Hire as an applicant tracking system. trakstar.com/hire returned not found on 2 October 2026."
+website: "https://mitratech.com/products/trakstar/hire/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["ATS", "AI", "Collaboration", "Evaluation"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["ATS", "AI", "Collaboration", "Evaluation"]
 
 ## Overview
 
-**Trakstar Hire** — Modern applicant tracking system with AI-enhanced candidate evaluation and collaborative hiring workflows.
+**Trakstar Hire** — Mitratech publishes Trakstar Hire as an applicant tracking system. trakstar.com/hire returned not found on 2 October 2026.
 
 HireAI files Trakstar Hire in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -27,9 +27,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://www.trakstar.com/hire/
-- HireAI directory record updated 28 September 2026.
+- Official website: https://mitratech.com/products/trakstar/hire/
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+trakstar.com/hire returned not found. Mitratech publishes Trakstar Hire as an applicant tracking system.
+
+Source: [Mitratech Trakstar Hire](https://mitratech.com/products/trakstar/hire/), checked 2 October 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -85,7 +92,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, AI, Collaboration)
 - [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, AI, Collaboration) · [Visit Website](https://recruitee.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
 - [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)

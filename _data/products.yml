@@ -27,9 +27,9 @@
     - Talent Management
     - Analytics
   - name: Workday Recruiting
-    url: https://www.workday.com/en-us/products/human-capital-management/recruiting.html
+    url: https://www.workday.com/en-us/products/talent-management/talent-acquisition.html
     analysis: _analyses/workday-recruiting-analysis.md
-    description: Cloud-native recruiting solution integrated with comprehensive human capital management capabilities.
+    description: Workday's Talent Acquisition page covers recruiting. Workday says the suite includes HiredScore AI and a Candidate Experience agent powered by Paradox.
     tags:
     - ATS
     - HCM
@@ -50,9 +50,8 @@
     - Candidate Engagement
     - Automation
   - name: BrassRing
-    url: https://www.ibm.com/products/talent-acquisition-suite
     analysis: _analyses/brassring-analysis.md
-    description: Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities.
+    description: Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list.
     tags:
     - ATS
     - Enterprise
@@ -167,9 +166,8 @@
     - Sourcing
     - Candidate Engagement
   - name: IBM Kenexas
-    url: https://www.ibm.com/products/kenexas-employee-assessments
     analysis: _analyses/ibm-kenexas-analysis.md
-    description: Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities.
+    description: IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list.
     tags:
     - Assessment
     - Analytics
@@ -193,7 +191,7 @@
   - name: CareerBuilder
     url: https://www.careerbuilder.com/
     analysis: _analyses/careerbuilder-analysis.md
-    description: One of the largest job boards with AI-powered candidate matching and extensive resume database.
+    description: Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights.
     tags:
     - Job Board
     - Sourcing
@@ -201,7 +199,7 @@
   - name: Monster
     url: https://www.monster.com/
     analysis: _analyses/monster-analysis.md
-    description: Pioneer online job board with global reach and comprehensive candidate search capabilities.
+    description: Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and Monster brand rights.
     tags:
     - Job Board
     - Sourcing
@@ -332,7 +330,7 @@
   - name: Harver
     url: https://harver.com/
     analysis: _analyses/harver-analysis.md
-    description: Pre-employment assessment platform with game-based evaluations and candidate experience optimization.
+    description: Pre-employment assessment platform. Harver said on 17 September 2026 that it acquired Symphony Talent.
     tags:
     - Assessment
     - Candidate Experience
@@ -652,7 +650,7 @@
   - name: Applied
     url: https://www.beapplied.com/
     analysis: _analyses/applied-analysis.md
-    description: Behavioral science-based platform for reducing bias through anonymized skill-based assessments.
+    description: Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied.
     tags:
     - DEI
     - Bias Reduction
@@ -955,9 +953,9 @@
     - DEI
     - Analytics
   - name: LinkedIn Talent Hub
-    url: https://business.linkedin.com/talent-solutions/talent-hub
+    url: https://business.linkedin.com/hire
     analysis: _analyses/linkedin-talent-hub-analysis.md
-    description: Integrated recruiting platform leveraging LinkedIn's professional network and talent insights.
+    description: LinkedIn recruiting tools. On 2 October 2026 the Talent Hub path opened LinkedIn's hiring page.
     tags:
     - Sourcing
     - ATS
@@ -1048,7 +1046,7 @@
   - name: BrightHire
     url: https://www.brighthire.com/
     analysis: _analyses/brighthire-analysis.md
-    description: Interview intelligence platform with AI-powered recording, transcription, and hiring insights.
+    description: Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025.
     tags:
     - Interview Intelligence
     - AI
@@ -1100,7 +1098,7 @@
   - name: Crosschq
     url: https://www.crosschq.com/
     analysis: _analyses/crosschq-analysis.md
-    description: Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics.
+    description: Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform.
     tags:
     - Reference Checking
     - Talent Intelligence
@@ -1246,9 +1244,9 @@
     - Automation
     - ATS
   - name: TurboHire
-    url: https://turbohire.co/
+    url: https://new.turbohire.co/
     analysis: _analyses/turbohire-analysis.md
-    description: End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation.
+    description: TurboHire calls its site a self-driving hiring platform for high-volume recruitment. turbohire.co opened new.turbohire.co.
     tags:
     - Agentic AI
     - ATS
@@ -1415,7 +1413,7 @@
   - name: Hireguide
     url: https://hireguide.com/
     analysis: _analyses/hireguide-analysis.md
-    description: Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools.
+    description: HireVue said on 10 March 2026 that it acquired Hireguide's technology and team. hireguide.com now presents HireVue.
     tags:
     - Interview Intelligence
     - AI
@@ -1514,9 +1512,9 @@
     - Analytics
     - Assessment
   - name: Talently.ai
-    url: https://talently.ai/
+    url: https://interview.talently.ai/
     analysis: _analyses/talently-analysis.md
-    description: AI interviewer conducting real-time technical interviews with live coding challenges and immediate candidate evaluation.
+    description: AI interviewer for live conversations. talently.ai opened interview.talently.ai on 2 October 2026.
     tags:
     - Interview Intelligence
     - AI
@@ -1755,9 +1753,9 @@
     - AI
     - Staffing
   - name: Trakstar Hire
-    url: https://www.trakstar.com/hire/
+    url: https://mitratech.com/products/trakstar/hire/
     analysis: _analyses/trakstar-hire-analysis.md
-    description: Modern applicant tracking system with AI-enhanced candidate evaluation and collaborative hiring workflows.
+    description: Mitratech publishes Trakstar Hire as an applicant tracking system. trakstar.com/hire returned not found on 2 October 2026.
     tags:
     - ATS
     - AI
@@ -1781,9 +1779,8 @@
     - AI
     - SMB
   - name: Freshteam
-    url: https://www.freshworks.com/hrms/
     analysis: _analyses/freshteam-analysis.md
-    description: Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features.
+    description: Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice.
     tags:
     - ATS
     - AI
@@ -1800,7 +1797,7 @@
     - Matching
     - Enterprise
   - name: Google Cloud Talent Solution
-    url: https://cloud.google.com/talent-solution
+    url: https://cloud.google.com/solutions/talent-solution
     analysis: _analyses/google-cloud-talent-solution-analysis.md
     description: Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation.
     tags:

@@ -75,7 +75,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: Sourcing) · [Visit Website](https://arya.ai/)
 - [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: Sourcing) · [Visit Website](https://beamery.com/)
 - [Canditech]({{ site.baseurl }}/canditech-analysis/) — Technical assessment platform with job simulation tests for evaluating real-world skills and capabilities. (Shared: Technical Assessment) · [Visit Website](https://www.canditech.io/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing) · [Visit Website](https://www.careerbuilder.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights. (Shared: Sourcing) · [Visit Website](https://www.careerbuilder.com/)
 
 ## How To Improve This Article
 

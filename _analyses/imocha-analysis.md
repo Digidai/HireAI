@@ -90,7 +90,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Modern Hire]({{ site.baseurl }}/modern-hire-analysis/) — modernhire.com now opens HireVue. Treat Modern Hire as part of HireVue's interview and assessment products. (Shared: Interview Intelligence, Assessment, AI) · [Visit Website](https://www.hirevue.com/)
 - [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Assessment) · [Visit Website](https://www.theysaid.io/)
 - [Vervoe]({{ site.baseurl }}/vervoe-analysis/) — Skills assessment platform with AI that learns from your data to create tailored, transparent evaluations. (Shared: Assessment, Skills-based Hiring, AI) · [Visit Website](https://vervoe.com/)
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: Skills-based Hiring, Assessment) · [Visit Website](https://www.beapplied.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied. (Shared: Skills-based Hiring, Assessment) · [Visit Website](https://www.beapplied.com/)
 
 ## How To Improve This Article
 

@@ -85,10 +85,10 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Sourcing, Collaboration) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, AI, Sourcing, Collaboration)
 - [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, ATS) · [Visit Website](https://hireez.com/)
 - [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: AI, ATS, Sourcing) · [Visit Website](https://www.loxo.co/)
-- [Trakstar Hire]({{ site.baseurl }}/trakstar-hire-analysis/) — Modern applicant tracking system with AI-enhanced candidate evaluation and collaborative hiring workflows. (Shared: ATS, AI, Collaboration) · [Visit Website](https://www.trakstar.com/hire/)
+- [Trakstar Hire]({{ site.baseurl }}/trakstar-hire-analysis/) — Mitratech publishes Trakstar Hire as an applicant tracking system. trakstar.com/hire returned not found on 2 October 2026. (Shared: ATS, AI, Collaboration) · [Visit Website](https://mitratech.com/products/trakstar/hire/)
 - [Arc HireAI]({{ site.baseurl }}/arc-hireai-analysis/) — AI-powered platform delivering candidate shortlists in seconds from a global pool of 350,000+ pre-vetted developers. (Shared: AI, Sourcing) · [Visit Website](https://arc.dev/)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
 

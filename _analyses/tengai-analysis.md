@@ -84,7 +84,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Applied]({{ site.baseurl }}/applied-analysis/) — Behavioral science-based platform for reducing bias through anonymized skill-based assessments. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.beapplied.com/)
+- [Applied]({{ site.baseurl }}/applied-analysis/) — Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.beapplied.com/)
 - [Pymetrics]({{ site.baseurl }}/pymetrics-analysis/) — Neuroscience-based assessment platform using AI and behavioral science to match candidates to roles. (Shared: Bias Reduction, DEI) · [Visit Website](https://www.pymetrics.ai/)
 - [Searchlight]({{ site.baseurl }}/searchlight-analysis/) — AI-powered applicant screening platform designed to reduce unconscious bias and improve hiring quality. (Shared: Bias Reduction, DEI) · [Visit Website](https://www.searchlight.ai/)
 - [Unitive]({{ site.baseurl }}/unitive-analysis/) — Diversity-focused recruiting platform using AI to identify and correct bias in hiring processes. (Shared: DEI, Bias Reduction) · [Visit Website](https://www.unitive.com/)

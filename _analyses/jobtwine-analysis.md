@@ -86,11 +86,11 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.com/)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise) · [Visit Website](https://darwinbox.com/)
 - [Deel]({{ site.baseurl }}/deel-analysis/) — Global HR and payroll platform for hiring and managing remote international teams with compliant contractor and employee management. (Shared: Enterprise, Integration) · [Visit Website](https://www.deel.com/)
 - [Drata (HR Compliance)]({{ site.baseurl }}/drata-hr-compliance-analysis/) — Compliance automation platform helping HR teams maintain SOC 2, ISO 27001, and GDPR compliance with continuous monitoring. (Shared: Enterprise, Integration) · [Visit Website](https://drata.com/)
-- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Enterprise) · [Visit Website](https://cloud.google.com/talent-solution)
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Enterprise) · [Visit Website](https://cloud.google.com/solutions/talent-solution)
 
 ## How To Improve This Article
 

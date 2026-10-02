@@ -2,10 +2,10 @@
 layout: analysis
 title: "TurboHire"
 permalink: /turbohire-analysis/
-description: "End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation."
-website: "https://turbohire.co/"
+description: "TurboHire calls its site a self-driving hiring platform for high-volume recruitment. turbohire.co opened new.turbohire.co."
+website: "https://new.turbohire.co/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Agentic AI", "ATS", "AI", "Automation", "Generative AI"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Agentic AI", "ATS", "AI", "Automation", "Generative AI"]
 
 ## Overview
 
-**TurboHire** — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation.
+**TurboHire** — TurboHire calls its site a self-driving hiring platform for high-volume recruitment. turbohire.co opened new.turbohire.co.
 
 HireAI files TurboHire in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -27,9 +27,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://turbohire.co/
-- HireAI directory record updated 28 September 2026.
+- Official website: https://new.turbohire.co/
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+turbohire.co opened https://new.turbohire.co/. The page title was "TurboHire | Self-Driving Hiring Platform for High-Volume Recruitment." That title is TurboHire's positioning, not a HireAI measurement.
+
+Source: [new.turbohire.co](https://new.turbohire.co/), checked 2 October 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 

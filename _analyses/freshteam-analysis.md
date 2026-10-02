@@ -2,10 +2,9 @@
 layout: analysis
 title: "Freshteam"
 permalink: /freshteam-analysis/
-description: "Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features."
-website: "https://www.freshworks.com/hrms/"
+description: "Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice."
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["ATS", "AI", "Sourcing", "Collaboration", "SMB"]
 ---
 
@@ -13,7 +12,7 @@ tags: ["ATS", "AI", "Sourcing", "Collaboration", "SMB"]
 
 ## Overview
 
-**Freshteam** — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features.
+**Freshteam** — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice.
 
 HireAI files Freshteam in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -27,9 +26,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://www.freshworks.com/hrms/
-- HireAI directory record updated 28 September 2026.
+- Checked URL: https://www.freshworks.com/hrms/ opened Freshservice for Business Teams on 2 October 2026. It is not used as the Freshteam website.
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+Freshworks' Freshteam support FAQ, modified 5 January 2026, says Freshteam is being sunset. It says all renewals stop on 7 June 2026, and that the product stays available for 90 days after a subscription end date so customers can export data. On 2 October 2026, https://www.freshworks.com/hrms/ opened Freshservice for Business Teams. This directory does not use that Freshservice page as the Freshteam website.
+
+Source: [Freshteam sunset FAQ](https://support.freshteam.com/support/solutions/articles/19000162935-freshteam-sunset-support-faqs).
 
 <!-- HireAI: baked-enrichment:start -->
 

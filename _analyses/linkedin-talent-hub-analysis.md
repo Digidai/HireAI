@@ -2,10 +2,10 @@
 layout: analysis
 title: "LinkedIn Talent Hub"
 permalink: /linkedin-talent-hub-analysis/
-description: "Integrated recruiting platform leveraging LinkedIn's professional network and talent insights."
-website: "https://business.linkedin.com/talent-solutions/talent-hub"
+description: "LinkedIn recruiting tools. On 2 October 2026 the Talent Hub path opened LinkedIn's hiring page."
+website: "https://business.linkedin.com/hire"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Sourcing", "ATS"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Sourcing", "ATS"]
 
 ## Overview
 
-**LinkedIn Talent Hub** — Integrated recruiting platform leveraging LinkedIn's professional network and talent insights.
+**LinkedIn Talent Hub** — LinkedIn recruiting tools. On 2 October 2026 the Talent Hub path opened LinkedIn's hiring page.
 
 HireAI files LinkedIn Talent Hub in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -27,9 +27,16 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 
 ## Source
 
-- Official website: https://business.linkedin.com/talent-solutions/talent-hub
-- HireAI directory record updated 28 September 2026.
+- Official website: https://business.linkedin.com/hire
+- HireAI directory record updated 2 October 2026.
 
+
+
+## Status checked 2 October 2026
+
+https://business.linkedin.com/talent-solutions/talent-hub opened https://business.linkedin.com/hire. The destination title was LinkedIn's hiring tools. This directory now uses that page. It is not a separate Talent Hub feature list.
+
+Source: [Hiring on LinkedIn](https://business.linkedin.com/hire), checked 2 October 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -70,7 +77,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, Sourcing) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, Sourcing)
 - [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, ATS) · [Visit Website](https://hireez.com/)
 - [Loxo]({{ site.baseurl }}/loxo-analysis/) — AI-powered talent intelligence platform combining ATS, CRM, and sourcing with predictive analytics. (Shared: ATS, Sourcing) · [Visit Website](https://www.loxo.co/)
 - [Recruitee]({{ site.baseurl }}/recruitee-analysis/) — Collaborative hiring platform with AI-powered candidate sourcing and team-based recruiting workflows. (Shared: ATS, Sourcing) · [Visit Website](https://recruitee.com/)

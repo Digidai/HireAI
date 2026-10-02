@@ -89,7 +89,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Teamtailor]({{ site.baseurl }}/teamtailor-analysis/) — Employer branding and recruiting platform with AI-enhanced candidate experience and career site builder. (Shared: ATS, AI, Employer Branding) · [Visit Website](https://www.teamtailor.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
 - [Bayard Advertising]({{ site.baseurl }}/bayard-advertising-analysis/) — bayardad.com now opens Appcast, which has its own HireAI page. This row is not a separate live product site. (Shared: Employer Branding, Job Board) · [Visit Website](https://appcast.io/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, AI) · [Visit Website](https://www.careerbuilder.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights. (Shared: Job Board, AI) · [Visit Website](https://www.careerbuilder.com/)
 - [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
 
 ## How To Improve This Article

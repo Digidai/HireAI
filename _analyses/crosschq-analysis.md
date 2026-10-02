@@ -2,10 +2,10 @@
 layout: analysis
 title: "Crosschq"
 permalink: /crosschq-analysis/
-description: "Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics."
+description: "Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform."
 website: "https://www.crosschq.com/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Reference Checking", "Talent Intelligence", "AI", "Analytics"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Reference Checking", "Talent Intelligence", "AI", "Analytics"]
 
 ## Overview
 
-**Crosschq** — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics.
+**Crosschq** — Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform.
 
 HireAI files Crosschq in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.crosschq.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+Crosschq said on 31 March 2026 that it acquired Traitify, which Crosschq described as an assessment platform. Customer names and assessment volumes in that release are Crosschq's, not HireAI measurements.
+
+Source: [Crosschq press release](https://www.crosschq.com/press/crosschq-acquires-traitify-scientific-assessments-ai-hiring-intelligence-platform).
 
 <!-- HireAI: baked-enrichment:start -->
 

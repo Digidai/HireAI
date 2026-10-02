@@ -80,7 +80,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Visit Website](https://www.bamboohr.com/)
 - [Braintrust]({{ site.baseurl }}/braintrust-analysis/) — Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace. (Shared: Marketplace) · [Visit Website](https://www.braintrust.dev/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS)
 - [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS) · [Visit Website](https://breezy.hr/)
 
 ## How To Improve This Article

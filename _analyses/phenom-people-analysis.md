@@ -5,7 +5,7 @@ permalink: /phenom-people-analysis/
 description: "Phenom, formerly Phenom People, publishes an applied AI platform for hiring, development, and retention. phenompeople.com redirects to phenom.com."
 website: "https://www.phenom.com/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Candidate Experience", "AI"]
 ---
 
@@ -36,6 +36,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 phenompeople.com redirected to phenom.com. The live site title was Phenom Applied AI, a talent platform covering hiring, development, and retention.
 
 Source: [phenom.com](https://www.phenom.com/), checked 28 September 2026.
+
+
+## Status checked 2 October 2026
+
+Phenom said on 14 January 2026 that it acquired Included, which Phenom described as an AI-native agentic people analytics platform. Phenom said on 10 February 2026 that it acquired Be Applied, which Phenom described as an AI-driven cognitive assessment solution. Scale and fairness claims in those posts are Phenom's, not HireAI measurements.
+
+Sources: [Phenom on Included, 14 January 2026](https://www.phenom.com/blog/phenom-acquires-included), [Phenom on Be Applied, 10 February 2026](https://www.phenom.com/press-release/phenom-acquires-be-applied-skills-ai).
 
 <!-- HireAI: baked-enrichment:start -->
 

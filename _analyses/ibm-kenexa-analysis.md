@@ -85,7 +85,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Assessment, Analytics, AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list. (Shared: Assessment, Analytics, AI, Enterprise)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, Enterprise, Analytics) · [Visit Website](https://darwinbox.com/)
 - [Effy AI]({{ site.baseurl }}/effy-ai-analysis/) — AI-powered performance review and feedback platform helping companies make better hiring and promotion decisions. (Shared: AI, Analytics, Assessment) · [Visit Website](https://effy.ai/)
 - [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: AI, Assessment, Analytics) · [Visit Website](https://www.theysaid.io/)

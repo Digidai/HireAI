@@ -89,8 +89,8 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: AI, Interview Intelligence, Analytics) · [Visit Website](https://www.screenloop.com/)
 - [TheySaid]({{ site.baseurl }}/theysaid-analysis/) — AI-powered interview platform conducting intelligent, AI-led interviews for gathering insightful candidate data and analytics. (Shared: Interview Intelligence, AI, Analytics) · [Visit Website](https://www.theysaid.io/)
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
-- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform with AI-powered recording, transcription, and hiring insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.com/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
+- [BrightHire]({{ site.baseurl }}/brighthire-analysis/) — Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025. (Shared: Interview Intelligence, AI) · [Visit Website](https://www.brighthire.com/)
+- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform. (Shared: AI, Analytics) · [Visit Website](https://www.crosschq.com/)
 
 ## How To Improve This Article
 

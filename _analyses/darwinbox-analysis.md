@@ -96,7 +96,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM, AI) · [Visit Website](https://www.bamboohr.com/)
 - [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management. (Shared: Analytics, HCM, Enterprise) · [Visit Website](https://www.charthop.com/)
 - [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, HCM) · [Visit Website](https://factorialhr.com/)
-- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — Enterprise assessment and talent analytics platform powered by IBM Watson AI capabilities. (Shared: Analytics, AI, Enterprise) · [Visit Website](https://www.ibm.com/products/kenexas-employee-assessments)
+- [IBM Kenexas]({{ site.baseurl }}/ibm-kenexas-analysis/) — IBM Kenexa assessments. On 2 October 2026 that product URL opened IBM's products index, not a Kenexa feature list. (Shared: Analytics, AI, Enterprise)
 - [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.oracle.com/human-capital-management/taleo/)
 
 ## How To Improve This Article

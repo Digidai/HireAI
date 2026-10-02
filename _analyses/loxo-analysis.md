@@ -95,7 +95,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, CRM, Sourcing) · [Visit Website](https://beamery.com/)
 - [Entelo]({{ site.baseurl }}/entelo-analysis/) — entelo.com now opens a Rival HR login branded Entelo and ConveyIQ, not a public product brochure. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.rival-hr.com/entelo-recruit)
 - [Findem]({{ site.baseurl }}/findem-analysis/) — AI-powered talent acquisition platform with advanced people search and talent intelligence. (Shared: Talent Intelligence, AI, Sourcing) · [Visit Website](https://www.findem.ai/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, Sourcing) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, AI, Sourcing)
 - [Gem]({{ site.baseurl }}/gem-analysis/) — All-in-one recruiting platform with CRM, sourcing automation, and talent engagement powered by AI. (Shared: CRM, Sourcing, AI) · [Visit Website](https://www.gem.com/)
 - [hireEZ]({{ site.baseurl }}/hireez-analysis/) — All-in-one agentic AI recruiting platform with ResumeSense for fraud detection, sourcing talent 75% faster with autonomous AI. (Shared: Sourcing, AI, ATS) · [Visit Website](https://hireez.com/)
 

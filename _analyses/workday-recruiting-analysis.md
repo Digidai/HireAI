@@ -2,10 +2,10 @@
 layout: analysis
 title: "Workday Recruiting"
 permalink: /workday-recruiting-analysis/
-description: "Cloud-native recruiting solution integrated with comprehensive human capital management capabilities."
-website: "https://www.workday.com/en-us/products/human-capital-management/recruiting.html"
+description: "Workday's Talent Acquisition page covers recruiting. Workday says the suite includes HiredScore AI and a Candidate Experience agent powered by Paradox."
+website: "https://www.workday.com/en-us/products/talent-management/talent-acquisition.html"
 era: "1990s - Applicant Tracking Systems (ATS)"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["ATS", "HCM", "Cloud"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["ATS", "HCM", "Cloud"]
 
 ## Updated briefing (28 September 2026)
 
-**Workday Recruiting** — Cloud-native recruiting solution integrated with comprehensive human capital management capabilities.
+**Workday Recruiting** — Workday's Talent Acquisition page covers recruiting. Workday says the suite includes HiredScore AI and a Candidate Experience agent powered by Paradox.
 
 HireAI files Workday Recruiting in the **1990s - Applicant Tracking Systems (ATS)** era. Applicant tracking systems store requisitions, applications, and hiring workflow. They are the system of record that later HR AI products still integrate with.
 
@@ -135,6 +135,13 @@ While the solution requires a significant investment and may be overkill for sma
 ## Sources
 
 - Official website: [{{ page.website }}]({{ page.website }})
+
+
+## Status checked 2 October 2026
+
+The previous recruiting URL returned not found. Workday's Talent Acquisition page says the suite includes recruiting, engagement, and HiredScore AI for Recruiting, plus a Candidate Experience agent powered by Paradox. Speed and productivity wording on that page is Workday's, not a HireAI measurement.
+
+Source: [Workday Talent Acquisition](https://www.workday.com/en-us/products/talent-management/talent-acquisition.html), checked 2 October 2026.
 
 <!-- HireAI: baked-enrichment:start -->
 

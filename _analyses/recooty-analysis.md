@@ -87,9 +87,9 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://www.bamboohr.com/)
 - [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, SMB) · [Visit Website](https://factorialhr.com/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, SMB) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, AI, SMB)
 - [JOIN]({{ site.baseurl }}/join-analysis/) — AI-powered recruiting platform with job posting distribution, ATS, and employer branding tools for European companies. (Shared: ATS, AI, Job Board) · [Visit Website](https://join.com/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, AI) · [Visit Website](https://www.careerbuilder.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights. (Shared: Job Board, AI) · [Visit Website](https://www.careerbuilder.com/)
 - [CATS]({{ site.baseurl }}/cats-analysis/) — Applicant tracking system designed for recruiting agencies with customizable workflows, career portals, and reporting. (Shared: ATS, SMB) · [Visit Website](https://www.catsone.com/)
 
 ## How To Improve This Article

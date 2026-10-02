@@ -2,10 +2,10 @@
 layout: analysis
 title: "Applied"
 permalink: /applied-analysis/
-description: "Behavioral science-based platform for reducing bias through anonymized skill-based assessments."
+description: "Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied."
 website: "https://www.beapplied.com/"
 era: "2020s - Intelligent Assessment, Diversity, Career"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["DEI", "Bias Reduction", "Skills-based Hiring", "Assessment"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["DEI", "Bias Reduction", "Skills-based Hiring", "Assessment"]
 
 ## Overview
 
-**Applied** — Behavioral science-based platform for reducing bias through anonymized skill-based assessments.
+**Applied** — Be Applied, also called Applied, provides skills assessments. Phenom said on 10 February 2026 that it acquired Be Applied.
 
 HireAI files Applied in the **2020s - Intelligent Assessment, Diversity, Career** era. Intelligent assessment, diversity, and career products use machine learning for matching, skills, fairness, and internal mobility.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.beapplied.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+beapplied.com still presents Applied. Phenom said on 10 February 2026 that it acquired Be Applied, which Phenom described as an AI-driven cognitive assessment solution. Phenom's performance and fairness claims in that release are company-reported, not HireAI measurements.
+
+Source: [Phenom press release, 10 February 2026](https://www.phenom.com/press-release/phenom-acquires-be-applied-skills-ai).
 
 <!-- HireAI: baked-enrichment:start -->
 

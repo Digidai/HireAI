@@ -82,7 +82,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Manatal]({{ site.baseurl }}/manatal-analysis/) — AI-powered recruitment software with social media enrichment, candidate scoring, and hiring automation. (Shared: ATS, AI, Automation) · [Visit Website](https://www.manatal.com/)
 - [Screenloop]({{ site.baseurl }}/screenloop-analysis/) — Comprehensive Talent Operations Platform combining ATS with AI-powered scheduling, notetaking, background checks, and analytics. (Shared: ATS, AI, Automation) · [Visit Website](https://www.screenloop.com/)
 - [Shortlist]({{ site.baseurl }}/shortlist-analysis/) — AI-powered applicant tracking system with intelligent candidate ranking and automated screening for fast-growing startups. (Shared: ATS, AI, Automation) · [Visit Website](https://shortlist.so/)
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, AI, Automation) · [Visit Website](https://turbohire.co/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — TurboHire calls its site a self-driving hiring platform for high-volume recruitment. turbohire.co opened new.turbohire.co. (Shared: ATS, AI, Automation) · [Visit Website](https://new.turbohire.co/)
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Automation) · [Visit Website](https://www.alex.com/)
 
 ## How To Improve This Article

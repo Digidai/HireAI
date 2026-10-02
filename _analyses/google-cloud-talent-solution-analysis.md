@@ -3,11 +3,11 @@ layout: article
 title: "Google Cloud Talent Solution Analysis"
 description: "Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation."
 permalink: /google-cloud-talent-solution-analysis/
-website: "https://cloud.google.com/talent-solution"
+website: "https://cloud.google.com/solutions/talent-solution"
 tags: ["AI", "Matching", "Job Board", "Enterprise"]
 page_title: Google Cloud Talent Solution
 page_description: "Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation."
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 era: "2024+ - Agentic AI Platforms"
 ---
 
@@ -54,7 +54,7 @@ Shortlist Google Cloud Talent Solution when you are comparing AI, Matching, Job 
 
 - [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality.
 - [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently.
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database.
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights.
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets.
 
 ## Takeaway
@@ -63,6 +63,12 @@ Use Google Cloud Talent Solution as a candidate in the Agentic AI Platforms grou
 
 ## Source
 
-- Official website: https://cloud.google.com/talent-solution
-- HireAI directory record updated 28 September 2026.
+- Official website: https://cloud.google.com/solutions/talent-solution
+- HireAI directory record updated 2 October 2026.
+
+## Status checked 2 October 2026
+
+The public path moved from /talent-solution to /solutions/talent-solution. The page title was still Cloud Talent Solution Job Matching APIs.
+
+Source: [Google Cloud Talent Solution](https://cloud.google.com/solutions/talent-solution), checked 2 October 2026.
 

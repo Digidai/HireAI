@@ -75,7 +75,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [ChartHop]({{ site.baseurl }}/charthop-analysis/) — People analytics and organizational design platform providing headcount planning, compensation analysis, and org chart management. (Shared: Analytics) · [Visit Website](https://www.charthop.com/)
 - [ClearCompany]({{ site.baseurl }}/clearcompany-analysis/) — Integrated talent management platform combining ATS, onboarding, performance management, and workforce planning. (Shared: Talent Management) · [Visit Website](https://www.clearcompany.com/)
 - [Cornerstone OnDemand]({{ site.baseurl }}/cornerstone-ondemand-analysis/) — Unified talent management suite combining recruiting, learning, performance, and succession planning. (Shared: Talent Management) · [Visit Website](https://www.cornerstoneondemand.com/)
-- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Talent intelligence platform combining reference checks, candidate screening, and quality of hire analytics. (Shared: Analytics) · [Visit Website](https://www.crosschq.com/)
+- [Crosschq]({{ site.baseurl }}/crosschq-analysis/) — Hiring intelligence platform. Crosschq said on 31 March 2026 that it acquired Traitify, an assessment platform. (Shared: Analytics) · [Visit Website](https://www.crosschq.com/)
 
 ## How To Improve This Article
 

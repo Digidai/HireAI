@@ -70,12 +70,12 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — End-to-end hiring solution using Native AI, Agentic AI, and Gen AI for advanced applicant tracking and recruitment automation. (Shared: ATS, Generative AI) · [Visit Website](https://turbohire.co/)
+- [TurboHire]({{ site.baseurl }}/turbohire-analysis/) — TurboHire calls its site a self-driving hiring platform for high-volume recruitment. turbohire.co opened new.turbohire.co. (Shared: ATS, Generative AI) · [Visit Website](https://new.turbohire.co/)
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
 - [Anthropic Claude for HR]({{ site.baseurl }}/anthropic-claude-for-hr-analysis/) — Enterprise deployment of Claude AI for HR use cases including resume screening, job description generation, and interview analysis. (Shared: Generative AI) · [Visit Website](https://www.anthropic.com/)
 - [Ashby]({{ site.baseurl }}/ashby-analysis/) — Modern recruiting platform with advanced analytics and workflow automation for scaling teams. (Shared: ATS) · [Visit Website](https://www.ashbyhq.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS) · [Visit Website](https://www.bamboohr.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS)
 
 ## How To Improve This Article
 

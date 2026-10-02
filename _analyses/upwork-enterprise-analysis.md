@@ -83,7 +83,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Braintrust]({{ site.baseurl }}/braintrust-analysis/) — Decentralized talent network connecting vetted professionals with enterprises through a user-owned talent marketplace. (Shared: Marketplace, AI) · [Visit Website](https://www.braintrust.dev/)
 - [CVViZ]({{ site.baseurl }}/cvviz-analysis/) — AI recruiting software using NLP and machine learning to screen and match resumes, finding right candidates efficiently. (Shared: AI, Matching) · [Visit Website](https://cvviz.com/)
 - [Gloat]({{ site.baseurl }}/gloat-analysis/) — AI-powered talent marketplace for internal mobility, skills development, and workforce agility. (Shared: Marketplace, AI) · [Visit Website](https://www.gloat.com/)
-- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Matching) · [Visit Website](https://cloud.google.com/talent-solution)
+- [Google Cloud Talent Solution]({{ site.baseurl }}/google-cloud-talent-solution-analysis/) — Google's AI-powered job search and candidate matching API providing machine learning-driven job discovery and recommendation. (Shared: AI, Matching) · [Visit Website](https://cloud.google.com/solutions/talent-solution)
 
 ## How To Improve This Article
 

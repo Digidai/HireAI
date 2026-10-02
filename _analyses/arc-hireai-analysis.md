@@ -89,7 +89,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Windsurf (Recruiting AI)]({{ site.baseurl }}/windsurf-recruiting-ai-analysis/) — codeium.com now opens Devin Desktop, a software-agent product, not an HR assessment system. HireAI does not list it as a current hiring tool. (Shared: Technical Assessment, AI, Developer Community)
 - [Arya]({{ site.baseurl }}/arya-analysis/) — AI-powered talent sourcing platform using multi-dimensional matching for candidate discovery. (Shared: AI, Sourcing) · [Visit Website](https://arya.ai/)
 - [Beamery]({{ site.baseurl }}/beamery-analysis/) — Talent lifecycle management platform with AI-powered sourcing, engagement, and talent community management. (Shared: AI, Sourcing) · [Visit Website](https://beamery.com/)
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Sourcing, AI) · [Visit Website](https://www.careerbuilder.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights. (Shared: Sourcing, AI) · [Visit Website](https://www.careerbuilder.com/)
 - [Coderbyte]({{ site.baseurl }}/coderbyte-analysis/) — Online code assessment platform for screening developers with coding challenges, algorithms, and project-based evaluations. (Shared: Technical Assessment, Developer Community) · [Visit Website](https://coderbyte.com/)
 
 ## How To Improve This Article

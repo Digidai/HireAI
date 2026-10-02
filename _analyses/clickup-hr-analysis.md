@@ -79,7 +79,7 @@ This section is a structured checklist based on the directory tags and era. It d
 ## Alternatives & Related Products
 
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, AI) · [Visit Website](https://www.bamboohr.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Workflow) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS, Workflow)
 - [Breezy HR]({{ site.baseurl }}/breezy-hr-analysis/) — User-friendly recruiting software with end-to-end hiring workflow and team collaboration features. (Shared: ATS, Workflow) · [Visit Website](https://breezy.hr/)
 - [Ceipal]({{ site.baseurl }}/ceipal-analysis/) — AI-powered applicant tracking and workforce management platform for staffing agencies and enterprises. (Shared: ATS, AI) · [Visit Website](https://www.ceipal.com/)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: AI, ATS) · [Visit Website](https://darwinbox.com/)

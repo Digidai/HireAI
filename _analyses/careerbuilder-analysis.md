@@ -2,10 +2,10 @@
 layout: analysis
 title: "CareerBuilder"
 permalink: /careerbuilder-analysis/
-description: "One of the largest job boards with AI-powered candidate matching and extensive resume database."
+description: "Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights."
 website: "https://www.careerbuilder.com/"
 era: "2000s - Candidate Marketing & Assessment"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Job Board", "Sourcing", "AI"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Job Board", "Sourcing", "AI"]
 
 ## Overview
 
-**CareerBuilder** — One of the largest job boards with AI-powered candidate matching and extensive resume database.
+**CareerBuilder** — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights.
 
 HireAI files CareerBuilder in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.careerbuilder.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+CareerBuilder + Monster said on 31 July 2025 that it closed sales in which BOLD acquired the job-board business and retained the Monster and CareerBuilder brand rights. BOLD said on 1 August 2025 that the brands continue as standalone brands. careerbuilder.com is still the public site.
+
+Sources: [CareerBuilder + Monster, 31 July 2025](https://www.prnewswire.com/news-releases/careerbuilder--monster-closes-sale-transactions-with-bold-iron-corp-us-inc-and-partnerone-302519208.html), [BOLD, 1 August 2025](https://www.prweb.com/releases/bold-completes-acquisition-of-careerbuilder--monster-job-boards-302519807.html).
 
 <!-- HireAI: baked-enrichment:start -->
 

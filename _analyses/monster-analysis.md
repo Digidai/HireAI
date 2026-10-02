@@ -2,10 +2,10 @@
 layout: analysis
 title: "Monster"
 permalink: /monster-analysis/
-description: "Pioneer online job board with global reach and comprehensive candidate search capabilities."
+description: "Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and Monster brand rights."
 website: "https://www.monster.com/"
 era: "2000s - Candidate Marketing & Assessment"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Job Board", "Sourcing"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Job Board", "Sourcing"]
 
 ## Overview
 
-**Monster** — Pioneer online job board with global reach and comprehensive candidate search capabilities.
+**Monster** — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and Monster brand rights.
 
 HireAI files Monster in the **2000s - Candidate Marketing & Assessment** era. Candidate marketing and assessment tools added career sites, job advertising, employer brand, and structured tests on top of the ATS.
 
@@ -30,6 +30,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 - Official website: https://www.monster.com/
 - HireAI directory record updated 28 September 2026.
 
+
+
+## Status checked 2 October 2026
+
+CareerBuilder + Monster said on 31 July 2025 that it closed sales in which BOLD acquired the job-board business and retained the Monster and CareerBuilder brand rights. BOLD said on 1 August 2025 that the brands continue as standalone brands. monster.com is still the public site.
+
+Sources: [CareerBuilder + Monster, 31 July 2025](https://www.prnewswire.com/news-releases/careerbuilder--monster-closes-sale-transactions-with-bold-iron-corp-us-inc-and-partnerone-302519208.html), [BOLD, 1 August 2025](https://www.prweb.com/releases/bold-completes-acquisition-of-careerbuilder--monster-job-boards-302519807.html).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -70,7 +77,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — One of the largest job boards with AI-powered candidate matching and extensive resume database. (Shared: Job Board, Sourcing) · [Visit Website](https://www.careerbuilder.com/)
+- [CareerBuilder]({{ site.baseurl }}/careerbuilder-analysis/) — Job board. On 31 July 2025 CareerBuilder + Monster said BOLD acquired the job-board business and CareerBuilder brand rights. (Shared: Job Board, Sourcing) · [Visit Website](https://www.careerbuilder.com/)
 - [Indeed]({{ site.baseurl }}/indeed-analysis/) — Comprehensive talent platform with job distribution, candidate matching, and recruiting analytics. (Shared: Job Board, Sourcing) · [Visit Website](https://www.indeed.com/)
 - [ZipRecruiter]({{ site.baseurl }}/ziprecruiter-analysis/) — Intelligent job distribution platform with AI-powered candidate matching and application management. (Shared: Job Board, Sourcing) · [Visit Website](https://www.ziprecruiter.com/)
 - [Appcast]({{ site.baseurl }}/appcast-analysis/) — Programmatic recruitment advertising platform that uses data and AI to optimize job ad spend and applicant quality. (Shared: Job Board) · [Visit Website](https://appcast.io/)

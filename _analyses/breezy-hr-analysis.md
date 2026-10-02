@@ -77,7 +77,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Workflow) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS, Workflow)
 - [ClickUp HR]({{ site.baseurl }}/clickup-hr-analysis/) — All-in-one productivity platform with AI-powered HR and recruiting workflows for unified talent management. (Shared: ATS, Workflow) · [Visit Website](https://clickup.com/hr)
 - [Lever]({{ site.baseurl }}/lever-analysis/) — Talent relationship management platform applying CRM principles to recruiting and candidate engagement. (Shared: ATS, Candidate Engagement) · [Visit Website](https://www.lever.co/)
 - [RecruitBPM]({{ site.baseurl }}/recruitbpm-analysis/) — Recruiting business process management platform with ATS, CRM, and back-office tools for staffing agencies. (Shared: ATS, Workflow) · [Visit Website](https://www.recruitbpm.com/)

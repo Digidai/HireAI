@@ -2,10 +2,10 @@
 layout: analysis
 title: "BrightHire"
 permalink: /brighthire-analysis/
-description: "Interview intelligence platform with AI-powered recording, transcription, and hiring insights."
+description: "Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025."
 website: "https://www.brighthire.com/"
 era: "2024+ - Agentic AI Platforms"
-last_modified_at: 2026-09-28
+last_modified_at: 2026-10-02
 tags: ["Interview Intelligence", "AI", "Structured Interviewing"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["Interview Intelligence", "AI", "Structured Interviewing"]
 
 ## Overview
 
-**BrightHire** — Interview intelligence platform with AI-powered recording, transcription, and hiring insights.
+**BrightHire** — Interview intelligence platform. Zoom said on 13 November 2025 that it was acquiring BrightHire and that the deal closed in December 2025.
 
 HireAI files BrightHire in the **2024+ - Agentic AI Platforms** era. Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
 
@@ -36,6 +36,13 @@ The guide below is a demo checklist drawn from the product's tags and era. Every
 brighthire.ai redirected to brighthire.com. The product name is unchanged.
 
 Source: [brighthire.com](https://www.brighthire.com/), checked 28 September 2026.
+
+
+## Status checked 2 October 2026
+
+Zoom's 13 November 2025 post says it was acquiring BrightHire and that the transaction closed in December 2025. BrightHire's post the same day says it signed an agreement to be acquired and would continue as a standalone brand. brighthire.com still presents BrightHire.
+
+Sources: [Zoom, 13 November 2025](https://www.zoom.com/en/blog/zoom-acquires-brighthire/), [BrightHire, 13 November 2025](https://brighthire.com/blog/brighthire-joins-zoom/).
 
 <!-- HireAI: baked-enrichment:start -->
 
@@ -84,7 +91,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 ## Alternatives & Related Products
 
-- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — Interview intelligence platform with AI-powered note-taking, structured templates, and hiring team collaboration tools. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://hireguide.com/)
+- [Hireguide]({{ site.baseurl }}/hireguide-analysis/) — HireVue said on 10 March 2026 that it acquired Hireguide's technology and team. hireguide.com now presents HireVue. (Shared: Interview Intelligence, AI, Structured Interviewing) · [Visit Website](https://hireguide.com/)
 - [Alex (formerly Apriora)]({{ site.baseurl }}/apriora-analysis/) — Alex, formerly Apriora, interviews, screens, and schedules candidates. apriora.ai now opens alex.com. (Shared: AI, Interview Intelligence) · [Visit Website](https://www.alex.com/)
 - [Hireeazy]({{ site.baseurl }}/hireeazy-analysis/) — AI-powered interview assessment platform with automated evaluation and candidate ranking capabilities. (Shared: Interview Intelligence, AI) · [Visit Website](https://hireeazy.com/)
 - [Honeit]({{ site.baseurl }}/honeit-analysis/) — Interview intelligence platform with real-time recording, transcription, and tagging for structural feedback and conversation insights. (Shared: Interview Intelligence, AI) · [Visit Website](https://honeit.com/)

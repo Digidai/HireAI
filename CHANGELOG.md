@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved structured data for better SEO
 
 ### Changed
+- Corrected product records checked on 2 October 2026 for Workday Recruiting, Trakstar Hire, BrightHire, Hireguide, Applied, CareerBuilder, Monster, BrassRing, IBM Kenexa, Freshteam, Harver, Crosschq, LinkedIn Talent Hub, TurboHire, Talently.ai, Google Cloud Talent Solution, and Phenom's Included and Be Applied acquisitions. Each page names its source. Vendor figures stay company-reported.
 - Recorded that OpenJobs AI is now Metix AI, and updated other products whose public sites or owners changed, with the source named on each page.
 - Refreshed every product page with a 28 September 2026 briefing, era placement, and demo checks tied to directory tags.
 - Replaced placeholder feature lists with catalog-backed briefings and labeled vendor-reported figures.

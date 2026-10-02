@@ -87,7 +87,7 @@ This section is a structured checklist based on the directory tags and era. It d
 
 - [Factorial HR]({{ site.baseurl }}/factorial-hr-analysis/) — All-in-one HR software with AI-enhanced recruiting module for European SMBs and startups. (Shared: ATS, AI, HCM, SMB) · [Visit Website](https://factorialhr.com/)
 - [Darwinbox]({{ site.baseurl }}/darwinbox-analysis/) — Enterprise HCM platform with AI-powered recruiting, performance management, and workforce analytics for Asian markets. (Shared: HCM, AI, ATS) · [Visit Website](https://darwinbox.com/)
-- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Smart HR and recruiting software with AI-powered candidate sourcing and collaborative hiring features. (Shared: ATS, AI, SMB) · [Visit Website](https://www.freshworks.com/hrms/)
+- [Freshteam]({{ site.baseurl }}/freshteam-analysis/) — Freshworks support says Freshteam is being sunset and that all renewals stop on 7 June 2026. The HRMS URL opened Freshservice. (Shared: ATS, AI, SMB)
 - [Recooty]({{ site.baseurl }}/recooty-analysis/) — AI-enhanced applicant tracking system with job posting distribution and candidate management for small businesses. (Shared: ATS, AI, SMB) · [Visit Website](https://recooty.com/)
 - [ADP Workforce Now]({{ site.baseurl }}/adp-workforce-now-analysis/) — Integrated HCM platform with recruiting, payroll, and workforce management capabilities. (Shared: ATS, HCM) · [Visit Website](https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx)
 - [CATS]({{ site.baseurl }}/cats-analysis/) — Applicant tracking system designed for recruiting agencies with customizable workflows, career portals, and reporting. (Shared: ATS, SMB) · [Visit Website](https://www.catsone.com/)

@@ -194,7 +194,7 @@ This section is a structured checklist based on the directory tags and era. It d
 - [Oracle Taleo]({{ site.baseurl }}/oracle-taleo-analysis/) — Cloud-based talent management platform with comprehensive recruiting, onboarding, and talent development capabilities. (Shared: ATS, HCM, Enterprise) · [Visit Website](https://www.oracle.com/human-capital-management/taleo/)
 - [ papaya Global]({{ site.baseurl }}/papaya-global-analysis/) — Global payroll and people platform automating payroll, payments, and workforce management across 160+ countries. (Shared: HCM, Enterprise) · [Visit Website](https://www.papayaglobal.com/)
 - [BambooHR]({{ site.baseurl }}/bamboohr-analysis/) — Human resources platform with integrated ATS and AI-enhanced hiring workflows for small to medium businesses. (Shared: ATS, HCM) · [Visit Website](https://www.bamboohr.com/)
-- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise applicant tracking system with comprehensive workflow management and compliance capabilities. (Shared: ATS, Enterprise) · [Visit Website](https://www.ibm.com/products/talent-acquisition-suite)
+- [BrassRing]({{ site.baseurl }}/brassring-analysis/) — Enterprise ATS. On 2 October 2026 the IBM talent-acquisition-suite URL opened IBM's products index, not a BrassRing feature list. (Shared: ATS, Enterprise)
 
 ## How To Improve This Article
 
