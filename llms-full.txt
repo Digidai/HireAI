@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# HireAI catalog digest
+
+> One directory record per product. This file is not a ranking. Speed, database size, conversion, pricing, and funding in the linked analyses are company-reported unless that page says otherwise. They are not HireAI measurements.
+
+HireAI is a static directory, not an autonomous agent. Content briefing: 2026-09-28. Generated: {{ site.time | date: "%Y-%m-%d" }}. The generated date is the site build date, not a new fact check.
+
+- Guide: {{ site.url }}{{ site.baseurl }}/for-agents/
+- Catalog: {{ site.url }}{{ site.baseurl }}/products.json
+- Tags: {{ site.url }}{{ site.baseurl }}/tags.json
+- In products.json, url is the vendor website or null. Cite the analysis URL.
+
+{% for category in site.data.products %}
+## {{ category.era }}
+
+{{ category.summary }}
+
+{% for product in category.products %}
+{% assign product_id = product.analysis | replace: "_analyses/", "" | replace: ".md", "" %}
+### {{ product.name }}
+
+- Id: {{ product_id }}
+- Tags: {{ product.tags | join: ", " }}
+- Website: {% if product.url != blank %}{{ product.url }}{% else %}not listed{% endif %}
+- Analysis: {{ site.url }}{{ site.baseurl }}/{{ product_id }}/
+- Record: {{ site.url }}{{ site.baseurl }}/catalog/{{ product_id }}.json
+- Markdown: {{ site.url }}{{ site.baseurl }}/md/{{ product_id }}.md
+- Citation: HireAI. "{{ product.name }}." {{ site.url }}{{ site.baseurl }}/{{ product_id }}/.
+- Spotlight: {% if product.featured %}sample on the home page, not a rank{% else %}no{% endif %}
+- Description: {{ product.description | strip_newlines | strip }}
+
+{% endfor %}
+{% endfor %}

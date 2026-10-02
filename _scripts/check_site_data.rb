@@ -48,6 +48,10 @@ end
 products = products_data.flat_map { |c| c["products"] || [] }
 puts "products=#{products.size}"
 
+product_ids = products.map { |p| File.basename(p["analysis"].to_s, ".md") }
+duplicate_ids = product_ids.group_by(&:itself).select { |_id, group| group.size > 1 }.keys
+errors << "Duplicate product ids: #{duplicate_ids.join(", ")}" if duplicate_ids.any?
+
 # Check for missing analysis
 null_analysis = products.count { |p| p["analysis"].nil? || p["analysis"].to_s.strip.empty? }
 errors << "products with missing analysis=#{null_analysis}" if null_analysis > 0

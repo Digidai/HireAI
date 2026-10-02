@@ -55,6 +55,10 @@ The HR technology landscape is evolving rapidly with AI-powered solutions transf
 | 🌍 **Community-Driven** | Open source with regular updates |
 | 🆓 **100% Free** | No paywall, no registration required |
 
+## For agents and answer engines
+
+HireAI is a static directory an agent can read and cite. It is not an autonomous agent and it does not rank vendors. Filter [products.json](https://hireai.genedai.me/products.json) by name, tag, or era. Browser search on `?q=` is not an API. Citation rules and the vendor-figure policy are in the [agent guide](https://hireai.genedai.me/for-agents/).
+
 ---
 
 ## 📊 Quick Stats

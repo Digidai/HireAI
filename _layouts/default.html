@@ -93,8 +93,20 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
-    <link rel="alternate" type="application/json" title="HireAI product catalog" href="{{ site.url }}{{ site.baseurl }}/products.json">
+    <link rel="service-desc" type="application/json" href="{{ site.url }}{{ site.baseurl }}/products.json" title="HireAI product catalog">
+    <link rel="service-desc" type="application/json" href="{{ site.url }}{{ site.baseurl }}/tags.json" title="HireAI tag index">
+    <link rel="service-doc" href="{{ site.url }}{{ site.baseurl }}/for-agents/" title="How agents should use HireAI">
     <link rel="describedby" type="text/plain" href="{{ site.url }}{{ site.baseurl }}/llms.txt" title="Guidance for language models">
+    <link rel="license" href="https://opensource.org/licenses/MIT">
+    <link rel="api-catalog" type="application/linkset+json" href="{{ site.url }}{{ site.baseurl }}/.well-known/api-catalog">
+    {% if page.collection == "analyses" or page.path contains "_analyses/" %}
+        {% assign record_file = page.path | split: "/" | last %}
+        {% assign record_id = record_file | replace: ".md", "" %}
+    <link rel="alternate" type="text/markdown" href="{{ site.url }}{{ site.baseurl }}/md/{{ record_file }}" title="Markdown copy">
+        {% if site.data.agent_product_ids contains record_id %}
+    <link rel="service-desc" type="application/json" href="{{ site.url }}{{ site.baseurl }}/catalog/{{ record_id }}.json" title="Directory record">
+        {% endif %}
+    {% endif %}
 
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">

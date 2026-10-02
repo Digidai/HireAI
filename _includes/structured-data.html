@@ -19,15 +19,29 @@
       "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
       "url": {{ site_root | append: "/" | jsonify }},
       "inLanguage": {{ schema_lang | jsonify }},
+      "license": "https://opensource.org/licenses/MIT",
+      "usageInfo": {{ site_root | append: "/for-agents/" | jsonify }},
       "publisher": { "@id": {{ org_id | jsonify }} },
       "potentialAction": {
         "@type": "SearchAction",
+        "description": "The search box runs in the browser.",
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": {{ search_template | jsonify }}
         },
         "query-input": "required name=search_term_string"
       }
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": {{ site_root | append: "/#datacatalog" | jsonify }},
+      "name": "HireAI HR AI Product Directory",
+      "description": {{ site.description | strip_html | strip_newlines | strip | jsonify }},
+      "url": {{ site_root | append: "/products.json" | jsonify }},
+      "license": "https://opensource.org/licenses/MIT",
+      "usageInfo": {{ site_root | append: "/for-agents/" | jsonify }},
+      "isAccessibleForFree": true,
+      "creator": { "@id": {{ org_id | jsonify }} }
     },
     {
       "@type": "Organization",
@@ -64,6 +78,8 @@
       "about": { "@id": {{ org_id | jsonify }} },
       "inLanguage": {{ schema_lang | jsonify }},
       "isAccessibleForFree": true,
+      "license": "https://opensource.org/licenses/MIT",
+      "usageInfo": {{ site_root | append: "/for-agents/" | jsonify }},
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "url": {{ site_root | append: "/assets/images/og-image.png" | jsonify }},
@@ -91,6 +107,7 @@
   "url": {{ page.website | jsonify }},
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
+  "usageInfo": {{ site_root | append: "/for-agents/" | jsonify }},
   {% if page.company %}"author": {
     "@type": "Organization",
     "name": {{ page.company | jsonify }}
@@ -121,6 +138,8 @@
   "articleSection": {% if page.era %}{{ page.era | jsonify }}{% else %}"HR AI Analysis"{% endif %},
   "inLanguage": {{ schema_lang | jsonify }},
   "isAccessibleForFree": true,
+  "license": "https://opensource.org/licenses/MIT",
+  "usageInfo": {{ site_root | append: "/for-agents/" | jsonify }},
   "keywords": {% if page.tags %}{{ page.tags | join: ", " | jsonify }}{% else %}"HR AI, Recruiting, Talent Management"{% endif %},
   "author": {
     "@type": "Organization",

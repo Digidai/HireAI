@@ -48,7 +48,7 @@ permalink: /FAQ/
       "name": "How should HireAI be cited?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cite the specific page, for example: HireAI. \"Product name.\" https://hireai.genedai.me/page/. HireAI is an open directory maintained at https://github.com/Digidai/HireAI and licensed under MIT. A machine-readable catalog is at https://hireai.genedai.me/products.json."
+        "text": "Cite the specific page, for example: HireAI. \"Product name.\" https://hireai.genedai.me/page/. HireAI is an open directory maintained at https://github.com/Digidai/HireAI and licensed under MIT. Query rules for agents are at https://hireai.genedai.me/for-agents/."
       }
     },
     {
@@ -128,7 +128,7 @@ permalink: /FAQ/
       "name": "Can I access this data programmatically?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. A machine-readable catalog is published at https://hireai.genedai.me/products.json. Guidance for answer engines and language models is at https://hireai.genedai.me/llms.txt. The source data also lives in the GitHub repository."
+        "text": "Yes. Filter https://hireai.genedai.me/products.json by name, tags, or era. Tag counts and checklists are in https://hireai.genedai.me/tags.json. One product record is at https://hireai.genedai.me/catalog/{id}.json. A plain-text digest is at https://hireai.genedai.me/llms-full.txt, and the guide is at https://hireai.genedai.me/for-agents/. The product directory search box runs in the browser and is not an API."
       }
     },
     {
@@ -136,7 +136,7 @@ permalink: /FAQ/
       "name": "Is there a way to search for specific products?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Search the product directory, press / or Ctrl/Cmd+K on any page, or browse products by tag. Each tag page includes an evaluation checklist."
+        "text": "People can search the product directory, press / or Ctrl/Cmd+K, or browse by tag. That search runs in the browser. Agents should filter https://hireai.genedai.me/products.json instead of requesting /product-directory/?q=."
       }
     },
     {
@@ -200,7 +200,7 @@ permalink: /FAQ/
 
     <div class="faq-item">
         <h3>How should HireAI be cited?</h3>
-        <p>Cite the specific page, for example: HireAI. “Product name.” https://hireai.genedai.me/page/. HireAI is an open directory maintained at <a href="https://github.com/Digidai/HireAI">github.com/Digidai/HireAI</a> and licensed under MIT. A machine-readable catalog is at <a href="{{ site.baseurl }}/products.json">products.json</a>.</p>
+        <p>Cite the specific page, for example: HireAI. "Product name." https://hireai.genedai.me/page/. HireAI is an open directory maintained at <a href="https://github.com/Digidai/HireAI">https://github.com/Digidai/HireAI</a> and licensed under MIT. Query rules for agents are at <a href="https://hireai.genedai.me/for-agents/">https://hireai.genedai.me/for-agents/</a>.</p>
     </div>
 
     <div class="faq-item">
@@ -290,12 +290,12 @@ permalink: /FAQ/
 
     <div class="faq-item">
         <h3>Can I access this data programmatically?</h3>
-        <p>Yes. A machine-readable catalog is published at <a href="{{ site.baseurl }}/products.json">products.json</a>. Guidance for answer engines and language models is at <a href="{{ site.baseurl }}/llms.txt">llms.txt</a>. The source data also lives in the GitHub repository.</p>
+        <p>Yes. Filter <a href="https://hireai.genedai.me/products.json">https://hireai.genedai.me/products.json</a> by name, tags, or era. Tag counts and checklists are in <a href="https://hireai.genedai.me/tags.json">https://hireai.genedai.me/tags.json</a>. One product record is at https://hireai.genedai.me/catalog/{id}.json. A plain-text digest is at <a href="https://hireai.genedai.me/llms-full.txt">https://hireai.genedai.me/llms-full.txt</a>, and the guide is at <a href="https://hireai.genedai.me/for-agents/">https://hireai.genedai.me/for-agents/</a>. The product directory search box runs in the browser and is not an API.</p>
     </div>
 
     <div class="faq-item">
         <h3>Is there a way to search for specific products?</h3>
-        <p>Search the product directory, press / or Ctrl/Cmd+K on any page, or browse products by tag. Each tag page includes an evaluation checklist.</p>
+        <p>People can search the product directory, press / or Ctrl/Cmd+K, or browse by tag. That search runs in the browser. Agents should filter <a href="https://hireai.genedai.me/products.json">https://hireai.genedai.me/products.json</a> instead of requesting /product-directory/?q=.</p>
     </div>
 </section>
 

@@ -63,6 +63,7 @@ HireAI/
 │   ├── _product-detail.scss
 │   ├── _markdown.scss   # Markdown content
 │   └── _responsive.scss # Media queries
+├── _plugins/            # Build-time catalog JSON, tag index, and Markdown copies
 ├── _scripts/            # Build and validation scripts
 ├── assets/
 │   ├── css/main.scss    # Main stylesheet entry
@@ -71,6 +72,8 @@ HireAI/
 ├── tags/                # Tag pages (61 files)
 └── *.md                 # Root-level pages
 ```
+
+`jekyll build` renders `products.json` and writes `tags.json`, `catalog/{id}.json`, and `md/{id}.md` from `_data/products.yml` and `_analyses/`. Do not commit the build output. The rules for agents are on `/for-agents/`.
 
 ## Adding a New Product
 

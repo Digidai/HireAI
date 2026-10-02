@@ -49,6 +49,9 @@ jobs:
       - name: Build with Jekyll
         run: JEKYLL_ENV=production bundle exec jekyll build -d ./_site
 
+      - name: Verify agent-readable files
+        run: ruby _scripts/check_agent_files.rb ./_site
+
       - name: Check HTML validity
         uses: anishathalye/proof-html@v2
         with:
