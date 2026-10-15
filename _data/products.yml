@@ -896,6 +896,14 @@
     - AI
     - CRM
     - Sourcing
+  - name: BKK Staff
+    url: https://www.bkkstaff.com/
+    analysis: _analyses/bkk-staff-analysis.md
+    description: Automated resume screening service that grades applicants and delivers an interview-ready shortlist for small businesses.
+    tags:
+    - AI
+    - Resume Screening
+    - Automation
   - name: Eightfold.ai
     url: https://eightfold.ai/
     analysis: _analyses/eightfold-ai-analysis.md
