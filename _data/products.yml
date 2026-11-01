@@ -884,6 +884,15 @@
     - Technical Assessment
     - Skills
     - Evaluation
+  - name: AnswerReel
+    url: https://answerreel.com/
+    analysis: _analyses/answerreel-analysis.md
+    description: One-way video interview software for small recruiting teams. AI scores answers against employer-written criteria, with candidate quotes for scores above 1.
+    tags:
+    - Video Interviewing
+    - Screening
+    - Structured Interviewing
+    - AI
 - era: 2024+ - Agentic AI Platforms
   icon: cpu
   summary: Agentic AI platforms plan and carry out multi-step talent work, such as sourcing, engagement, and orchestration, with limited human intervention.
