@@ -1602,6 +1602,16 @@
     - Automation
     - Job Seeker Tools
     - Matching
+  - name: NeverApply
+    url: https://neverapply.co/
+    analysis: _analyses/neverapply-analysis.md
+    description: AI job-search agent that matches roles, tailors resumes, answers screening questions, prepares for interviews, and applies with your approval.
+    tags:
+    - AI
+    - Automation
+    - Job Seeker Tools
+    - Application
+    - Matching
   - name: Instahyre
     url: https://www.instahyre.com/
     analysis: _analyses/instahyre-analysis.md
